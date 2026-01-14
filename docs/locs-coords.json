@@ -1,0 +1,140 @@
+[
+  {
+    "location": "Missoula, MT",
+    "date_start": "2014-08-01",
+    "lat": 46.8701049,
+    "lng": -113.9952670
+  },
+  {
+    "location": "Goodenough Creek Campground, ID",
+    "date_start": "2025-11-01",
+    "lat": 42.6543783,
+    "lng": -112.2813357
+  },
+  {
+    "location": "Apple Valley, UT",
+    "date_start": "2025-11-02",
+    "lat": 37.1004552,
+    "lng": -113.1290178
+  },
+  {
+    "location": "Las Vegas, NV",
+    "date_start": "2025-11-06",
+    "lat": 36.1674263,
+    "lng": -115.1484131
+  },
+  {
+    "location": "Boulder City, NV",
+    "date_start": "2025-11-11",
+    "lat": 35.9787649,
+    "lng": -114.8337574
+  },
+  {
+    "location": "Burro Creek Campground, AZ",
+    "date_start": "2025-11-13",
+    "lat": 34.5374183,
+    "lng": -113.4503501
+  },
+  {
+    "location": "Tucson, AZ",
+    "date_start": "2025-11-14",
+    "lat": 32.2228765,
+    "lng": -110.9748470
+  },
+  {
+    "location": "Molino Basin Campground, AZ",
+    "date_start": "2025-11-24",
+    "lat": 32.3376000,
+    "lng": -110.6907000
+  },
+  {
+    "location": "Tucson, AZ",
+    "date_start": "2025-11-26",
+    "lat": 32.2228765,
+    "lng": -110.9748470
+  },
+  {
+    "location": "17975 Peralta Rd, Gold Canyon, AZ",
+    "date_start": "2025-12-06",
+    "lat": 33.3400889,
+    "lng": -111.4345949
+  },
+  {
+    "location": "Peoria, AZ",
+    "date_start": "2025-12-07",
+    "lat": 33.5806115,
+    "lng": -112.2372940
+  },
+  {
+    "location": "Sedona, AZ",
+    "date_start": "2025-12-09",
+    "lat": 34.8688613,
+    "lng": -111.7614394
+  },
+  {
+    "location": "Flagstaff, AZ",
+    "date_start": "2025-12-11",
+    "lat": 35.1987522,
+    "lng": -111.6518220
+  },
+  {
+    "location": "Durango, CO",
+    "date_start": "2025-12-12",
+    "lat": 37.2769484,
+    "lng": -107.8766000
+  },
+  {
+    "location": "Page, AZ",
+    "date_start": "2025-12-28",
+    "lat": 36.9148305,
+    "lng": -111.4572940
+  },
+  {
+    "location": "Las Vegas, NV",
+    "date_start": "2025-12-29",
+    "lat": 36.1674263,
+    "lng": -115.1484131
+  },
+  {
+    "location": "Mojave National Preserve",
+    "date_start": "2026-01-03",
+    "lat": 35.0958672,
+    "lng": -115.5396535
+  },
+  {
+    "location": "Joshua Tree National Park, CA",
+    "date_start": "2026-01-04",
+    "lat": 33.8970672,
+    "lng": -115.9511158
+  },
+  {
+    "location": "Borrego Springs, CA",
+    "date_start": "2026-01-07",
+    "lat": 33.2548580,
+    "lng": -116.3569487
+  },
+  {
+    "location": "Julian, CA",
+    "date_start": "2026-01-09",
+    "lat": 33.0739633,
+    "lng": -116.5878464
+  },
+  {
+    "location": "Dulzura, CA",
+    "date_start": "2026-01-10",
+    "lat": 32.6442247,
+    "lng": -116.7814093
+  },
+  {
+    "location": "Encinitas, CA",
+    "date_start": "2026-01-11",
+    "lat": 33.0369867,
+    "lng": -117.2919818
+  },
+  {
+    "location": "Rainbow, CA",
+    "date_start": "2026-01-13",
+    "lat": 33.4024813,
+    "lng": -117.1414170
+  }
+]

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Trip Blog</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .sidebar {
+            width: 300px;
+            background: #f5f5f5;
+            border-right: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .view-tabs {
+            display: flex;
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+        .view-tab {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            background: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        .view-tab:hover {
+            background: #f0f0f0;
+        }
+        .view-tab.active {
+            background: #f5f5f5;
+            border-bottom: 2px solid #007bff;
+        }
+        .location-list {
+            overflow-y: auto;
+            flex: 1;
+        }
+        .location-item {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .location-item:hover {
+            background: #e8e8e8;
+        }
+        .location-item.active {
+            background: #007bff;
+            color: white;
+        }
+        .location-name {
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+        .location-date {
+            font-size: 12px;
+            color: #666;
+        }
+        .location-item.active .location-date {
+            color: #e0e0e0;
+        }
+        .main-content {
+            flex: 1;
+            overflow: hidden;
+            position: relative;
+        }
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+        #calendar {
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+            overflow-y: auto;
+            display: none;
+        }
+        #blog {
+            width: 100%;
+            height: 100%;
+            padding: 40px;
+            overflow-y: auto;
+            display: none;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .blog-entry {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .blog-entry:last-child {
+            border-bottom: none;
+        }
+        .blog-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        .blog-date {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .blog-content {
+            line-height: 1.6;
+            color: #333;
+        }
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+        .timeline-month {
+            margin-bottom: 40px;
+        }
+        .timeline-month-label {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .timeline-grid {
+            position: relative;
+            min-height: 50px;
+        }
+        .timeline-bar {
+            position: absolute;
+            height: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+            color: white;
+            font-size: 12px;
+            font-weight: 500;
+            overflow: hidden;
+            white-space: nowrap;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .timeline-bar:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            z-index: 10;
+        }
+        .timeline-bar.active {
+            background: #007bff;
+            box-shadow: 0 4px 12px rgba(0,123,255,0.4);
+        }
+        .timeline-days {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5px;
+            padding-top: 5px;
+            border-top: 1px solid #ddd;
+            font-size: 11px;
+            color: #999;
+        }
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+        .popup-overlay.show {
+            display: flex;
+        }
+        .popup-content {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 500px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        .popup-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .popup-date {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .popup-summary {
+            line-height: 1.6;
+            color: #333;
+        }
+        .popup-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="view-tabs">
+            <button class="view-tab active" data-view="map">Map</button>
+            <button class="view-tab" data-view="calendar">Calendar</button>
+            <button class="view-tab" data-view="blog">Blog</button>
+        </div>
+        <div class="location-list" id="locationList"></div>
+    </div>
+    
+    <div class="main-content">
+        <div id="map"></div>
+        <div id="calendar"></div>
+        <div id="blog"></div>
+    </div>
+
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-content" style="position: relative;">
+            <button class="popup-close" onclick="closePopup()">×</button>
+            <div id="popupBody"></div>
+        </div>
+    </div>
+
+    <script>
+        let locations = [];
+        let map;
+        let markers = [];
+        let currentView = 'map';
+        let selectedIndex = null;
+
+        async function init() {
+            try {
+                const [locsResponse, coordsResponse] = await Promise.all([
+                    fetch('./locs.json'),
+                    fetch('./locs-coords.json')
+                ]);
+                
+                locations = await locsResponse.json();
+                const coords = await coordsResponse.json();
+                
+                // Merge coordinates
+                locations.forEach(loc => {
+                    const cached = coords.find(c => 
+                        c.location === loc.location && c.date_start === loc.date_start
+                    );
+                    if (cached) {
+                        loc.lat = cached.lat;
+                        loc.lng = cached.lng;
+                    }
+                });
+                
+                initMap();
+                populateSidebar();
+                setupViewTabs();
+            } catch (error) {
+                console.error('Error loading locations:', error);
+            }
+        }
+
+        async function geocodeLocations() {
+            for (let loc of locations) {
+                const coords = await geocode(loc.location);
+                loc.lat = coords.lat;
+                loc.lng = coords.lng;
+            }
+        }
+
+        async function geocode(address) {
+            const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}`;
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                if (data && data.length > 0) {
+                    return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
+                }
+            } catch (error) {
+                console.error('Geocoding error for', address, error);
+            }
+            return { lat: 0, lng: 0 };
+        }
+
+        function initMap() {
+            map = L.map('map').setView([36.5, -112], 5);
+            
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+
+            const routeCoords = locations.map(loc => [loc.lat, loc.lng]);
+            L.polyline(routeCoords, { color: '#007bff', weight: 3 }).addTo(map);
+
+            locations.forEach((loc, index) => {
+                const marker = L.marker([loc.lat, loc.lng]).addTo(map);
+                
+                const popupContent = `
+                    <strong>Stop ${index + 1}: ${loc.location}</strong><br>
+                    <small>${formatDate(loc.date_start)} - ${formatDate(loc.date_end)}</small><br><br>
+                    ${loc.summary || 'No summary available'}
+                    ${loc.link ? `<br><br><a href="${loc.link}" target="_blank">Read full post →</a>` : ''}
+                `;
+                
+                marker.bindPopup(popupContent);
+                markers.push(marker);
+            });
+
+            if (routeCoords.length > 0) {
+                map.fitBounds(routeCoords);
+            }
+        }
+
+        function populateSidebar() {
+            const list = document.getElementById('locationList');
+            list.innerHTML = locations.map((loc, index) => `
+                <div class="location-item" data-index="${index}">
+                    <div class="location-name">${loc.location}</div>
+                    <div class="location-date">${formatDate(loc.date_start)}</div>
+                </div>
+            `).join('');
+
+            document.querySelectorAll('.location-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    const index = parseInt(item.dataset.index);
+                    selectLocation(index);
+                });
+            });
+        }
+
+        function selectLocation(index) {
+            selectedIndex = index;
+            
+            document.querySelectorAll('.location-item').forEach((item, i) => {
+                item.classList.toggle('active', i === index);
+            });
+
+            const loc = locations[index];
+
+            if (currentView === 'map') {
+                map.setView([loc.lat, loc.lng], 10);
+                markers[index].openPopup();
+            } else if (currentView === 'calendar') {
+                document.querySelectorAll('.timeline-bar').forEach((bar, i) => {
+                    bar.classList.toggle('active', i === index);
+                });
+                showPopup(index);
+            } else if (currentView === 'blog') {
+                const blogEntries = document.querySelectorAll('.blog-entry');
+                const visibleLocations = locations.filter(l => l.summary);
+                const blogIndex = visibleLocations.findIndex((_, i) => locations.indexOf(visibleLocations[i]) === index);
+                if (blogIndex >= 0 && blogEntries[blogIndex]) {
+                    blogEntries[blogIndex].scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+        }
+
+        function setupViewTabs() {
+            document.querySelectorAll('.view-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const view = tab.dataset.view;
+                    switchView(view);
+                });
+            });
+        }
+
+        function switchView(view) {
+            currentView = view;
+
+            document.querySelectorAll('.view-tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.view === view);
+            });
+
+            document.getElementById('map').style.display = view === 'map' ? 'block' : 'none';
+            document.getElementById('calendar').style.display = view === 'calendar' ? 'block' : 'none';
+            document.getElementById('blog').style.display = view === 'blog' ? 'block' : 'none';
+
+            if (view === 'calendar') {
+                populateCalendar();
+            } else if (view === 'blog') {
+                populateBlog();
+            } else if (view === 'map') {
+                setTimeout(() => map.invalidateSize(), 100);
+            }
+
+            // Re-apply selection
+            if (selectedIndex !== null) {
+                selectLocation(selectedIndex);
+            }
+        }
+
+        function populateCalendar() {
+            const calendar = document.getElementById('calendar');
+            const byMonth = {};
+
+            locations.forEach((loc, index) => {
+                const monthKey = loc.date_start.substring(0, 7);
+                if (!byMonth[monthKey]) byMonth[monthKey] = [];
+                byMonth[monthKey].push({ ...loc, originalIndex: index });
+            });
+
+            calendar.innerHTML = Object.keys(byMonth).sort().map(month => {
+                const monthLocs = byMonth[month];
+                const startDate = new Date(month + '-01');
+                const endDate = new Date(startDate.getFullYear(), startDate.getMonth() + 1, 0);
+                const daysInMonth = endDate.getDate();
+
+                return `
+                    <div class="timeline-month">
+                        <div class="timeline-month-label">${formatMonth(month)}</div>
+                        <div class="timeline-grid" style="position: relative; height: ${monthLocs.length * 40}px;">
+                            ${monthLocs.map((loc, idx) => {
+                                const locStart = new Date(loc.date_start);
+                                const locEnd = new Date(loc.date_end);
+                                const startDay = locStart.getDate();
+                                const endDay = locEnd.getDate();
+                                const left = ((startDay - 1) / daysInMonth) * 100;
+                                const width = ((endDay - startDay + 1) / daysInMonth) * 100;
+                                const top = idx * 40;
+
+                                return `
+                                    <div class="timeline-bar" 
+                                         data-index="${loc.originalIndex}"
+                                         style="left: ${left}%; width: ${width}%; top: ${top}px;"
+                                         onclick="selectLocation(${loc.originalIndex})">
+                                        ${loc.location}
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                        <div class="timeline-days">
+                            ${Array.from({length: 5}, (_, i) => {
+                                const day = Math.floor(i * daysInMonth / 4) + 1;
+                                return `<span>${day}</span>`;
+                            }).join('')}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function showPopup(index) {
+            const loc = locations[index];
+            const popup = document.getElementById('popupOverlay');
+            const body = document.getElementById('popupBody');
+            
+            body.innerHTML = `
+                <div class="popup-title">Stop ${index + 1}: ${loc.location}</div>
+                <div class="popup-date">${formatDate(loc.date_start)} - ${formatDate(loc.date_end)}</div>
+                <div class="popup-summary">${loc.summary || 'No summary available'}</div>
+                ${loc.link ? `<br><a href="${loc.link}" target="_blank">Read full post →</a>` : ''}
+            `;
+            
+            popup.classList.add('show');
+        }
+
+        function closePopup() {
+            document.getElementById('popupOverlay').classList.remove('show');
+        }
+
+        document.getElementById('popupOverlay').addEventListener('click', (e) => {
+            if (e.target.id === 'popupOverlay') closePopup();
+        });
+
+        function populateBlog() {
+            const blog = document.getElementById('blog');
+            blog.innerHTML = locations.filter(loc => loc.summary).map((loc, index) => `
+                <div class="blog-entry">
+                    <div class="blog-title">${loc.location}</div>
+                    <div class="blog-date">${formatDate(loc.date_start)} - ${formatDate(loc.date_end)}</div>
+                    <div class="blog-content">${loc.summary}</div>
+                </div>
+            `).join('');
+        }
+
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        }
+
+        function formatMonth(monthStr) {
+            const date = new Date(monthStr + '-01');
+            return date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+        }
+
+        init();
+    </script>
+</body>
+</html>
