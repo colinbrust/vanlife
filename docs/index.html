@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Road Trip Blog</title>
+    <title>Helen and Colin's Year on the Road</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
@@ -315,11 +315,49 @@
                 attribution: '© OpenStreetMap contributors'
             }).addTo(map);
 
+            // Custom icons
+            const homeIcon = L.divIcon({
+                html: '<div style="font-size: 24px;">🏠</div>',
+                className: 'custom-icon',
+                iconSize: [30, 30],
+                iconAnchor: [15, 30]
+            });
+
+            const vanIcon = L.divIcon({
+                html: '<div style="font-size: 24px;">🚐</div>',
+                className: 'custom-icon',
+                iconSize: [30, 30],
+                iconAnchor: [15, 30]
+            });
+
+            const pinIcon = L.divIcon({
+                html: '<div style="font-size: 24px;">📍</div>',
+                className: 'custom-icon',
+                iconSize: [30, 30],
+                iconAnchor: [15, 30]
+            });
+
             const routeCoords = locations.map(loc => [loc.lat, loc.lng]);
-            L.polyline(routeCoords, { color: '#007bff', weight: 3 }).addTo(map);
+            
+            // Dashed line to look like rope/string
+            L.polyline(routeCoords, { 
+                color: '#8B4513', 
+                weight: 3,
+                dashArray: '10, 5',
+                lineCap: 'round'
+            }).addTo(map);
 
             locations.forEach((loc, index) => {
-                const marker = L.marker([loc.lat, loc.lng]).addTo(map);
+                let icon;
+                if (index === 0) {
+                    icon = homeIcon;
+                } else if (index === locations.length - 1) {
+                    icon = vanIcon;
+                } else {
+                    icon = pinIcon;
+                }
+
+                const marker = L.marker([loc.lat, loc.lng], { icon: icon }).addTo(map);
                 
                 const popupContent = `
                     <strong>Stop ${index + 1}: ${loc.location}</strong><br>
@@ -364,8 +402,10 @@
             const loc = locations[index];
 
             if (currentView === 'map') {
-                map.setView([loc.lat, loc.lng], 10);
-                markers[index].openPopup();
+                map.flyTo([loc.lat, loc.lng], 10, {
+                    duration: 1.5
+                });
+                setTimeout(() => markers[index].openPopup(), 1500);
             } else if (currentView === 'calendar') {
                 document.querySelectorAll('.timeline-bar').forEach((bar, i) => {
                     bar.classList.toggle('active', i === index);
