@@ -33,12 +33,12 @@
         }
         .view-tab {
             flex: 1;
-            padding: 15px;
+            padding: 16px 10px;
             text-align: center;
             cursor: pointer;
             border: none;
             background: none;
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 500;
             transition: background 0.2s;
         }
@@ -54,7 +54,7 @@
             flex: 1;
         }
         .location-item {
-            padding: 12px 15px;
+            padding: 16px 18px;
             border-bottom: 1px solid #e0e0e0;
             cursor: pointer;
             transition: background 0.2s;
@@ -87,17 +87,75 @@
             width: 100%;
             height: 100%;
         }
+
         #calendar {
-            width: 100%;
-            height: 100%;
-            padding: 20px;
-            overflow-y: auto;
-            display: none;
+            padding: 24px;
+            overflow-x: auto;
+            overflow-y: hidden;
         }
+
+        .journey {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            min-height: 140px;
+        }
+
+        .journey-stop {
+            position: relative;
+            flex-shrink: 0;
+            height: 60px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 12px 14px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .journey-stop:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+        }
+
+        .journey-stop.active {
+            outline: 3px solid #007bff;
+        }
+
+        .journey-location {
+            font-weight: 600;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .journey-dates {
+            font-size: 12px;
+            opacity: 0.9;
+        }
+
+        .journey-connector {
+            flex-shrink: 0;
+            width: 30px;
+            height: 4px;
+            background: #ddd;
+            border-radius: 2px;
+        }
+
+        @media (max-width: 768px) {
+            .journey-stop {
+                height: 70px;
+            }
+        }
+
+        
         #blog {
             width: 100%;
             height: 100%;
-            padding: 40px;
+            padding: 20px;
             overflow-y: auto;
             display: none;
             max-width: 800px;
@@ -112,7 +170,7 @@
             border-bottom: none;
         }
         .blog-title {
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 700;
             margin-bottom: 8px;
         }
@@ -188,6 +246,7 @@
             z-index: 1000;
             align-items: center;
             justify-content: center;
+            overflow-y: scroll;
         }
         .popup-overlay.show {
             display: flex;
@@ -225,13 +284,86 @@
             cursor: pointer;
             color: #999;
         }
+
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 85%;
+                max-width: 320px;
+                z-index: 1001;
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+                box-shadow: 4px 0 20px rgba(0,0,0,0.25);
+            }
+
+            .sidebar.open {
+                transform: translateX(0);
+            }
+
+            .main-content {
+                flex: 1;
+            }
+
+            .sidebar-toggle {
+                position: fixed;
+                top: 12px;
+                right: 12px;
+                left: auto;
+                z-index: 1100;
+                background: white;
+                border: none;
+                padding: 10px 12px;
+                border-radius: 999px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+                font-size: 18px;
+                cursor: pointer;
+            }
+            
+            .popup-content {
+                width: 90%;
+                max-height: 85vh;
+                padding: 20px;
+            }
+        }
+
+        .popup-summary {
+            line-height: 1.6;
+            color: #333;
+        }
+        .popup-summary img,
+        .blog-content img,
+        .leaflet-popup-content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .popup-summary img[scaling],
+        .blog-content img[scaling],
+        .leaflet-popup-content img[scaling] {
+            max-width: calc(100% / var(--scaling, 1));
+        }
+        .leaflet-popup-content-wrapper {
+            max-height: 75vh;
+            overflow-y: auto;
+        }
+
     </style>
 </head>
 <body>
+    <button class="sidebar-toggle" id="sidebarToggle">☰</button>
     <div class="sidebar">
         <div class="view-tabs">
             <button class="view-tab active" data-view="map">Map</button>
-            <button class="view-tab" data-view="calendar">Calendar</button>
+            <!-- <button class="view-tab" data-view="calendar">Calendar</button> -->
             <button class="view-tab" data-view="blog">Blog</button>
         </div>
         <div class="location-list" id="locationList"></div>
@@ -267,16 +399,23 @@
                 locations = await locsResponse.json();
                 const coords = await coordsResponse.json();
                 
+                console.log(coords[coords.length - 1]);
+                console.log(locations[locations.length - 1])
                 // Merge coordinates
                 locations.forEach(loc => {
                     const cached = coords.find(c => 
-                        c.location === loc.location && c.date_start === loc.date_start
+                        c.location === loc.location
                     );
+
                     if (cached) {
                         loc.lat = cached.lat;
                         loc.lng = cached.lng;
+                    } else {
+                        loc.rm = true;
                     }
                 });
+
+                locations = locations.filter(loc => !loc.rm);
                 
                 initMap();
                 populateSidebar();
@@ -285,6 +424,26 @@
                 console.error('Error loading locations:', error);
             }
         }
+
+        function isMobile() {
+            return window.innerWidth <= 768;
+        }
+
+        function closeSidebarOnMobile() {
+            if (isMobile()) {
+                document.querySelector('.sidebar').classList.remove('open');
+            }
+
+            setTimeout(() => {
+                if (map) map.invalidateSize();
+            }, 350);
+
+        }
+
+        document.getElementById('sidebarToggle').addEventListener('click', () => {
+            document.querySelector('.sidebar').classList.toggle('open');
+        });
+
 
         async function geocodeLocations() {
             for (let loc of locations) {
@@ -407,9 +566,10 @@
                 });
                 setTimeout(() => markers[index].openPopup(), 1500);
             } else if (currentView === 'calendar') {
-                document.querySelectorAll('.timeline-bar').forEach((bar, i) => {
-                    bar.classList.toggle('active', i === index);
+                document.querySelectorAll('.journey-stop').forEach((el, i) => {
+                    el.classList.toggle('active', i === index);
                 });
+
                 showPopup(index);
             } else if (currentView === 'blog') {
                 const blogEntries = document.querySelectorAll('.blog-entry');
@@ -419,6 +579,8 @@
                     blogEntries[blogIndex].scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             }
+
+            closeSidebarOnMobile();
         }
 
         function setupViewTabs() {
@@ -457,53 +619,38 @@
 
         function populateCalendar() {
             const calendar = document.getElementById('calendar');
-            const byMonth = {};
 
-            locations.forEach((loc, index) => {
-                const monthKey = loc.date_start.substring(0, 7);
-                if (!byMonth[monthKey]) byMonth[monthKey] = [];
-                byMonth[monthKey].push({ ...loc, originalIndex: index });
-            });
+            const dayWidth = 12; // px per day (tweakable)
 
-            calendar.innerHTML = Object.keys(byMonth).sort().map(month => {
-                const monthLocs = byMonth[month];
-                const startDate = new Date(month + '-01');
-                const endDate = new Date(startDate.getFullYear(), startDate.getMonth() + 1, 0);
-                const daysInMonth = endDate.getDate();
+            calendar.innerHTML = `
+                <div class="journey">
+                    ${locations.map((loc, index) => {
+                        const start = new Date(loc.date_start);
+                        const end = new Date(loc.date_end);
+                        const days = Math.max(
+                            1,
+                            Math.round((end - start) / (1000 * 60 * 60 * 24)) + 1
+                        );
+                        const width = days * dayWidth;
 
-                return `
-                    <div class="timeline-month">
-                        <div class="timeline-month-label">${formatMonth(month)}</div>
-                        <div class="timeline-grid" style="position: relative; height: ${monthLocs.length * 40}px;">
-                            ${monthLocs.map((loc, idx) => {
-                                const locStart = new Date(loc.date_start);
-                                const locEnd = new Date(loc.date_end);
-                                const startDay = locStart.getDate();
-                                const endDay = locEnd.getDate();
-                                const left = ((startDay - 1) / daysInMonth) * 100;
-                                const width = ((endDay - startDay + 1) / daysInMonth) * 100;
-                                const top = idx * 40;
-
-                                return `
-                                    <div class="timeline-bar" 
-                                         data-index="${loc.originalIndex}"
-                                         style="left: ${left}%; width: ${width}%; top: ${top}px;"
-                                         onclick="selectLocation(${loc.originalIndex})">
-                                        ${loc.location}
-                                    </div>
-                                `;
-                            }).join('')}
-                        </div>
-                        <div class="timeline-days">
-                            ${Array.from({length: 5}, (_, i) => {
-                                const day = Math.floor(i * daysInMonth / 4) + 1;
-                                return `<span>${day}</span>`;
-                            }).join('')}
-                        </div>
-                    </div>
-                `;
-            }).join('');
+                        return `
+                            <div class="journey-stop"
+                                data-index="${index}"
+                                style="width:${width}px"
+                                onclick="selectLocation(${index})">
+                                <div class="journey-location">${loc.location}</div>
+                                <div class="journey-dates">
+                                    ${formatDate(loc.date_start)} – ${formatDate(loc.date_end)}
+                                </div>
+                            </div>
+                            ${index < locations.length - 1 ? '<div class="journey-connector"></div>' : ''}
+                        `;
+                    }).join('')}
+                </div>
+            `;
         }
+
+
 
         function showPopup(index) {
             const loc = locations[index];

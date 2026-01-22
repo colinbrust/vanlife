@@ -136,5 +136,29 @@
     "date_start": "2026-01-13",
     "lat": 33.4024813,
     "lng": -117.1414170
+  },
+  {
+    "location": "Idyllwild, CA",
+    "date_start": "2026-01-14",
+    "lat": 33.7402774,
+    "lng": -116.7189420
+  },
+  {
+    "location": "San Bernadino, CA",
+    "date_start": "2026-01-17",
+    "lat": 34.106,
+    "lng": -117.295
+  },
+  {
+    "location": "Sawtooth Canyon Campground, CA",
+    "date_start": "2026-01-18",
+    "lat": 34.6671987,
+    "lng": -116.9827642
+  },
+  {
+    "location": "Rancho Jurupa Regional Park, CA",
+    "date_start": "2026-01-21",
+    "lat": 33.9812278,
+    "lng": -117.4129610
   }
 ]
