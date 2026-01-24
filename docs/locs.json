@@ -4,188 +4,204 @@
       "date_start": "2014-08-01",
       "date_end": "2025-11-01",
       "summary": "Helen flew to Texas to visit family and I celebrated Halloween with my friends for my last night in Missoula. I said my goodbyes and then hit the road for Utah.",
-      "link": null
+      "photos": null
     },
     {
       "location": "Goodenough Creek Campground, ID",
       "date_start": "2025-11-01",
       "date_end": "2025-11-02",
       "summary": "Maya and I stopped for the night on the way to Utah. Watched 'The House on Haunted Hill' while we cooked dinner. Helen isn't a big fan of old movies so I'm making to sure to get my fill in the coming days.",
-      "link": null
+      "photos": null
     },
     {
       "location": "Apple Valley, UT",
       "date_start": "2025-11-02",
       "date_end": "2025-11-05",
       "summary": "Eventually made it to the Gooseberry Mesa in southern Utah. On the day I arrived I was able to get in a nice quick mountain bike ride before the sun set. Spent 3 days here at a nice camp site with good access to the bike trails. Split my time between working, running, biking, and watching movies once the sun went down. I got my fill of movies in, watching The Apartment, The Thing, and finishing the Lonesome Dove series. The only downside was that as a novice vanlifer, I chose a camping spot in the shade. This meant our battery system didn't recharge and I lost power on the night of my stay. From Maya's perspective, the downsides were that A) Helen wasn't there (tear emoji) and B) I took her on either a big bike ride or run every day (exercising is hard).",
-      "link": null
+      "photos": null
     },
     {
       "location": "Las Vegas, NV",
       "date_start": "2025-11-06",
       "date_end": "2025-11-11",
-      "summary": "A group of Helen's friends booked an AirBnB in Las Vegas for their birthday, so we set up our van in their driveway and joined them. I have been to Las Vegas a number of times but I was either a little kid, or camped out at Red Rocks on a climbing trip. Neither Helen nor I had visited the city itself in our adult lives. Despite it not being our usual scene, we both had a blast. We walked along Fremont Street and the Strip, played Top Golf, got all-you-can-eat sushi, and visited Meow Wolf! After our visit with friends, we spend a few nights camped at Red Rocks to climb and hike. The highlight was hiking the Calico Tanks trail, which was a fun hike on slick rock that ended with a view of the park and Las Vegas.",
-      "link": null
+      "summary": "A group of Helen's friends booked an AirBnB in Las Vegas for their birthday, so we set up our van in their driveway and joined them. I have been to Las Vegas a number of times but I was either a little kid, or camped out at Red Rocks on a climbing trip. Neither Helen nor I had visited the city itself in our adult lives. Despite it not being our usual scene, we both had a blast. {photo1} {photo2} We walked along Fremont Street and the Strip, played Top Golf, got all-you-can-eat sushi, and visited Meow Wolf! {photo3} After our visit with friends, we spend a few nights camped at Red Rocks to climb and hike. The highlight was hiking the Calico Tanks trail, which was a fun hike on slick rock that ended with a view of the park and Las Vegas. {photo4} {photo5}",
+      "photos": [
+        {"caption": "Goofing around in the Arts District",
+         "pth": "images/vegas_area/cutouts.JPG"
+        },
+        {"caption": "Goofing around in the Arts District (the sequel)",
+         "pth": "images/vegas_area/moon_guy.JPG"
+        },
+        {"caption": "Exploring meow wolf!",
+         "pth": "images/vegas_area/meowwolf.jpeg"
+        },
+        {"caption": "Hiking into the Calico Tanks",
+         "pth": "images/vegas_area/tanks.JPG"
+        },
+        {"caption": "View from the top of Calico Tanks",
+         "pth": "images/vegas_area/calico_tanks.JPG"
+        }
+      ]
     },
     {
       "location": "Boulder City, NV",
       "date_start": "2025-11-11",
       "date_end": "2025-11-13",
       "summary": "On our way out of Vegas, we stopped outside Boulder City for a few nights. The first night, we were camped 'on' Lake Mead at the Boulder City Beach campground. You might think that because the campsite was called the Boulder City BEACH Campground that the sites would be right on the water's edge, but you would be wrong. For that to be true, my guess is that you would have to find a time machine and set the year to 2000, which is the last time Lake Mead was at full capacity. Since then, <a href='https://www.usbr.gov/lc/region/g4000/lakemead_line.pdf' target='_blank'> the water levels have fallen almost 200 feet</a>. All that is to say, rather than being camped on the beach, Helen and I had to walk 20 minutes to dip our toes in the water. After our walk to the water, we rode the mountain bike trails at Bootleg Canyon just outside of town. To say the least, these trails were puckering. Never before have I been on a blue graded mountain bike trail and thought I had a greater than 50% chance of breaking my leg. To recover from the trauma, we each treated ourselves to fries, shakes and massive cheeseburgers at Chilly Jilly's. As we were leaving town, we stopped at the Hoover Dam, the scale of which we both found very impressive. After a night camped (more or less) on the side of the highway, we took a visit to Arizona Host Springs. The setting of the springs were in a slot canyon, and made for a very unique and beautiful setting. The only issue was that we had Maya with us. For the first 50 feet of the springs, the entire width of the slot canyon was filled with water well over 110 degrees (Fahrenheit), meaning I would have to carry Maya to cooler water if we wanted to soak. This wouldn't have been an issue if there wasn't a rickety, dead vertical, 20 foot ladder right where the hot water ended. Despite her many talents, Maya is not able to climb ladders. So, instead of soaking, we hiked out and went to a beach on the Colorado River down the road, where we both took a dip and Maya got to fetch sticks in the water to her heart's content.",
-      "link": null
+      "photos": null
     },
     {
       "location": "Burro Creek Campground, AZ",
       "date_start": "2025-11-13",
       "date_end": "2025-11-14",
       "summary": "A little campground that my dad recommended on the way home to Tucson. We pulled in late and left early so not much to report. They didn't have running water during our visit, so they waived camping fees.",
-      "link": null
+      "photos": null
     },
     {
       "location": "Tucson, AZ",
       "date_start": "2025-11-14",
       "date_end": "2025-11-24",
       "summary": "We had initially been planning to visit my family in Tucson for Thanksgiving and decided to move up our arrival date when the forecast in Northern Arizona showed nothing but rain and cold. We had a very nice and relaxing time visiting my family in Tucson. My dad helped Helen and I put the finishing touches on our van build. We added a little step that covered the the heater duct, a fold out table at the end of our counter, a windowsill that covered a number of miscellaneous cables. We also updated our propane system so that it supplied propane to both our stove and our water heater, and used a solenoid to control the flow of gas. This ended up being a more involved process that expected and featured many trips to Ace Hardware and a number of expletives (but no tears, which was a fun surprise).",
-      "link": null
+      "photos": null
     },
     {
       "location": "Molino Basin Campground, AZ",
       "date_start": "2025-11-24",
       "date_end": "2025-11-26",
       "summary": "Since 2018, I have had a personal climbing goal to climb at least one 5.12 every year. When I started getting into running a few years ago, I was still climbing enough that this goal was difficult, but obtainable. However, this year I have ran more and climbed less than at any point in the last ten years, meaning I hadn't yet sent a 5.12 in 2025 yet. My mini-goal of this outing was to check off the climbing goal. We spent a few days while we were in Tucson camping and rock climbing up on Mt. Lemmon. It was fun to test out the van with the full build completed! ",
-      "link": null
+      "photos": null
     },
     {
       "location": "Tucson, AZ",
       "date_start": "2025-11-26",
       "date_end": "2025-12-06",
       "summary": "After returning from our mini camping trip, my college roommate Aiden and his wife Rosie came to Tucson to stay with my family for Thanksgiving. It was great to see them both and we had a great time running, biking and chatting. Highlights of their visit included <ul><li>Riding 'The Lemmon Drop' mountain bike trail, which made the trails in Boulder City look like child's play</li><li>Seeing the new Wicked movie with Helen, Aiden, Rosie and my mom, who insisted on getting the largest popcorn available (and of course getting a refill.)</li><li>Having a lovely Thanksgiving dinner with all of our favorite dishes, followed by watching the new movie 'Eddington' (which received a thumbs sideways to thumbs down from all viewers that night).</li></ul>",
-      "link": null
+      "photos": null
     },
     {
       "location": "17975 Peralta Rd, Gold Canyon, AZ",
       "date_start": "2025-12-06",
       "date_end": "2025-12-07",
       "summary": "We stopped at the Peralta Regional Park on our way up to Durango to visit Helen's family. We went on a nice hike around the campground and watched 'The Devil Wears Prada' that night. In the morning, we drank coffee and read our books in the sun, then went on a run before hitting the road.",
-      "link": null
+      "photos": null
     },
     {
       "location": "Peoria, AZ",
       "date_start": "2025-12-07",
       "date_end": "2025-12-09",
       "summary": "Suburban Phoenix stop with hiking in nearby mountains.",
-      "link": null
+      "photos": null
     },
     {
       "location": "Sedona, AZ",
       "date_start": "2025-12-09",
       "date_end": "2025-12-11",
       "summary": "Me write",
-      "link": null
+      "photos": null
     },
     {
       "location": "Flagstaff, AZ",
       "date_start": "2025-12-11",
       "date_end": "2025-12-12",
       "summary": "Perfect mountain town with Route 66 history and stargazing.",
-      "link": null
+      "photos": null
     },
     {
       "location": "Durango, CO",
       "date_start": "2025-12-12",
       "date_end": "2025-12-28",
       "summary": "Explored historic downtown and rode the Durango & Silverton Railroad.",
-      "link": null
+      "photos": null
     },
     {
       "location": "Page, AZ",
       "date_start": "2025-12-28",
       "date_end": "2025-12-29",
       "summary": "Stood in awe at Horseshoe Bend and Antelope Canyon.",
-      "link": null
+      "photos": null
     },
     {
       "location": "Las Vegas, NV",
       "date_start": "2025-12-29",
       "date_end": "2026-01-03",
       "summary": "Our first official stop as unemployed, full-time vanlifers! Some friends from Missoula were camping out at Red Rocks to climb for the",
-      "link": null
+      "photos": null
     },
     {
       "location": "Mojave National Preserve",
       "date_start": "2026-01-03",
       "date_end": "2026-01-04",
       "summary": "Me write",
-      "link": null
+      "photos": null
     },
     {
       "location": "Joshua Tree National Park, CA",
       "date_start": "2026-01-04",
       "date_end": "2026-01-07",
       "summary": "Me write",
-      "link": null
+      "photos": null
     },
     {
       "location": "Borrego Springs, CA",
       "date_start": "2026-01-07",
       "date_end": "2026-01-09",
       "summary": "Me write",
-      "link": null
+      "photos": null
     },
     {
       "location": "Julian, CA",
       "date_start": "2026-01-09",
       "date_end": "2026-01-10",
       "summary": "Charming mountain town famous for apple pie and mining history.",
-      "link": null
+      "photos": null
     },
     {
       "location": "Dulzura, CA",
       "date_start": "2026-01-10",
       "date_end": "2026-01-11",
       "summary": "Quiet border town with scenic drives and local history.",
-      "link": null
+      "photos": null
     },
     {
       "location": "Encinitas, CA",
       "date_start": "2026-01-11",
       "date_end": "2026-01-13",
       "summary": "Final destination! Beach time, surfing, and coastal relaxation.",
-      "link": null
+      "photos": null
     },
     {
       "location": "Rainbow, CA",
       "date_start": "2026-01-13",
       "date_end": "2026-01-14",
       "summary": "me write",
-      "link": null
+      "photos": null
     },
     {
       "location": "Idyllwild, CA",
       "date_start": "2026-01-14",
       "date_end": "2026-01-17",
-      "summary": "Me writeSpent three nice days. Html photo hyperlink:  <img src='./images/pinecone.jpg' alt='Colin and a big pinecone!' style='--scaling: 4'>",
-      "link": null
+      "summary": "Me writeSpent three nice days. Html photo hyperlink:  <img src='./images/pinecone.jpg' alt='Colin and a big pinecone!' style='--scaling: 10'> blah asdlfhadogihadspogiahdfopij",
+      "photos": null
     },
     {
       "location": "San Bernadino, CA",
       "date_start": "2026-01-17",
       "date_end": "2026-01-18",
       "summary": "Me write",
-      "link": null
+      "photos": null
     },
     {
       "location": "Sawtooth Canyon Campground, CA",
       "date_start": "2026-01-18",
       "date_end": "2026-01-21",
       "summary": "Me write",
-      "link": null
+      "photos": null
     },
     {
       "location": "Rancho Jurupa Regional Park, CA",
       "date_start": "2026-01-21",
       "date_end": "2026-01-22",
       "summary": "helen write",
-      "link": null
+      "photos": null
     }
 ]

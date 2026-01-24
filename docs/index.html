@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,12 +13,14 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             display: flex;
             height: 100vh;
             overflow: hidden;
         }
+
         .sidebar {
             width: 300px;
             background: #f5f5f5;
@@ -26,11 +29,13 @@
             flex-direction: column;
             overflow: hidden;
         }
+
         .view-tabs {
             display: flex;
             background: #fff;
             border-bottom: 1px solid #ddd;
         }
+
         .view-tab {
             flex: 1;
             padding: 16px 10px;
@@ -42,116 +47,63 @@
             font-weight: 500;
             transition: background 0.2s;
         }
+
         .view-tab:hover {
             background: #f0f0f0;
         }
+
         .view-tab.active {
             background: #f5f5f5;
             border-bottom: 2px solid #007bff;
         }
+
         .location-list {
             overflow-y: auto;
             flex: 1;
         }
+
         .location-item {
             padding: 16px 18px;
             border-bottom: 1px solid #e0e0e0;
             cursor: pointer;
             transition: background 0.2s;
         }
+
         .location-item:hover {
             background: #e8e8e8;
         }
+
         .location-item.active {
             background: #007bff;
             color: white;
         }
+
         .location-name {
             font-weight: 600;
             font-size: 14px;
             margin-bottom: 4px;
         }
+
         .location-date {
             font-size: 12px;
             color: #666;
         }
+
         .location-item.active .location-date {
             color: #e0e0e0;
         }
+
         .main-content {
             flex: 1;
             overflow: hidden;
             position: relative;
         }
+
         #map {
             width: 100%;
             height: 100%;
         }
 
-        #calendar {
-            padding: 24px;
-            overflow-x: auto;
-            overflow-y: hidden;
-        }
-
-        .journey {
-            display: flex;
-            align-items: center;
-            gap: 16px;
-            min-height: 140px;
-        }
-
-        .journey-stop {
-            position: relative;
-            flex-shrink: 0;
-            height: 60px;
-            border-radius: 12px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            padding: 12px 14px;
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .journey-stop:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-        }
-
-        .journey-stop.active {
-            outline: 3px solid #007bff;
-        }
-
-        .journey-location {
-            font-weight: 600;
-            font-size: 14px;
-            white-space: nowrap;
-        }
-
-        .journey-dates {
-            font-size: 12px;
-            opacity: 0.9;
-        }
-
-        .journey-connector {
-            flex-shrink: 0;
-            width: 30px;
-            height: 4px;
-            background: #ddd;
-            border-radius: 2px;
-        }
-
-        @media (max-width: 768px) {
-            .journey-stop {
-                height: 70px;
-            }
-        }
-
-        
         #blog {
             width: 100%;
             height: 100%;
@@ -161,80 +113,137 @@
             max-width: 800px;
             margin: 0 auto;
         }
+
         .blog-entry {
             margin-bottom: 40px;
             padding-bottom: 30px;
             border-bottom: 1px solid #e0e0e0;
         }
+
         .blog-entry:last-child {
             border-bottom: none;
         }
+
         .blog-title {
             font-size: 20px;
             font-weight: 700;
             margin-bottom: 8px;
         }
+
         .blog-date {
             color: #666;
             font-size: 14px;
             margin-bottom: 15px;
         }
+
         .blog-content {
             line-height: 1.6;
             color: #333;
         }
-        .timeline {
-            position: relative;
-            padding: 20px 0;
+
+        .blog-photos {
+            margin-top: 20px;
         }
-        .timeline-month {
-            margin-bottom: 40px;
+
+        .blog-photos figure {
+            margin-bottom: 20px;
         }
-        .timeline-month-label {
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 15px;
-            color: #333;
-        }
-        .timeline-grid {
-            position: relative;
-            min-height: 50px;
-        }
-        .timeline-bar {
-            position: absolute;
-            height: 30px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+        .blog-photos img {
+            width: 100%;
             border-radius: 4px;
-            cursor: pointer;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            padding: 0 10px;
+        }
+
+        .blog-photos figcaption {
+            font-size: 13px;
+            color: #666;
+            margin-top: 6px;
+        }
+
+        .blog-separator {
+            margin-top: 30px;
+            border: none;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .popup-carousel {
+            position: relative;
+            margin-top: 12px;
+            text-align: center;
+        }
+
+        .popup-carousel img {
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .popup-carousel .caption {
+            font-size: 13px;
+            color: #555;
+            margin-top: 6px;
+        }
+
+        .carousel-nav {
+            position: absolute;
+            top: 45%;
+            background: rgba(0, 0, 0, 0.6);
             color: white;
-            font-size: 12px;
-            font-weight: 500;
-            overflow: hidden;
-            white-space: nowrap;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border: none;
+            font-size: 20px;
+            padding: 4px 8px;
+            cursor: pointer;
+            border-radius: 3px;
         }
-        .timeline-bar:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            z-index: 10;
+
+        .carousel-nav.prev {
+            left: 6px;
         }
-        .timeline-bar.active {
-            background: #007bff;
-            box-shadow: 0 4px 12px rgba(0,123,255,0.4);
+
+        .carousel-nav.next {
+            right: 6px;
         }
-        .timeline-days {
-            display: flex;
-            justify-content: space-between;
+
+        .carousel-nav:hover {
+            background: rgba(0, 0, 0, 0.85);
+        }
+
+
+        .carousel {
+            position: relative;
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .carousel img {
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .carousel .caption {
+            font-size: 13px;
+            color: #555;
             margin-top: 5px;
-            padding-top: 5px;
-            border-top: 1px solid #ddd;
-            font-size: 11px;
-            color: #999;
         }
+
+        .carousel button {
+            position: absolute;
+            top: 45%;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: none;
+            font-size: 18px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .carousel .prev {
+            left: 5px;
+        }
+
+        .carousel .next {
+            right: 5px;
+        }
+
         .popup-overlay {
             display: none;
             position: fixed;
@@ -242,15 +251,17 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: rgba(0,0,0,0.5);
+            background: rgba(0, 0, 0, 0.5);
             z-index: 1000;
             align-items: center;
             justify-content: center;
             overflow-y: scroll;
         }
+
         .popup-overlay.show {
             display: flex;
         }
+
         .popup-content {
             background: white;
             padding: 30px;
@@ -258,22 +269,26 @@
             max-width: 500px;
             max-height: 80vh;
             overflow-y: auto;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
         }
+
         .popup-title {
             font-size: 20px;
             font-weight: 700;
             margin-bottom: 10px;
         }
+
         .popup-date {
             color: #666;
             font-size: 14px;
             margin-bottom: 15px;
         }
+
         .popup-summary {
             line-height: 1.6;
             color: #333;
         }
+
         .popup-close {
             position: absolute;
             top: 15px;
@@ -284,6 +299,113 @@
             cursor: pointer;
             color: #999;
         }
+
+        /* Photo strip */
+        .photo-strip {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 14px;
+            margin-top: 24px;
+        }
+
+        .photo-strip img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .photo-strip img:hover {
+            transform: scale(1.04);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+        }
+
+        .popup-photo-strip {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .popup-photo-strip img {
+            width: 100%;
+            height: 90px;
+            object-fit: cover;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: transform 0.15s ease;
+        }
+
+        .popup-photo-strip img:hover {
+            transform: scale(1.05);
+        }
+
+
+        /* Modal */
+        .photo-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.9);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+            flex-direction: column;
+        }
+
+        .photo-modal.show {
+            display: flex;
+        }
+
+        .photo-modal img {
+            max-width: 90%;
+            max-height: 80%;
+        }
+
+        .photo-modal-close {
+            position: absolute;
+            top: 20px;
+            right: 25px;
+            font-size: 32px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .modal-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: none;
+            font-size: 36px;
+            padding: 8px 14px;
+            cursor: pointer;
+            border-radius: 4px;
+            user-select: none;
+        }
+
+        .modal-nav.prev {
+            left: 20px;
+        }
+
+        .modal-nav.next {
+            right: 20px;
+        }
+
+        .modal-nav:hover {
+            background: rgba(0, 0, 0, 0.85);
+        }
+
+
+        #photoModalCaption {
+            color: #ccc;
+            margin-top: 12px;
+            font-size: 14px;
+        }
+
 
         @media (max-width: 768px) {
             body {
@@ -300,7 +422,7 @@
                 z-index: 1001;
                 transform: translateX(-100%);
                 transition: transform 0.3s ease;
-                box-shadow: 4px 0 20px rgba(0,0,0,0.25);
+                box-shadow: 4px 0 20px rgba(0, 0, 0, 0.25);
             }
 
             .sidebar.open {
@@ -321,11 +443,11 @@
                 border: none;
                 padding: 10px 12px;
                 border-radius: 999px;
-                box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
                 font-size: 18px;
                 cursor: pointer;
             }
-            
+
             .popup-content {
                 width: 90%;
                 max-height: 85vh;
@@ -337,6 +459,7 @@
             line-height: 1.6;
             color: #333;
         }
+
         .popup-summary img,
         .blog-content img,
         .leaflet-popup-content img {
@@ -346,32 +469,32 @@
             margin: 10px 0;
             border-radius: 4px;
         }
+
         .popup-summary img[scaling],
         .blog-content img[scaling],
         .leaflet-popup-content img[scaling] {
             max-width: calc(100% / var(--scaling, 1));
         }
+
         .leaflet-popup-content-wrapper {
             max-height: 75vh;
             overflow-y: auto;
         }
-
     </style>
 </head>
+
 <body>
     <button class="sidebar-toggle" id="sidebarToggle">☰</button>
     <div class="sidebar">
         <div class="view-tabs">
             <button class="view-tab active" data-view="map">Map</button>
-            <!-- <button class="view-tab" data-view="calendar">Calendar</button> -->
             <button class="view-tab" data-view="blog">Blog</button>
         </div>
         <div class="location-list" id="locationList"></div>
     </div>
-    
+
     <div class="main-content">
         <div id="map"></div>
-        <div id="calendar"></div>
         <div id="blog"></div>
     </div>
 
@@ -381,6 +504,17 @@
             <div id="popupBody"></div>
         </div>
     </div>
+
+    <div id="photoModal" class="photo-modal">
+        <button class="modal-nav prev">‹</button>
+        <img id="photoModalImg">
+        <button class="modal-nav next">›</button>
+
+        <div id="photoModalCaption"></div>
+        <span class="photo-modal-close">×</span>
+    </div>
+
+
 
     <script>
         let locations = [];
@@ -395,15 +529,15 @@
                     fetch('./locs.json'),
                     fetch('./locs-coords.json')
                 ]);
-                
+
                 locations = await locsResponse.json();
                 const coords = await coordsResponse.json();
-                
+
                 console.log(coords[coords.length - 1]);
                 console.log(locations[locations.length - 1])
                 // Merge coordinates
                 locations.forEach(loc => {
-                    const cached = coords.find(c => 
+                    const cached = coords.find(c =>
                         c.location === loc.location
                     );
 
@@ -416,7 +550,7 @@
                 });
 
                 locations = locations.filter(loc => !loc.rm);
-                
+
                 initMap();
                 populateSidebar();
                 setupViewTabs();
@@ -428,6 +562,29 @@
         function isMobile() {
             return window.innerWidth <= 768;
         }
+
+        let modalPhotos = [];
+        let modalIndex = 0;
+
+        function openPhotoModal(photos, startIndex) {
+            modalPhotos = photos;
+            modalIndex = startIndex;
+            updateModal();
+            document.getElementById('photoModal').classList.add('show');
+        }
+
+        function updateModal() {
+            const img = document.getElementById('photoModalImg');
+            const cap = document.getElementById('photoModalCaption');
+            img.src = modalPhotos[modalIndex].src;
+            cap.textContent = modalPhotos[modalIndex].caption || '';
+        }
+
+        function moveModal(d) {
+            modalIndex = (modalIndex + d + modalPhotos.length) % modalPhotos.length;
+            updateModal();
+        }
+
 
         function closeSidebarOnMobile() {
             if (isMobile()) {
@@ -443,6 +600,20 @@
         document.getElementById('sidebarToggle').addEventListener('click', () => {
             document.querySelector('.sidebar').classList.toggle('open');
         });
+
+        document.querySelector('.modal-nav.prev').onclick = () => moveModal(-1);
+        document.querySelector('.modal-nav.next').onclick = () => moveModal(1);
+
+        document.addEventListener('keydown', e => {
+            const modal = document.getElementById('photoModal');
+            if (!modal.classList.contains('show')) {
+                return;
+            }
+            if (e.key === 'ArrowLeft') moveModal(-1);
+            if (e.key === 'ArrowRight') moveModal(1);
+            if (e.key === 'Escape') modal.classList.remove('show');
+        });
+
 
 
         async function geocodeLocations() {
@@ -467,9 +638,102 @@
             return { lat: 0, lng: 0 };
         }
 
+
+        function stripPhotoTokens(text) {
+            return text
+                ? text.replace(/\{photo\d+\}/g, '')
+                : '';
+        }
+
+        function renderPopupCarousel(photos) {
+            if (!photos || photos.length === 0) {
+                return '';
+            }
+
+            return `
+                <div class="popup-carousel" data-index="0">
+                    <button class="carousel-nav prev">‹</button>
+                    <img src="${photos[0].pth}">
+                    <button class="carousel-nav next">›</button>
+                    <div class="caption">${photos[0].caption || ''}</div>
+                </div>
+            `;
+        }
+
+
+        function renderPopupPhotoStrip(photos) {
+            if (!photos || photos.length === 0) {
+                return '';
+            }
+
+            return `
+                <div class="popup-photo-strip">
+                    ${photos.map((p, i) => `
+                        <img
+                            src="${p.pth}"
+                            alt="${p.caption || ''}"
+                            data-index="${i}"
+                        >
+                    `).join('')}
+                </div>
+            `;
+        }
+
+
+        function renderCarouselHTML(photos) {
+            if (!photos || photos.length === 0) {
+                return '';
+            }
+
+            return `
+                <div class="carousel" data-idx="0">
+                    <img src="${photos[0].pth}">
+                    <div class="caption">${photos[0].caption || ''}</div>
+                    <button class="prev">‹</button>
+                    <button class="next">›</button>
+                </div>
+            `;
+        }
+
+        function attachCarouselHandlers(container, photos) {
+            if (!photos || photos.length <= 1) {
+                return;
+            }
+
+            let idx = 0;
+            const img = container.querySelector('img');
+            const cap = container.querySelector('.caption');
+
+            container.querySelector('.prev').onclick = () => update(-1);
+            container.querySelector('.next').onclick = () => update(1);
+
+            function update(d) {
+                idx = (idx + d + photos.length) % photos.length;
+                img.src = photos[idx].pth;
+                cap.textContent = photos[idx].caption || '';
+            }
+        }
+
+        function attachPopupPhotoHandlers(container, photos) {
+            if (!photos) {
+                return;
+            }
+
+            container.querySelectorAll('.popup-photo-strip img').forEach((img, i) => {
+                img.onclick = () => {
+                    openPhotoModal(
+                        photos.map(p => ({ src: p.pth, caption: p.caption })),
+                        i
+                    );
+                };
+            });
+        }
+
+
+
         function initMap() {
             map = L.map('map').setView([36.5, -112], 5);
-            
+
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© OpenStreetMap contributors'
             }).addTo(map);
@@ -497,10 +761,10 @@
             });
 
             const routeCoords = locations.map(loc => [loc.lat, loc.lng]);
-            
+
             // Dashed line to look like rope/string
-            L.polyline(routeCoords, { 
-                color: '#8B4513', 
+            L.polyline(routeCoords, {
+                color: '#8B4513',
                 weight: 3,
                 dashArray: '10, 5',
                 lineCap: 'round'
@@ -516,18 +780,28 @@
                     icon = pinIcon;
                 }
 
-                const marker = L.marker([loc.lat, loc.lng], { icon: icon }).addTo(map);
-                
+                const marker = L.marker([loc.lat, loc.lng], { icon }).addTo(map);
+
                 const popupContent = `
                     <strong>Stop ${index + 1}: ${loc.location}</strong><br>
                     <small>${formatDate(loc.date_start)} - ${formatDate(loc.date_end)}</small><br><br>
-                    ${loc.summary || 'No summary available'}
-                    ${loc.link ? `<br><br><a href="${loc.link}" target="_blank">Read full post →</a>` : ''}
+                    ${stripPhotoTokens(loc.summary)}
+                    ${renderPopupCarousel(loc.photos)}
                 `;
-                
+
                 marker.bindPopup(popupContent);
+
+                marker.on('popupopen', e => {
+                    const carousel = e.popup.getElement().querySelector('.popup-carousel');
+                    if (carousel) {
+                        attachPopupCarouselHandlers(carousel, loc.photos);
+                    }
+                });
+
+
                 markers.push(marker);
             });
+
 
             if (routeCoords.length > 0) {
                 map.fitBounds(routeCoords);
@@ -553,7 +827,7 @@
 
         function selectLocation(index) {
             selectedIndex = index;
-            
+
             document.querySelectorAll('.location-item').forEach((item, i) => {
                 item.classList.toggle('active', i === index);
             });
@@ -565,12 +839,6 @@
                     duration: 1.5
                 });
                 setTimeout(() => markers[index].openPopup(), 1500);
-            } else if (currentView === 'calendar') {
-                document.querySelectorAll('.journey-stop').forEach((el, i) => {
-                    el.classList.toggle('active', i === index);
-                });
-
-                showPopup(index);
             } else if (currentView === 'blog') {
                 const blogEntries = document.querySelectorAll('.blog-entry');
                 const visibleLocations = locations.filter(l => l.summary);
@@ -600,12 +868,9 @@
             });
 
             document.getElementById('map').style.display = view === 'map' ? 'block' : 'none';
-            document.getElementById('calendar').style.display = view === 'calendar' ? 'block' : 'none';
             document.getElementById('blog').style.display = view === 'blog' ? 'block' : 'none';
 
-            if (view === 'calendar') {
-                populateCalendar();
-            } else if (view === 'blog') {
+            if (view === 'blog') {
                 populateBlog();
             } else if (view === 'map') {
                 setTimeout(() => map.invalidateSize(), 100);
@@ -617,56 +882,6 @@
             }
         }
 
-        function populateCalendar() {
-            const calendar = document.getElementById('calendar');
-
-            const dayWidth = 12; // px per day (tweakable)
-
-            calendar.innerHTML = `
-                <div class="journey">
-                    ${locations.map((loc, index) => {
-                        const start = new Date(loc.date_start);
-                        const end = new Date(loc.date_end);
-                        const days = Math.max(
-                            1,
-                            Math.round((end - start) / (1000 * 60 * 60 * 24)) + 1
-                        );
-                        const width = days * dayWidth;
-
-                        return `
-                            <div class="journey-stop"
-                                data-index="${index}"
-                                style="width:${width}px"
-                                onclick="selectLocation(${index})">
-                                <div class="journey-location">${loc.location}</div>
-                                <div class="journey-dates">
-                                    ${formatDate(loc.date_start)} – ${formatDate(loc.date_end)}
-                                </div>
-                            </div>
-                            ${index < locations.length - 1 ? '<div class="journey-connector"></div>' : ''}
-                        `;
-                    }).join('')}
-                </div>
-            `;
-        }
-
-
-
-        function showPopup(index) {
-            const loc = locations[index];
-            const popup = document.getElementById('popupOverlay');
-            const body = document.getElementById('popupBody');
-            
-            body.innerHTML = `
-                <div class="popup-title">Stop ${index + 1}: ${loc.location}</div>
-                <div class="popup-date">${formatDate(loc.date_start)} - ${formatDate(loc.date_end)}</div>
-                <div class="popup-summary">${loc.summary || 'No summary available'}</div>
-                ${loc.link ? `<br><a href="${loc.link}" target="_blank">Read full post →</a>` : ''}
-            `;
-            
-            popup.classList.add('show');
-        }
-
         function closePopup() {
             document.getElementById('popupOverlay').classList.remove('show');
         }
@@ -675,16 +890,207 @@
             if (e.target.id === 'popupOverlay') closePopup();
         });
 
+        function renderBlogPhotos(photos) {
+            if (!photos || photos.length === 0) {
+                return '';
+            }
+
+            return `
+                <div class="blog-photos">
+                    ${photos.map(p => `
+                        <figure>
+                            <img src="${p.pth}">
+                            ${p.caption ? `<figcaption>${p.caption}</figcaption>` : ''}
+                        </figure>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+
+        function renderBlogContent(loc) {
+            let html = loc.summary || '';
+
+            if (!loc.photos) {
+                return html;
+            }
+
+            loc.photos.forEach((photo, i) => {
+                const token = `{photo${i + 1}}`;
+                const imgHtml = `
+                    <figure class="blog-photo">
+                        <img src="${photo.pth}">
+                        ${photo.caption ? `<figcaption>${photo.caption}</figcaption>` : ''}
+                    </figure>
+                `;
+                html = html.replaceAll(token, imgHtml);
+            });
+
+            return html;
+        }
+
+        function renderBlogPhotoStrip(photos) {
+            if (!photos || photos.length === 0) {
+                return '';
+            }
+
+            return `
+                <div class="photo-strip">
+                    ${photos.map((p, i) => `
+                        <img
+                            src="${p.pth}"
+                            alt="${p.caption || ''}"
+                            data-index="${i}"
+                        >
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function attachPopupCarouselHandlers(carousel, photos) {
+            if (!photos || photos.length <= 1) {
+                return;
+            }
+
+            let idx = 0;
+            const img = carousel.querySelector('img');
+            const caption = carousel.querySelector('.caption');
+
+            const prev = carousel.querySelector('.prev');
+            const next = carousel.querySelector('.next');
+
+            prev.onclick = () => move(-1);
+            next.onclick = () => move(1);
+
+            function move(d) {
+                idx = (idx + d + photos.length) % photos.length;
+                img.src = photos[idx].pth;
+                caption.textContent = photos[idx].caption || '';
+            }
+
+            // Arrow keys (only while popup is open)
+            const keyHandler = e => {
+                if (!carousel.isConnected) {
+                    document.removeEventListener('keydown', keyHandler);
+                    return;
+                }
+                if (e.key === 'ArrowLeft') move(-1);
+                if (e.key === 'ArrowRight') move(1);
+            };
+
+            document.addEventListener('keydown', keyHandler);
+
+            // Swipe
+            let startX = null;
+
+            img.addEventListener('touchstart', e => {
+                startX = e.touches[0].clientX;
+            });
+
+            img.addEventListener('touchend', e => {
+                if (startX === null) return;
+                const dx = e.changedTouches[0].clientX - startX;
+                if (Math.abs(dx) > 50) {
+                    move(dx > 0 ? -1 : 1);
+                }
+                startX = null;
+            });
+        }
+
+        function attachPhotoModalHandlers() {
+            const modal = document.getElementById('photoModal');
+            const modalImg = document.getElementById('photoModalImg');
+            const caption = document.getElementById('photoModalCaption');
+            const closeBtn = document.querySelector('.photo-modal-close');
+            const prevBtn = document.querySelector('.modal-nav.prev');
+            const nextBtn = document.querySelector('.modal-nav.next');
+
+            let photos = [];
+            let idx = 0;
+            let startX = null;
+
+            document.querySelectorAll('.photo-strip').forEach(strip => {
+                strip.querySelectorAll('img').forEach((img, i) => {
+                    img.onclick = () => {
+                        photos = Array.from(strip.querySelectorAll('img')).map(el => ({
+                            src: el.src,
+                            caption: el.alt
+                        }));
+                        idx = i;
+                        show();
+                    };
+                });
+            });
+
+            function show() {
+                modalImg.src = photos[idx].src;
+                caption.textContent = photos[idx].caption || '';
+                modal.classList.add('show');
+            }
+
+            function move(d) {
+                idx = (idx + d + photos.length) % photos.length;
+                show();
+            }
+
+            prevBtn.onclick = () => move(-1);
+            nextBtn.onclick = () => move(1);
+
+            closeBtn.onclick = () => modal.classList.remove('show');
+
+            modal.onclick = e => {
+                if (e.target === modal) {
+                    modal.classList.remove('show');
+                }
+            };
+
+            // Arrow keys
+            document.addEventListener('keydown', e => {
+                if (!modal.classList.contains('show')) {
+                    return;
+                }
+                if (e.key === 'ArrowLeft') move(-1);
+                if (e.key === 'ArrowRight') move(1);
+                if (e.key === 'Escape') modal.classList.remove('show');
+            });
+
+            // Swipe
+            modalImg.addEventListener('touchstart', e => {
+                startX = e.touches[0].clientX;
+            });
+
+            modalImg.addEventListener('touchend', e => {
+                if (startX === null) return;
+                const dx = e.changedTouches[0].clientX - startX;
+                if (Math.abs(dx) > 50) {
+                    move(dx > 0 ? -1 : 1);
+                }
+                startX = null;
+            });
+        }
+
+
+
         function populateBlog() {
             const blog = document.getElementById('blog');
-            blog.innerHTML = locations.filter(loc => loc.summary).map((loc, index) => `
+
+            blog.innerHTML = locations.filter(loc => loc.summary).map(loc => `
                 <div class="blog-entry">
                     <div class="blog-title">${loc.location}</div>
                     <div class="blog-date">${formatDate(loc.date_start)} - ${formatDate(loc.date_end)}</div>
-                    <div class="blog-content">${loc.summary}</div>
+
+                    <div class="blog-content">
+                        ${loc.summary}
+                    </div>
+
+                    ${renderBlogPhotoStrip(loc.photos)}
                 </div>
             `).join('');
+
+            attachPhotoModalHandlers();
         }
+
+
 
         function formatDate(dateStr) {
             const date = new Date(dateStr);
@@ -699,4 +1105,5 @@
         init();
     </script>
 </body>
+
 </html>
