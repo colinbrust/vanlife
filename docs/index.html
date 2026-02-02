@@ -84,6 +84,12 @@
             margin-bottom: 4px;
         }
 
+        .location-location {
+            font-weight: 400;
+            color: #666;
+            font-size: 12px;
+        }
+
         .location-date {
             font-size: 12px;
             color: #666;
@@ -128,6 +134,12 @@
             font-size: 20px;
             font-weight: 700;
             margin-bottom: 8px;
+        }
+
+        .blog-location {
+            font-size: 16px;
+            color: #888;
+            margin-bottom: 6px;
         }
 
         .blog-date {
@@ -783,12 +795,17 @@
 
         function populateSidebar() {
             const list = document.getElementById('locationList');
-            list.innerHTML = locations.map((loc, index) => `
-                <div class="location-item" data-index="${index}">
-                    <div class="location-name">${loc.location}</div>
-                    <div class="location-date">${formatDate(loc.date_start)}</div>
-                </div>
-            `).join('');
+            list.innerHTML = locations.map((loc, index) => {
+                console.log(`Rendering location ${index}:`, loc);
+                return `
+                    <div class="location-item" data-index="${index}">
+                        <div class="location-name">${loc.title && loc.title.trim() ? loc.title : loc.location}</div>
+                        ${loc.title ? `<div class="location-location">${loc.location}</div>` : ''}
+                        <div class="location-date">${formatDate(loc.date_start)}</div>
+                    </div>
+                `;
+            }).join('');
+            console.log('Sidebar populated with', locations.length, 'locations');
 
             document.querySelectorAll('.location-item').forEach(item => {
                 item.addEventListener('click', () => {
@@ -1002,7 +1019,8 @@
 
             blog.innerHTML = locations.filter(loc => loc.summary).map(loc => `
                 <div class="blog-entry">
-                    <div class="blog-title">${loc.location}</div>
+                    <div class="blog-title">${loc.title && loc.title.trim() ? loc.title : loc.location}</div>
+                    ${loc.title ? `<div class="blog-location">${loc.location}</div>` : ''}
                     <div class="blog-date">${formatDate(loc.date_start)} - ${formatDate(loc.date_end)}</div>
 
                     <div class="blog-content">
