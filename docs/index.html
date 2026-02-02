@@ -17,7 +17,14 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             display: flex;
+            flex-direction: column;
             height: 100vh;
+            overflow: hidden;
+        }
+
+        .content-wrapper {
+            display: flex;
+            flex: 1;
             overflow: hidden;
         }
 
@@ -256,6 +263,10 @@
             right: 5px;
         }
 
+        .sidebar-toggle {
+            display: none;
+        }
+
         .popup-overlay {
             display: none;
             position: fixed;
@@ -424,6 +435,11 @@
                 flex-direction: column;
             }
 
+            .content-wrapper {
+                flex: 1;
+                position: relative;
+            }
+
             .sidebar {
                 position: absolute;
                 top: 0;
@@ -458,6 +474,7 @@
                 box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
                 font-size: 18px;
                 cursor: pointer;
+                display: block;
             }
 
             .popup-content {
@@ -491,6 +508,7 @@
 
 <body>
     <button class="sidebar-toggle" id="sidebarToggle">☰</button>
+    <div class="content-wrapper">
     <div class="sidebar">
         <div class="view-tabs">
             <button class="view-tab active" data-view="map">Map</button>
@@ -502,7 +520,7 @@
     <div class="main-content">
         <div id="map"></div>
         <div id="blog"></div>
-        <script async data-uid="20129ba78a" src="https://colin-and-helen-vanlife.kit.com/20129ba78a/index.js"></script>
+    </div>
     </div>
 
     <div id="photoModal" class="photo-modal">
