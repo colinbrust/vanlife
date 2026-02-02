@@ -455,11 +455,6 @@
             }
         }
 
-        .popup-summary {
-            line-height: 1.6;
-            color: #333;
-        }
-
         .popup-summary img,
         .blog-content img,
         .leaflet-popup-content img {
@@ -468,12 +463,6 @@
             display: block;
             margin: 10px 0;
             border-radius: 4px;
-        }
-
-        .popup-summary img[scaling],
-        .blog-content img[scaling],
-        .leaflet-popup-content img[scaling] {
-            max-width: calc(100% / var(--scaling, 1));
         }
 
         .leaflet-popup-content-wrapper {
@@ -496,13 +485,6 @@
     <div class="main-content">
         <div id="map"></div>
         <div id="blog"></div>
-    </div>
-
-    <div class="popup-overlay" id="popupOverlay">
-        <div class="popup-content" style="position: relative;">
-            <button class="popup-close" onclick="closePopup()">×</button>
-            <div id="popupBody"></div>
-        </div>
     </div>
 
     <div id="photoModal" class="photo-modal">
@@ -615,30 +597,6 @@
         });
 
 
-
-        async function geocodeLocations() {
-            for (let loc of locations) {
-                const coords = await geocode(loc.location);
-                loc.lat = coords.lat;
-                loc.lng = coords.lng;
-            }
-        }
-
-        async function geocode(address) {
-            const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}`;
-            try {
-                const response = await fetch(url);
-                const data = await response.json();
-                if (data && data.length > 0) {
-                    return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
-                }
-            } catch (error) {
-                console.error('Geocoding error for', address, error);
-            }
-            return { lat: 0, lng: 0 };
-        }
-
-
         function stripPhotoTokens(text) {
             return text
                 ? text.replace(/\{photo\d+\}/g, '')
@@ -677,41 +635,6 @@
                     `).join('')}
                 </div>
             `;
-        }
-
-
-        function renderCarouselHTML(photos) {
-            if (!photos || photos.length === 0) {
-                return '';
-            }
-
-            return `
-                <div class="carousel" data-idx="0">
-                    <img src="${photos[0].pth}">
-                    <div class="caption">${photos[0].caption || ''}</div>
-                    <button class="prev">‹</button>
-                    <button class="next">›</button>
-                </div>
-            `;
-        }
-
-        function attachCarouselHandlers(container, photos) {
-            if (!photos || photos.length <= 1) {
-                return;
-            }
-
-            let idx = 0;
-            const img = container.querySelector('img');
-            const cap = container.querySelector('.caption');
-
-            container.querySelector('.prev').onclick = () => update(-1);
-            container.querySelector('.next').onclick = () => update(1);
-
-            function update(d) {
-                idx = (idx + d + photos.length) % photos.length;
-                img.src = photos[idx].pth;
-                cap.textContent = photos[idx].caption || '';
-            }
         }
 
         function attachPopupPhotoHandlers(container, photos) {
@@ -882,53 +805,6 @@
             }
         }
 
-        function closePopup() {
-            document.getElementById('popupOverlay').classList.remove('show');
-        }
-
-        document.getElementById('popupOverlay').addEventListener('click', (e) => {
-            if (e.target.id === 'popupOverlay') closePopup();
-        });
-
-        function renderBlogPhotos(photos) {
-            if (!photos || photos.length === 0) {
-                return '';
-            }
-
-            return `
-                <div class="blog-photos">
-                    ${photos.map(p => `
-                        <figure>
-                            <img src="${p.pth}">
-                            ${p.caption ? `<figcaption>${p.caption}</figcaption>` : ''}
-                        </figure>
-                    `).join('')}
-                </div>
-            `;
-        }
-
-
-        function renderBlogContent(loc) {
-            let html = loc.summary || '';
-
-            if (!loc.photos) {
-                return html;
-            }
-
-            loc.photos.forEach((photo, i) => {
-                const token = `{photo${i + 1}}`;
-                const imgHtml = `
-                    <figure class="blog-photo">
-                        <img src="${photo.pth}">
-                        ${photo.caption ? `<figcaption>${photo.caption}</figcaption>` : ''}
-                    </figure>
-                `;
-                html = html.replaceAll(token, imgHtml);
-            });
-
-            return html;
-        }
-
         function renderBlogPhotoStrip(photos) {
             if (!photos || photos.length === 0) {
                 return '';
@@ -1095,11 +971,6 @@
         function formatDate(dateStr) {
             const date = new Date(dateStr);
             return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-        }
-
-        function formatMonth(monthStr) {
-            const date = new Date(monthStr + '-01');
-            return date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
         }
 
         init();
