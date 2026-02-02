@@ -469,6 +469,11 @@
             max-height: 75vh;
             overflow-y: auto;
         }
+
+        .leaflet-control.leaflet-bar {
+            margin-top: 6px;
+        }
+
     </style>
 </head>
 
@@ -729,7 +734,53 @@
             if (routeCoords.length > 0) {
                 map.fitBounds(routeCoords);
             }
+
+            addPrevNextControls();
         }
+
+        function addPrevNextControls() {
+            const PrevNextControl = L.Control.extend({
+                options: {
+                    position: 'topleft'
+                },
+
+                onAdd() {
+                    const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control');
+
+                    const prevBtn = L.DomUtil.create('a', '', container);
+                    prevBtn.innerHTML = '⟨';
+                    prevBtn.title = 'Previous stop';
+
+                    const nextBtn = L.DomUtil.create('a', '', container);
+                    nextBtn.innerHTML = '⟩';
+                    nextBtn.title = 'Next stop';
+
+                    L.DomEvent.disableClickPropagation(container);
+
+                    prevBtn.onclick = () => goToRelativeStop(-1);
+                    nextBtn.onclick = () => goToRelativeStop(1);
+
+                    return container;
+                }
+            });
+
+            map.addControl(new PrevNextControl());
+        }
+
+        function goToRelativeStop(delta) {
+            if (selectedIndex === null) {
+                selectLocation(0);
+                return;
+            }
+
+            let next = selectedIndex + delta;
+            next = Math.max(0, Math.min(locations.length - 1, next));
+
+            if (next !== selectedIndex) {
+                selectLocation(next);
+            }
+        }
+
 
         function populateSidebar() {
             const list = document.getElementById('locationList');
