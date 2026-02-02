@@ -35,6 +35,10 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
 
 # R Environment Variables
 .Renviron
@@ -44,3 +48,4 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+.DS_Store

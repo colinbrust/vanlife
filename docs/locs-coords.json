@@ -160,5 +160,29 @@
     "date_start": "2026-01-21",
     "lat": 33.9812278,
     "lng": -117.4129610
+  },
+  {
+    "location": "Leo Carrillo State Park, CA",
+    "date_start": "2026-01-22",
+    "lat": 34.0609826,
+    "lng": -118.9328060
+  },
+  {
+    "location": "Jumbo Rocks Campground, CA",
+    "date_start": "2026-01-22",
+    "lat": 33.9917117,
+    "lng": -116.0641905
+  },
+  {
+    "location": "Hidden Valley Campground, California",
+    "date_start": "2026-01-04",
+    "lat": 34.0176476,
+    "lng": -116.1633002
+  },
+  {
+    "location": "Peralta Regional Park, AZ",
+    "date_start": "2025-12-06",
+    "lat": 33.3661725,
+    "lng": -111.3643289
   }
 ]
