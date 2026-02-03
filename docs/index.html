@@ -503,6 +503,17 @@
             margin-top: 6px;
         }
 
+        /* Bottom banner embed fix */
+        [data-uid="20129ba78a"] {
+            position: fixed !important;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            z-index: 3000;
+        }
+
+
     </style>
 </head>
 
@@ -592,6 +603,11 @@
         function updateModal() {
             const img = document.getElementById('photoModalImg');
             const cap = document.getElementById('photoModalCaption');
+            
+            if (!modalPhotos || !modalPhotos[modalIndex]) {
+                return;
+            }
+            
             img.src = modalPhotos[modalIndex].src;
             cap.textContent = modalPhotos[modalIndex].caption || '';
         }
@@ -645,47 +661,12 @@
             return `
                 <div class="popup-carousel" data-index="0">
                     <button class="carousel-nav prev">‹</button>
-                    <img src="${photos[0].pth}">
+                    <img data-src="${photos[0].pth}">
                     <button class="carousel-nav next">›</button>
                     <div class="caption">${photos[0].caption || ''}</div>
                 </div>
             `;
         }
-
-
-        function renderPopupPhotoStrip(photos) {
-            if (!photos || photos.length === 0) {
-                return '';
-            }
-
-            return `
-                <div class="popup-photo-strip">
-                    ${photos.map((p, i) => `
-                        <img
-                            src="${p.pth}"
-                            alt="${p.caption || ''}"
-                            data-index="${i}"
-                        >
-                    `).join('')}
-                </div>
-            `;
-        }
-
-        function attachPopupPhotoHandlers(container, photos) {
-            if (!photos) {
-                return;
-            }
-
-            container.querySelectorAll('.popup-photo-strip img').forEach((img, i) => {
-                img.onclick = () => {
-                    openPhotoModal(
-                        photos.map(p => ({ src: p.pth, caption: p.caption })),
-                        i
-                    );
-                };
-            });
-        }
-
 
 
         function initMap() {
@@ -749,7 +730,14 @@
                 marker.bindPopup(popupContent);
 
                 marker.on('popupopen', e => {
-                    const carousel = e.popup.getElement().querySelector('.popup-carousel');
+                    const popupEl = e.popup.getElement();
+
+                    popupEl.querySelectorAll('img[data-src]').forEach(img => {
+                        img.src = img.dataset.src;
+                        img.removeAttribute('data-src');
+                    });
+
+                    const carousel = popupEl.querySelector('.popup-carousel');
                     if (carousel) {
                         attachPopupCarouselHandlers(carousel, loc.photos);
                     }
@@ -899,7 +887,7 @@
                 <div class="photo-strip">
                     ${photos.map((p, i) => `
                         <img
-                            src="${p.pth}"
+                            data-src="${p.pth}"
                             alt="${p.caption || ''}"
                             data-index="${i}"
                         >
@@ -907,6 +895,36 @@
                 </div>
             `;
         }
+
+        function setupBlogLazyLoading() {
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) {
+                        return;
+                    }
+
+                    const img = entry.target;
+
+                    // Require 0.5s of visibility
+                    const timer = setTimeout(() => {
+                        img.src = img.dataset.src;
+                        img.removeAttribute('data-src');
+                        observer.unobserve(img);
+                    }, 250);
+
+                    // Cancel if user scrolls away
+                    img._lazyTimer = timer;
+                });
+            }, {
+                root: document.getElementById('blog'),
+                threshold: 0.25
+            });
+
+            document.querySelectorAll('#blog img[data-src]').forEach(img => {
+                observer.observe(img);
+            });
+        }
+
 
         function attachPopupCarouselHandlers(carousel, photos) {
             if (!photos || photos.length <= 1) {
@@ -1050,6 +1068,7 @@
             `).join('');
 
             attachPhotoModalHandlers();
+            setupBlogLazyLoading();
         }
 
 
