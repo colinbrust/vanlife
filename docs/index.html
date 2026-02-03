@@ -522,8 +522,8 @@
     <div class="content-wrapper">
     <div class="sidebar">
         <div class="view-tabs">
-            <button class="view-tab active" data-view="map">Map</button>
-            <button class="view-tab" data-view="blog">Blog</button>
+            <button class="view-tab" data-view="map">Map</button>
+            <button class="view-tab active" data-view="blog">Blog</button>
         </div>
         <div class="location-list" id="locationList"></div>
     </div>
@@ -536,7 +536,7 @@
 
     <div id="photoModal" class="photo-modal">
         <button class="modal-nav prev">‹</button>
-        <img id="photoModalImg">
+        <img id="photoModalImg" loading="lazy">
         <button class="modal-nav next">›</button>
 
         <div id="photoModalCaption"></div>
@@ -547,7 +547,7 @@
         let locations = [];
         let map;
         let markers = [];
-        let currentView = 'map';
+        let currentView = 'blog';
         let selectedIndex = null;
 
         async function init() {
@@ -581,6 +581,7 @@
                 initMap();
                 populateSidebar();
                 setupViewTabs();
+                switchView('blog');
             } catch (error) {
                 console.error('Error loading locations:', error);
             }
@@ -661,7 +662,7 @@
             return `
                 <div class="popup-carousel" data-index="0">
                     <button class="carousel-nav prev">‹</button>
-                    <img data-src="${photos[0].pth}">
+                    <img data-src="${photos[0].pth}" loading="lazy">
                     <button class="carousel-nav next">›</button>
                     <div class="caption">${photos[0].caption || ''}</div>
                 </div>
@@ -890,6 +891,7 @@
                             data-src="${p.pth}"
                             alt="${p.caption || ''}"
                             data-index="${i}"
+                            loading="lazy"
                         >
                     `).join('')}
                 </div>
