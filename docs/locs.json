@@ -4,7 +4,7 @@
     "title": "Goodbye, Missoula!",
     "date_start": "2014-08-01",
     "date_end": "2025-11-01",
-    "summary": "After months of scheming and building, we are officially living life on the road! <br><br> We don't really know when or how we decided to spend 2026 living in a van, but sometime in the past year, we both came to the conclusion that we were ready for a new adventure. What better way to spend the first year of our marriage than in a tiny space, together 24/7? We're about a month in and I think we made the right call. <br><br> In July of last year, Colin bought a one way ticket to Vancouver, WA where he picked up a partially built 2021 Ram Promaster and drove it back to Missoula. When I first stepped inside the van, I thought it was both the biggest car the tiniest home I had ever been in. <br><br> The van came with a platform bed, solar installed and insulation hanging out of the holes. Neither of us had real experience with woodworking, electrical, plumbing, etc, but after many hour of YouTube University, we came up with a design and set forth. We had about two months after our wedding to complete the build enough for us to move ourselves into the van. We spent many hours in the garage until 9pm working with our headlamps. Since we were beginners at everything, we spent a lot of time cutting and recutting, drilling and redrilling. <br><br> We finished the build with just days to spare, sold both of our cars, rented out our house in Missoula and officially moved into the van at the end of October. Our plan is to take the whole year off of work, though both of our jobs are giving us the option to come back next year if we want which we are very grateful for. <br><br> With our days no longer filled with work, we have gotten to bike, climb, run, and read a lot. Follow along here to see where the road takes us! You can click on the map tab to view an interactive map of our travels. Also, sign up to our mailing list by filling out the form at the bottom of the screen! If you encounter any bugs on this site or have any other issues, send Colin an email at <a href='mailto:colin.brust@gmail.com'>colin.brust@gmail.com</a>  <br><br> <b>-Helen & Colin</b>",
+    "summary": "After months of scheming and building, we are officially living life on the road! <br><br> We don't really know when or how we decided to spend 2026 living in a van, but sometime in the past year, we both came to the conclusion that we were ready for a new adventure. What better way to spend the first year of our marriage than in a tiny space, together 24/7? We're about a month in and I think we made the right call. <br><br> In July of last year, Colin bought a one way ticket to Vancouver, WA where he picked up a partially built 2021 Ram Promaster and drove it back to Missoula. When I first stepped inside the van, I thought it was both the biggest car and the tiniest home I had ever been in. <br><br> The van came with a platform bed, solar installed and insulation hanging out of the holes. Neither of us had real experience with woodworking, electrical, plumbing, etc, but after many hours of YouTube University, we came up with a design and set forth. We had about two months after our wedding to complete the build enough for us to move ourselves into the van. We spent many hours in the garage until 9pm working with our headlamps. Since we were beginners at everything, we spent a lot of time cutting and recutting, drilling and redrilling. <br><br> We finished the build with just days to spare, sold both of our cars, rented out our house in Missoula and officially moved into the van at the end of October. Our plan is to take the whole year off of work, though both of our jobs are giving us the option to come back next year if we want which we are very grateful for. <br><br> With our days no longer filled with work, we have gotten to bike, climb, run, and read a lot. Follow along here to see where the road takes us! You can click on the map tab to view an interactive map of our travels. Also, sign up to our mailing list by filling out the form at the bottom of the screen! If you encounter any bugs on this site or have any other issues, send Colin an email at <a href='mailto:colin.brust@gmail.com'>colin.brust@gmail.com</a>  <br><br> <b>-Helen & Colin</b>",
     "photos": [
       {
         "caption": "The back of the van the day after we purchased it!",
@@ -81,8 +81,9 @@
     ]
   },
   {
-    "location": "Goodenough Creek Campground, ID",
-    "title": "",
+    "location": "McCammon, ID",
+    "title": "Pit Stop in Idaho",
+    "campsites": ["Goodenough Creek Campground"],
     "date_start": "2025-11-01",
     "date_end": "2025-11-02",
     "summary": "Maya and I stopped here for the night on the way to Utah. We watched 'The House on Haunted Hill' while we cooked dinner. Helen isn't a big fan of old movies so I made sure to get my fill in while she was gone.  <br><br> <b>-Colin</b>",
@@ -96,6 +97,7 @@
   {
     "location": "Apple Valley, UT",
     "title": "Running and Biking in the Gooseberry Mesa",
+    "campsites": ["Gooseberry Mesa Dispersed Camping"],
     "date_start": "2025-11-02",
     "date_end": "2025-11-05",
     "summary": "Eventually I made it to the Gooseberry Mesa in southern Utah. On the day I arrived I was able to get in a nice quick mountain bike ride before the sun set. I spent 3 days here at a nice camp site with good access to the bike trails. I split my time between working, running, biking, and watching movies once the sun went down. I got my fill of older movies in, watching The Apartment, The Thing, 12 Angry Men, and finishing the Lonesome Dove mini-series. The only downside was that as a novice vanlifer, I chose a camping spot in the shade for most of the day. This meant our battery system didn't recharge and I lost power on the last night of my stay. From Maya's perspective, the downsides were that A) Helen wasn't there (tear emoji) and B) I took her on either a big bike ride or run every day (exercising is hard for a little pup like her).  <br><br> <b>-Colin</b>",
@@ -125,35 +127,37 @@
   {
     "location": "Las Vegas, NV",
     "title": "Friends and Festivities in Vegas",
+    "campsites": ["North Las Vegas AirBnB Driveway", "Red Rocks Campground"],
     "date_start": "2025-11-06",
     "date_end": "2025-11-11",
     "summary": "A group of Helen's friends booked an AirBnB in Las Vegas for their birthday, so we set up our van in their driveway and joined them. I have been to Las Vegas a number of times but I was either a little kid, or camped out at Red Rocks on a climbing trip. Neither Helen nor I had visited the city itself in our adult lives. Despite it not being our usual scene, we both had a blast. We walked along Fremont Street and the Strip, played Top Golf, got all-you-can-eat sushi, and visited Meow Wolf! After our visit with friends, we spend a few nights camped at Red Rocks to climb and hike. The highlight was hiking the Calico Tanks trail, which was a fun hike on slick rock that ended with a view of the park and Las Vegas.",
     "photos": [
       {
         "caption": "Goofing around in the Arts District",
-        "pth": "images/002_vegas_area/cutouts.JPG"
+        "pth": "images/002_vegas_area/cutouts.webp"
       },
       {
         "caption": "Goofing around in the Arts District (the sequel)",
-        "pth": "images/002_vegas_area/moon_guy.JPG"
+        "pth": "images/002_vegas_area/moon_guy.webp"
       },
       {
         "caption": "Exploring meow wolf!",
-        "pth": "images/002_vegas_area/meowwolf.jpeg"
+        "pth": "images/002_vegas_area/meowwolf.webp"
       },
       {
         "caption": "Hiking into the Calico Tanks",
-        "pth": "images/002_vegas_area/tanks.JPG"
+        "pth": "images/002_vegas_area/tanks.webp"
       },
       {
         "caption": "View from the top of Calico Tanks",
-        "pth": "images/002_vegas_area/calico_tanks.JPG"
+        "pth": "images/002_vegas_area/calico_tanks.webp"
       }
     ]
   },
   {
     "location": "Boulder City, NV",
     "title": "Exploring Boulder City",
+    "campsites": ["Boulder Beach Campground", "Kingman Access Wash"],
     "date_start": "2025-11-11",
     "date_end": "2025-11-13",
     "summary": "On our way out of Vegas, we stopped outside Boulder City for a few nights. The first night, we were camped 'on' Lake Mead at the Boulder City Beach campground. You might think that because the campsite was called the Boulder City BEACH Campground that the sites would be right on the water's edge, but you would be wrong. For that to be true, my guess is that you would have to find a time machine and set the year to 2000, which is the last time Lake Mead was at full capacity. Since then, <a href='https://www.usbr.gov/lc/region/g4000/lakemead_line.pdf' target='_blank'> the water levels have fallen almost 200 feet</a>. All that is to say, rather than being camped on the beach, Helen and I had to walk 20 minutes to dip our toes in the water. After our walk to the water, we rode the mountain bike trails at Bootleg Canyon just outside of town. To say the least, these trails were puckering. Never before have I been on a blue graded mountain bike trail and thought I had a greater than 50% chance of breaking my leg. To recover from the trauma, we each treated ourselves to fries, shakes and massive cheeseburgers at Chilly Jilly's. As we were leaving town, we stopped at the Hoover Dam, the scale of which we both found very impressive. After a night camped (more or less) on the side of the highway, we took a visit to Arizona Hot Springs. The setting of the springs is in a slot canyon, and made for a very unique and beautiful setting. The only issue was that we had Maya with us. For the first 50 feet of the springs, the entire width of the slot canyon was filled with water well over 110 degrees (Fahrenheit), meaning I would have to carry Maya to cooler water if we wanted to soak. This wouldn't have been an issue if there wasn't a rickety, dead vertical, 20 foot ladder right where the hot water ended. Despite her many talents, Maya is not able to climb ladders. So, instead of soaking, we hiked out and went to a beach on the Colorado River down the road, where we both took a dip and Maya got to fetch sticks in the water to her heart's content.  <br><br> <b>-Colin</b>",
@@ -189,8 +193,9 @@
     ]
   },
   {
-    "location": "Burro Creek Campground, AZ",
+    "location": "Nothing, AZ",
     "title": "Burro Creek Campground Pit Stop",
+    "campsites": ["Burro Creek Campground"],
     "date_start": "2025-11-13",
     "date_end": "2025-11-14",
     "summary": "A little campground that my dad recommended on the way home to Tucson. We pulled in late and left early so not much to report. They didn't have running water during our visit, so they waived camping fees!",
@@ -206,7 +211,7 @@
     "title": "Visiting Family in Tucson",
     "date_start": "2025-11-14",
     "date_end": "2025-11-24",
-    "summary": "We had initially been planning to visit my family in Tucson for Thanksgiving and decided to move up our arrival date when the forecast in Northern Arizona showed nothing but rain and cold. We had a very nice and relaxing time visiting my family in Tucson. My dad helped Helen and I put the finishing touches on our van build. We added a little step that covered the the heater duct, a fold out table at the end of our counter, a windowsill that covered a number of miscellaneous cables. We also updated our propane system so that it supplied propane to both our stove and our water heater, and used a solenoid to control the flow of gas. This ended up being a more involved process that expected and featured many trips to Ace Hardware and a number of expletives. Luckily, we were able to get it working, and now get to press a fancy button before using our stove!  <br><br> <b>-Colin</b>",
+    "summary": "We had initially been planning to visit my family in Tucson for Thanksgiving and decided to move up our arrival date when the forecast in Northern Arizona showed nothing but rain and cold. We had a very nice and relaxing time visiting my family in Tucson. My dad helped Helen and I put the finishing touches on our van build. We added a little step that covered the heater duct, a fold out table at the end of our counter, and a windowsill that covered a number of miscellaneous cables. We also updated our propane system so that it supplied propane to both our stove and our water heater, and used a solenoid to control the flow of gas. This ended up being a more involved process than expected and featured many trips to Ace Hardware and a number of expletives. Luckily, we were able to get it working, and now get to press a fancy button before using our stove!  <br><br> <b>-Colin</b>",
     "photos": [
       {
         "pth": "images/005_tucson/maya_and_the_gals.webp",
@@ -215,11 +220,12 @@
     ]
   },
   {
-    "location": "Molino Basin Campground, AZ",
+    "location": "Summerhaven, AZ",
     "title": "Two Nights on Lemmon",
+    "campsites": ["Prison Camp Campground", "Molino Basin Campground"],
     "date_start": "2025-11-24",
     "date_end": "2025-11-26",
-    "summary": "Since 2017, I have had a personal climbing goal to climb at least one 5.12 every year. When I started getting into running a few years ago, I was still climbing enough that this goal was difficult, but obtainable. However, this year I have ran more and climbed less than at any point in the last ten years, meaning I hadn't yet done a 5.12 in 2025. My mini-goal of this outing was to check off the climbing goal. After doing a few warm up climbs and then trying a 5.12, it quickly became very apparent that it was not going to happen. While I felt a little sad in the moment, in the days and week since, it has felt refreshing and that I wasn't able to accomplish it. When we have been climbing since that day, it has just been because it is an activity I love, and not because I'm chasing an arbitrary goal. So, while the climbing objective was a fail for our trip to Mt Lemmon, it was still a great trip. We had our first campfire of van life, ate s'mores, enjoyed two beautiful sunsets, and Maya got to enjoy a nice hike along the Arizona Trail  <br><br> <b>-Colin</b>.  <br><br> <b>-Colin</b>",
+    "summary": "Since 2017, I have had a personal climbing goal to climb at least one 5.12 every year. When I started getting into running a few years ago, I was still climbing enough that this goal was difficult, but obtainable. However, this year I have ran more and climbed less than at any point in the last ten years, meaning I hadn't yet done a 5.12 in 2025. My mini-goal of this outing was to check off the climbing goal. After doing a few warm up climbs and then trying a 5.12, it quickly became very apparent that it was not going to happen. While I felt a little sad in the moment, in the days and week since, it has felt refreshing and that I wasn't able to accomplish it. When we have been climbing since that day, it has just been because it is an activity I love, and not because I'm chasing an arbitrary goal. So, while the climbing objective was a fail for our trip to Mt Lemmon, it was still a great trip. We had our first campfire of van life, ate s'mores, enjoyed two beautiful sunsets, and Maya got to enjoy a nice hike along the Arizona Trail. <br><br> <b>-Colin</b>",
     "photos": [
       {
         "pth": "images/006_lemmon/lemmon_camp.webp",
@@ -229,7 +235,7 @@
   },
   {
     "location": "Tucson, AZ",
-    "title": "Visiting Family in Tucson (part 2)",
+    "title": "Thanksgiving with Friends and Family",
     "date_start": "2025-11-26",
     "date_end": "2025-12-06",
     "summary": "After returning from our mini camping trip, my college roommate Aidan and his wife Rosie came to Tucson to stay with my family for Thanksgiving. It was great to see them both and we had a great time running, biking and chatting. Highlights of their visit included <ul><li>Riding 'The Lemmon Drop' mountain bike trail, which made the trails in Boulder City look like child's play</li><li>Seeing the new Wicked movie with Helen, Aidan, Rosie and my mom, who insisted on getting the largest popcorn available (and of course getting a refill)</li><li>Having a lovely Thanksgiving dinner with all of our favorite dishes, followed by watching the new movie 'Eddington' (which received a thumbs sideways to thumbs down from all viewers that night).</li></ul>  <br><br> <b>-Colin</b>",
@@ -241,11 +247,12 @@
     ]
   },
   {
-    "location": "Peralta Regional Park, AZ",
+    "location": "Apache Junction, AZ",
     "title": "A Night in the Superstitions",
+    "campsites": ["Peralta Regional Park Campground"],
     "date_start": "2025-12-06",
     "date_end": "2025-12-07",
-    "summary": "We stopped at the Peralta Regional Park on our way up to Durango to visit Helen's family. We went on a nice hike around the campground and watched 'The Devil Wears Prada' that night. In the morning, we drank coffee and read our books in the sun, then went on a run before hitting the road.",
+    "summary": "We stopped at the Peralta Regional Park on our way up to Phoenix to visit Helen's grandparents. We went on a nice hike around the campground and watched 'The Devil Wears Prada' that night. In the morning, we drank coffee and read our books in the sun, then went on a run before hitting the road.",
     "photos": [
       {
         "pth": "images/008_peralta/gaming_at_camp.webp",
@@ -277,9 +284,10 @@
   {
     "location": "Sedona, AZ",
     "title": "Hiking and Biking in Sedona",
+    "campsites": ["Nolan Dispersed Campground"],
     "date_start": "2025-12-09",
     "date_end": "2025-12-11",
-    "summary": "Our biggest stop on the way to Durango was in Sedona. We spent two nights at the dispersed camping area to the west of town. On our first night there, I went on a nice run up Bear Mountain while Helen wrapped up some work. Bear mountain was a great steep trail that reminded me of doing laps up Mount Sentinel in Missoula. On our second day, Helen and I hiked up Boynton Canyon to the Subway Cave, a cool rock formation that is reminiscent of a subway station. The cave was right next to some Native American ruins, which were exciting to see since I had just started the book 'House of Rain'. by Craig Childs, which explores the history of the native people in the Southwest. On our last day, we went on a nice mountain bike ride on the way out of town.  <br><br> <b>-Colin</b>",
+    "summary": "Our biggest stop on the way to Durango was in Sedona. We spent two nights at the dispersed camping area to the west of town. On our first night there, I went on a nice run up Bear Mountain while Helen wrapped up some work. Bear mountain was a great steep trail that reminded me of doing laps up Mount Sentinel in Missoula. On our second day, Helen and I hiked up Boynton Canyon to the Subway Cave, a cool rock formation that is reminiscent of a subway station. The cave was right next to some Native American ruins, which were exciting to see since I had just started the book 'House of Rain' by Craig Childs, which explores the history of the native people in the Southwest. On our last day, we went on a nice mountain bike ride on the way out of town.  <br><br> <b>-Colin</b>",
     "photos": [
       {
         "pth": "images/010_sedona/bear_mtn.webp",
@@ -295,16 +303,17 @@
       },
       {
         "pth": "images/010_sedona/the_subway_hike.webp",
-        "caption": "Helen and Colin on their hike to Subway Cave."
+        "caption": "On our hike to Subway Cave."
       }
     ]
   },
   {
     "location": "Flagstaff, AZ",
     "title": "Climbing and Pizza in Flagstaff",
+    "campsites": ["Pumphouse Wash Dispersed Camping"],
     "date_start": "2025-12-11",
     "date_end": "2025-12-12",
-    "summary": "As we drove up the road heading out of Sedona, I soon realized that our elevation gain heading to Flagstaff meant we had a chillier night ahead of us. Those who know me well will not be surprised that I have been a little obsessed with finding the warmest places possible for us to spend our time. <br><br> We pulled off the highway onto a forest service road right as the sun was setting. The road was a little rough and bumpy but luckily short and it soon opened up on a wide forested area, which we were surprised to see we had all to ourselves. We set up our camp chair to watch the sun dip behind the trees, then quickly retreated into the van to make dinner and watch a movie. We have come up with a new system this year where we rotate the movie decision from me, to Colin, to a joint choice, to try to eliminate the hours we spend trying to choose a movie. Tonight was Colin's choice, Stand By Me, which I have to admit I quite enjoyed, even though it was old. The next morning, we set out early in search of some sport climbing at The Pit, which Colin assured me would be sunny and warm. Our toilet got its inaugural moment that morning when we pulled up to the trailhead and realized there was no bathroom. Lucky for us, our home is now our bathroom and our bathroom is our home. The climbing was fun and indeed hot, and I was happy to be baked by the morning sun. We wrapped up climbing a little early so that we could make it to Durango that night and try to avoid nighttime driving (because my mom told me to). Before we headed out of Flagstaff, we made one important stop at Pizzicleta, a deliciously simple Italian pizza shop downtown that is definitely worth a visit if you are in the area. I'd go back just for the homemade chocolate gelato. <br><b>Helen</b>",
+    "summary": "As we drove up the road heading out of Sedona, I soon realized that our elevation gain heading to Flagstaff meant we had a chillier night ahead of us. Those who know me well will not be surprised that I have been a little obsessed with finding the warmest places possible for us to spend our time. <br><br> We pulled off the highway onto a forest service road right as the sun was setting. The road was a little rough and bumpy but luckily short and it soon opened up on a wide forested area, which we were surprised to see we had all to ourselves. We set up our camp chair to watch the sun dip behind the trees, then quickly retreated into the van to make dinner and watch a movie. We have come up with a new system this year where we rotate the movie decision from me, to Colin, to a joint choice, to try to eliminate the hours we spend trying to choose a movie. Tonight was Colin's choice, Stand By Me, which I have to admit I quite enjoyed, even though it was old. The next morning, we set out early in search of some sport climbing at The Pit, which Colin assured me would be sunny and warm. Our toilet got its inaugural moment that morning when we pulled up to the trailhead and realized there was no bathroom. Lucky for us, our home is now our bathroom and our bathroom is our home. The climbing was fun and indeed hot, and I was happy to be baked by the morning sun. We wrapped up climbing a little early so that we could make it to Durango that night and try to avoid nighttime driving (because my mom told me to). Before we headed out of Flagstaff, we made one important stop at Pizzicleta, a deliciously simple Italian pizza shop downtown that is definitely worth a visit if you are in the area. I'd go back just for the homemade chocolate gelato. <br><br><b>-Helen</b>",
     "photos": [
       {
         "pth": "images/011_flagstaff/pizza.webp",
@@ -322,7 +331,7 @@
   },
   {
     "location": "Durango, CO",
-    "title": "Visiting Family in Durango",
+    "title": "Christmas with Family in Durango",
     "date_start": "2025-12-12",
     "date_end": "2025-12-28",
     "summary": "We arrived to my home in Durango later that night to a big hug from my mom, a hot shower, and Chinese takeout. Three of my very favorite things. We spent the next couple of weeks wrapping up our respective jobs and spending time with my family. We sadly did not get any snow so our skis made the long and crammed journey to Colorado for nothing. Instead, we went on lots of walks, played disc golf, watched football and the holiday baking show, cooked and ate lots of good food, and visited with friends. Other highlights include meeting my parents new puppy Sunny, attempting to bake Paul Hollywood's Noel de Buche, my dad helping us build out the storage in the back of the van, playing Bonanza (Beans!!) and a lovely Christmas day with the whole family at home.  <br><br><b>-Helen</b>",
@@ -354,8 +363,9 @@
     ]
   },
   {
-    "location": "Whitehouse Trailhead, UT",
+    "location": "Kanab, UT",
     "title": "Whitehouse Campground and Wire Pass",
+    "locations": ["Whitehouse Campground"],
     "date_start": "2025-12-28",
     "date_end": "2025-12-29",
     "summary": "Driving away from Heartwood, it felt like we were officially embarking on our van life adventure. No more things to build, no more work to fill our days and nothing on the agenda other than heading towards Vegas to meet up with Missoula friends to ring in the new year. For our first night on the road, we found a small desert site, White House Campground, set against the sandstone in Paria Canyon. When we arrived, we took a short walk down to a trickling river to let Maya stretch her legs. The night was chilly and clear with a small, bright moon and our little heater kept us warm and cozy. In the morning we made coffee to take with us on our morning walk, which is becoming our ritual. We strolled down a sandy wash until we came upon the Nautilus, a small slot in the rock that you could walk through. We stayed high on the rock and managed to find a route home, only getting cliffed out once or twice. When we stopped for the night, we didn't realize we were in an area with such cool slot canyons! Having never really been in slot canyons, I was surprised at how they can appear almost out of nowhere, walls suddenly appearing around a small bend. That morning, we decided to take a small detour to hike on the Wire Pass Trail, a hike that meandered through a desert wash, dropped us into slot canyons, and ended at the confluence with Buckskin Gulch where there was a cave covered in hand-print petroglyphs. There were a couple of 10-foot drops in the slots, and Colin had to one-handedly carry Maya up and down wooden ladders (both Maya and Colin survived). <br><br> <b>-Helen</b>",
@@ -417,6 +427,7 @@
   {
     "location": "Las Vegas, NV",
     "title": "New Years in Red Rocks",
+    "campsites": ["Red Rocks Campground"],
     "date_start": "2025-12-29",
     "date_end": "2026-01-03",
     "summary": "Our first official stop as unemployed, full-time vanlifers! Some friends from Missoula were camping out at Red Rocks to climb for the New Year, so we joined them for a few days of climbing and visiting. Unfortunately, the cold and rainy weather didn't make for good climbing. The rock in Red Rocks is sandstone, which is easily damaged if climbed on when wet. We didn't end up doing much climbing, but went on a mountain bike ride, some nice hikes and runs, and got some great Thai food with friends on New Year's Day in Chinatown.  <br><br> <b>-Colin</b>",
@@ -445,7 +456,8 @@
   },
   {
     "location": "Mojave National Preserve",
-    "title": "A night at Granite Pass",
+    "title": "A Night at Granite Pass",
+    "campsites": ["Granite Pass Dispersed Camping"],
     "date_start": "2026-01-03",
     "date_end": "2026-01-04",
     "summary": "On our way to Joshua Tree, we stopped for the night at an area called Granite Pass in the Mojave National Preserve. The weather was very cold, windy and cloudy, but we still did some scrambling and exploring in the boulder fields around camp.",
@@ -465,15 +477,16 @@
     ]
   },
   {
-    "location": "Hidden Valley Campground, California",
+    "location": "Joshua Tree, California",
     "title": "Scrambling in Joshua Tree",
+    "campsites": ["Hidden Valley Campground", "Dispersed Camping North of Joshua Tree"],
     "date_start": "2026-01-04",
     "date_end": "2026-01-07",
-    "summary": "For our first destination of the new year, we decided to visit Joshua Tree. The forecast was sunny and (relatively) warm and we were both excited to do some climbing and scrambling. We arrived at the first come, first served Hidden Valley Campground and were able to grab the last available spot. Unfortunately, unless you arrive at the campground before noon, there is no way to pay for and secure your spot unless you drive to a park entrance. So, we left a folding chair and a note at the site to hold our spot and made the 20 minute drive back to the entrance. After squaring away our registration, we headed over to Cyclops Rock to get in a little bit of climbing before sunset. We climbed two pitches and got a feel for the style of climbing in Joshua Tree. To me, it felt very reminiscent of climbing on the coarse granite of my home crag at Lolo Pass, which made me feel at home there. The next morning, we sought out climbs around that were within 100 feet of camp, as those are the only off-road areas that dogs are permitted in the park. We were able to find a handful of routes around camp that fit the bill, the highlight being a cool 10a with some unique movement called Pinched Rib. We spent the afternoon going on a little run down the road, playing chess at camp and planning for the next stops on our adventure. Our final day in the park, we headed to an area called Indian Cove, where many routes are accessible to crag dogs. We climbed a few easy crack pitches, then top roped a classic 5.11 called Monaco, which featured many consecutive moves on featureless slab. That evening, we camped at the dispersed camping outside of the park. The campground was a flat, many square mile area featuring thorny bushes, copious amounts of mud and extremely rutted roads. So, we decided to make some popcorn and watch some movies (Death of a Unicorn and Harry Potter and the Deathly Hallows Part 2) rather than venturing out into the mud. <br><br> <b>-Colin</b>",
+    "summary": "For our first destination of the new year, we decided to visit Joshua Tree. The forecast was sunny and (relatively) warm and we were both excited to do some climbing and scrambling. We arrived at the first come, first served Hidden Valley Campground and were able to grab the last available spot. Unfortunately, unless you arrive at the campground before noon, there is no way to pay for and secure your spot unless you drive to a park entrance. So, we left a folding chair and a note at the site to hold our spot and made the 20 minute drive back to the entrance. After squaring away our registration, we headed over to Cyclops Rock to get in a little bit of climbing before sunset. We climbed two pitches and got a feel for the style of climbing in Joshua Tree. To me, it felt very reminiscent of climbing on the coarse granite of my home crag at Lolo Pass, which made me feel at home there. The next morning, we sought out climbs that were within 100 feet of camp, as those are the only off-road areas that dogs are permitted in the park. We were able to find a handful of routes around camp that fit the bill, the highlight being a cool 10a with some unique movement called Pinched Rib. We spent the afternoon going on a little run down the road, playing chess at camp and planning for the next stops on our adventure. Our final day in the park, we headed to an area called Indian Cove, where many routes are accessible to crag dogs. We climbed a few easy crack pitches, then top roped a classic 5.11 called Monaco, which featured many consecutive moves on featureless slab. That evening, we camped at the dispersed camping outside of the park. The campground was a flat, many square mile area featuring thorny bushes, copious amounts of mud and extremely rutted roads. So, we decided to make some popcorn and watch some movies (Death of a Unicorn and Harry Potter and the Deathly Hallows Part 2) rather than venturing out into the mud. <br><br> <b>-Colin</b>",
     "photos": [
       {
         "pth": "images/016_jtree/climbing.webp",
-        "caption": "Colin and Helen on top of 'The Blob' formation after climbing a 5.7+ called Buissonier. A fun little outing!"
+        "caption": "On top of 'The Blob' formation after climbing a 5.7+ called Buissonier. A fun little outing!"
       },
       {
         "pth": "images/016_jtree/gaming.webp",
@@ -516,9 +529,10 @@
   {
     "location": "Borrego Springs, CA",
     "title": "Wind and Sculptures",
+    "campsites": ["Culp Valley Campground"],
     "date_start": "2026-01-07",
     "date_end": "2026-01-09",
-    "summary": "Our next planned stop after Joshua Tree was the Anza-Borrego Desert State Park. On the day we arrived, we drove up the Palms to Pines Scenic Byway, which takes a winding road up from Palm Springs, CA into the mountains. Upon arriving at camp, we learned that dogs are allowed on virtually none of the trails in the area. Despite the setback, we were able to fill the rest of the day with some running on the dirt roads around camp with Maya. The next day was quite windy, so we decided to spend a lot of time hunkered down in the van. Eventually, we made the drive down into the town of Borrego Springs to see the display of metal sculptures that the town is known for. Scattered across empty desert lots outside of town are hundreds of life sized metal sculptures of people, animals, and even giant sea dragons! After our tour, Helen stayed in town to coordinate logistics of her upcoming trip to Guatemala while Colin went for a run up a trail that lead back to camp. <br><br> <b>-Colin</b>",
+    "summary": "Our next planned stop after Joshua Tree was the Anza-Borrego Desert State Park. On the day we arrived, we drove up the Palms to Pines Scenic Byway, which takes a winding road up from Palm Springs, CA into the mountains. Upon arriving at camp, we learned that dogs are allowed on virtually none of the trails in the area. Despite the setback, we were able to fill the rest of the day with some running on the dirt roads around camp with Maya. The next day was quite windy, so we decided to spend a lot of time hunkered down in the van. Eventually, we made the drive down into the town of Borrego Springs to see the display of metal sculptures that the town is known for at Galleta Meadows. Scattered across empty desert lots outside of town are hundreds of life sized metal sculptures of people, animals, and even giant sea dragons! After our tour, Helen stayed in town to coordinate logistics of her upcoming trip to Guatemala while Colin went for a run up a trail that lead back to camp. <br><br> <b>-Colin</b>",
     "photos": [
       {
         "pth": "images/017_borrego/more_sculptures.webp",
@@ -541,6 +555,7 @@
   {
     "location": "Julian, CA",
     "title": "Wind and Pie (and Pizza Pie)",
+    "campsites": ["Heroes Woodfire Pizza - Harvest Host"],
     "date_start": "2026-01-09",
     "date_end": "2026-01-10",
     "summary": "As we drove away from the Borrego Springs area, the scenery quickly changed from sprawling desert to twisty mountain roads covered in greenery. We headed for one of the few dog-friendly hikes in the area, Volcan Mountain. The wind from the last few days followed us so we bundled up in full winter coats and hats. The hike steadily gained elevation with views of the San Diego valley, and we eventually spotted the ocean! The summit was an open, grassy field that left us no reprieve from the wind. We had a short picnic before running down the hill to escape the blusters. I decided that we probably needed to treat ourselves to pie and coffee in the nearby town of Julian, which seems to be famous for its apple pies. We got a dutch apple pie with vanilla ice cream that hit the spot. The town was very cute, full of historic hotels, small candy shops, gift boutiques, and little stores catering to hikers on the Pacific Crest Trail. After walking the full stretch of main street, we headed over to our home for the night, Heroes Woodfire Pizza. This was our first night trying out Harvest Host, which is a platform you can join that lets you stay for free at small businesses such as wineries, breweries, farms, etc., with the expectation that you'll buy something in return. Tonight, we were treating ourselves to pizza and live music. <br><br> <b>-Helen</b>",
@@ -558,14 +573,21 @@
   {
     "location": "Dulzura, CA",
     "title": "Wine Tasting at Dulzura Vineyard & Winery",
+    "campsites": ["Dulzura Vineyard & Winery - Harvest Host"],
     "date_start": "2026-01-10",
     "date_end": "2026-01-11",
     "summary": "We made our way southwest on more twisting, mountain roads. We stopped for a short run/hike, which ended up being a full-on bushwack before continuing on to our next Harvest Host destination, Dulzura Vineyad & Winery. There was a nice lot for us to park on surrounded by guava and key lime trees and set near a small creek. We enjoyed a wine tasting with one of the owners of the winery, where we sampled wine and listened to the history of his life and the property. <br><br> <b>-Helen</b>",
-    "photos": null
+    "photos": [
+      {
+        "pth": "images/019_dulzura/van_at_dulzura.webp",
+        "caption": "Our van setup at Dulzura Vineyard & Winery."
+      }
+    ]
   },
   {
     "location": "Encinitas, CA",
     "title": "Beach Time!",
+    "campsites": ["San Elijo State Beach Campground"],
     "date_start": "2026-01-11",
     "date_end": "2026-01-13",
     "summary": "Stepping out of the car in the little town of Encinitas, it felt like we were really in California. It was warm enough to walk around in a tank top and you could feel the thick, salty air. We had a couple of hours to kill before our camping check-in we we explored San Elijo Lagoon and Ecological Reserve. We have been very into looking at and identifying birds since we watched the movie Listers, and there were lots of cool birds we had never seen before, including my favorite of the outing, the Bufflehead. <br><br> Campgrounds in California are much more regulated than we are used to. We tried to check in at 1pm only to be told we had to return at 2pm, which we did, only to get in a line of cars all waiting to check in. The sites were all close together but we had a view of the ocean, hot showers and a beach just a minutes walk away so I was pretty happy. After a hot shower, I spent the evening reading on the beach until sunset while Colin went on a run. We spent the next day exploring the town, Cardiff by the Sea and enjoying time on the beach. On our way out of town the following day, we stopped at the Self Realization Fellowship Meditaion Gardens, which contatined beatuiful plants, ocean views and lots of little benches for sitting and pondering. <br><br> <b>-Helen</b>",
@@ -599,6 +621,7 @@
   {
     "location": "Rainbow, CA",
     "title": "A Stop at Taza Creek Orchard",
+    "campsites": ["Taza Creek Orchard - Harvest Host"],
     "date_start": "2026-01-13",
     "date_end": "2026-01-14",
     "summary": "Our first impression of our Harvest Host home for the night was that the driveways were quite steep! We tentatively drove up to a barn, not sure what we would find, and were greeted by a friendly woman, Yolanda, and three barking dogs. We hopped in her 4x4 and she showed us where we could sleep for the night but it was up a very steep, dirt road that both Colin and I were too scared to drive so she directred us to a lower pullout right alongside endless rows of passionfruit vines. We had a quiet evening listenting to the coyotes and frogs from the nearby pond. As we were headed out in the morning, Yolanda loaded us up with a bag full of passionfruit, lemons, macadamia nuts and a bottle of fresh squeezed lemon juice. We also got to pick our own avocaods from their trees, and they were some of the biggest avocaods I have ever seen. We chatted a bit with her and her husband, exchaning stories of Montana, before we hit the road again.  <br><br> <b>-Helen</b>",
@@ -616,6 +639,7 @@
   {
     "location": "Idyllwild, CA",
     "title": "Burgers and Bat Bites",
+    "campsites": ["Apple Canyon Dispersed Camping", "Forest Service Road Near Bike Trails", "Parking Lot Across from Movie Theater"],
     "date_start": "2026-01-14",
     "date_end": "2026-01-17",
     "summary": "After spending a few days along the coast, we decided to head up into the mountains near Idyllwild. On our first night, we found a free dispersed camping spot in Apple Canyon, a few miles to the south of Idyllwild. From camp, I decided head out for a run and Helen joined on her bike. According to the internet, the route we chose was a popular biking trail. The fact that within two miles of leaving the trailhead we were bushwhacking and fighting to follow a faint cattle trail had me thinking otherwise. Regardless of the poor trail conditions, we ended up having a nice outing, and finished the day eating tofu bowls and watching Slow Horses in bed. The next day, we headed into Idyllwild and did some mountain biking. We found a nice trail system called The Hub that had much flowier trails compared to the straight up and straight down trails that we are used to riding in Missoula. For dinner, we decided to use some of our finite dining out budget to eat at the Idyllwild Brewpub, which was a great choice. We both had teryaki burgers that reminded me of a childhood vacation to Hawaii where we ate burgers drenched in teryaki sauce at least three nights of the trip. The next morning, I went for a long run up the highest peak in the region, Mt San Jacinto, while Helen took Maya on a hike. It was a great outing and I was able to make it up the peak, despite the snow and ice on the last few miles of trail. Once we were back into town, we decided to visit the local movie theater to watch The Housemaid. Helen and I had listened to the audiobook of The Housemaid a few months prior and were excited to see the film. We both enjoyed the movie, the quirky local theater, and the large bucket of popcorn (plus refill). <br><br> On our final day in the area, we planned to go climbing at the ominously named Suicide Rock. As we were getting ready to hike to the climbing area, I suddenly felt like I didn't want to go climbing, and almost told Helen we should just bail and go on a hike. However, I pushed the thought out of my head, since I have wanted to climb at Suicide for many years, it being a historically significant climbing area. We made the hike in and decided to warm up on a 5.8 called Hernia. The pitch quickly became a comedy of errors, between a stuck cam and a broken trigger on a second cam. As I approached the crux, I reached into an undercling and fidgeted around in it for a few seconds, when I suddenly realized I was touching something mushy and damp. I pulled my hand out and peeked into the undercling, expecting to find a mossy seep, but instead came eye to eye with a bat. The undercling was both a crucial hold and gear placement, so I decided to downclimb, not wanting to disturb the bat any further. We both had vague ideas that bats could have rabies and that rabies equals almost certain death, but we didn't think too much of the incident at the time. It wasn't until an afternoon of more failed climbing and shelling out $30 for a campsite that could best be described as 'mid' that we looked up what you should do if you're in close contact with a bat. Step 1: Thoroughly wash your hands for 15 minutes (oops). Step 2: Immediately go to the ER (oops). After some phone calls with my mom and her doctor colleagues, we decided it would be a best to drive into San Bernadino and visit the ER. Wounds from bat bites can be extremely small and hard to see. I had a number of small nicks and scrapes on my hands from climbing, so there was no real way to tell if I had indeed been bitten or scratched by the bat. So, we ditched camp and made the hour and a half drive into the city. Upon reaching the ER, I was promptly seen by a physician's assistant, who listened to my story, glanced at my hand, and said 'I think you're fine, plus the rabies shots hurt'. I said that I would rather be safe than sorry, seeing as the consequence of not getting the shots and contracting rabies is almost certainly death. However, this argument held no sway. Me being a person who doesn't like conflict, I reluctantly left the ER without the shots. Feeling dejected, Helen and I got Taco Bell for dinner and spent more of our dwindling monthly budget on a way too expensive hotel room. Luckily, watching the Food Network in hotel rooms is one of my favorite pastimes, so I was able to rest easily that night. <br><br><b>-Colin</b>",
@@ -626,7 +650,7 @@
       },
       {
         "pth": "images/022_idyllwild/cold_plunge.webp",
-        "caption": "A natural pool that we hiked to, suggested by a local we met in camp. Colin took a moring cold plunge in the pool."
+        "caption": "A natural pool that we hiked to, suggested by a local we met in camp. Colin took a morning cold plunge in the pool."
       },
       {
         "pth": "images/022_idyllwild/big_cone.webp",
@@ -657,21 +681,23 @@
   {
     "location": "San Bernadino, CA",
     "title": "Rabies Rejection Redemption",
+    "campsites": ["Homewood Suites Hotel"],
     "date_start": "2026-01-17",
     "date_end": "2026-01-18",
-    "summary": "After a morning of googling, asking AI, and more consulting with more doctor and nurse friends over a continental breakfast, we decided that I should go back to the ER and tell them that I was getting the rabies shot whether they thought I should or not. As a very conflict-averse person, it was hard for me to put my foot down and advocate for myself, but at the end of the day I received the vaccinations. After receiving three immunoglobulin injections and another shot for the rabies vaccine, I learned that I would need subsequent vaccinations in 3, 7 and 14 days (oh boy)! Another complicating factor is that being a minor procrastinator, I hadn't yet set up new insurance after losing coverage from my job. This meant I needed to use COBRA, which give you retroactive continuation of your previous insurance if you foot the (expensive) cost for the premium. While definitely not ideal, it beats paying the $19,000 bill that I received from the ER without insurance. <br><br> After the stressful previous 24 hours, we were happy to get on the road again head to a climbing area for a few days. <br><br> <b>-Colin</b>",
+    "summary": "After a morning of googling, asking AI, and more consulting with more doctor and nurse friends over a continental breakfast, we decided that I should go back to the ER and tell them that I was getting the rabies shot whether they thought I should or not. As a very conflict-averse person, it was hard for me to put my foot down and advocate for myself, but at the end of the day I received the vaccinations. After receiving three immunoglobulin injections and another shot for the rabies vaccine, I learned that I would need subsequent vaccinations in 3, 7 and 14 days (oh boy)! Another complicating factor is that being a minor procrastinator, I hadn't yet set up new insurance after losing coverage from my job. This meant I needed to use COBRA, which gives you retroactive continuation of your previous insurance if you foot the (expensive) cost for the premium. While definitely not ideal, it beats paying the $19,000 bill that I received from the ER without insurance. <br><br> After the stressful previous 24 hours, we were happy to get on the road again head to a climbing area for a few days. <br><br> <b>-Colin</b>",
     "photos": null
   },
   {
-    "location": "Sawtooth Canyon Campground, CA",
+    "location": "Barstow, CA",
     "title": "Climbing in New Jack City",
+    "campsites": ["Sawtooth Canyon Campground"],
     "date_start": "2026-01-18",
     "date_end": "2026-01-21",
     "summary": "Sawtooth Canyon Campground is a free BLM climbers campground in the middle of nowhere dessert amidst volcanic rock formations. After the stress and of getting Colin's shots, eating bad taco bell, and the general chaos of the city, it was nice to be back in the van surrounded by sky and rocks. We spent a couple of days reading in the morning sun and climbing sport routes in the afternoon.  <br><br> <b>-Helen</b>",
     "photos": [
       {
         "pth": "images/024_new_jack/nap_time.webp",
-        "caption": "Maya laying down for a nap while Helen and Colin climb."
+        "caption": "Maya laying down for a nap while we climb."
       },
       {
         "pth": "images/024_new_jack/rapping.webp",
@@ -684,8 +710,9 @@
     ]
   },
   {
-    "location": "Rancho Jurupa Regional Park, CA",
+    "location": "Riverside, CA",
     "title": "Laundry and Birding",
+    "campsites": ["Rancho Jurupa Regional Park Campground"],
     "date_start": "2026-01-21",
     "date_end": "2026-01-22",
     "summary": "On Sunday, we had to head back into civilization to get Colin his second of four rounds of the rabies shot. We made our way back into San Berndadino, where I spent the afternoon in the van, and Colin spent it in the Loma Linda urgent care. We figured paying for a campground was cheaper than getting a hotel, so we booked a night at Rancho Jarupa Regional Park, which promised a disc golf course, showers, and a laundry room. Of those three amenities, the laundry room turned out to be the nicest. The highlight of this city park was the small lake, which was definitely more like a pond, where all sorts of birds gathered. I spent the foggy morning next to the lake drinking my coffee, reading my book and trying to identify all of the birds paddling and wading in the water. There were hooded merganzers, American coots, ruddy ducks, great blue herons and great big pelicans. It's been very fun being able to recognize some of the different species where they all just looked like ducks before. <br><br> <b>-Helen</b>",
@@ -701,11 +728,12 @@
     ]
   },
   {
-    "location": "Leo Carrillo State Park, CA",
+    "location": "Malibu, CA",
     "title": "Beach Time (The Sequel): More Beach Time",
+    "campsites": ["Leo Carrillo State Park Campground"],
     "date_start": "2026-01-22",
     "date_end": "2026-01-26",
-    "summary": "We had planned to circle back to Joshua Tree to meet our friend Abby, who is also living out of her van. However, she had some mechanical mishaps that delayed her arrival to California. Not sure where to go next, and needing to be close to civilization so Coling could get his rabies shots, we decided to head back to the beach. It turns out it is pretty hard to find dog-friendly beach campgrounds along the California coast, so we chose one of the few others that did, Leo Carillo State Park Campground. The campground itself was set away from the ocean, in a small canyon with lots of trees. Upon arriving, we were greeted by the screeching of birds, which turned out to be a feral population of Nanday Parakeets. We spent four days there relaxing on the beach and spending time with Abby! <br><br> <b>-Helen</b>",
+    "summary": "We had planned to circle back to Joshua Tree to meet our friend Abby, who is also living out of her van. However, she had some mechanical mishaps that delayed her arrival to California. Not sure where to go next, and needing to be close to civilization so Colin could get his rabies shots, we decided to head back to the beach. It turns out it is pretty hard to find dog-friendly beach campgrounds along the California coast, so we chose one of the few others that did, Leo Carillo State Park Campground. The campground itself was set away from the ocean, in a small canyon with lots of trees. Upon arriving, we were greeted by the screeching of birds, which turned out to be a feral population of Nanday Parakeets. We spent four days there relaxing on the beach and spending time with Abby, who eventually made it! <br><br> <b>-Helen</b>",
     "photos": [
       {
         "pth": "images/026_leo_carrillo/beach_sunset.webp",
@@ -762,8 +790,9 @@
     ]
   },
   {
-    "location": "Jumbo Rocks Campground, CA",
+    "location": "Joshua Tree, CA",
     "title": "Scrambling in Joshua Tree (The Sequel): Even More Scrambling",
+    "campsites": ["Jumbo Rocks Campground"],
     "date_start": "2026-01-22",
     "date_end": "2026-01-30",
     "summary": "More to come...",
@@ -777,6 +806,7 @@
   {
     "location": "Prescott, AZ",
     "title": "Settling in at White Spar Campground",
+    "campsites": ["White Spar Campground"],
     "date_start": "2026-01-30",
     "date_end": "2026-02-04",
     "summary": "More to come...",

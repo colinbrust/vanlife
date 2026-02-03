@@ -190,5 +190,71 @@
     "date_start": "2026-01-30",
     "lat": 34.5399840,
     "lng": -112.4688120
+  },
+  {
+    "location": "Whitehouse Trailhead, UT",
+    "date_start": "2025-12-28",
+    "lat": 37.0802601,
+    "lng": -111.8916187
+  },
+  {
+    "location": "McCammon, ID",
+    "date_start": "2025-11-01",
+    "lat": 42.6504719,
+    "lng": -112.1930220
+  },
+  {
+    "location": "Nothing, AZ",
+    "date_start": "2025-11-13",
+    "lat": 34.4799580,
+    "lng": -113.3360128
+  },
+  {
+    "location": "Summerhaven, AZ",
+    "date_start": "2025-11-24",
+    "lat": 32.4447583,
+    "lng": -110.7605798
+  },
+  {
+    "location": "Apache Junction, AZ",
+    "date_start": "2025-12-06",
+    "lat": 33.4150485,
+    "lng": -111.5495770
+  },
+  {
+    "location": "Kanab, UT",
+    "date_start": "2025-12-28",
+    "lat": 37.0481715,
+    "lng": -112.5285237
+  },
+  {
+    "location": "Joshua Tree, California",
+    "date_start": "2026-01-04",
+    "lat": 34.1350358,
+    "lng": -116.3152770
+  },
+  {
+    "location": "Barstow, CA",
+    "date_start": "2026-01-18",
+    "lat": 34.8986215,
+    "lng": -117.0244313
+  },
+  {
+    "location": "Riverside, CA",
+    "date_start": "2026-01-21",
+    "lat": 33.9824949,
+    "lng": -117.3742380
+  },
+  {
+    "location": "Malibu, CA",
+    "date_start": "2026-01-22",
+    "lat": 34.0355910,
+    "lng": -118.6894230
+  },
+  {
+    "location": "Joshua Tree, CA",
+    "date_start": "2026-01-22",
+    "lat": 34.1350358,
+    "lng": -116.3152770
   }
 ]

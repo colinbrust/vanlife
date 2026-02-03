@@ -97,6 +97,12 @@
             font-size: 12px;
         }
 
+        .location-sites {
+            font-weight: 400;
+            color: #222222;
+            font-size: 12px;
+        }
+
         .location-date {
             font-size: 12px;
             color: #666;
@@ -144,6 +150,12 @@
         }
 
         .blog-location {
+            font-size: 16px;
+            color: #888;
+            margin-bottom: 6px;
+        }
+        
+        .blog-sites {
             font-size: 16px;
             color: #888;
             margin-bottom: 6px;
@@ -486,6 +498,10 @@
 
         .popup-summary img,
         .blog-content img,
+        .leaflet-popup {
+            position: absolute;
+            text-align: center;
+        }
         .leaflet-popup-content img {
             max-width: 100%;
             height: auto;
@@ -723,11 +739,11 @@
 
                 const popupContent = `
                     <strong>Stop ${index + 1}: ${loc.location}</strong><br>
+                    ${loc.campsites ? `<div style="font-size: 14px; color: #555; margin-bottom: 6px;"><strong>Campsites:</strong> ${loc.campsites.join(', ')}</div>` : ''}
                     <small>${formatDate(loc.date_start)} - ${formatDate(loc.date_end)}</small><br><br>
                     ${stripPhotoTokens(loc.summary)}
                     ${renderPopupCarousel(loc.photos)}
                 `;
-
                 marker.bindPopup(popupContent);
 
                 marker.on('popupopen', e => {
@@ -742,6 +758,11 @@
                     if (carousel) {
                         attachPopupCarouselHandlers(carousel, loc.photos);
                     }
+
+                    const popup = e.popup;
+                    var px = map.project(popup.getLatLng());
+                    px.y -= popup._container.clientHeight / 2;
+                    map.panTo(map.unproject(px), { animate: true });
                 });
 
 
@@ -833,9 +854,9 @@
 
             if (currentView === 'map') {
                 map.flyTo([loc.lat, loc.lng], 10, {
-                    duration: 1.5
+                    duration: 0.75
                 });
-                setTimeout(() => markers[index].openPopup(), 1500);
+                setTimeout(() => markers[index].openPopup(), 500);
             } else if (currentView === 'blog') {
                 const blogEntries = document.querySelectorAll('.blog-entry');
                 const visibleLocations = locations.filter(l => l.summary);
@@ -1059,6 +1080,7 @@
                 <div class="blog-entry">
                     <div class="blog-title">${loc.title && loc.title.trim() ? loc.title : loc.location}</div>
                     ${loc.title ? `<div class="blog-location">${loc.location}</div>` : ''}
+                    ${loc.campsites ? `<div class="blog-sites">Campsites: ${loc.campsites.join(', ')}</div>` : ''}
                     <div class="blog-date">${formatDate(loc.date_start)} - ${formatDate(loc.date_end)}</div>
 
                     <div class="blog-content">
@@ -1083,6 +1105,6 @@
         init();
     </script>
 </body>
-<script async data-uid="20129ba78a" src="https://colin-and-helen-vanlife.kit.com/20129ba78a/index.js"></script>
+<script async data-uid="d6805045d0" src="https://colin-and-helen-vanlife.kit.com/d6805045d0/index.js"></script>
 
 </html>
