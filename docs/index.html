@@ -575,10 +575,6 @@
 
                 locations = await locsResponse.json();
                 const coords = await coordsResponse.json();
-
-                console.log(coords[coords.length - 1]);
-                console.log(locations[locations.length - 1])
-                // Merge coordinates
                 locations.forEach(loc => {
                     const cached = coords.find(c =>
                         c.location === loc.location
@@ -824,7 +820,6 @@
         function populateSidebar() {
             const list = document.getElementById('locationList');
             list.innerHTML = locations.map((loc, index) => {
-                console.log(`Rendering location ${index}:`, loc);
                 return `
                     <div class="location-item" data-index="${index}">
                         <div class="location-name">${loc.title && loc.title.trim() ? loc.title : loc.location}</div>
@@ -833,7 +828,6 @@
                     </div>
                 `;
             }).join('');
-            console.log('Sidebar populated with', locations.length, 'locations');
 
             document.querySelectorAll('.location-item').forEach(item => {
                 item.addEventListener('click', () => {
