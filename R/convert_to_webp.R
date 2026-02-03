@@ -14,7 +14,10 @@ jpeg_files <- list.files(
 jpeg_files %>%
   purrr::map(function(jpeg_file) {
     webp_file <- sub("\\.(jpg|jpeg)$", ".webp", jpeg_file, ignore.case = TRUE)
-
+    if (file.exists(webp_file)) {
+      cat(sprintf("⊘ Skipped (exists): %s\n", basename(jpeg_file)))
+      return(NULL)
+    }
     tryCatch({
       # Read and write as WebP
       img <- magick::image_read(jpeg_file)
