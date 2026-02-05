@@ -529,6 +529,41 @@
             z-index: 3000;
         }
 
+        /* Subscribe button */
+        .subscribe-btn {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+            transition: background 0.2s, box-shadow 0.2s;
+            z-index: 2500;
+            text-decoration: none;
+            display: inline-block;
+            font-family: inherit;
+        }
+
+        .subscribe-btn:hover {
+            background: #0056b3;
+            box-shadow: 0 6px 16px rgba(0, 123, 255, 0.4);
+        }
+
+        @media (max-width: 768px) {
+            .subscribe-btn {
+                bottom: 16px;
+                right: 16px;
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+        }
+
 
     </style>
 </head>
@@ -558,6 +593,8 @@
         <div id="photoModalCaption"></div>
         <span class="photo-modal-close">×</span>
     </div>
+
+    <a href="https://airtable.com/appsRHrR2XoUezbm1/pagXsUShMdiIGMJpt/form" target="_blank" class="subscribe-btn">Subscribe</a>
 
     <script>
         let locations = [];
@@ -644,6 +681,17 @@
 
         document.getElementById('sidebarToggle').addEventListener('click', () => {
             document.querySelector('.sidebar').classList.toggle('open');
+        });
+
+        document.addEventListener('click', (e) => {
+            const sidebar = document.querySelector('.sidebar');
+            const toggle = document.getElementById('sidebarToggle');
+            
+            if (isMobile() && sidebar.classList.contains('open')) {
+                if (!sidebar.contains(e.target) && !toggle.contains(e.target)) {
+                    sidebar.classList.remove('open');
+                }
+            }
         });
 
         document.querySelector('.modal-nav.prev').onclick = () => moveModal(-1);
@@ -747,6 +795,7 @@
 
                     popupEl.querySelectorAll('img[data-src]').forEach(img => {
                         img.src = img.dataset.src;
+                        //  img.src = img.dataset.src.replace(/\.webp$/, '_thumbnail.webp');
                         img.removeAttribute('data-src');
                     });
 
@@ -901,14 +950,19 @@
 
             return `
                 <div class="photo-strip">
-                    ${photos.map((p, i) => `
-                        <img
-                            data-src="${p.pth}"
-                            alt="${p.caption || ''}"
-                            data-index="${i}"
-                            loading="lazy"
-                        >
-                    `).join('')}
+                    ${photos.map((p, i) => {
+                        // Generate thumbnail path from full image path
+                        const thumbPath = p.pth.replace(/\.webp$/, '_thumbnail.webp');
+                        return `
+                            <img
+                                data-src="${thumbPath}"
+                                data-full-src="${p.pth}"
+                                alt="${p.caption || ''}"
+                                data-index="${i}"
+                                loading="lazy"
+                            >
+                        `;
+                    }).join('')}
                 </div>
             `;
         }
@@ -961,6 +1015,7 @@
             function move(d) {
                 idx = (idx + d + photos.length) % photos.length;
                 img.src = photos[idx].pth;
+                //  img.src = photos[idx].pth.replace(/\.webp$/, '_thumbnail.webp');
                 caption.textContent = photos[idx].caption || '';
             }
 
@@ -1009,7 +1064,7 @@
                 strip.querySelectorAll('img').forEach((img, i) => {
                     img.onclick = () => {
                         photos = Array.from(strip.querySelectorAll('img')).map(el => ({
-                            src: el.src,
+                            src: el.dataset.fullSrc || el.src,
                             caption: el.alt
                         }));
                         idx = i;
@@ -1099,6 +1154,6 @@
         init();
     </script>
 </body>
-<script async data-uid="d6805045d0" src="https://colin-and-helen-vanlife.kit.com/d6805045d0/index.js"></script>
+<!-- <script async data-uid="d6805045d0" src="https://colin-and-helen-vanlife.kit.com/d6805045d0/index.js"></script> -->
 
 </html>
