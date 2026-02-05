@@ -795,11 +795,67 @@
     "campsites": ["Jumbo Rocks Campground"],
     "date_start": "2026-01-22",
     "date_end": "2026-01-30",
-    "summary": "More to come...",
+    "summary": "After leaving the beach, we braved the rushhour LA traffic and headed back to Joshua Tree. Our campsite at the Jumbo Rocks Campground was nestled into some big boulders, and we were enjoyed our morning coffee while reading on a big sunny rock. Our first day in the park, Abby graciously watched Maya while Helen and I climbed a 5.6 multipitch called Right On. It was Helen's first multipitch and I was giddy to get to share one of my activities with her. The climb went relatively smoothly, except for the part where I got us slightly off route and dropped a piece of gear down a crack (which I was luckily able to retrieve). Other than that, it was an awesome outing, and I told Helen at least 5 times that 'I'm having so much fun!!!' We spent one more day climbing at a crag called Conan's Corridor where we did a few fun crack climbs, but ended up bailing early since it was windy, shady and cold.<br><br> In the evenings, we cooked some group meals with Abby, including fire roasted brats and a yummy chicken curry. After dinner, we busted out Abby's projector and watched some movies projected on a sheet inside our van. We watched The Woman in Cabin 10, an entertaining thriller, and Sorry, Baby, which we all loved and highly recommend. On our last day, Helen and I biked from our campsite to a trailhead and hiked to an old abandoned mine. We had a great time in Joshua Tree and I'm sure we'll be back sometime soon!",
     "photos": [
       {
         "pth": "images/027_jtree/post_climb.webp",
         "caption": "A selfie after climbing an awesome 4-pitch 5.6 called 'Right On'. The climb followed the right of the two parallel cracks on the rock in the background."
+      },
+      {
+        "pth": "images/027_jtree/bedtime.webp",
+        "caption": "Colin, Maya and Wynn relaxing in bed."
+      },
+      {
+        "pth": "images/027_jtree/belaying.webp",
+        "caption": "Colin belaying while Helen climbs."
+      },
+      {
+        "pth": "images/027_jtree/climbin.webp",
+        "caption": "Helen givin' it some corn on a crack climb."
+      },
+      {
+        "pth": "images/027_jtree/face_rock.webp",
+        "caption": "A rock that looks like a face that Helen found."
+      },
+      {
+        "pth": "images/027_jtree/helen_suited.webp",
+        "caption": "Helen in her birthday suit. As in, the sleeping bag suit that I bought her for her birthday."
+      },
+      {
+        "pth": "images/027_jtree/leading.webp",
+        "caption": "Colin leading up a crack climb."
+      },
+      {
+        "pth": "images/027_jtree/machinery.webp",
+        "caption": "Colin posing with some old mining machinery in Joshua Tree."
+      },
+      {
+        "pth": "images/027_jtree/pancake_bfast.webp",
+        "caption": "Helen cooking pancakes for breakfast."
+      },
+      {
+        "pth": "images/027_jtree/road_bikers.webp",
+        "caption": "Biking to a trailhead in Joshua Tree."
+      },
+      {
+        "pth": "images/027_jtree/skull_rock_trail.webp",
+        "caption": "A neat rock feature on the Skull Rock Trail."
+      },
+      {
+        "pth": "images/027_jtree/sleepy_dogs.webp",
+        "caption": "Some tired pups."
+      },
+      {
+        "pth": "images/027_jtree/starting_climbing.webp",
+        "caption": "Colin starting up a crack climb."
+      },
+      {
+        "pth": "images/027_jtree/sun_absorption.webp",
+        "caption": "Helen reading in the morning sun near camp."
+      },
+      {
+        "pth": "images/027_jtree/sunset.webp",
+        "caption": "View of sunset light at Jumbo Rocks Campground."
       }
     ]
   },
@@ -809,7 +865,32 @@
     "campsites": ["White Spar Campground"],
     "date_start": "2026-01-30",
     "date_end": "2026-02-04",
-    "summary": "More to come...",
-    "photos": null
+    "summary": "Abby made a pit stop in Prescott on her way to meet up with us and loved it so much that she wanted to head back before making her way back to Missoula. Since we've been living pretty day to day, we had nothing on our agenda and decided to join. We stayed at a very nice little campground about 5 minutes from downtown Prescott. It ended up being such a nice spot that we both extended our reservation two different times! The camp hosts were very friendly even though we made them change out the reservation sign three times. <br><br> On Saturday Abby and I hiked the loop around Watson Lake while Colin ran. It's been nice to have a hiking buddy since Colin and I often split up on hikes so he can do a longer run. Maya and Wynn had lots of fun scrambling over rocks and trying to drink the dirty lake water. We were all starving after the outing, so we headed into town and ate at the Barley Hound (highly recommend!). They had a nice outdoor patio, amazing food, including duck fat fries, beet salad, duck burger, and chili wontons, and they even treated the dogs to a big plate of rice and steak pieces. <br><br> We spent the next few days going on little hikes after camp, playing games, cooking group meals, running van errands like laundry, showers and groceries and sitting around the campfire at night. Having Abby here to hang out with and the added hour of daylight has coaxed our bedtime to be slightly later than our usual 7:30pm. The campground was also attached to a very fun bike park, called Bean Peaks, that Colin and I got to ride one afternoon. The trails were all named after different beans (cool beans, limey beans, jelly beans, etc) and they were very flowy compared to what we are used to in Missoula. <br><br>We finally decided it was time to head out and split ways (we'll miss you, Abby!) and headed off in the direction of Payson after a shower at Planet Fitness and grocery resupply at Trader Joe's. <br><br> <b>-Helen</b>",
+    "photos": [
+      {
+        "pth": "images/028_prescott/the_lake.webp",
+        "caption": "Watson lake in Prescott."
+      },
+      {
+        "pth": "images/028_prescott/food.webp",
+        "caption": "Our yummy spread of food from The Barley Hound."
+      },
+      {
+        "pth": "images/028_prescott/rissoto.webp",
+        "caption": "The rissoto dinner that Abby cooked for us on our last night in Prescott."
+      },
+      {
+        "pth": "images/028_prescott/sick_trails.webp",
+        "caption": "Colin excited about the mountain bike trails at Bean Peaks bike park."
+      },
+      {
+        "pth": "images/028_prescott/biking_selfie.webp",
+        "caption": "A selfie after finishing a lap at Bean Peaks."
+      },
+      {
+        "pth": "images/028_prescott/byebye_selfie.webp",
+        "caption": "A selfie with Abby before we headed separate ways."
+      }
+    ]
   }
 ]
