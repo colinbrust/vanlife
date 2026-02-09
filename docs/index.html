@@ -441,6 +441,69 @@
             font-size: 14px;
         }
 
+        .photo-modal img {
+            max-width: 90%;
+            max-height: 80%;
+            transition: opacity 0.3s ease;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-top: 3px solid white;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        .modal-spinner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: translate(-50%, -50%) rotate(360deg);
+            }
+        }
+
+        .popup-carousel {
+            position: relative;
+            margin-top: 12px;
+            text-align: center;
+        }
+
+        .popup-carousel img {
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .popup-carousel .caption {
+            font-size: 13px;
+            color: #555;
+            margin-top: 6px;
+        }
+
+        .carousel-nav {
+            position: absolute;
+            top: 45%;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: none;
+            font-size: 20px;
+            padding: 4px 8px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
 
         @media (max-width: 768px) {
             body {
@@ -555,12 +618,69 @@
             box-shadow: 0 6px 16px rgba(0, 123, 255, 0.4);
         }
 
+        .jump-to-latest {
+            position: sticky;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: white;
+            border: 1px solid #ddd;
+            color: #007bff;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.2s ease;
+            margin-bottom: 20px;
+            z-index: 10;
+            opacity: 1;
+            max-height: 50px;
+        }
+
+        .jump-to-latest.hidden {
+            opacity: 0;
+            max-height: 0;
+            margin-bottom: 0;
+            padding: 0;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .jump-to-latest:hover {
+            background: #f8f9fa;
+            border-color: #007bff;
+            box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+        }
+
+        .jump-to-latest-arrow {
+            display: inline-block;
+            animation: bounce 1.5s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(4px);
+            }
+        }
+
         @media (max-width: 768px) {
             .subscribe-btn {
                 bottom: 16px;
                 right: 16px;
                 padding: 10px 20px;
                 font-size: 14px;
+            }
+
+            .jump-to-latest {
+                padding: 10px 16px;
+                font-size: 13px;
             }
         }
 
@@ -584,9 +704,9 @@
         <div id="blog"></div>
     </div>
     </div>
-
     <div id="photoModal" class="photo-modal">
         <button class="modal-nav prev">‹</button>
+        <div id="modalLoadingSpinner" class="modal-spinner" style="display: none;"></div>
         <img id="photoModalImg" loading="lazy">
         <button class="modal-nav next">›</button>
 
@@ -653,10 +773,25 @@
         function updateModal() {
             const img = document.getElementById('photoModalImg');
             const cap = document.getElementById('photoModalCaption');
+            const spinner = document.getElementById('modalLoadingSpinner');
             
             if (!modalPhotos || !modalPhotos[modalIndex]) {
                 return;
             }
+            
+            // Show spinner before loading
+            spinner.style.display = 'block';
+            img.style.opacity = '0.3';
+            
+            // Load image
+            img.onload = () => {
+                spinner.style.display = 'none';
+                img.style.opacity = '1';
+            };
+            img.onerror = () => {
+                spinner.style.display = 'none';
+                img.style.opacity = '1';
+            };
             
             img.src = modalPhotos[modalIndex].src;
             cap.textContent = modalPhotos[modalIndex].caption || '';
@@ -1014,8 +1149,20 @@
 
             function move(d) {
                 idx = (idx + d + photos.length) % photos.length;
-                img.src = photos[idx].pth;
-                //  img.src = photos[idx].pth.replace(/\.webp$/, '_thumbnail.webp');
+                
+                // Show loading state
+                img.style.opacity = '0.5';
+                
+                const tempImg = new Image();
+                tempImg.onload = () => {
+                    img.src = photos[idx].pth;
+                    img.style.opacity = '1';
+                };
+                tempImg.onerror = () => {
+                    img.style.opacity = '1';
+                };
+                tempImg.src = photos[idx].pth;
+                
                 caption.textContent = photos[idx].caption || '';
             }
 
@@ -1124,21 +1271,54 @@
 
         function populateBlog() {
             const blog = document.getElementById('blog');
+            const visibleEntries = locations.filter(loc => loc.summary);
 
-            blog.innerHTML = locations.filter(loc => loc.summary).map(loc => `
-                <div class="blog-entry">
-                    <div class="blog-title">${loc.title && loc.title.trim() ? loc.title : loc.location}</div>
-                    ${loc.title ? `<div class="blog-location">${loc.location}</div>` : ''}
-                    ${loc.campsites ? `<div class="blog-sites">Campsites: ${loc.campsites.join(', ')}</div>` : ''}
-                    <div class="blog-date">${formatDate(loc.date_start)} - ${formatDate(loc.date_end)}</div>
+            blog.innerHTML = `
+                <button class="jump-to-latest" id="jumpToLatestBtn">
+                    Jump to Latest
+                    <span class="jump-to-latest-arrow">↓</span>
+                </button>
+                ${visibleEntries.map((loc, index) => `
+                    <div class="blog-entry" ${index === visibleEntries.length - 1 ? 'id="latest-blog-entry"' : ''}>
+                        <div class="blog-title">${loc.title && loc.title.trim() ? loc.title : loc.location}</div>
+                        ${loc.title ? `<div class="blog-location">${loc.location}</div>` : ''}
+                        ${loc.campsites ? `<div class="blog-sites">Campsites: ${loc.campsites.join(', ')}</div>` : ''}
+                        <div class="blog-date">${formatDate(loc.date_start)} - ${formatDate(loc.date_end)}</div>
 
-                    <div class="blog-content">
-                        ${loc.summary}
+                        <div class="blog-content">
+                            ${loc.summary}
+                        </div>
+
+                        ${renderBlogPhotoStrip(loc.photos)}
                     </div>
+                `).join('')}
+            `;
 
-                    ${renderBlogPhotoStrip(loc.photos)}
-                </div>
-            `).join('');
+            // Attach jump to latest button handler
+            const jumpBtn = document.getElementById('jumpToLatestBtn');
+            jumpBtn.addEventListener('click', () => {
+                const latestEntry = document.getElementById('latest-blog-entry');
+                if (latestEntry) {
+                    latestEntry.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+
+            // Hide button when scrolled past first post
+            const blogContainer = document.getElementById('blog');
+            const firstEntry = document.querySelector('.blog-entry');
+            
+            const scrollListener = () => {
+                if (firstEntry && blogContainer) {
+                    const entryRect = firstEntry.getBoundingClientRect();
+                    const containerRect = blogContainer.getBoundingClientRect();
+                    
+                    // If first entry is mostly out of view (scrolled past), hide button
+                    const isScrolledPast = entryRect.bottom < containerRect.top + 100;
+                    jumpBtn.classList.toggle('hidden', isScrolledPast);
+                }
+            };
+            
+            blogContainer.addEventListener('scroll', scrollListener);
 
             attachPhotoModalHandlers();
             setupBlogLazyLoading();
