@@ -914,16 +914,12 @@
         "caption": "The view from our camp on the Mogollon Rim."
       },
       {
+        "pth": "images/029_strawberry/pancake_bfast.webp",
+        "caption": "Pancakes for breakfast on the Mogollon Rim."
+      },
+      {
         "pth": "images/029_strawberry/sitting_on_rim.webp",
         "caption": "Colin taking in the views."
-      },
-      {
-        "pth": "images/029_strawberry/falls.webp",
-        "caption": "Waterfall on Fossil Creek."
-      },
-      {
-        "pth": "images/029_strawberry/swimming_hole.webp",
-        "caption": "The spot we chose to take a dip on Fossil Creek."
       },
       {
         "pth": "images/029_strawberry/cave_from_overview.webp",
@@ -942,32 +938,36 @@
         "caption": "View as we were leaving the Tonto Natural Bridge."
       },
       {
-        "pth": "images/029_strawberry/helen_in_tonto.webp",
-        "caption": "Helen on the path inside the natural bridge."
-      },
-      {
-        "pth": "images/029_strawberry/fossil_selfie.webp",
-        "caption": "A selfie near the falls at Fossil Creek."
-      },
-      {
-        "pth": "images/029_strawberry/hiking_out_fossil.webp",
-        "caption": "Helen and Maya on the 4 mile uphill hike out of Fossil Creek."
-      },
-      {
         "pth": "images/029_strawberry/the_bridge.webp",
         "caption": "The view you get as you hike into the Tonto Natural Bridge."
       },
       {
-        "pth": "images/029_strawberry/pancake_bfast.webp",
-        "caption": "Pancakes for breakfast on the Mogollon Rim."
+        "pth": "images/029_strawberry/helen_in_tonto.webp",
+        "caption": "Helen on the path inside the natural bridge."
       },
       {
         "pth": "images/029_strawberry/pasta_dinner.webp",
         "caption": "Last year, Colin bought a large can of mackrel at an Asian grocery store. It sat in our pantry all year. For some reason, Helen allowed Colin to bring it along for vanlife. It sat in the van for 4 months. Seeing that Colin would never use the fish, Helen made a delicious pasta dinner with tomatoes and mackrel."
       },
       {
+        "pth": "images/029_strawberry/fossil_selfie.webp",
+        "caption": "A selfie near the falls at Fossil Creek."
+      },
+      {
+        "pth": "images/029_strawberry/falls.webp",
+        "caption": "Waterfall on Fossil Creek."
+      },
+      {
+        "pth": "images/029_strawberry/swimming_hole.webp",
+        "caption": "The spot we chose to take a dip on Fossil Creek."
+      },
+      {
         "pth": "images/029_strawberry/empanada.webp",
         "caption": "One of the highlights of this stop was our visit to the Pie Bar in Strawberry. They had delicious handmade empanadas. We purchased 5 and brought them for lunch for our hike to Fossil Creek"
+      },
+      {
+        "pth": "images/029_strawberry/hiking_out_fossil.webp",
+        "caption": "Helen and Maya on the 4 mile uphill hike out of Fossil Creek."
       },
       {
         "pth": "images/029_strawberry/maya_drinking.webp",
@@ -981,7 +981,7 @@
     "campsites": ["Pyeatte Draw Dispersed", "Bear Canyon Dispersed"],
     "date_start": "2026-02-06",
     "date_end": "2026-02-09",
-    "summary": "After leaving the Strawberry/Pine area, we spent a few days camped and exploring outside Payson. Our first day there, we visited Water Wheel Falls. It was a short hike to some beautiful waterfalls where I took a very cold swim in a pool and Maya fetched a stick out of the water to her heart's content. After another night of dispersed camping, we headed into Payson to sample some of the trails in town. After a very warm run with very little water, we took care of a few chores including filling the propane tank, filling the water tank and restocking groceries at Walmart. That day was Super Bowl Sunday and we wanted to watch some of the game at a bar so we chose Backwoods Sports Bar. We felt a little out of place among the patrons complaining about the Bad Bunny halftime show and wishing the Kid Rock alternative was being aired instead. Regardless, the food was pretty good and I crossed off three lifetime bucket list items: <ol> <li>Eating wings during the Super Bowl</li> <li>Watching the Super Bowl at a bar</li> <li>Drinking a Bud Light</li></ol> the following morning, we decided it was time for a shower. The only place in Payson we could find with showers was the Apache Athletic Club on the outskirts of town. We were the youngest gym-goers by easily 30 years, but we had a very nice time sitting in the hot tub, relaxing in the sauna and taking a shower after a few days on the road.",
+    "summary": "After leaving the Strawberry/Pine area, we spent a few days camped and exploring outside Payson. Our first day there, we visited Water Wheel Falls. It was a short hike to some beautiful waterfalls where I took a very cold swim in a pool and Maya fetched a stick out of the water to her heart's content. After another night of dispersed camping, we headed into Payson to sample some of the trails in town. After a very warm run with very little water, we took care of a few chores including filling the propane tank, filling the water tank and restocking groceries at Walmart. That day was Super Bowl Sunday and we wanted to watch some of the game at a bar so we chose Backwoods Sports Bar. We felt a little out of place among the patrons complaining about the Bad Bunny halftime show and wishing the Kid Rock alternative was being aired instead. Regardless, the food was pretty good and I crossed off three lifetime bucket list items: <ol> <li>Eating wings during the Super Bowl</li> <li>Watching the Super Bowl at a bar</li> <li>Drinking a Bud Light</li></ol> The following morning, we decided it was time for a shower. The only place in Payson we could find with showers was the Apache Athletic Club on the outskirts of town. We were the youngest gym-goers by easily 30 years, but we had a very nice time sitting in the hot tub, relaxing in the sauna and taking a shower after a few days on the road.",
     "photos": [
       {
         "pth": "images/030_payson/payson_trails.webp",
@@ -1018,8 +1018,12 @@
     "summary": "Feeling very refreshed and clean, we headed south towards warmer weather and the promise of a lakefront camping spot. While we did find warmer weather, the camping spot was next to where a lake might have once been but is no more. It was still a nice free spot and you could see the lake in the distance so we decided to stay to a few nights. The warmer weather and later sunsets made for a relaxing couple of days where we ran, worked a little, played games, went on little walks and watched the Olympics which we have been able to stream with our Starlink. We did eventually make it down to the lake bushwacking through the dried lake bed and had some excitement when Maya stumbled upon a rattlesnake basking on the road, but luckily she listened to our frantic yelling and left it alone. <br><br> For our last night at the lake, we decided to move to one of the paid campgrounds so I could shower since I was about at my 4-5 day limit. Still being early February it was only about half full and we found a spot that actually overlooked the lake, though it was still about 100ft down from the site. <br><br><b>-Helen</b>",
     "photos": [
       {
-        "pth": "images/031_roosevelt/cholla_view.webp",
-        "caption": "View from the trails around Cholla Campground."
+        "pth": "images/031_roosevelt/clean_sheets.webp",
+        "caption": "After taking a hot tub and showering in Payson, we felt nice and clean, meaning it was time to change the sheets in our van."
+      },
+      {
+        "pth": "images/031_roosevelt/van_setup.webp",
+        "caption": "Van setup at Indian Point Campground."
       },
       {
         "pth": "images/031_roosevelt/taco_bfast.webp",
@@ -1046,16 +1050,12 @@
         "caption": "F.S. Rd. Pic #4"
       },
       {
-        "pth": "images/031_roosevelt/van_setup.webp",
-        "caption": "Van setup at Indian Point Campground."
-      },
-      {
         "pth": "images/031_roosevelt/maya_fetching.webp",
         "caption": "Maya playing fetch in Roosevelt Lake."
       },
       {
-        "pth": "images/031_roosevelt/clean_sheets.webp",
-        "caption": "After taking a hot tub and showering in Payson, we felt nice and clean, meaning it was time to change the sheets in our van."
+        "pth": "images/031_roosevelt/cholla_view.webp",
+        "caption": "View from the trails around Cholla Campground."
       }
     ]
   },
@@ -1100,10 +1100,9 @@
   {
     "location": "Scottsdale, AZ",
     "title": "City Life in Scottsdale",
-    "campsites": [],
     "date_start": "2026-02-16",
     "date_end": "2026-02-18",
-    "summary": "My mom has spent the last few years working in Scottsdale during the week and spending the weekends at home in Tucson. I had never visited her up in Scottsdale so we decided to add a pit stop for a few days. Upon returning from our camping trip, we went on a nice little hike with my parents and all the dogs at the McDowell Sonoran Preserve. Afterwards, we had dinner at Sofia's Italian Kitchen where I got a delicious bread pudding for dessert. The next day, Helen and I used some guest passes to the (very) fancy gym that my mom likes to go to. We both did an aerial yoga class and used some coupons for a free massage! We've been binge watching the tv show Alone on Netflix, so the rest of the afternoon was spent watching alone and eating leftovers for dinner with my mom. As I write this, we're getting all packed up and ready to take Helen to the Airport for her trip to Guatemala! Then, I'll head to Tucson to spend some time with my family while Helen is away.",
+    "summary": "My mom has spent the last few years working in Scottsdale during the week and spending the weekends at home in Tucson. I had never visited her up in Scottsdale so we decided to add a pit stop for a few days. Upon returning from our camping trip, we went on a nice little hike with my parents and all the dogs at the McDowell Sonoran Preserve. Afterwards, we had dinner at Sofia's Italian Kitchen where I got a delicious bread pudding for dessert. The next day, Helen and I used some guest passes to the (very) fancy gym that my mom likes to go to. We both did an aerial yoga class and used some coupons for a free massage! We've been binge watching the tv show Alone on Netflix, so the rest of the afternoon was spent watching Alone and eating leftovers for dinner with my mom. As I write this, we're getting all packed up and ready to take Helen to the Airport for her trip to Guatemala! Then, I'll head to Tucson to spend some time with my family while Helen is away.",
     "photos": []   
   },
   {
