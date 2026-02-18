@@ -262,5 +262,41 @@
     "date_start": "2026-02-04",
     "lat": 34.4068363,
     "lng": -111.4952220
+  },
+  {
+    "location": "Payson, AZ",
+    "date_start": "2026-02-06",
+    "lat": 34.2406479,
+    "lng": -111.3230260
+  },
+  {
+    "location": "Roosevelt, AZ",
+    "date_start": "2026-02-10",
+    "lat": 33.6675484,
+    "lng": -111.1342893
+  },
+  {
+    "location": "22130 Apache Trail, Apache Junction, AZ 85119",
+    "date_start": "2026-02-13",
+    "lat": 33.3944210,
+    "lng": -111.5460918
+  },
+  {
+    "location": "Scottsdale, AZ",
+    "date_start": "2026-02-16",
+    "lat": 33.4942189,
+    "lng": -111.9260180
+  },
+  {
+    "location": "Tucson, AZ",
+    "date_start": "2026-02-18",
+    "lat": 32.2228765,
+    "lng": -110.9748470
+  },
+  {
+    "location": "Tortilla Flat, AZ",
+    "date_start": "2026-02-13",
+    "lat": 33.5264365,
+    "lng": -111.3898523
   }
 ]

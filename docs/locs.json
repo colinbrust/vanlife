@@ -896,10 +896,223 @@
   {
     "location": "Strawberry, AZ",
     "title": "Views from the Mogollon Rim",
-    "campsites": ["Milk Ranch Point Dispersed"],
+    "campsites": ["Milk Ranch Point Dispersed", "Hardscrabble Road Dispersed"],
     "date_start": "2026-02-04",
-    "date_end": "2026-02-04",
-    "summary": "More to come...",
-    "photos": []
+    "date_end": "2026-02-06",
+    "summary": "After more than a week of the luxury of campgrounds, we went in search of some free camping on the Mogollon Rim. We were a little nervous as we drove down the dirt roads and snow started to appear, but we were rewarded by a beautiful spot overlooking the valley with no one else around. We set up our chair to watch the sunset and then retreated into the van to get out of the cold wind. We set our alarm to get up to watch the sunrise, which is luckily at about 7:30am right now, and enjoyed a quiet morning watching the sun rise over the valley. While very pretty, it was a bit cold to stay, so we packed up and headed out to find a new spot. <br><br> We stopped at the Pine Trailhead, where we went on a nice little trail run together, and then I worked for a little while in the van while Colin went on a longer run. Next up, we decided to check out Tonto Natural Bridge State Park, which we discovered was right down the road from us. Upon entering, we were slightly dismayed to find out it cost $10 a person rather than $10 a car to enter, but we paid the fee and continued to the parking lot. There aren't any big hikes here, just little trails to various lookouts. Not really knowing what to expect or understanding the map they gave us, we set off down a steep trail that immediately opened up to an incredible natural bridge. There were big boulders and pools beneath with featured rock above, and water pouring over the other side, illuminated by the sun. It was honestly one of the coolest things spots I have ever seen, partly because it was so unassuming and we decided it was definitely worth the $20. That night, after a little searching and being selective about our dispersed spot for the night, we ended up at the end of a road in a nice little forest surrounded by cows. <br><br> The next morning, we got up and packed up quickly because we had a big day of hiking ahead of us. After hearing about it from my mom, we wanted to check out Fossil Creek, which is a clear, spring-fed creek at the bottom of a canyon. During the summer months you need a permit to hike but during the colder months there are no restrictions and it was relatively empty. It was a steep hike down, though not as steep as all of the signs made it seem with many warnings about previous rescues and even deaths. After about 3.5 miles, the hike flattens out, and you hike along the creek before getting to a big waterfall with pools. We found a nice spot for a refreshing dip, which we followed with a delicious picnic of empanadas that we had picked up at the Pie Bar in Strawberry. The hike up was not as bad as we were expecting, and we got back to the car at around 2pm with some time to spare before we needed to find a campsite. So, we stopped at THAT brewery in Pine for a post-hike beer on the dog-friendly patio.",
+    "photos": [
+      {
+        "pth": "images/029_strawberry/rim_sunrise.webp",
+        "caption": "View of the sunrise on the Mogollon Rim from the kitchen while water boils for coffee."
+      },
+      {
+        "pth": "images/029_strawberry/rim_sunrise2.webp",
+        "caption": "Sunrise on the Mogollon Rim."
+      },
+      {
+        "pth": "images/029_strawberry/the_rim_view.webp",
+        "caption": "The view from our camp on the Mogollon Rim."
+      },
+      {
+        "pth": "images/029_strawberry/sitting_on_rim.webp",
+        "caption": "Colin taking in the views."
+      },
+      {
+        "pth": "images/029_strawberry/falls.webp",
+        "caption": "Waterfall on Fossil Creek."
+      },
+      {
+        "pth": "images/029_strawberry/swimming_hole.webp",
+        "caption": "The spot we chose to take a dip on Fossil Creek."
+      },
+      {
+        "pth": "images/029_strawberry/cave_from_overview.webp",
+        "caption": "View as we descended into the Tonto Natural Bridge."
+      },
+      {
+        "pth": "images/029_strawberry/into_the_cave.webp",
+        "caption": "Helen walking into the natural bridge."
+      },
+      {
+        "pth": "images/029_strawberry/cave_selfie.webp",
+        "caption": "A selfie underneath the Tonto Natural Bridge"
+      },
+      {
+        "pth": "images/029_strawberry/cave_from_end.webp",
+        "caption": "View as we were leaving the Tonto Natural Bridge."
+      },
+      {
+        "pth": "images/029_strawberry/helen_in_tonto.webp",
+        "caption": "Helen on the path inside the natural bridge."
+      },
+      {
+        "pth": "images/029_strawberry/fossil_selfie.webp",
+        "caption": "A selfie near the falls at Fossil Creek."
+      },
+      {
+        "pth": "images/029_strawberry/hiking_out_fossil.webp",
+        "caption": "Helen and Maya on the 4 mile uphill hike out of Fossil Creek."
+      },
+      {
+        "pth": "images/029_strawberry/the_bridge.webp",
+        "caption": "The view you get as you hike into the Tonto Natural Bridge."
+      },
+      {
+        "pth": "images/029_strawberry/pancake_bfast.webp",
+        "caption": "Pancakes for breakfast on the Mogollon Rim."
+      },
+      {
+        "pth": "images/029_strawberry/pasta_dinner.webp",
+        "caption": "Last year, Colin bought a large can of mackrel at an Asian grocery store. It sat in our pantry all year. For some reason, Helen allowed Colin to bring it along for vanlife. It sat in the van for 4 months. Seeing that Colin would never use the fish, Helen made a delicious pasta dinner with tomatoes and mackrel."
+      },
+      {
+        "pth": "images/029_strawberry/empanada.webp",
+        "caption": "One of the highlights of this stop was our visit to the Pie Bar in Strawberry. They had delicious handmade empanadas. We purchased 5 and brought them for lunch for our hike to Fossil Creek"
+      },
+      {
+        "pth": "images/029_strawberry/maya_drinking.webp",
+        "caption": "Maya taking a dip and a drink in Fossil Creek."
+      }
+    ]
+  },
+  {
+    "location": "Payson, AZ",
+    "title": "Football and a Hot Tub",
+    "campsites": ["Pyeatte Draw Dispersed", "Bear Canyon Dispersed"],
+    "date_start": "2026-02-06",
+    "date_end": "2026-02-09",
+    "summary": "After leaving the Strawberry/Pine area, we spent a few days camped and exploring outside Payson. Our first day there, we visited Water Wheel Falls. It was a short hike to some beautiful waterfalls where I took a very cold swim in a pool and Maya fetched a stick out of the water to her heart's content. After another night of dispersed camping, we headed into Payson to sample some of the trails in town. After a very warm run with very little water, we took care of a few chores including filling the propane tank, filling the water tank and restocking groceries at Walmart. That day was Super Bowl Sunday and we wanted to watch some of the game at a bar so we chose Backwoods Sports Bar. We felt a little out of place among the patrons complaining about the Bad Bunny halftime show and wishing the Kid Rock alternative was being aired instead. Regardless, the food was pretty good and I crossed off three lifetime bucket list items: <ol> <li>Eating wings during the Super Bowl</li> <li>Watching the Super Bowl at a bar</li> <li>Drinking a Bud Light</li></ol> the following morning, we decided it was time for a shower. The only place in Payson we could find with showers was the Apache Athletic Club on the outskirts of town. We were the youngest gym-goers by easily 30 years, but we had a very nice time sitting in the hot tub, relaxing in the sauna and taking a shower after a few days on the road.",
+    "photos": [
+      {
+        "pth": "images/030_payson/payson_trails.webp",
+        "caption": "One of the trails Colin ran on while visiting Payson."
+      },
+      {
+        "pth": "images/030_payson/water_wheel_fals.webp",
+        "caption": "Water wheel falls."
+      },
+      {
+        "pth": "images/030_payson/bear_ck_camping.webp",
+        "caption": "Our campsite at Bear Canyon."
+      },
+      {
+        "pth": "images/030_payson/colin_plunging.webp",
+        "caption": "Colin doing a cold plunge near water wheel falls."
+      },
+      {
+        "pth": "images/030_payson/sws.webp",
+        "caption": "You've heard of deep-water soloing. But what about shallow-water soloing?"
+      },
+      {
+        "pth": "images/030_payson/maya_selfie.webp",
+        "caption": "Helen taking a selfie with Maya."
+      }
+    ]
+  },
+  {
+    "location": "Roosevelt, AZ",
+    "title": "Hangin' on the Lake",
+    "campsites": ["Indian Point Campground", "Cholla Campground"],
+    "date_start": "2026-02-10",
+    "date_end": "2026-02-13",
+    "summary": "Feeling very refreshed and clean, we headed south towards warmer weather and the promise of a lakefront camping spot. While we did find warmer weather, the camping spot was next to where a lake might have once been but is no more. It was still a nice free spot and you could see the lake in the distance so we decided to stay to a few nights. The warmer weather and later sunsets made for a relaxing couple of days where we ran, worked a little, played games, went on little walks and watched the Olympics which we have been able to stream with our Starlink. We did eventually make it down to the lake bushwacking through the dried lake bed and had some excitement when Maya stumbled upon a rattlesnake basking on the road, but luckily she listened to our frantic yelling and left it alone. <br><br> For our last night at the lake, we decided to move to one of the paid campgrounds so I could shower since I was about at my 4-5 day limit. Still being early February it was only about half full and we found a spot that actually overlooked the lake, though it was still about 100ft down from the site. <br><br><b>-Helen</b>",
+    "photos": [
+      {
+        "pth": "images/031_roosevelt/cholla_view.webp",
+        "caption": "View from the trails around Cholla Campground."
+      },
+      {
+        "pth": "images/031_roosevelt/taco_bfast.webp",
+        "caption": "Our taco breakfast one morning camped at Indian Point Campground."
+      },
+      {
+        "pth": "images/031_roosevelt/run_with_helen_and_maya.webp",
+        "caption": "A family run near Indian Point Campground."
+      },
+      {
+        "pth": "images/031_roosevelt/the_road.webp",
+        "caption": "Colin was obsessed with running on the Forest Service trails around Roosevelt Lake. As such, he took many photos of the views from the road. (F.S. Rd. Pic #1)"
+      },
+      {
+        "pth": "images/031_roosevelt/the_road2.webp",
+        "caption": "F.S. Rd. Pic #2"
+      },
+      {
+        "pth": "images/031_roosevelt/the_road3.webp",
+        "caption": "F.S. Rd. Pic #3"
+      },
+      {
+        "pth": "images/031_roosevelt/the_road4.webp",
+        "caption": "F.S. Rd. Pic #4"
+      },
+      {
+        "pth": "images/031_roosevelt/van_setup.webp",
+        "caption": "Van setup at Indian Point Campground."
+      },
+      {
+        "pth": "images/031_roosevelt/maya_fetching.webp",
+        "caption": "Maya playing fetch in Roosevelt Lake."
+      },
+      {
+        "pth": "images/031_roosevelt/clean_sheets.webp",
+        "caption": "After taking a hot tub and showering in Payson, we felt nice and clean, meaning it was time to change the sheets in our van."
+      }
+    ]
+  },
+  {
+    "location": "Tortilla Flat, AZ",
+    "title": "Camping with Colin's Family",
+    "campsites": ["Camping off the Apache Trail"],
+    "date_start": "2026-02-13",
+    "date_end": "2026-02-16",
+    "summary": "Our next stop was meeting up with my parents on the Apache Trail, a windy and steep dirt road cutting through the Supersition Mountains between Phoenix and Roosevelt Lake. We arrived a few hours earlier than my parents and were tasked with finding a campsite that would be a good place for Maya and my parent's two dogs to play without being too close to the road. This proved more difficult than expected, but we eventually found a nice little pullout that gave us some privacy and had a little hiking trail leading out of it. When they arrived, Maya got reacquainted with Sasha and Keely (my parent's dogs) and we set up a very nice camp with some shade structures, comfy camping chairs and some tables for playing games.<br><br> The weekend was very nice and relaxing. We ate many yummy dinners including lentil soup, pasta with bolognese sauce and pan seared brats. The brats were supposed to be roasted over the fire but we forgot to bring firewood 😢. Before each dinner, we had a nice assortment of cheese and crackers and played Settlers of Catan. During the days, we went on hikes exploring up and down Fish Creek, a little stream that (unlike most 'rivers' in Arizona) had water running in it. On our hikes, we found some cool caves and the dogs had a great time chasing eachother and splashing around in the water. The crux of the weekend was the drive out, where we would have to make it up the Fish Creek Incline, a 1.5 mile stretch of dirt road the winds over 1000 feet up and out of the Fish Creek drainage. Despite the signs saying 4x4 required (our van is 2WD), numerous online blog posts state that any car can make it up or down the incline. Luckily the blog posters were correct, and we made it up the road without any hiccups. To celebrate, we cooked a taco breakfast with my parents at the overlook parking lot at the top of the incline.",
+    "photos": [
+      {
+        "pth": "images/032_apache/fish_creek_over_view.webp",
+        "caption": "View of the Superstitions from the top of the Fish Creek Incline."
+      },
+      {
+        "pth": "images/032_apache/cave_view.webp",
+        "caption": "A little cave we found while hiking one day."
+      },
+      {
+        "pth": "images/032_apache/cave_with_guests.webp",
+        "caption": "Helen and Maya leaving the cave"
+      },
+      {
+        "pth": "images/032_apache/family_cata.webp",
+        "caption": "A post-hike game of Catan with Colin's family."
+      },
+      {
+        "pth": "images/032_apache/hike_view.webp",
+        "caption": "The terrain from one of our hikes."
+      },
+      {
+        "pth": "images/032_apache/river_wading.webp",
+        "caption": "Mandatory wet feet on one of our hikes."
+      },
+      {
+        "pth": "images/032_apache/maya_under_bridge.webp",
+        "caption": "Maya underneath the Fish Creek Bridge."
+      }
+    ]
+  },
+  {
+    "location": "Scottsdale, AZ",
+    "title": "City Life in Scottsdale",
+    "campsites": [],
+    "date_start": "2026-02-16",
+    "date_end": "2026-02-18",
+    "summary": "My mom has spent the last few years working in Scottsdale during the week and spending the weekends at home in Tucson. I had never visited her up in Scottsdale so we decided to add a pit stop for a few days. Upon returning from our camping trip, we went on a nice little hike with my parents and all the dogs at the McDowell Sonoran Preserve. Afterwards, we had dinner at Sofia's Italian Kitchen where I got a delicious bread pudding for dessert. The next day, Helen and I used some guest passes to the (very) fancy gym that my mom likes to go to. We both did an aerial yoga class and used some coupons for a free massage! We've been binge watching the tv show Alone on Netflix, so the rest of the afternoon was spent watching alone and eating leftovers for dinner with my mom. As I write this, we're getting all packed up and ready to take Helen to the Airport for her trip to Guatemala! Then, I'll head to Tucson to spend some time with my family while Helen is away.",
+    "photos": []   
+  },
+  {
+    "location": "Tucson, AZ",
+    "title": "Tucson and Guatemala",
+    "campsites": [],
+    "date_start": "2026-02-18",
+    "date_end": "2026-02-26",
+    "summary": "Up next, Helen is heading off to Guatemala for a trip with some friends while Colin visits family in Tucson.",
+    "photos": []   
   }
 ]
