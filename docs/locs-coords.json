@@ -298,5 +298,101 @@
     "date_start": "2026-02-13",
     "lat": 33.5264365,
     "lng": -111.3898523
+  },
+  {
+    "location": "Las Vegas, NV",
+    "date_start": "2026-02-26",
+    "lat": 36.1674263,
+    "lng": -115.1484131
+  },
+  {
+    "location": "Valley of Fire, NV",
+    "date_start": "2026-02-27",
+    "lat": 36.4988513,
+    "lng": -114.5341224
+  },
+  {
+    "location": "Littlefield, AZ",
+    "date_start": "2026-02-28",
+    "lat": 36.8842836,
+    "lng": -113.9363361
+  },
+  {
+    "location": "Virgin River Gorge, AZ",
+    "date_start": "2026-03-01",
+    "lat": 36.946489416783194,
+    "lng": -113.79972231225726
+  },
+  {
+    "location": "Apple Valley, UT",
+    "date_start": "2026-03-02",
+    "lat": 37.1004552,
+    "lng": -113.1290178
+  },
+  {
+    "location": "Washington, UT",
+    "date_start": "2026-03-04",
+    "lat": 37.2393471,
+    "lng": -113.5257760
+  },
+  {
+    "location": "Ivins, UT",
+    "date_start": "2026-03-06",
+    "lat": 37.1685907,
+    "lng": -113.6794057
+  },
+  {
+    "location": "Panguitch, UT",
+    "date_start": "2026-03-07",
+    "lat": 37.8228204,
+    "lng": -112.4357561
+  },
+  {
+    "location": "Kodachrome Basin State Park, UT",
+    "date_start": "2026-03-09",
+    "lat": 37.5157817,
+    "lng": -111.9974305
+  },
+  {
+    "location": "Escalante, UT",
+    "date_start": "2026-03-10",
+    "lat": 37.7703057,
+    "lng": -111.6021660
+  },
+  {
+    "location": "Torrey, UT",
+    "date_start": "2026-03-12",
+    "lat": 38.2997368,
+    "lng": -111.4204700
+  },
+  {
+    "location": "Hanksville, UT",
+    "date_start": "2026-03-13",
+    "lat": 38.3737755,
+    "lng": -110.7064010
+  },
+  {
+    "location": "Newspaper Rock, UT",
+    "date_start": "2026-03-14",
+    "lat": 37.9883267141451, 
+    "lng": -109.51824327569972
+  },
+  {
+    "location": "Moab, UT",
+    "date_start": "2026-03-16",
+    "lat": 38.5738096,
+    "lng": -109.5462140
+  },
+  {
+    "location": "Hanksville, UT",
+    "date_start": "2026-03-18",
+    "lat": 38.3737755,
+    "lng": -110.7064010
+  },
+  {
+    "location": "St. George, UT",
+    "date_start": "2026-03-22",
+    "lat": 37.1098772,
+    "lng": -113.5832063
   }
 ]

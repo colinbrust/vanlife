@@ -1107,11 +1107,468 @@
   },
   {
     "location": "Tucson, AZ",
-    "title": "Tucson and Guatemala",
+    "title": "Family Time in Tucson and Friend Time in Guatemala",
     "campsites": [],
     "date_start": "2026-02-18",
     "date_end": "2026-02-26",
-    "summary": "Up next, Helen is heading off to Guatemala for a trip with some friends while Colin visits family in Tucson.",
-    "photos": []   
+    "summary": "While Helen was in Guatemala, I spent some time in Tucson with my family. The main objective of the trip was to help get a lot of landscaping done in order to get my parent's yard ready to host a pre-wedding reception for my sister's upcoming wedding in April! My dad and I shovelled multiple tons of landscaping gravel around the yard and built a rolling gate to block the carport. It was very nice to be back home in Tucson without having to work or take vacation time. I realized that I hadn't had a trip to Tucson where I wasn't working remotely since my senior year of college! Despite the hard work, it was a very relaxing trip, and my dad and I spent our free time making dinner and binging the TV show Three Body Problem on Netflix. <br><br> <b>-Colin</b> <br><br> Guatemala stuff <br><br> <b>-Helen</b>",
+    "photos": [
+      {
+        "caption": "",
+        "pth": "images/034_tucson_and_guatemala/blastoff.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/034_tucson_and_guatemala/girls_in_guat.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/034_tucson_and_guatemala/guat_architecture.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/034_tucson_and_guatemala/guat_hike.webp"
+      },      
+      {
+        "caption": "",
+        "pth": "images/034_tucson_and_guatemala/tacos.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/034_tucson_and_guatemala/volcan_view.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/034_tucson_and_guatemala/volcano_bright.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/034_tucson_and_guatemala/lake_view.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/034_tucson_and_guatemala/on_beach.webp"
+      },
+      {
+        "caption": "Maya was the construction foreman while my dad and I were working.",
+        "pth": "images/034_tucson_and_guatemala/foreman.webp"
+      },
+      {
+        "caption": "One of the delicious healthy meals that I cooked with my dad. This was a bowl with rice, sweet potato, homegrown greens and tofu.",
+        "pth": "images/034_tucson_and_guatemala/healthy_dinner.webp"
+      },
+      {
+        "caption": "Maya will normally only snuggle like this on Helen. I was pleased that she wanted to join me for my morning coffee while Helen was gone.",
+        "pth": "images/034_tucson_and_guatemala/morning_coffee.webp"
+      }
+    ]   
+  },
+  {
+    "location": "Las Vegas, NV",
+    "title": "Reunited!",
+    "campsites": ["Kingman Access Wash", "Red Rocks Campground"],
+    "date_start": "2026-02-26",
+    "date_end": "2026-02-27",
+    "summary": "asdf",
+    "photos": [
+      {
+        "caption": "A wild burro was grazing in my camp the morning I left to pick up Helen from the airport.",
+        "pth": "images/035_las_vegas/donkey.webp"
+      }
+    ]   
+  },
+  {
+    "location": "Valley of Fire, NV",
+    "title": "Hiking in Valley of Fire",
+    "campsites": ["Valley of Fire West Dispersed Camping"],
+    "date_start": "2026-02-27",
+    "date_end": "2026-02-28",
+    "summary": "",
+    "photos": [
+      {
+        "caption": "I went for a run while camped outside Valley of Fire that ended up being very pretty!",
+        "pth": "images/036_valley_of_fire/cool_run.webp"
+      },
+      {
+        "caption": "Another picture from the run.",
+        "pth": "images/036_valley_of_fire/cool_run2.webp"
+      },
+      {
+        "caption": "The Fire Wave and White Dome loops hike we did in Valley of Fire.",
+        "pth": "images/036_valley_of_fire/sandy_hike.webp"
+      },
+      {
+        "caption": "The Fire Wave and White Dome loops hike we did in Valley of Fire.",
+        "pth": "images/036_valley_of_fire/slot_hike.webp"
+      },
+      {
+        "caption": "The Fire Wave and White Dome loops hike we did in Valley of Fire.",
+        "pth": "images/036_valley_of_fire/slot_selfie.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/036_valley_of_fire/slot_view.webp"
+      },
+      {
+        "caption": "The Fire Wave and White Dome loops hike we did in Valley of Fire.",
+        "pth": "images/036_valley_of_fire/valley_fire_hike.webp"
+      }
+    ]
+  },
+  {
+    "location": "Littlefield, AZ",
+    "title": "A Wild Ultramarathon Appears",
+    "campsites": ["Littlefield Dispersed Camping"],
+    "date_start": "2026-02-28",
+    "date_end": "2026-03-01",
+    "summary": "After leaving Valley of Fire, we spent the afternoon looking for campsites and failing. We finally found a busy spot just outside the Virgin River Gorge that had a few empty spots available. It turned out that the area was so busy because we were camped right next to the finish line of the the Grandmasters Ultramarathon, an ultramarathon that is exclusively for athletes over 50 years old. Since I had a run scheduled for that afternoon, I chatted with the race director and asked if it was ok to go cheer on runners on the course. I had a great run cheering on the runners and got very motivated to sign up for a race myself. <br><br> <b>-Colin</b>",
+    "photos": [
+      {
+        "caption": "Our camp spot for the night.",
+        "pth": "images/037_littlefield/camp_view.webp"
+      }
+    ]
+  },
+  {
+    "location": "Virgin River Gorge, AZ",
+    "title": "Hot Day in the VRG",
+    "campsites": ["Virgin River Recreation Area Campground"],
+    "date_start": "2026-03-01",
+    "date_end": "2026-03-02",
+    "summary": "We stopped for one day in the Virgin River Gorge Recreation Area. While the setting was very pretty, the temperatures were very high. For some reason, I chose to do a long run in the middle of the day, which was not very pleasant (especially after I ran out of water with 4 miles to go). The afternoon was spent escaping the heat by sitting in the shade of our van. We did some reading, Helen did some watercolor painting and I wrote a rare entry in my journal. We had a lovely hike down to the Virgin River as the sunset, which was a nice way to end the day. <br><br> <b>-Colin</b>",
+    "photos": [
+      {
+        "caption": "Watercolor and journaling in camp",
+        "pth": "images/038_virgin_river_gorge/painting_in_camp.webp"
+      },
+      {
+        "caption": "The Virgin River during our sunset hike.",
+        "pth": "images/038_virgin_river_gorge/virgin_riv.webp"
+      },
+      {
+        "caption": "A selfie during our sunset hike.",
+        "pth": "images/038_virgin_river_gorge/vrg_selfie.webp"
+      }
+    ]
+  },
+  {
+    "location": "Apple Valley, UT",
+    "title": "Gooseberry Mesa Part 2 (for Colin at least)",
+    "campsites": ["Gooseberry Mesa Dispersed Camping"],
+    "date_start": "2026-03-02",
+    "date_end": "2026-03-04",
+    "summary": "",
+    "photos": [
+      {
+        "caption": "Colin clawing his way out of a deep deep fissure. ",
+        "pth": "images/039_gbm/aaaaah.webp"
+      },
+      {
+        "caption": "A selfie from our ride around Gooseberry Mesa.",
+        "pth": "images/039_gbm/mesa_selfie.webp"
+      },
+      {
+        "caption": "The view off the top of Gooseberry Mesa.",
+        "pth": "images/039_gbm/mesa_view.webp"
+      },
+      {
+        "caption": "Princess Maya sitting in her throne.",
+        "pth": "images/039_gbm/princess.webp"
+      }
+    ]
+  },
+  {
+    "location": "Washington, UT",
+    "title": "",
+    "campsites": ["Red Cliffs Campground"],
+    "date_start": "2026-03-04",
+    "date_end": "2026-03-06",
+    "summary": "",
+    "photos": [
+      {
+        "caption": "",
+        "pth": "images/040_red_cliff/footholds.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/040_red_cliff/footholds2.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/040_red_cliff/rnr.webp"
+      }
+    ]
+  },
+  {
+    "location": "Ivins, UT",
+    "title": "Colin Runs the Red Mountain 50k",
+    "campsites": ["BLM Land Outside Town"],
+    "date_start": "2026-03-06",
+    "date_end": "2026-03-07",
+    "summary": "After seeing people racing the previous week, I was very motivated to do a race myself. Luckily, there was a 50k happening in our general vicinity with spots still available, the Red Mountain 50k. We adjusted our schedule slightly, and I signed up for the race. Over the past few months, I had been training for the Canyons 100k in April, and wanted to use this race to gauge my fitness before the bigger event. I had not had this much dedicated training in my previous ultramarathons and was excited to see how fast I was able to go. The race consisted of four unique loops around different streches of the trail system outside town. Coincidentally, I had biked a few of the trails in past trips to the St. George area, so I was relatively familiar with the terrain. The first 20 miles went very smooth. None of the trails were too steep or technical, so I was able to push myself pretty hard the entire time. Just before the final aid station around mile 23, I took a pretty big spill when I tripped on the rock. Luckily, I escaped with just a few scrapes and bruises. Shortly after, I briefly saw Helen and Maya, which gave me a nice boost of motivation. Unfortunately, the motivation was short lived, and I slowed to a power hike for the next few miles up the final climb of the race. After cresting the final hill, the allure of the finish line was enough to make me run the final miles. I ended up finishing in 4:16 and got 6th place overall. I was very happy with the race result and afterwards, Helen and I celebrated by getting ice cream from the local Nielson's Frozen Custard shop. <br><br> <b>-Colin</b>",
+    "photos": [
+      {
+        "caption": "Our campsite the night before the race.",
+        "pth": "images/041_ivins/camp_ivins.webp"
+      },
+      {
+        "caption": "We had a little ranch dressing spill that required some major cleanup.",
+        "pth": "images/041_ivins/mayo_disaster.webp"
+      },
+      {
+        "caption": "Colin after finishing the Red Mountain 50k.",
+        "pth": "images/041_ivins/race_finish.webp"
+      }
+    ]
+  },
+  {
+    "location": "Panguitch, UT",
+    "title": "",
+    "campsites": ["Losee Canyon Dispersed Camping"],
+    "date_start": "2026-03-07",
+    "date_end": "2026-03-09",
+    "summary": "",
+    "photos": [
+      {
+        "caption": "",
+        "pth": "images/042_panguitch/finding_snow.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/042_panguitch/hoodoos.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/042_panguitch/hoodoos2.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/042_panguitch/hoodoos3.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/042_panguitch/mud1.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/042_panguitch/mud2.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/042_panguitch/stay_warm.webp"
+      }
+    ]
+  },
+  {
+    "location": "Kodachrome Basin State Park, UT",
+    "title": "",
+    "campsites": ["Rock Spring Bench Dispersed"],
+    "date_start": "2026-03-09",
+    "date_end": "2026-03-10",
+    "summary": "",
+    "photos": [
+      {
+        "caption": "",
+        "pth": "images/043_kodachrome_basin/kodachrome.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/043_kodachrome_basin/kodachrome_camping.webp"
+      }
+    ]
+  },
+  {
+    "location": "Escalante, UT",
+    "title": "",
+    "campsites": ["Little Spencer Flat Road Dispersed"],
+    "date_start": "2026-03-10",
+    "date_end": "2026-03-12",
+    "summary": "",
+    "photos": [
+      {
+        "caption": "",
+        "pth": "images/044_escalante/arch1.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/044_escalante/arch2.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/044_escalante/ashtray_with_people.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/044_escalante/climbing_ashtray.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/044_escalante/cool_rox.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/044_escalante/escalante_riv.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/044_escalante/hike_to_tray.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/044_escalante/pgs.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/044_escalante/tray_from_above.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/044_escalante/tray_from_bottom.webp"
+      }
+    ]
+  },
+  {
+    "location": "Torrey, UT",
+    "title": "",
+    "campsites": ["Pandora's Box Dispersed"],
+    "date_start": "2026-03-12",
+    "date_end": "2026-03-13",
+    "summary": "",
+    "photos": [
+      {
+        "caption": "",
+        "pth": "images/045_torrey/dessert.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/045_torrey/sunset.webp"
+      }
+    ]
+  },
+    {
+    "location": "Hanksville, UT",
+    "title": "",
+    "campsites": ["Temple Road Dispersed"],
+    "date_start": "2026-03-13",
+    "date_end": "2026-03-14",
+    "summary": "",
+    "photos": [
+      {
+        "caption": "",
+        "pth": "images/046_swell/view_of_camp.webp"
+      }
+    ]
+  },
+    {
+    "location": "Newspaper Rock, UT",
+    "title": "",
+    "campsites": ["Hamburger Rock Dispersed, Superbowl Campground"],
+    "date_start": "2026-03-14",
+    "date_end": "2026-03-16",
+    "summary": "",
+    "photos": [
+      {
+        "caption": "",
+        "pth": "images/047_creek/newspaper_glyphs.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/047_creek/splitter.webp"
+      }
+    ]
+  },
+    {
+    "location": "Moab, UT",
+    "title": "",
+    "campsites": ["Ledges Campground"],
+    "date_start": "2026-03-16",
+    "date_end": "2026-03-18",
+    "summary": "",
+    "photos": [
+      {
+        "caption": "",
+        "pth": "images/048_moab/shade.webp"
+      }
+    ]
+  },
+    {
+    "location": "Hanksville, UT",
+    "title": "",
+    "campsites": ["Temple Road Dispersed"],
+    "date_start": "2026-03-18",
+    "date_end": "2026-03-22",
+    "summary": "",
+    "photos": [
+      {
+        "caption": "",
+        "pth": "images/049_fam_camp/break.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/049_fam_camp/finding_shade.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/049_fam_camp/hideout.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/049_fam_camp/hike_view.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/049_fam_camp/into_slot.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/049_fam_camp/pourover.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/049_fam_camp/pups.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/049_fam_camp/shady_lunch.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/049_fam_camp/slot3.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/049_fam_camp/top_of_wash.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/049_fam_camp/waterhole.webp"
+      }
+    ]
+  },
+    {
+    "location": "St. George, UT",
+    "title": "",
+    "campsites": ["Bloomington AirBnB"],
+    "date_start": "2026-03-22",
+    "date_end": "2026-03-28",
+    "summary": "",
+    "photos": [
+      {
+        "caption": "",
+        "pth": "images/050_st_george/boulder_protector.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/050_st_george/in_the_traverse.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/050_st_george/trees_in_traverse.webp"
+      },
+      {
+        "caption": "",
+        "pth": "images/050_st_george/up_the_traverse.webp"
+      }
+    ]
   }
 ]
