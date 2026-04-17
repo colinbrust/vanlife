@@ -722,6 +722,25 @@
         let markers = [];
         let currentView = 'blog';
         let selectedIndex = null;
+        let pendingPopupTimeout = null;
+
+        function getQueryParams() {
+            const params = new URLSearchParams(window.location.search);
+            return {
+                type: params.get('type') || 'blog',
+                stop: params.get('stop') ? parseInt(params.get('stop')) : null
+            };
+        }
+
+        function updateUrlParams(view, stopIndex) {
+            const params = new URLSearchParams();
+            params.set('type', view);
+            if (stopIndex !== null && stopIndex !== undefined) {
+                params.set('stop', stopIndex + 1);
+            }
+            const newUrl = `${window.location.pathname}?${params.toString()}`;
+            window.history.pushState({ view, stopIndex }, '', newUrl);
+        }
 
         async function init() {
             try {
@@ -750,7 +769,13 @@
                 initMap();
                 populateSidebar();
                 setupViewTabs();
-                switchView('blog');
+                
+                const params = getQueryParams();
+                switchView(params.type);
+                
+                if (params.stop !== null && params.stop > 0 && params.stop <= locations.length) {
+                    selectLocation(params.stop - 1);
+                }
             } catch (error) {
                 console.error('Error loading locations:', error);
             }
@@ -926,6 +951,13 @@
                 marker.bindPopup(popupContent);
 
                 marker.on('popupopen', e => {
+                    selectedIndex = index;
+                    updateUrlParams('map', index);
+                    
+                    document.querySelectorAll('.location-item').forEach((item, i) => {
+                        item.classList.toggle('active', i === index);
+                    });
+                    
                     const popupEl = e.popup.getElement();
 
                     popupEl.querySelectorAll('img[data-src]').forEach(img => {
@@ -1034,7 +1066,13 @@
                 map.flyTo([loc.lat, loc.lng], 10, {
                     duration: 0.75
                 });
-                setTimeout(() => markers[index].openPopup(), 500);
+                if (pendingPopupTimeout !== null) {
+                    clearTimeout(pendingPopupTimeout);
+                }
+                pendingPopupTimeout = setTimeout(() => {
+                    markers[index].openPopup();
+                    pendingPopupTimeout = null;
+                }, 500);
             } else if (currentView === 'blog') {
                 const blogEntries = document.querySelectorAll('.blog-entry');
                 const visibleLocations = locations.filter(l => l.summary);
@@ -1044,6 +1082,7 @@
                 }
             }
 
+            updateUrlParams(currentView, index);
             closeSidebarOnMobile();
         }
 
@@ -1075,6 +1114,8 @@
             // Re-apply selection
             if (selectedIndex !== null) {
                 selectLocation(selectedIndex);
+            } else {
+                updateUrlParams(view, null);
             }
         }
 
@@ -1279,7 +1320,7 @@
                     <span class="jump-to-latest-arrow">↓</span>
                 </button>
                 ${visibleEntries.map((loc, index) => `
-                    <div class="blog-entry" ${index === visibleEntries.length - 1 ? 'id="latest-blog-entry"' : ''}>
+                    <div class="blog-entry" data-location-index="${locations.indexOf(loc)}" ${index === visibleEntries.length - 1 ? 'id="latest-blog-entry"' : ''}>
                         <div class="blog-title">${loc.title && loc.title.trim() ? loc.title : loc.location}</div>
                         ${loc.title ? `<div class="blog-location">${loc.location}</div>` : ''}
                         ${loc.campsites ? `<div class="blog-sites">Campsites: ${loc.campsites.join(', ')}</div>` : ''}
@@ -1315,6 +1356,36 @@
                     // If first entry is mostly out of view (scrolled past), hide button
                     const isScrolledPast = entryRect.bottom < containerRect.top + 100;
                     jumpBtn.classList.toggle('hidden', isScrolledPast);
+
+                    // Find which blog entry is most visible and update URL
+                    const entries = document.querySelectorAll('.blog-entry');
+                    let mostVisibleIndex = null;
+                    let maxVisibility = 0;
+
+                    entries.forEach(entry => {
+                        const rect = entry.getBoundingClientRect();
+                        const containerTop = blogContainer.getBoundingClientRect().top;
+                        const containerBottom = blogContainer.getBoundingClientRect().bottom;
+                        
+                        const visibleTop = Math.max(rect.top, containerTop);
+                        const visibleBottom = Math.min(rect.bottom, containerBottom);
+                        const visibleHeight = Math.max(0, visibleBottom - visibleTop);
+                        const visibility = visibleHeight / rect.height;
+
+                        if (visibility > maxVisibility) {
+                            maxVisibility = visibility;
+                            mostVisibleIndex = parseInt(entry.dataset.locationIndex);
+                        }
+                    });
+
+                    if (mostVisibleIndex !== null && mostVisibleIndex !== selectedIndex) {
+                        selectedIndex = mostVisibleIndex;
+                        updateUrlParams('blog', mostVisibleIndex);
+                        
+                        document.querySelectorAll('.location-item').forEach((item, i) => {
+                            item.classList.toggle('active', i === mostVisibleIndex);
+                        });
+                    }
                 }
             };
             
