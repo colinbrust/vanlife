@@ -1111,7 +1111,7 @@
     "campsites": [],
     "date_start": "2026-02-18",
     "date_end": "2026-02-26",
-    "summary": "While Helen was in Guatemala, I spent some time in Tucson with my family. The main objective of the trip was to help get a lot of landscaping done in order to get my parent's yard ready to host a pre-wedding reception for my sister's upcoming wedding in April! My dad and I shovelled multiple tons of landscaping gravel around the yard and built a rolling gate to block the carport. It was very nice to be back home in Tucson without having to work or take vacation time. I realized that I hadn't had a trip to Tucson where I wasn't working remotely since my senior year of college! Despite the hard work, it was a very relaxing trip, and my dad and I spent our free time making dinner and binging the TV show Three Body Problem on Netflix. <br><br> <b>-Colin</b> <br><br> While Colin was in Tucson, I got to spend a week with four of my girlfriends from Missoula in Guatemala! We mainly chose Guatemala because my friend Tiffany wanted to hike to see Volcan de Fuego, which is an active Volcano right outside the town of Antigua. We did an overnight tour where we hiked a very steep nearby volcano to a basecamp that gave us views of the erupting volcano. It was a a tough hike with lots of dust and a hoard of stray dogs to keep us company but we all made it up and got to watch the volcano erupt all night, the lava illuminating red once the sun went down. It was honestly crazy to watch and listen to. Other than the tour, we spent a couple of days in the cute cobblestoned town of Antigua where we ate lots of tacos, practiced our spanish, toured churches and ruins and got to catch up before we headed to a couple of towns on Lake Atitlan where we got to swim and relax. It was so fun to spend so much time with my friends and explore a new place together. Guatemala is a gorgeous country with great food and people, just be prepared for treacherous transportation like bumpy boat rides and 13 year old shuttle drivers. <br><br><b>-Helen</b>",
+    "summary": "While Helen was in Guatemala, I spent some time in Tucson with my family. The main objective of the trip was to help get a lot of landscaping done in order to get my parent's yard ready to host a pre-wedding reception for my sister's upcoming wedding in April! My dad and I shoveled multiple tons of landscaping gravel around the yard and built a rolling gate to block the carport. It was very nice to be back home in Tucson without having to work or take vacation time. I realized that I hadn't had a trip to Tucson where I wasn't working remotely since my senior year of college! Despite the hard work, it was a very relaxing trip, and my dad and I spent our free time making dinner and binging the TV show Three Body Problem on Netflix. <br><br> <b>-Colin</b> <br><br> While Colin was in Tucson, I got to spend a week with four of my girlfriends from Missoula in Guatemala! We mainly chose Guatemala because my friend Tiffany wanted to hike to see Volcan de Fuego, which is an active Volcano right outside the town of Antigua. We did an overnight tour where we hiked a very steep nearby volcano to a basecamp that gave us views of the erupting volcano. It was a a tough hike with lots of dust and a hoard of stray dogs to keep us company but we all made it up and got to watch the volcano erupt all night, the lava illuminating red once the sun went down. It was honestly crazy to watch and listen to. Other than the tour, we spent a couple of days in the cute cobblestoned town of Antigua where we ate lots of tacos, practiced our spanish, toured churches and ruins and got to catch up before we headed to a couple of towns on Lake Atitlan where we got to swim and relax. It was so fun to spend so much time with my friends and explore a new place together. Guatemala is a gorgeous country with great food and people, just be prepared for treacherous transportation like bumpy boat rides and 13 year old shuttle drivers. <br><br><b>-Helen</b>",
     "photos": [
       {
         "caption": "On the streets of Antigua",
@@ -1585,6 +1585,111 @@
         "caption": "Colin climbing in Moe's Valley",
         "pth": "images/050_st_george/flailing.webp"
       }
+    ]
+  },
+      {
+    "location": "Cliff Dwellers, AZ",
+    "title": "Camped on the Rim",
+    "campsites": ["Soap Creek Dispersed"],
+    "date_start": "2026-03-28",
+    "date_end": "2026-03-29",
+    "summary": "We were sad to say goodbye to all of our friends but happy to be back on the road together again and it was very nice to not be making the 12 hour drive back to Missoula with everyone else. We decided to head to the Flagstaff area but noticed we'd be passing right over the Colorado river and saw there were some cool looking camping spots on the rim of the canyon. The road in was quite rocky but the views were worth the teeth shattering bumps! We spent the evening working on the blog, reading and taking in the views. It felt kind of surreal to be that close to the edge of the canyon where a couple more steps could send you over the edge of a very deep cliff. The river was beautiful and green and we even spotted a few boats that must of just launched from Lee's Ferry. Looking down at the river, I was wishing that was us. In the morning we ate some delicious bagels with lox before hitting the road again. <br><br><b>-Helen</b>",
+    "photos": [
+      {
+        "caption": "Our breakfast view from the rim of the canyon (bagels with lox).",
+        "pth": "images/051_rim/bfast_on_the_rim.webp"
+      },
+            {
+        "caption": "View of the Colorado from the rim of the canyon.",
+        "pth": "images/051_rim/on_rim.webp"
+      },
+            {
+        "caption": "Our van on the rim of the canyon.",
+        "pth": "images/051_rim/van_on_rim_again.webp"
+      }
+    ]
+  },
+      {
+    "location": "Flagstaff, AZ",
+    "title": "Boulders and Buds",
+    "campsites": ["Priest Draws Dispersed"],
+    "date_start": "2026-03-29",
+    "date_end": "2026-03-31",
+    "summary": "We were hoping to spend a few days climbing in the Flagstaff area, so I reached out to my high school friend Steven, who lives in town. He suggested climbing at The Peaks crag, which ended up being an awesome suggestion. The crag was a volcanic rock called dacite, and the texture and style of the climbing was reminiscent of Kootenai Canyon back in Missoula. The next day, we met up with Steven and his girlfriend to do some bouldering at Priest Draw. The rocks at Priest Draw are weathered limestone boulders that form pocketed and dead horizontal roofs. Although the style was rather unique and tiring to climb on, we spent over 6 hours bouldering and chatting. It was a very nice day reconnecting with an old friend. On the way out of town, we took a shower at Steven's house before hitting the road for Sedona.<br><br><b>-Colin</b>",
+    "photos": [
+      {
+        "caption": "Colin pretending to climb on a roof at Priest Draw.",
+        "pth": "images/052_flag/bouldering.webp"
+      },
+            {
+        "caption": "Some post-climb stovetop nachos.",
+        "pth": "images/052_flag/nachos.webp"
+      }
+    ]
+  },
+      {
+    "location": "Sedona, AZ",
+    "title": "The Camp of Last Resort",
+    "campsites": ["Beaverhead Flats Road Dispersed"],
+    "date_start": "2026-03-31",
+    "date_end": "2026-04-01",
+    "summary": "Leaving Flagstaff, we wanted to stop by Sedona since we had bailed earlier in the year due to rainy weather. We did a nice little hike up Fay Canyon, which was relatively flat and filled with people. Though the trailhead was overflowing, we are optimistic we could still find dispersed camping, which we quickly realized was false. Sedona has become very strict about where you can camp for free and has designated big lots, which turn out to all be very full come April. After driving around for a couple of hours trying to find a spot, we bailed on Sedona entirely and tried to find the next closest free camping, which ended up being some BLM land on Beaverhead Flats road. The spot was meh but we were grateful to have arrived and spent the evening cozied in the van during one of our few nights of rain. In the morning, we did a quick mountain bike ride outside of Phoenix, but that ended up kind of being a fail too since most of the trails were blocked by construction fences. After that, we decided to high tail it to Tucson, where we knew family, a hot tub, and a nice bed were waiting for us. <br><br><b>-Helen</b>",
+    "photos": [
+    ]
+  },
+      {
+    "location": "Tucson, AZ",
+    "title": "Sis Gets Married!",
+    "campsites": ["Ledges Campground"],
+    "date_start": "2026-04-01",
+    "date_end": "2026-04-15",
+    "summary": "We arrived in Tucson a few days ahead of schedule due to the lack of available campsites in the Sedona area. This ended up being a good thing, as there were plenty of things to get done around my parent's house to prepare for the rehearsal dinner they were hosting for my sister's wedding. We spent many hours repairing lawn chairs, shoveling gravel and landscaping. Between these tasks, we had some time for doing a deep clean of the van and we were able to make it up to Mt Lemmon to climb with our friends Quinn and Caitlin. Although we were busy the whole time we were visiting, we had an awesome time hanging out with family. Both the rehersal dinner that my parents hosted and the wedding itself were incredible events. It was so fun to reconnect with old family and friends and we are so excited for Ji (sister) and Hunter (brother-in-law) and all the adventures they will have together! <br><br> On the way out of town, we stopped at Walmart to get a few supplies. One of these supplies was a bag of pine shaving pet bedding that we use in our composting toilet. At the store's exit, there was a lady checking receipts who excitedly asked me what type of pet I was using the bedding for. Not wanting to explain that 'You see, I actually bought this to put in my toilet so my van doesn't smell like poop', I answered 'Oh it's just for my cute little guy'. To which she of course had more questions. I blurted out that I was actually in a hurry and had to get going and high tailed it back to the van. With that, our time in Tucson was over and we hit the road for California. <br><br><b>-Colin</b>",
+    "photos": [
+      {
+        "caption": "A tangle of leashes as we walked the dogs around the block.",
+        "pth": "images/054_tucson/dog_walk.webp"
+      },
+            {
+        "caption": "My parent's dog Keeley sleeping in style.",
+        "pth": "images/054_tucson/keeley_sleeping.webp"
+      },
+            {
+        "caption": "A lovely trip to the Tucson landfill that I made with my dad.",
+        "pth": "images/054_tucson/landfill.webp"
+      },
+            {
+        "caption": "The back yard of my parent's house before the wedding rehersal dinner.",
+        "pth": "images/054_tucson/the_yard.webp"
+      },
+            {
+        "caption": "Helen and I dressed up at my sister's wedding!",
+        "pth": "images/054_tucson/at_wedding.webp"
+      }
+    ]
+  },
+  {
+    "location": "Chiriaco Summit, CA",
+    "title": "Who Knew Interstate Camping Could Be So Nice?",
+    "campsites": ["Ledges Campground"],
+    "date_start": "2026-04-15",
+    "date_end": "2026-04-16",
+    "summary": "Our next stop after leaving Tucson was the Eastern Sierra, but we didn't want to do the whole ten hour drive in one push. Our van doesn't have cruise control and we have become moderate to severe weenies when it comes to spending long days on the road. We decided to spend the night at Chiriaco Summit. Despite being within eye and earshot of I-10, it was a pretty nice spot to stay for the night, with free camping and plenty of empty spots. We made a salad for dinner and watched the new Netflix series Big Mistakes. On the way out, we got some great coffee at the little shop at the rest area near where we camped. <br><br><b>-Colin</b>",
+    "photos": [
+      {
+        "caption": "The sunset view from our campsite at Chiriaco Summit.",
+        "pth": "images/055_summit/summit.webp"
+      }
+    ]
+  },
+      {
+    "location": "Lone Pine, CA",
+    "title": "Views of Whitney",
+    "campsites": ["Ledges Campground"],
+    "date_start": "2026-04-16",
+    "date_end": "2026-04-19",
+    "summary": "Our current stop. More to come soon!",
+    "photos": [
+
     ]
   }
 ]

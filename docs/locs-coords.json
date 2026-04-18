@@ -374,7 +374,7 @@
   {
     "location": "Newspaper Rock, UT",
     "date_start": "2026-03-14",
-    "lat": 37.9883267141451, 
+    "lat": 37.9883267141451,
     "lng": -109.51824327569972
   },
   {
@@ -394,5 +394,41 @@
     "date_start": "2026-03-22",
     "lat": 37.1098772,
     "lng": -113.5832063
+  },
+  {
+    "location": "Cliff Dwellers, AZ",
+    "date_start": "2026-03-28",
+    "lat": 36.7343521,
+    "lng": -111.7526410
+  },
+  {
+    "location": "Flagstaff, AZ",
+    "date_start": "2026-03-29",
+    "lat": 35.1987522,
+    "lng": -111.6518220
+  },
+  {
+    "location": "Sedona, AZ",
+    "date_start": "2026-03-31",
+    "lat": 34.8688613,
+    "lng": -111.7614394
+  },
+  {
+    "location": "Tucson, AZ",
+    "date_start": "2026-04-01",
+    "lat": 32.2228765,
+    "lng": -110.9748470
+  },
+  {
+    "location": "Chiriaco Summit, CA",
+    "date_start": "2026-04-15",
+    "lat": 33.6621678,
+    "lng": -115.7218902
+  },
+  {
+    "location": "Lone Pine, CA",
+    "date_start": "2026-04-16",
+    "lat": 36.5831760,
+    "lng": -118.0783265
   }
 ]
