@@ -957,6 +957,22 @@
                     document.querySelectorAll('.location-item').forEach((item, i) => {
                         item.classList.toggle('active', i === index);
                     });
+
+                    // Scroll navbar to keep selected item visible
+                    const locationList = document.getElementById('locationList');
+                    const activeItem = document.querySelector('.location-item.active');
+                    if (locationList && activeItem) {
+                        const itemTop = activeItem.offsetTop;
+                        const itemBottom = itemTop + activeItem.offsetHeight;
+                        const listTop = locationList.scrollTop;
+                        const listBottom = listTop + locationList.clientHeight;
+                        
+                        if (itemTop < listTop) {
+                            locationList.scrollTop = itemTop;
+                        } else if (itemBottom > listBottom) {
+                            locationList.scrollTop = itemBottom - locationList.clientHeight;
+                        }
+                    }
                     
                     const popupEl = e.popup.getElement();
 
@@ -1385,6 +1401,25 @@
                         document.querySelectorAll('.location-item').forEach((item, i) => {
                             item.classList.toggle('active', i === mostVisibleIndex);
                         });
+
+                        // Scroll navbar to keep selected item visible
+                        const locationList = document.getElementById('locationList');
+                        const activeItem = document.querySelector('.location-item.active');
+                        if (locationList && activeItem) {
+                            const itemRect = activeItem.getBoundingClientRect();
+                            const listRect = locationList.getBoundingClientRect();
+                            
+                            const itemTop = activeItem.offsetTop;
+                            const itemBottom = itemTop + activeItem.offsetHeight;
+                            const listTop = locationList.scrollTop;
+                            const listBottom = listTop + locationList.clientHeight;
+                            
+                            if (itemTop < listTop) {
+                                locationList.scrollTop = itemTop;
+                            } else if (itemBottom > listBottom) {
+                                locationList.scrollTop = itemBottom - locationList.clientHeight;
+                            }
+                        }
                     }
                 }
             };
