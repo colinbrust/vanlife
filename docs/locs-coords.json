@@ -430,5 +430,53 @@
     "date_start": "2026-04-16",
     "lat": 36.5831760,
     "lng": -118.0783265
+  },
+  {
+    "location": "Bishop, CA",
+    "date_start": "2026-04-19",
+    "lat": 37.3636790,
+    "lng": -118.3952400
+  },
+  {
+    "location": "Topaz Lake, NV",
+    "date_start": "2026-04-21",
+    "lat": 38.6954092,
+    "lng": -119.5479969
+  },
+  {
+    "location": "Placerville, CA",
+    "date_start": "2026-04-22",
+    "lat": 38.7296252,
+    "lng": -120.7985460
+  },
+  {
+    "location": "Granite Bay, CA",
+    "date_start": "2026-04-23",
+    "lat": 38.7621730,
+    "lng": -121.1850057
+  },
+  {
+    "location": "Davis, CA",
+    "date_start": "2026-04-24",
+    "lat": 38.5435526,
+    "lng": -121.7390050
+  },
+  {
+    "location": "Fort Ross, CA",
+    "date_start": "2026-04-25",
+    "lat": 38.5142190,
+    "lng": -123.2435866
+  },
+  {
+    "location": "Gualala, CA",
+    "date_start": "2026-04-26",
+    "lat": 38.7674439,
+    "lng": -123.5298280
+  },
+  {
+    "location": "Shelter Cove, CA",
+    "date_start": "2026-04-28",
+    "lat": 40.0380195,
+    "lng": -124.0557453
   }
 ]
