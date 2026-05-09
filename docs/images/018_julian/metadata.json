@@ -1,0 +1,28 @@
+{
+  "location": "Borrego Springs, CA",
+  "title": "Wind and Sculptures",
+  "date_start": "2026-01-07",
+  "date_end": "2026-01-09",
+  "summary": "Our next planned stop after Joshua Tree was the Anza-Borrego Desert State Park. On the day we arrived, we drove up the Palms to Pines Scenic Byway, which takes a winding road up from Palm Springs, CA into the mountains. Upon arriving at camp, we learned that dogs are allowed on virtually none of the trails in the area. Despite the setback, we were able to fill the rest of the day with some running on the dirt roads around camp with Maya. The next day was quite windy, so we decided to spend a lot of time hunkered down in the van. Eventually, we made the drive down into the town of Borrego Springs to see the display of metal sculptures that the town is known for at Galleta Meadows. Scattered across empty desert lots outside of town are hundreds of life sized metal sculptures of people, animals, and even giant sea dragons! After our tour, Helen stayed in town to coordinate logistics of her upcoming trip to Guatemala while Colin went for a run up a trail that lead back to camp. <br><br> <b>-Colin<\/b>",
+  "campsites": [
+    "Culp Valley Campground"
+  ],
+  "photos": [
+    {
+      "caption": "One of the many life sized metal sculptures in Borrego Springs.",
+      "pth": "more_sculptures.webp"
+    },
+    {
+      "caption": "Maya growling at some javelina.",
+      "pth": "dubious_maya.webp"
+    },
+    {
+      "caption": "The sculptures were very detailed!",
+      "pth": "the_details.webp"
+    },
+    {
+      "caption": "A picture taken on one of Colin's runs on the trail between Borrego Springs and camp.",
+      "pth": "view_from_trail.webp"
+    }
+  ]
+}

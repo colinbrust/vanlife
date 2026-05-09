@@ -1,0 +1,16 @@
+{
+  "location": "Nothing, AZ",
+  "title": "Burro Creek Campground Pit Stop",
+  "date_start": "2025-11-13",
+  "date_end": "2025-11-14",
+  "summary": "A little campground that my dad recommended on the way home to Tucson. We pulled in late and left early so not much to report. They didn't have running water during our visit, so they waived camping fees!",
+  "campsites": [
+    "Burro Creek Campground"
+  ],
+  "photos": [
+    {
+      "caption": "Before we took off in the morning, we went on a morning walk with our coffee down to the creek. Calling it a creek is a little generous, it was more of a chain of pools of standing water. But a pretty view nonetheless.",
+      "pth": "burro_ck.webp"
+    }
+  ]
+}

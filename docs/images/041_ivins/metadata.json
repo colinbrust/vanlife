@@ -1,0 +1,24 @@
+{
+  "location": "Washington, UT",
+  "title": "Hiking and Relaxing in Red Cliffs",
+  "date_start": "2026-03-04",
+  "date_end": "2026-03-06",
+  "summary": "We heard about the Red Cliffs area outside of St George so we decided to check it out for a couple nights. The campground was very small and did not have any level spots for the van, but it was a pretty area set up against some red rocks. We spent the first evening playing cards and doing a small hiking loop to see some dinosaur tracks and old ruins. The next morning we hiked up the Red Reef trail that ended up at some big pools not far up the trail. After some debate, we decided Maya couldn't make it up the rock scramble, so we cut the hike short and instead returned the next morning without her. <br><br><b>-Helen<\/b>",
+  "campsites": [
+    "Red Cliffs Campground"
+  ],
+  "photos": [
+    {
+      "caption": "Footholds cut into the rock on the Red Reef trail",
+      "pth": "footholds.webp"
+    },
+    {
+      "caption": "ootholds cut into the rock on the Red Reef trail",
+      "pth": "footholds2.webp"
+    },
+    {
+      "caption": "Maya doing some R&R",
+      "pth": "rnr.webp"
+    }
+  ]
+}

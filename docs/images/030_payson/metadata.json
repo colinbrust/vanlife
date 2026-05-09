@@ -1,0 +1,85 @@
+{
+  "location": "Strawberry, AZ",
+  "title": "Views from the Mogollon Rim",
+  "date_start": "2026-02-04",
+  "date_end": "2026-02-06",
+  "summary": "After more than a week of the luxury of campgrounds, we went in search of some free camping on the Mogollon Rim. We were a little nervous as we drove down the dirt roads and snow started to appear, but we were rewarded by a beautiful spot overlooking the valley with no one else around. We set up our chair to watch the sunset and then retreated into the van to get out of the cold wind. We set our alarm to get up to watch the sunrise, which is luckily at about 7:30am right now, and enjoyed a quiet morning watching the sun rise over the valley. While very pretty, it was a bit cold to stay, so we packed up and headed out to find a new spot. <br><br> We stopped at the Pine Trailhead, where we went on a nice little trail run together, and then I worked for a little while in the van while Colin went on a longer run. Next up, we decided to check out Tonto Natural Bridge State Park, which we discovered was right down the road from us. Upon entering, we were slightly dismayed to find out it cost $10 a person rather than $10 a car to enter, but we paid the fee and continued to the parking lot. There aren't any big hikes here, just little trails to various lookouts. Not really knowing what to expect or understanding the map they gave us, we set off down a steep trail that immediately opened up to an incredible natural bridge. There were big boulders and pools beneath with featured rock above, and water pouring over the other side, illuminated by the sun. It was honestly one of the coolest things spots I have ever seen, partly because it was so unassuming and we decided it was definitely worth the $20. That night, after a little searching and being selective about our dispersed spot for the night, we ended up at the end of a road in a nice little forest surrounded by cows. <br><br> The next morning, we got up and packed up quickly because we had a big day of hiking ahead of us. After hearing about it from my mom, we wanted to check out Fossil Creek, which is a clear, spring-fed creek at the bottom of a canyon. During the summer months you need a permit to hike but during the colder months there are no restrictions and it was relatively empty. It was a steep hike down, though not as steep as all of the signs made it seem with many warnings about previous rescues and even deaths. After about 3.5 miles, the hike flattens out, and you hike along the creek before getting to a big waterfall with pools. We found a nice spot for a refreshing dip, which we followed with a delicious picnic of empanadas that we had picked up at the Pie Bar in Strawberry. The hike up was not as bad as we were expecting, and we got back to the car at around 2pm with some time to spare before we needed to find a campsite. So, we stopped at THAT brewery in Pine for a post-hike beer on the dog-friendly patio.",
+  "campsites": [
+    "Milk Ranch Point Dispersed",
+    "Hardscrabble Road Dispersed"
+  ],
+  "photos": [
+    {
+      "caption": "View of the sunrise on the Mogollon Rim from the kitchen while water boils for coffee.",
+      "pth": "rim_sunrise.webp"
+    },
+    {
+      "caption": "Sunrise on the Mogollon Rim.",
+      "pth": "rim_sunrise2.webp"
+    },
+    {
+      "caption": "The view from our camp on the Mogollon Rim.",
+      "pth": "the_rim_view.webp"
+    },
+    {
+      "caption": "Pancakes for breakfast on the Mogollon Rim.",
+      "pth": "pancake_bfast.webp"
+    },
+    {
+      "caption": "Colin taking in the views.",
+      "pth": "sitting_on_rim.webp"
+    },
+    {
+      "caption": "View as we descended into the Tonto Natural Bridge.",
+      "pth": "cave_from_overview.webp"
+    },
+    {
+      "caption": "Helen walking into the natural bridge.",
+      "pth": "into_the_cave.webp"
+    },
+    {
+      "caption": "A selfie underneath the Tonto Natural Bridge",
+      "pth": "cave_selfie.webp"
+    },
+    {
+      "caption": "View as we were leaving the Tonto Natural Bridge.",
+      "pth": "cave_from_end.webp"
+    },
+    {
+      "caption": "The view you get as you hike into the Tonto Natural Bridge.",
+      "pth": "the_bridge.webp"
+    },
+    {
+      "caption": "Helen on the path inside the natural bridge.",
+      "pth": "helen_in_tonto.webp"
+    },
+    {
+      "caption": "Last year, Colin bought a large can of mackrel at an Asian grocery store. It sat in our pantry all year. For some reason, Helen allowed Colin to bring it along for vanlife. It sat in the van for 4 months. Seeing that Colin would never use the fish, Helen made a delicious pasta dinner with tomatoes and mackrel.",
+      "pth": "pasta_dinner.webp"
+    },
+    {
+      "caption": "A selfie near the falls at Fossil Creek.",
+      "pth": "fossil_selfie.webp"
+    },
+    {
+      "caption": "Waterfall on Fossil Creek.",
+      "pth": "falls.webp"
+    },
+    {
+      "caption": "The spot we chose to take a dip on Fossil Creek.",
+      "pth": "swimming_hole.webp"
+    },
+    {
+      "caption": "One of the highlights of this stop was our visit to the Pie Bar in Strawberry. They had delicious handmade empanadas. We purchased 5 and brought them for lunch for our hike to Fossil Creek",
+      "pth": "empanada.webp"
+    },
+    {
+      "caption": "Helen and Maya on the 4 mile uphill hike out of Fossil Creek.",
+      "pth": "hiking_out_fossil.webp"
+    },
+    {
+      "caption": "Maya taking a dip and a drink in Fossil Creek.",
+      "pth": "maya_drinking.webp"
+    }
+  ]
+}

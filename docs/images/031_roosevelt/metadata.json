@@ -1,0 +1,37 @@
+{
+  "location": "Payson, AZ",
+  "title": "Football and a Hot Tub",
+  "date_start": "2026-02-06",
+  "date_end": "2026-02-09",
+  "summary": "After leaving the Strawberry/Pine area, we spent a few days camped and exploring outside Payson. Our first day there, we visited Water Wheel Falls. It was a short hike to some beautiful waterfalls where I took a very cold swim in a pool and Maya fetched a stick out of the water to her heart's content. After another night of dispersed camping, we headed into Payson to sample some of the trails in town. After a very warm run with very little water, we took care of a few chores including filling the propane tank, filling the water tank and restocking groceries at Walmart. That day was Super Bowl Sunday and we wanted to watch some of the game at a bar so we chose Backwoods Sports Bar. We felt a little out of place among the patrons complaining about the Bad Bunny halftime show and wishing the Kid Rock alternative was being aired instead. Regardless, the food was pretty good and I crossed off three lifetime bucket list items: <ol> <li>Eating wings during the Super Bowl<\/li> <li>Watching the Super Bowl at a bar<\/li> <li>Drinking a Bud Light<\/li><\/ol> The following morning, we decided it was time for a shower. The only place in Payson we could find with showers was the Apache Athletic Club on the outskirts of town. We were the youngest gym-goers by easily 30 years, but we had a very nice time sitting in the hot tub, relaxing in the sauna and taking a shower after a few days on the road.",
+  "campsites": [
+    "Pyeatte Draw Dispersed",
+    "Bear Canyon Dispersed"
+  ],
+  "photos": [
+    {
+      "caption": "One of the trails Colin ran on while visiting Payson.",
+      "pth": "payson_trails.webp"
+    },
+    {
+      "caption": "Water wheel falls.",
+      "pth": "water_wheel_fals.webp"
+    },
+    {
+      "caption": "Our campsite at Bear Canyon.",
+      "pth": "bear_ck_camping.webp"
+    },
+    {
+      "caption": "Colin doing a cold plunge near water wheel falls.",
+      "pth": "colin_plunging.webp"
+    },
+    {
+      "caption": "You've heard of deep-water soloing. But what about shallow-water soloing?",
+      "pth": "sws.webp"
+    },
+    {
+      "caption": "Helen taking a selfie with Maya.",
+      "pth": "maya_selfie.webp"
+    }
+  ]
+}

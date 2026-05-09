@@ -1,0 +1,32 @@
+{
+  "location": "Las Vegas, NV",
+  "title": "New Years in Red Rocks",
+  "date_start": "2025-12-29",
+  "date_end": "2026-01-03",
+  "summary": "Our first official stop as unemployed, full-time vanlifers! Some friends from Missoula were camping out at Red Rocks to climb for the New Year, so we joined them for a few days of climbing and visiting. Unfortunately, the cold and rainy weather didn't make for good climbing. The rock in Red Rocks is sandstone, which is easily damaged if climbed on when wet. We didn't end up doing much climbing, but went on a mountain bike ride, some nice hikes and runs, and got some great Thai food with friends on New Year's Day in Chinatown.  <br><br> <b>-Colin<\/b>",
+  "campsites": [
+    "Red Rocks Campground"
+  ],
+  "photos": [
+    {
+      "caption": "A game of chess played in the van while avoiding the rain. Chess is becoming one of our favorite activities!",
+      "pth": "gaming.webp"
+    },
+    {
+      "caption": "A view out the van of our camp at Red Rocks.",
+      "pth": "vegas_camp.webp"
+    },
+    {
+      "caption": "Helen and Maya celebrating the summit of Turtlehead Peak.",
+      "pth": "turtlehead_peak.webp"
+    },
+    {
+      "caption": "The view from the top of Turtlehead Peak.",
+      "pth": "turtlehead_view.webp"
+    },
+    {
+      "caption": "Colin stopping to get some roadside elote as a post run snack.",
+      "pth": "post_run_snack.webp"
+    }
+  ]
+}

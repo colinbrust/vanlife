@@ -1,0 +1,24 @@
+{
+  "location": "Virgin River Gorge, AZ",
+  "title": "Hot Day in the VRG",
+  "date_start": "2026-03-01",
+  "date_end": "2026-03-02",
+  "summary": "We stopped for one day in the Virgin River Gorge Recreation Area. While the setting was very pretty, the temperatures were very high. For some reason, I chose to do a long run in the middle of the day, which was not very pleasant (especially after I ran out of water with 4 miles to go). The afternoon was spent escaping the heat by sitting in the shade of our van. We did some reading, Helen did some watercolor painting and I wrote a rare entry in my journal. We had a lovely hike down to the Virgin River as the sunset, which was a nice way to end the day. <br><br> <b>-Colin<\/b>",
+  "campsites": [
+    "Virgin River Recreation Area Campground"
+  ],
+  "photos": [
+    {
+      "caption": "Watercolor and journaling in camp",
+      "pth": "painting_in_camp.webp"
+    },
+    {
+      "caption": "The Virgin River during our sunset hike.",
+      "pth": "virgin_riv.webp"
+    },
+    {
+      "caption": "A selfie during our sunset hike.",
+      "pth": "vrg_selfie.webp"
+    }
+  ]
+}

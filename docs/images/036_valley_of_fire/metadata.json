@@ -1,0 +1,17 @@
+{
+  "location": "Las Vegas, NV",
+  "title": "Reunited!",
+  "date_start": "2026-02-26",
+  "date_end": "2026-02-27",
+  "summary": "After an overnight flight, I arrived in Las Vegas utterly exhausted but excited to see Colin and Maya. We headed to a park so Colin could go for a run and I could pass out for a few hours. I took one of the best naps of my life, falling asleep immediately feeling safe and warm in the van. We decided to spend the night at Red Rocks Canyon campground so that we could grocery shop and shower before deciding where to go next.",
+  "campsites": [
+    "Kingman Access Wash",
+    "Red Rocks Campground"
+  ],
+  "photos": [
+    {
+      "caption": "A wild burro was grazing in my camp the morning I left to pick up Helen from the airport.",
+      "pth": "donkey.webp"
+    }
+  ]
+}

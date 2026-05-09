@@ -1,0 +1,20 @@
+{
+  "location": "Apache Junction, AZ",
+  "title": "A Night in the Superstitions",
+  "date_start": "2025-12-06",
+  "date_end": "2025-12-07",
+  "summary": "We stopped at the Peralta Regional Park on our way up to Phoenix to visit Helen's grandparents. We went on a nice hike around the campground and watched 'The Devil Wears Prada' that night. In the morning, we drank coffee and read our books in the sun, then went on a run before hitting the road.",
+  "campsites": [
+    "Peralta Regional Park Campground"
+  ],
+  "photos": [
+    {
+      "caption": "Helen beating Colin at a game of wingspan at the camp picnic table.",
+      "pth": "gaming_at_camp.webp"
+    },
+    {
+      "caption": "A nice view of the mountains visible from camp around sunset.",
+      "pth": "peralta.webp"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "location": "Malibu, CA",
+  "title": "Beach Time (The Sequel): More Beach Time",
+  "date_start": "2026-01-22",
+  "date_end": "2026-01-26",
+  "summary": "We had planned to circle back to Joshua Tree to meet our friend Abby, who is also living out of her van. However, she had some mechanical mishaps that delayed her arrival to California. Not sure where to go next, and needing to be close to civilization so Colin could get his rabies shots, we decided to head back to the beach. It turns out it is pretty hard to find dog-friendly beach campgrounds along the California coast, so we chose one of the few others that did, Leo Carillo State Park Campground. The campground itself was set away from the ocean, in a small canyon with lots of trees. Upon arriving, we were greeted by the screeching of birds, which turned out to be a feral population of Nanday Parakeets. We spent four days there relaxing on the beach and spending time with Abby, who eventually made it! <br><br> <b>-Helen<\/b>",
+  "campsites": [
+    "Leo Carrillo State Park Campground"
+  ],
+  "photos": [
+    {
+      "caption": "Sunset on the Leo Carrillo beach",
+      "pth": "beach_sunset.webp"
+    },
+    {
+      "caption": "A view out of the sea cave at low tide.",
+      "pth": "cave.webp"
+    },
+    {
+      "caption": "Mussels.",
+      "pth": "mussels.webp"
+    },
+    {
+      "caption": "Obligatory Maya sleeping picture.",
+      "pth": "the_queen_of_the_van.webp"
+    },
+    {
+      "caption": "Sea anemonies in a tide pool at Leo Carrillo beach",
+      "pth": "tidepool.webp"
+    },
+    {
+      "caption": "Another view from one of Colin's runs.",
+      "pth": "the_view_2.webp"
+    },
+    {
+      "caption": "A nice little creek crossing Colin encountered on a run",
+      "pth": "creek_view.webp"
+    },
+    {
+      "caption": "Ocean view from a little peak near camp.",
+      "pth": "malibu_view.webp"
+    },
+    {
+      "caption": "A view of Malibu from one of Colin's runs.",
+      "pth": "more_view.webp"
+    },
+    {
+      "caption": "Flowers on the beach.",
+      "pth": "beach_flowers.webp"
+    },
+    {
+      "caption": "",
+      "pth": "beach_fuzz.webp"
+    },
+    {
+      "caption": "Lounging on the beach.",
+      "pth": "beach_lounging.webp"
+    },
+    {
+      "caption": "View from camp at Leo Carrillo State Park.",
+      "pth": "camp_in_carrillo.webp"
+    }
+  ]
+}

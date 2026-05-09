@@ -1,0 +1,16 @@
+{
+  "location": "Hanksville, UT",
+  "title": "Campsite Scouting",
+  "date_start": "2026-03-13",
+  "date_end": "2026-03-14",
+  "summary": "On our way to the Moab area, we stopped for a night along the San Rafael Swell. We had an upcoming camping trip with Helen's family and we were tasked with finding a campsite that would accommodate seven people and three dogs. We spent the afternoon looking for a suitable spot and then walking around the slick rock once we had one picked out.",
+  "campsites": [
+    "Temple Road Dispersed"
+  ],
+  "photos": [
+    {
+      "caption": "View of our campsite",
+      "pth": "view_of_camp.webp"
+    }
+  ]
+}

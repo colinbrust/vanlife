@@ -1,0 +1,24 @@
+{
+  "location": "Mojave National Preserve",
+  "title": "A Night at Granite Pass",
+  "date_start": "2026-01-03",
+  "date_end": "2026-01-04",
+  "summary": "On our way to Joshua Tree, we stopped for the night at an area called Granite Pass in the Mojave National Preserve. The weather was very cold, windy and cloudy, but we still did some scrambling and exploring in the boulder fields around camp.",
+  "campsites": [
+    "Granite Pass Dispersed Camping"
+  ],
+  "photos": [
+    {
+      "caption": "Wandering around the boulder fields.",
+      "pth": "boulder_hopping.webp"
+    },
+    {
+      "caption": "Our view from camp.",
+      "pth": "boulders.webp"
+    },
+    {
+      "caption": "Our camping spot at Granite Pass",
+      "pth": "granite_pass.webp"
+    }
+  ]
+}

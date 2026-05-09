@@ -1,0 +1,24 @@
+{
+  "location": "Barstow, CA",
+  "title": "Climbing in New Jack City",
+  "date_start": "2026-01-18",
+  "date_end": "2026-01-21",
+  "summary": "Sawtooth Canyon Campground is a free BLM climbers campground in the middle of nowhere dessert amidst volcanic rock formations. After the stress and of getting Colin's shots, eating bad taco bell, and the general chaos of the city, it was nice to be back in the van surrounded by sky and rocks. We spent a couple of days reading in the morning sun and climbing sport routes in the afternoon.  <br><br> <b>-Helen<\/b>",
+  "campsites": [
+    "Sawtooth Canyon Campground"
+  ],
+  "photos": [
+    {
+      "caption": "Maya laying down for a nap while we climb.",
+      "pth": "nap_time.webp"
+    },
+    {
+      "caption": "Colin rappelling off a route in New Jack City.",
+      "pth": "rapping.webp"
+    },
+    {
+      "caption": "The rocks at New Jack City.",
+      "pth": "rocks.webp"
+    }
+  ]
+}

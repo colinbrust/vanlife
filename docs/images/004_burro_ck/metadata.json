@@ -1,0 +1,41 @@
+{
+  "location": "Boulder City, NV",
+  "title": "Exploring Boulder City",
+  "date_start": "2025-11-11",
+  "date_end": "2025-11-13",
+  "summary": "On our way out of Vegas, we stopped outside Boulder City for a few nights. The first night, we were camped 'on' Lake Mead at the Boulder City Beach campground. You might think that because the campsite was called the Boulder City BEACH Campground that the sites would be right on the water's edge, but you would be wrong. For that to be true, my guess is that you would have to find a time machine and set the year to 2000, which is the last time Lake Mead was at full capacity. Since then, <a href='https://www.usbr.gov/lc/region/g4000/lakemead_line.pdf' target='_blank'> the water levels have fallen almost 200 feet<\/a>. All that is to say, rather than being camped on the beach, Helen and I had to walk 20 minutes to dip our toes in the water. After our walk to the water, we rode the mountain bike trails at Bootleg Canyon just outside of town. To say the least, these trails were puckering. Never before have I been on a blue graded mountain bike trail and thought I had a greater than 50% chance of breaking my leg. To recover from the trauma, we each treated ourselves to fries, shakes and massive cheeseburgers at Chilly Jilly's. As we were leaving town, we stopped at the Hoover Dam, the scale of which we both found very impressive. After a night camped (more or less) on the side of the highway, we took a visit to Arizona Hot Springs. The setting of the springs is in a slot canyon, and made for a very unique and beautiful setting. The only issue was that we had Maya with us. For the first 50 feet of the springs, the entire width of the slot canyon was filled with water well over 110 degrees (Fahrenheit), meaning I would have to carry Maya to cooler water if we wanted to soak. This wouldn't have been an issue if there wasn't a rickety, dead vertical, 20 foot ladder right where the hot water ended. Despite her many talents, Maya is not able to climb ladders. So, instead of soaking, we hiked out and went to a beach on the Colorado River down the road, where we both took a dip and Maya got to fetch sticks in the water to her heart's content.  <br><br> <b>-Colin<\/b>",
+  "campsites": [
+    "Boulder Beach Campground",
+    "Kingman Access Wash"
+  ],
+  "photos": [
+    {
+      "caption": "The view of the Lake Mead after our long walk to the beach",
+      "pth": "boulder_beach.webp"
+    },
+    {
+      "caption": "Maya enjoying a morning swim in Lake Mead",
+      "pth": "maya_in_water.webp"
+    },
+    {
+      "caption": "Chilly Jillys, where we got burgers and shakes",
+      "pth": "jillys.webp"
+    },
+    {
+      "caption": "Our view from the top of the Hoover Dam",
+      "pth": "the_dam.webp"
+    },
+    {
+      "caption": "The view from the top of the Hoover Dam. You can see the 'Bathtub Ring, which marks where the water once reached up to.",
+      "pth": "the_dam_view.webp"
+    },
+    {
+      "caption": "Walking through the slot canyons into the Arizona Hot Springs",
+      "pth": "the_springs.webp"
+    },
+    {
+      "caption": "The beach we visited after failing to soak in the hot springs. A nice consolation prize!",
+      "pth": "the_riv.webp"
+    }
+  ]
+}

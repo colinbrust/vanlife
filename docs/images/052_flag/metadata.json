@@ -1,0 +1,24 @@
+{
+  "location": "Cliff Dwellers, AZ",
+  "title": "Camped on the Rim",
+  "date_start": "2026-03-28",
+  "date_end": "2026-03-29",
+  "summary": "We were sad to say goodbye to all of our friends but happy to be back on the road together again and it was very nice to not be making the 12 hour drive back to Missoula with everyone else. We decided to head to the Flagstaff area but noticed we'd be passing right over the Colorado river and saw there were some cool looking camping spots on the rim of the canyon. The road in was quite rocky but the views were worth the teeth shattering bumps! We spent the evening working on the blog, reading and taking in the views. It felt kind of surreal to be that close to the edge of the canyon where a couple more steps could send you over the edge of a very deep cliff. The river was beautiful and green and we even spotted a few boats that must of just launched from Lee's Ferry. Looking down at the river, I was wishing that was us. In the morning we ate some delicious bagels with lox before hitting the road again. <br><br><b>-Helen<\/b>",
+  "campsites": [
+    "Soap Creek Dispersed"
+  ],
+  "photos": [
+    {
+      "caption": "Our breakfast view from the rim of the canyon (bagels with lox).",
+      "pth": "bfast_on_the_rim.webp"
+    },
+    {
+      "caption": "View of the Colorado from the rim of the canyon.",
+      "pth": "on_rim.webp"
+    },
+    {
+      "caption": "Our van on the rim of the canyon.",
+      "pth": "van_on_rim_again.webp"
+    }
+  ]
+}
