@@ -1,24 +1,20 @@
 {
-  "location": "Barstow, CA",
-  "title": "Climbing in New Jack City",
-  "date_start": "2026-01-18",
-  "date_end": "2026-01-21",
-  "summary": "Sawtooth Canyon Campground is a free BLM climbers campground in the middle of nowhere dessert amidst volcanic rock formations. After the stress and of getting Colin's shots, eating bad taco bell, and the general chaos of the city, it was nice to be back in the van surrounded by sky and rocks. We spent a couple of days reading in the morning sun and climbing sport routes in the afternoon.  <br><br> <b>-Helen<\/b>",
+  "location": "Riverside, CA",
+  "title": "Laundry and Birding",
+  "date_start": "2026-01-21",
+  "date_end": "2026-01-22",
+  "summary": "On Sunday, we had to head back into civilization to get Colin his second of four rounds of the rabies shot. We made our way back into San Berndadino, where I spent the afternoon in the van, and Colin spent it in the Loma Linda urgent care. We figured paying for a campground was cheaper than getting a hotel, so we booked a night at Rancho Jarupa Regional Park, which promised a disc golf course, showers, and a laundry room. Of those three amenities, the laundry room turned out to be the nicest. The highlight of this city park was the small lake, which was definitely more like a pond, where all sorts of birds gathered. I spent the foggy morning next to the lake drinking my coffee, reading my book and trying to identify all of the birds paddling and wading in the water. There were hooded merganzers, American coots, ruddy ducks, great blue herons and great big pelicans. It's been very fun being able to recognize some of the different species where they all just looked like ducks before. <br><br> <b>-Helen<\/b>",
   "campsites": [
-    "Sawtooth Canyon Campground"
+    "Rancho Jurupa Regional Park Campground"
   ],
   "photos": [
     {
-      "caption": "Maya laying down for a nap while we climb.",
-      "pth": "nap_time.webp"
+      "caption": "A great blue heron at the lake.",
+      "pth": "gbh.webp"
     },
     {
-      "caption": "Colin rappelling off a route in New Jack City.",
-      "pth": "rapping.webp"
-    },
-    {
-      "caption": "The rocks at New Jack City.",
-      "pth": "rocks.webp"
+      "caption": "Helen's morning coffee at the lake.",
+      "pth": "jurupa_lake.webp"
     }
   ]
 }

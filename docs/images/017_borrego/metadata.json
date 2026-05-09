@@ -1,53 +1,28 @@
 {
-  "location": "Joshua Tree, California",
-  "title": "Scrambling in Joshua Tree",
-  "date_start": "2026-01-04",
-  "date_end": "2026-01-07",
-  "summary": "For our first destination of the new year, we decided to visit Joshua Tree. The forecast was sunny and (relatively) warm and we were both excited to do some climbing and scrambling. We arrived at the first come, first served Hidden Valley Campground and were able to grab the last available spot. Unfortunately, unless you arrive at the campground before noon, there is no way to pay for and secure your spot unless you drive to a park entrance. So, we left a folding chair and a note at the site to hold our spot and made the 20 minute drive back to the entrance. After squaring away our registration, we headed over to Cyclops Rock to get in a little bit of climbing before sunset. We climbed two pitches and got a feel for the style of climbing in Joshua Tree. To me, it felt very reminiscent of climbing on the coarse granite of my home crag at Lolo Pass, which made me feel at home there. The next morning, we sought out climbs that were within 100 feet of camp, as those are the only off-road areas that dogs are permitted in the park. We were able to find a handful of routes around camp that fit the bill, the highlight being a cool 10a with some unique movement called Pinched Rib. We spent the afternoon going on a little run down the road, playing chess at camp and planning for the next stops on our adventure. Our final day in the park, we headed to an area called Indian Cove, where many routes are accessible to crag dogs. We climbed a few easy crack pitches, then top roped a classic 5.11 called Monaco, which featured many consecutive moves on featureless slab. That evening, we camped at the dispersed camping outside of the park. The campground was a flat, many square mile area featuring thorny bushes, copious amounts of mud and extremely rutted roads. So, we decided to make some popcorn and watch some movies (Death of a Unicorn and Harry Potter and the Deathly Hallows Part 2) rather than venturing out into the mud. <br><br> <b>-Colin<\/b>",
+  "location": "Borrego Springs, CA",
+  "title": "Wind and Sculptures",
+  "date_start": "2026-01-07",
+  "date_end": "2026-01-09",
+  "summary": "Our next planned stop after Joshua Tree was the Anza-Borrego Desert State Park. On the day we arrived, we drove up the Palms to Pines Scenic Byway, which takes a winding road up from Palm Springs, CA into the mountains. Upon arriving at camp, we learned that dogs are allowed on virtually none of the trails in the area. Despite the setback, we were able to fill the rest of the day with some running on the dirt roads around camp with Maya. The next day was quite windy, so we decided to spend a lot of time hunkered down in the van. Eventually, we made the drive down into the town of Borrego Springs to see the display of metal sculptures that the town is known for at Galleta Meadows. Scattered across empty desert lots outside of town are hundreds of life sized metal sculptures of people, animals, and even giant sea dragons! After our tour, Helen stayed in town to coordinate logistics of her upcoming trip to Guatemala while Colin went for a run up a trail that lead back to camp. <br><br> <b>-Colin<\/b>",
   "campsites": [
-    "Hidden Valley Campground",
-    "Dispersed Camping North of Joshua Tree"
+    "Culp Valley Campground"
   ],
   "photos": [
     {
-      "caption": "On top of 'The Blob' formation after climbing a 5.7+ called Buissonier. A fun little outing!",
-      "pth": "climbing.webp"
+      "caption": "One of the many life sized metal sculptures in Borrego Springs.",
+      "pth": "more_sculptures.webp"
     },
     {
-      "caption": "A chess game while taking a break from climbing.",
-      "pth": "gaming.webp"
+      "caption": "Maya growling at some javelina.",
+      "pth": "dubious_maya.webp"
     },
     {
-      "caption": "The Hidden Valley Campground as seen from our camp site.",
-      "pth": "hidden_valley.webp"
+      "caption": "The sculptures were very detailed!",
+      "pth": "the_details.webp"
     },
     {
-      "caption": "A pair of joshua trees seen on our morning hike",
-      "pth": "jtree_singular.webp"
-    },
-    {
-      "caption": "Some more j-trees.",
-      "pth": "jtrees_plural.webp"
-    },
-    {
-      "caption": "Maya leading the way on our morning walk.",
-      "pth": "maya_the_boss.webp"
-    },
-    {
-      "caption": "View of sunset from our bed.",
-      "pth": "sunset_in_bed.webp"
-    },
-    {
-      "caption": "A joshua tree in the sunset",
-      "pth": "sunset_tree.webp"
-    },
-    {
-      "caption": "Another glimpse of sunset.",
-      "pth": "sunset.webp"
-    },
-    {
-      "caption": "Colin playing ball with Maya at the dispersed camping outside Joshua Tree.",
-      "pth": "bad_camp.webp"
+      "caption": "A picture taken on one of Colin's runs on the trail between Borrego Springs and camp.",
+      "pth": "view_from_trail.webp"
     }
   ]
 }

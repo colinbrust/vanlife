@@ -1,53 +1,40 @@
 {
-  "location": "Roosevelt, AZ",
-  "title": "Hangin' on the Lake",
-  "date_start": "2026-02-10",
-  "date_end": "2026-02-13",
-  "summary": "Feeling very refreshed and clean, we headed south towards warmer weather and the promise of a lakefront camping spot. While we did find warmer weather, the camping spot was next to where a lake might have once been but is no more. It was still a nice free spot and you could see the lake in the distance so we decided to stay to a few nights. The warmer weather and later sunsets made for a relaxing couple of days where we ran, worked a little, played games, went on little walks and watched the Olympics which we have been able to stream with our Starlink. We did eventually make it down to the lake bushwacking through the dried lake bed and had some excitement when Maya stumbled upon a rattlesnake basking on the road, but luckily she listened to our frantic yelling and left it alone. <br><br> For our last night at the lake, we decided to move to one of the paid campgrounds so I could shower since I was about at my 4-5 day limit. Still being early February it was only about half full and we found a spot that actually overlooked the lake, though it was still about 100ft down from the site. <br><br><b>-Helen<\/b>",
+  "location": "Tortilla Flat, AZ",
+  "title": "Camping with Colin's Family",
+  "date_start": "2026-02-13",
+  "date_end": "2026-02-16",
+  "summary": "Our next stop was meeting up with my parents on the Apache Trail, a windy and steep dirt road cutting through the Supersition Mountains between Phoenix and Roosevelt Lake. We arrived a few hours earlier than my parents and were tasked with finding a campsite that would be a good place for Maya and my parent's two dogs to play without being too close to the road. This proved more difficult than expected, but we eventually found a nice little pullout that gave us some privacy and had a little hiking trail leading out of it. When they arrived, Maya got reacquainted with Sasha and Keely (my parent's dogs) and we set up a very nice camp with some shade structures, comfy camping chairs and some tables for playing games.<br><br> The weekend was very nice and relaxing. We ate many yummy dinners including lentil soup, pasta with bolognese sauce and pan seared brats. The brats were supposed to be roasted over the fire but we forgot to bring firewood 😢. Before each dinner, we had a nice assortment of cheese and crackers and played Settlers of Catan. During the days, we went on hikes exploring up and down Fish Creek, a little stream that (unlike most 'rivers' in Arizona) had water running in it. On our hikes, we found some cool caves and the dogs had a great time chasing eachother and splashing around in the water. The crux of the weekend was the drive out, where we would have to make it up the Fish Creek Incline, a 1.5 mile stretch of dirt road the winds over 1000 feet up and out of the Fish Creek drainage. Despite the signs saying 4x4 required (our van is 2WD), numerous online blog posts state that any car can make it up or down the incline. Luckily the blog posters were correct, and we made it up the road without any hiccups. To celebrate, we cooked a taco breakfast with my parents at the overlook parking lot at the top of the incline.",
   "campsites": [
-    "Indian Point Campground",
-    "Cholla Campground"
+    "Camping off the Apache Trail"
   ],
   "photos": [
     {
-      "caption": "After taking a hot tub and showering in Payson, we felt nice and clean, meaning it was time to change the sheets in our van.",
-      "pth": "clean_sheets.webp"
+      "caption": "View of the Superstitions from the top of the Fish Creek Incline.",
+      "pth": "fish_creek_over_view.webp"
     },
     {
-      "caption": "Van setup at Indian Point Campground.",
-      "pth": "van_setup.webp"
+      "caption": "A little cave we found while hiking one day.",
+      "pth": "cave_view.webp"
     },
     {
-      "caption": "Our taco breakfast one morning camped at Indian Point Campground.",
-      "pth": "taco_bfast.webp"
+      "caption": "Helen and Maya leaving the cave",
+      "pth": "cave_with_guests.webp"
     },
     {
-      "caption": "A family run near Indian Point Campground.",
-      "pth": "run_with_helen_and_maya.webp"
+      "caption": "A post-hike game of Catan with Colin's family.",
+      "pth": "family_cata.webp"
     },
     {
-      "caption": "Colin was obsessed with running on the Forest Service trails around Roosevelt Lake. As such, he took many photos of the views from the road. (F.S. Rd. Pic #1)",
-      "pth": "the_road.webp"
+      "caption": "The terrain from one of our hikes.",
+      "pth": "hike_view.webp"
     },
     {
-      "caption": "F.S. Rd. Pic #2",
-      "pth": "the_road2.webp"
+      "caption": "Mandatory wet feet on one of our hikes.",
+      "pth": "river_wading.webp"
     },
     {
-      "caption": "F.S. Rd. Pic #3",
-      "pth": "the_road3.webp"
-    },
-    {
-      "caption": "F.S. Rd. Pic #4",
-      "pth": "the_road4.webp"
-    },
-    {
-      "caption": "Maya playing fetch in Roosevelt Lake.",
-      "pth": "maya_fetching.webp"
-    },
-    {
-      "caption": "View from the trails around Cholla Campground.",
-      "pth": "cholla_view.webp"
+      "caption": "Maya underneath the Fish Creek Bridge.",
+      "pth": "maya_under_bridge.webp"
     }
   ]
 }

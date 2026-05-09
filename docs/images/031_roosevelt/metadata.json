@@ -1,37 +1,53 @@
 {
-  "location": "Payson, AZ",
-  "title": "Football and a Hot Tub",
-  "date_start": "2026-02-06",
-  "date_end": "2026-02-09",
-  "summary": "After leaving the Strawberry/Pine area, we spent a few days camped and exploring outside Payson. Our first day there, we visited Water Wheel Falls. It was a short hike to some beautiful waterfalls where I took a very cold swim in a pool and Maya fetched a stick out of the water to her heart's content. After another night of dispersed camping, we headed into Payson to sample some of the trails in town. After a very warm run with very little water, we took care of a few chores including filling the propane tank, filling the water tank and restocking groceries at Walmart. That day was Super Bowl Sunday and we wanted to watch some of the game at a bar so we chose Backwoods Sports Bar. We felt a little out of place among the patrons complaining about the Bad Bunny halftime show and wishing the Kid Rock alternative was being aired instead. Regardless, the food was pretty good and I crossed off three lifetime bucket list items: <ol> <li>Eating wings during the Super Bowl<\/li> <li>Watching the Super Bowl at a bar<\/li> <li>Drinking a Bud Light<\/li><\/ol> The following morning, we decided it was time for a shower. The only place in Payson we could find with showers was the Apache Athletic Club on the outskirts of town. We were the youngest gym-goers by easily 30 years, but we had a very nice time sitting in the hot tub, relaxing in the sauna and taking a shower after a few days on the road.",
+  "location": "Roosevelt, AZ",
+  "title": "Hangin' on the Lake",
+  "date_start": "2026-02-10",
+  "date_end": "2026-02-13",
+  "summary": "Feeling very refreshed and clean, we headed south towards warmer weather and the promise of a lakefront camping spot. While we did find warmer weather, the camping spot was next to where a lake might have once been but is no more. It was still a nice free spot and you could see the lake in the distance so we decided to stay to a few nights. The warmer weather and later sunsets made for a relaxing couple of days where we ran, worked a little, played games, went on little walks and watched the Olympics which we have been able to stream with our Starlink. We did eventually make it down to the lake bushwacking through the dried lake bed and had some excitement when Maya stumbled upon a rattlesnake basking on the road, but luckily she listened to our frantic yelling and left it alone. <br><br> For our last night at the lake, we decided to move to one of the paid campgrounds so I could shower since I was about at my 4-5 day limit. Still being early February it was only about half full and we found a spot that actually overlooked the lake, though it was still about 100ft down from the site. <br><br><b>-Helen<\/b>",
   "campsites": [
-    "Pyeatte Draw Dispersed",
-    "Bear Canyon Dispersed"
+    "Indian Point Campground",
+    "Cholla Campground"
   ],
   "photos": [
     {
-      "caption": "One of the trails Colin ran on while visiting Payson.",
-      "pth": "payson_trails.webp"
+      "caption": "After taking a hot tub and showering in Payson, we felt nice and clean, meaning it was time to change the sheets in our van.",
+      "pth": "clean_sheets.webp"
     },
     {
-      "caption": "Water wheel falls.",
-      "pth": "water_wheel_fals.webp"
+      "caption": "Van setup at Indian Point Campground.",
+      "pth": "van_setup.webp"
     },
     {
-      "caption": "Our campsite at Bear Canyon.",
-      "pth": "bear_ck_camping.webp"
+      "caption": "Our taco breakfast one morning camped at Indian Point Campground.",
+      "pth": "taco_bfast.webp"
     },
     {
-      "caption": "Colin doing a cold plunge near water wheel falls.",
-      "pth": "colin_plunging.webp"
+      "caption": "A family run near Indian Point Campground.",
+      "pth": "run_with_helen_and_maya.webp"
     },
     {
-      "caption": "You've heard of deep-water soloing. But what about shallow-water soloing?",
-      "pth": "sws.webp"
+      "caption": "Colin was obsessed with running on the Forest Service trails around Roosevelt Lake. As such, he took many photos of the views from the road. (F.S. Rd. Pic #1)",
+      "pth": "the_road.webp"
     },
     {
-      "caption": "Helen taking a selfie with Maya.",
-      "pth": "maya_selfie.webp"
+      "caption": "F.S. Rd. Pic #2",
+      "pth": "the_road2.webp"
+    },
+    {
+      "caption": "F.S. Rd. Pic #3",
+      "pth": "the_road3.webp"
+    },
+    {
+      "caption": "F.S. Rd. Pic #4",
+      "pth": "the_road4.webp"
+    },
+    {
+      "caption": "Maya playing fetch in Roosevelt Lake.",
+      "pth": "maya_fetching.webp"
+    },
+    {
+      "caption": "View from the trails around Cholla Campground.",
+      "pth": "cholla_view.webp"
     }
   ]
 }

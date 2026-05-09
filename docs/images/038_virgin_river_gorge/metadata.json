@@ -1,16 +1,24 @@
 {
-  "location": "Littlefield, AZ",
-  "title": "A Wild Ultramarathon Appears",
-  "date_start": "2026-02-28",
-  "date_end": "2026-03-01",
-  "summary": "After leaving Valley of Fire, we spent the afternoon looking for campsites and failing. We finally found a busy spot just outside the Virgin River Gorge that had a few empty spots available. It turned out that the area was so busy because we were camped right next to the finish line of the the Grandmasters Ultramarathon, an ultramarathon that is exclusively for athletes over 50 years old. Since I had a run scheduled for that afternoon, I chatted with the race director and asked if it was ok to go cheer on runners on the course. I had a great run cheering on the runners and got very motivated to sign up for a race myself. <br><br> <b>-Colin<\/b>",
+  "location": "Virgin River Gorge, AZ",
+  "title": "Hot Day in the VRG",
+  "date_start": "2026-03-01",
+  "date_end": "2026-03-02",
+  "summary": "We stopped for one day in the Virgin River Gorge Recreation Area. While the setting was very pretty, the temperatures were very high. For some reason, I chose to do a long run in the middle of the day, which was not very pleasant (especially after I ran out of water with 4 miles to go). The afternoon was spent escaping the heat by sitting in the shade of our van. We did some reading, Helen did some watercolor painting and I wrote a rare entry in my journal. We had a lovely hike down to the Virgin River as the sunset, which was a nice way to end the day. <br><br> <b>-Colin<\/b>",
   "campsites": [
-    "Littlefield Dispersed Camping"
+    "Virgin River Recreation Area Campground"
   ],
   "photos": [
     {
-      "caption": "Our camp spot for the night.",
-      "pth": "camp_view.webp"
+      "caption": "Watercolor and journaling in camp",
+      "pth": "painting_in_camp.webp"
+    },
+    {
+      "caption": "The Virgin River during our sunset hike.",
+      "pth": "virgin_riv.webp"
+    },
+    {
+      "caption": "A selfie during our sunset hike.",
+      "pth": "vrg_selfie.webp"
     }
   ]
 }

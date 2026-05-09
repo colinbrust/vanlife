@@ -1,18 +1,28 @@
 {
-  "location": "Peoria, AZ",
-  "title": "Visiting Grandparents in Phoenix",
-  "date_start": "2025-12-07",
-  "date_end": "2025-12-09",
-  "summary": "Leaving Tucson, we made a pit stop in Peoria to visit my grandparents for a couple of days. We enjoyed a very relaxing couple of days reading in their sunroom, eating out at the local clubhouse, watching lots of Joe Pickett, and eating Grandpa's special ice cream sundaes. <br><br> <b>- Helen<\/b>",
-  "campsites": {},
+  "location": "Sedona, AZ",
+  "title": "Hiking and Biking in Sedona",
+  "date_start": "2025-12-09",
+  "date_end": "2025-12-11",
+  "summary": "Our biggest stop on the way to Durango was in Sedona. We spent two nights at the dispersed camping area to the west of town. On our first night there, I went on a nice run up Bear Mountain while Helen wrapped up some work. Bear mountain was a great steep trail that reminded me of doing laps up Mount Sentinel in Missoula. On our second day, Helen and I hiked up Boynton Canyon to the Subway Cave, a cool rock formation that is reminiscent of a subway station. The cave was right next to some Native American ruins, which were exciting to see since I had just started the book 'House of Rain' by Craig Childs, which explores the history of the native people in the Southwest. On our last day, we went on a nice mountain bike ride on the way out of town.  <br><br> <b>-Colin<\/b>",
+  "campsites": [
+    "Nolan Dispersed Campground"
+  ],
   "photos": [
     {
-      "caption": "A snapshot from the first season of Joe Pickett, which we binge watched while we were visiting the grandparents.",
-      "pth": "joe_pickett.webp"
+      "caption": "My view from the top of Bear Mountain",
+      "pth": "bear_mtn.webp"
     },
     {
-      "caption": "A selfie with the grandparents before hitting the road for Sedona.",
-      "pth": "selfie.webp"
+      "caption": "Another view from the summit of Bear Mountain",
+      "pth": "bear_mtn_2.webp"
+    },
+    {
+      "caption": "Colin peering over the ledge at the Subway Cave.",
+      "pth": "the_subway.webp"
+    },
+    {
+      "caption": "On our hike to Subway Cave.",
+      "pth": "the_subway_hike.webp"
     }
   ]
 }

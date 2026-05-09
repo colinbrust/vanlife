@@ -1,24 +1,28 @@
 {
-  "location": "Virgin River Gorge, AZ",
-  "title": "Hot Day in the VRG",
-  "date_start": "2026-03-01",
-  "date_end": "2026-03-02",
-  "summary": "We stopped for one day in the Virgin River Gorge Recreation Area. While the setting was very pretty, the temperatures were very high. For some reason, I chose to do a long run in the middle of the day, which was not very pleasant (especially after I ran out of water with 4 miles to go). The afternoon was spent escaping the heat by sitting in the shade of our van. We did some reading, Helen did some watercolor painting and I wrote a rare entry in my journal. We had a lovely hike down to the Virgin River as the sunset, which was a nice way to end the day. <br><br> <b>-Colin<\/b>",
+  "location": "Apple Valley, UT",
+  "title": "Gooseberry Mesa Part 2 (for Colin at least)",
+  "date_start": "2026-03-02",
+  "date_end": "2026-03-04",
+  "summary": "After a grocery resupply and laundry in Hurricane, we headed up to Gooseberry Mesa. The Gooseberry mesa  and nice dispersed camping. We found a nice little spot next to the edge of the mesa with some good trees for a hammock, which have been sparse in our desert camping spots. We spent some time reading before going on a short evening run. <br><br> The next morning we went on a mountain bike ride from camp. It was a little techy for me, I had to get off my bike and walk quite a lot and had two near-crashes, but it was fun and beautiful, and Maya and I survived! That night we did some more hammock reading, I made a sesame noodle salad and we watched one of my few downloaded movies from years ago, Fools Gold. Before we left our spot on Gooseberry Mesa, we decided to take advantage of our private campsite and took an outdoor shower! Other than trying to conserve water and having to hold the shower head for each other, the outdoor shower set up is pretty nice.  <br><br> <b>-Helen<\/b>",
   "campsites": [
-    "Virgin River Recreation Area Campground"
+    "Gooseberry Mesa Dispersed Camping"
   ],
   "photos": [
     {
-      "caption": "Watercolor and journaling in camp",
-      "pth": "painting_in_camp.webp"
+      "caption": "Colin clawing his way out of a deep, deep fissure. ",
+      "pth": "aaaaah.webp"
     },
     {
-      "caption": "The Virgin River during our sunset hike.",
-      "pth": "virgin_riv.webp"
+      "caption": "A selfie from our ride around Gooseberry Mesa.",
+      "pth": "mesa_selfie.webp"
     },
     {
-      "caption": "A selfie during our sunset hike.",
-      "pth": "vrg_selfie.webp"
+      "caption": "The view off the top of Gooseberry Mesa.",
+      "pth": "mesa_view.webp"
+    },
+    {
+      "caption": "Princess Maya sitting in her throne.",
+      "pth": "princess.webp"
     }
   ]
 }

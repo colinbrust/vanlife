@@ -1,20 +1,16 @@
 {
-  "location": "Torrey, UT",
-  "title": "Pizza Time",
-  "date_start": "2026-03-12",
-  "date_end": "2026-03-13",
-  "summary": "After leaving the Escalante area, we had scheduled a stay at a Harvest Host near Boulder, UT. We were excited to take a shower and use our monthly dining out budget at a nice restaurant. However, when we arrived, we learned that the restaurant was closed for the season and would not be open until the following day. We decided against staying there and instead used the remaining daylight to drive to Torrey, UT where we got Pizza for dinner at the Rim Rock Patio (and a delicious bundt cake dessert). We then found a nice little dispersed camping spot just down the road. In the morning, I went for a little run and had some pain in my hip significantly slow me down. I had an old injury flare up after my race which was then exacerbated by slipping while hiking along the Escalante River. Unfortunately, this led me to decide to drop out of my upcoming 100k race. But on the bright side, now I have plenty of bonus time for climbing, biking and other fun activities that I otherwise wouldn't have had as much time for! <br><br> <b>-Colin<\/b>",
+  "location": "Hanksville, UT",
+  "title": "Campsite Scouting",
+  "date_start": "2026-03-13",
+  "date_end": "2026-03-14",
+  "summary": "On our way to the Moab area, we stopped for a night along the San Rafael Swell. We had an upcoming camping trip with Helen's family and we were tasked with finding a campsite that would accommodate seven people and three dogs. We spent the afternoon looking for a suitable spot and then walking around the slick rock once we had one picked out.",
   "campsites": [
-    "Pandora's Box Dispersed"
+    "Temple Road Dispersed"
   ],
   "photos": [
     {
-      "caption": "Our bundt cake dessert",
-      "pth": "dessert.webp"
-    },
-    {
-      "caption": "Sunset from camp",
-      "pth": "sunset.webp"
+      "caption": "View of our campsite",
+      "pth": "view_of_camp.webp"
     }
   ]
 }

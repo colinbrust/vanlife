@@ -1,32 +1,33 @@
 {
-  "location": "Apple Valley, UT",
-  "title": "Running and Biking in the Gooseberry Mesa",
-  "date_start": "2025-11-02",
-  "date_end": "2025-11-05",
-  "summary": "Eventually I made it to the Gooseberry Mesa in southern Utah. On the day I arrived I was able to get in a nice quick mountain bike ride before the sun set. I spent 3 days here at a nice camp site with good access to the bike trails. I split my time between working, running, biking, and watching movies once the sun went down. I got my fill of older movies in, watching The Apartment, The Thing, 12 Angry Men, and finishing the Lonesome Dove mini-series. The only downside was that as a novice vanlifer, I chose a camping spot in the shade for most of the day. This meant our battery system didn't recharge and I lost power on the last night of my stay. From Maya's perspective, the downsides were that A) Helen wasn't there (tear emoji) and B) I took her on either a big bike ride or run every day (exercising is hard for a little pup like her).  <br><br> <b>-Colin<\/b>",
+  "location": "Las Vegas, NV",
+  "title": "Friends and Festivities in Vegas",
+  "date_start": "2025-11-06",
+  "date_end": "2025-11-11",
+  "summary": "A group of Helen's friends booked an AirBnB in Las Vegas for their birthday, so we set up our van in their driveway and joined them. I have been to Las Vegas a number of times but I was either a little kid, or camped out at Red Rocks on a climbing trip. Neither Helen nor I had visited the city itself in our adult lives. Despite it not being our usual scene, we both had a blast. We walked along Fremont Street and the Strip, played Top Golf, got all-you-can-eat sushi, and visited Meow Wolf! After our visit with friends, we spent a few nights camped at Red Rocks to climb and hike. The highlight was hiking the Calico Tanks trail, which was a fun hike on slick rock that ended with a view of the park and Las Vegas.",
   "campsites": [
-    "Gooseberry Mesa Dispersed Camping"
+    "North Las Vegas AirBnB Driveway",
+    "Red Rocks Campground"
   ],
   "photos": [
     {
-      "caption": "The camping situation at the Gooseberry Mesa.",
-      "pth": "mesa_camp.webp"
+      "caption": "Goofing around in the Arts District",
+      "pth": "cutouts.webp"
     },
     {
-      "caption": "Another view of camp on Gooseberry Mesa.",
-      "pth": "mesa_setup.webp"
+      "caption": "Goofing around in the Arts District (the sequel)",
+      "pth": "moon_guy.webp"
     },
     {
-      "caption": "Maya soaking up the sun while I worked.",
-      "pth": "maya_soaking.webp"
+      "caption": "Exploring meow wolf!",
+      "pth": "meowwolf.webp"
     },
     {
-      "caption": "A beautiful view I got from the the mesa while I was on a run.",
-      "pth": "mesa_view.webp"
+      "caption": "Hiking into the Calico Tanks",
+      "pth": "tanks.webp"
     },
     {
-      "caption": "Maya has decided that if we take more than 5 minutes to pick up her poop, she must bury it with her snout.",
-      "pth": "maya_snout.webp"
+      "caption": "View from the top of Calico Tanks",
+      "pth": "calico_tanks.webp"
     }
   ]
 }

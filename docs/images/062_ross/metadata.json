@@ -1,20 +1,28 @@
 {
-  "location": "Davis, CA",
-  "title": "Roosters, Beer and Live Music",
-  "date_start": "2026-04-24",
-  "date_end": "2026-04-25",
-  "summary": "Ruhstaller farm was another Harvest Host find right outside of Davis. It is a big farm filled with ducks, sheep, chickens, cats and more while also being a tap house and live music venue. I have never seen anything quite like it, it felt reminiscent to being in another country. We spent the afternoon drinking beer in the sun and watching the general chaos around us as kids played in the water, roosters cock-a-doodle-dooed and the dogs said hi to everyone. The space soon filled up as more and more families and college students rolled in and the live band played. Harvest Host has been very fun because it brings us to places we would otherwise never have heard of and each one is unique. It's also nice to be able to eat and drink and then walk a few hundred yards to your house in the parking lot. <br><br><b>-Helen<\/b>",
+  "location": "Fort Ross, CA",
+  "title": "Back to the Ocean",
+  "date_start": "2026-04-25",
+  "date_end": "2026-04-26",
+  "summary": "The next day we were headed to the coast but wanted to try at least one winery since we were driving right through California wine country. We were a little surprised to find out how expensive wine tastings are in Napa but we found a nice winery outside of Sonoma, Benziger, with a very nice and not too expensive wine tasting. We haven't done many real wine tastings and I have to say we couldn't really hang. How do people do multiple of these in a day? Colin ended up dumping some of his wine so he could drive us through the winding roads to our spot for the night, another Harvest Host right off of Highway-1. I forgot how incredible this stretch of road is, watching the ocean come in and out of view at every turn. We stopped at Fort Ross store where they had a little concrete pad next to the store that looked out over the ocean. After doing a little walk to a bluff to see the ocean, we hunkered into the van for the night. <br><br><b>-Helen<\/b>",
   "campsites": [
-    "Ruhstaller Farm"
+    "Fort Ross Store"
   ],
   "photos": [
     {
-      "caption": "Colin enjoying a beer at the farm",
-      "pth": "colin_at_farm.webp"
+      "caption": "Colin checking out the legs on his wine",
+      "pth": "legs.webp"
     },
     {
-      "caption": "The path leading into Ruhstaller Farm",
-      "pth": "farm.webp"
+      "caption": "The view of the ocean near our Harvest Host at Fort Ross",
+      "pth": "sea_view.webp"
+    },
+    {
+      "caption": "Maya patiently waiting for me to get her a treat",
+      "pth": "treat.webp"
+    },
+    {
+      "caption": "The vines at the Benziger winery",
+      "pth": "vines.webp"
     }
   ]
 }

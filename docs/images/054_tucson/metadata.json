@@ -1,11 +1,32 @@
 {
-  "location": "Sedona, AZ",
-  "title": "The Camp of Last Resort",
-  "date_start": "2026-03-31",
-  "date_end": "2026-04-01",
-  "summary": "Leaving Flagstaff, we wanted to stop by Sedona since we had bailed earlier in the year due to rainy weather. We did a nice little hike up Fay Canyon, which was relatively flat and filled with people. Though the trailhead was overflowing, we are optimistic we could still find dispersed camping, which we quickly realized was false. Sedona has become very strict about where you can camp for free and has designated big lots, which turn out to all be very full come April. After driving around for a couple of hours trying to find a spot, we bailed on Sedona entirely and tried to find the next closest free camping, which ended up being some BLM land on Beaverhead Flats road. The spot was meh but we were grateful to have arrived and spent the evening cozied in the van during one of our few nights of rain. In the morning, we did a quick mountain bike ride outside of Phoenix, but that ended up kind of being a fail too since most of the trails were blocked by construction fences. After that, we decided to high tail it to Tucson, where we knew family, a hot tub, and a nice bed were waiting for us. <br><br><b>-Helen<\/b>",
+  "location": "Tucson, AZ",
+  "title": "Sis Gets Married!",
+  "date_start": "2026-04-01",
+  "date_end": "2026-04-15",
+  "summary": "We arrived in Tucson a few days ahead of schedule due to the lack of available campsites in the Sedona area. This ended up being a good thing, as there were plenty of things to get done around my parent's house to prepare for the rehearsal dinner they were hosting for my sister's wedding. We spent many hours repairing lawn chairs, shoveling gravel and landscaping. Between these tasks, we had some time for doing a deep clean of the van and we were able to make it up to Mt Lemmon to climb with our friends Quinn and Caitlin. Although we were busy the whole time we were visiting, we had an awesome time hanging out with family. Both the rehersal dinner that my parents hosted and the wedding itself were incredible events. It was so fun to reconnect with old family and friends and we are so excited for Ji (sister) and Hunter (brother-in-law) and all the adventures they will have together! <br><br> On the way out of town, we stopped at Walmart to get a few supplies. One of these supplies was a bag of pine shaving pet bedding that we use in our composting toilet. At the store's exit, there was a lady checking receipts who excitedly asked me what type of pet I was using the bedding for. Not wanting to explain that 'You see, I actually bought this to put in my toilet so my van doesn't smell like poop', I answered 'Oh it's just for my cute little guy'. To which she of course had more questions. I blurted out that I was actually in a hurry and had to get going and high tailed it back to the van. With that, our time in Tucson was over and we hit the road for California. <br><br><b>-Colin<\/b>",
   "campsites": [
-    "Beaverhead Flats Road Dispersed"
+    "Ledges Campground"
   ],
-  "photos": []
+  "photos": [
+    {
+      "caption": "A tangle of leashes as we walked the dogs around the block.",
+      "pth": "dog_walk.webp"
+    },
+    {
+      "caption": "My parent's dog Keeley sleeping in style.",
+      "pth": "keeley_sleeping.webp"
+    },
+    {
+      "caption": "A lovely trip to the Tucson landfill that I made with my dad.",
+      "pth": "landfill.webp"
+    },
+    {
+      "caption": "The back yard of my parent's house before the wedding rehersal dinner.",
+      "pth": "the_yard.webp"
+    },
+    {
+      "caption": "Helen and I dressed up at my sister's wedding!",
+      "pth": "at_wedding.webp"
+    }
+  ]
 }

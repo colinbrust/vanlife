@@ -1,17 +1,14 @@
 {
-  "location": "Summerhaven, AZ",
-  "title": "Two Nights on Lemmon",
-  "date_start": "2025-11-24",
-  "date_end": "2025-11-26",
-  "summary": "Since 2017, I have had a personal climbing goal to climb at least one 5.12 every year. When I started getting into running a few years ago, I was still climbing enough that this goal was difficult, but obtainable. However, this year I have ran more and climbed less than at any point in the last ten years, meaning I hadn't yet done a 5.12 in 2025. My mini-goal of this outing was to check off the climbing goal. After doing a few warm up climbs and then trying a 5.12, it quickly became very apparent that it was not going to happen. While I felt a little sad in the moment, in the days and week since, it has felt refreshing and that I wasn't able to accomplish it. When we have been climbing since that day, it has just been because it is an activity I love, and not because I'm chasing an arbitrary goal. So, while the climbing objective was a fail for our trip to Mt Lemmon, it was still a great trip. We had our first campfire of van life, ate s'mores, enjoyed two beautiful sunsets, and Maya got to enjoy a nice hike along the Arizona Trail. <br><br> <b>-Colin<\/b>",
-  "campsites": [
-    "Prison Camp Campground",
-    "Molino Basin Campground"
-  ],
+  "location": "Tucson, AZ",
+  "title": "Thanksgiving with Friends and Family",
+  "date_start": "2025-11-26",
+  "date_end": "2025-12-06",
+  "summary": "After returning from our mini camping trip, my college roommate Aidan and his wife Rosie came to Tucson to stay with my family for Thanksgiving. It was great to see them both and we had a great time running, biking and chatting. Highlights of their visit included <ul><li>Riding 'The Lemmon Drop' mountain bike trail, which made the trails in Boulder City look like child's play<\/li><li>Seeing the new Wicked movie with Helen, Aidan, Rosie and my mom, who insisted on getting the largest popcorn available (and of course getting a refill)<\/li><li>Having a lovely Thanksgiving dinner with all of our favorite dishes, followed by watching the new movie 'Eddington' (which received a thumbs sideways to thumbs down from all viewers that night).<\/li><\/ul>  <br><br> <b>-Colin<\/b>",
+  "campsites": [],
   "photos": [
     {
-      "caption": "A view from our camp the first night on Mt Lemmon.",
-      "pth": "lemmon_camp.webp"
+      "caption": "The Thanksgiving dinner spread.",
+      "pth": "thanksgiving.webp"
     }
   ]
 }

@@ -1,48 +1,33 @@
 {
-  "location": "Lone Pine, CA",
-  "title": "Views of Whitney",
-  "date_start": "2026-04-16",
-  "date_end": "2026-04-19",
-  "summary": "Driving into Alabma Hills felt kind of magical. It was our first time being back in the mountains in a while and I didn't realize how much I missed it until we were there. The free camping here is some of the nicest camping we have found and I couldn't quite believe it was free. The view out of our window was big open sage fields and rolling rock piles set against the still snowy Eastern Sierras. The first afternoon that we arrived, we walked over to one of the big rock piles and did a couple of climbing routes. The next day, we drove further up into the mountains to the Whitney Portal where many of the trails to Mt Whitney start. It was definitely chilly up there, with snow still on the ground but it was very sunny and we soon were stripped down to t-shirts. We made it up to Lone Pine Lake, only getting lost in the snow fields at the top a couple of times. Maya was excited to roll in the snow and we were excited to glasade down some of the route. The following day, we spent exploring the area around our campsite, Colin running while I biked along beside him. This area is famous for being the sets of many movies, hence the name Movie Flats. The cactus were blooming, butterflies were flying all around and it was one of those days where I felt in awe that this is our life right now. Our friend Abby met up with us that night and we set up the projector for the first of many movie nights in the van. <br><br><b>-Helen<\/b>",
+  "location": "Bishop, CA",
+  "title": "Climbing in the Gorge",
+  "date_start": "2026-04-19",
+  "date_end": "2026-04-21",
+  "summary": "Leaving the Alabama Hills we topped up on the cheapest gas we could find and headed into Bishop. We looked around for a campsite in the Pleasant Valley area and then headed up to the Owens River Gorge for a day of climbing. I've been wanting to climb at the Owens River Gorge for a long time so I was excited to finally get to do it. We were met with an extremely steep trail from the parking lot down into the gorge, but we were rewarded with a pretty view of the Owens River and a crag all to ourselves. That night after a fun day of climbing we camped with Abby. Helen made tacos for dinner that we all shared and then we watched the TV show Beef on the projector. The following morning we headed to Bishop to check out their world famous bakery and the gear exchange. I spent a good chunk of our months dining out budget on a breakfast of a bear claw, a ham and cheese croissant and a buttermilk doughnut, which I ate in one sitting. That afternoon we returned to the Owens River Gorge for another day of awesome climbing. We climbed numerous 30 to 40 meter pitches and it was awesome to climb some long routes. For camp that night, we drove up to Pine Creek, which is another climbing area with some dispersed camping nearby. We ended up camping next to a huge group of climbers and I practiced being social and went and chatted with them by the campfire. The next morning we weren't able to climb because it was raining, but I went on a little run before we hit the road to go further north into California. <br><br><b>-Colin<\/b>",
   "campsites": [
-    "Movie Flats Dispersed"
+    "Pleasant Valley Campground",
+    "Pine Creek Dispersed"
   ],
   "photos": [
     {
-      "caption": "Prickly pears flowering in the Alabama Hills.",
-      "pth": "cactus_flowers.webp"
+      "caption": "The famous bakery in Bishop",
+      "pth": "bakery.webp"
     },
     {
-      "caption": "Lone Pine Lake during our hike up to Whitney Portal",
-      "pth": "froze_lake.webp"
+      "caption": "Colin leading up a route in the Gorge",
+      "pth": "org_leading.webp"
     },
     {
-      "caption": "Hiking up from Whitney Portal to Lone Pine Lake",
-      "pth": "hiking.webp"
+      "caption": "Helen topping out a lead climb!",
+      "pth": "org_topout.webp"
     },
     {
-      "caption": "Our view of the Sierras from the van",
-      "pth": "hills_from_van.webp"
+      "caption": "The view up the canyon at Pine Creek",
+      "pth": "pine_ck.webp"
     },
     {
-      "caption": "Sunset over the Alabama Hills",
-      "pth": "hills_sunset.webp"
-    },
-    {
-      "caption": "Selfie at Lone Pine Lake",
-      "pth": "lake_selfie.webp"
-    },
-    {
-      "caption": "Maya being dubious of the rope",
-      "pth": "maya_at_crag.webp"
-    },
-    {
-      "caption": "Maya enjoying the snow",
-      "pth": "maya_snow.webp"
-    },
-    {
-      "caption": "Watching the movie Eden on Abby's projector in the van",
-      "pth": "projector.webp"
+      "caption": "Our camp at Pine Creek",
+      "pth": "pine_ck2.webp"
     }
   ]
 }

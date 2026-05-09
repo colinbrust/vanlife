@@ -1,28 +1,24 @@
 {
-  "location": "Sedona, AZ",
-  "title": "Hiking and Biking in Sedona",
-  "date_start": "2025-12-09",
-  "date_end": "2025-12-11",
-  "summary": "Our biggest stop on the way to Durango was in Sedona. We spent two nights at the dispersed camping area to the west of town. On our first night there, I went on a nice run up Bear Mountain while Helen wrapped up some work. Bear mountain was a great steep trail that reminded me of doing laps up Mount Sentinel in Missoula. On our second day, Helen and I hiked up Boynton Canyon to the Subway Cave, a cool rock formation that is reminiscent of a subway station. The cave was right next to some Native American ruins, which were exciting to see since I had just started the book 'House of Rain' by Craig Childs, which explores the history of the native people in the Southwest. On our last day, we went on a nice mountain bike ride on the way out of town.  <br><br> <b>-Colin<\/b>",
+  "location": "Flagstaff, AZ",
+  "title": "Climbing and Pizza in Flagstaff",
+  "date_start": "2025-12-11",
+  "date_end": "2025-12-12",
+  "summary": "As we drove up the road heading out of Sedona, I soon realized that our elevation gain heading to Flagstaff meant we had a chillier night ahead of us. Those who know me well will not be surprised that I have been a little obsessed with finding the warmest places possible for us to spend our time. <br><br> We pulled off the highway onto a forest service road right as the sun was setting. The road was a little rough and bumpy but luckily short and it soon opened up on a wide forested area, which we were surprised to see we had all to ourselves. We set up our camp chair to watch the sun dip behind the trees, then quickly retreated into the van to make dinner and watch a movie. We have come up with a new system this year where we rotate the movie decision from me, to Colin, to a joint choice, to try to eliminate the hours we spend trying to choose a movie. Tonight was Colin's choice, Stand By Me, which I have to admit I quite enjoyed, even though it was old. The next morning, we set out early in search of some sport climbing at The Pit, which Colin assured me would be sunny and warm. Our toilet got its inaugural moment that morning when we pulled up to the trailhead and realized there was no bathroom. Lucky for us, our home is now our bathroom and our bathroom is our home. The climbing was fun and indeed hot, and I was happy to be baked by the morning sun. We wrapped up climbing a little early so that we could make it to Durango that night and try to avoid nighttime driving (because my mom told me to). Before we headed out of Flagstaff, we made one important stop at Pizzicleta, a deliciously simple Italian pizza shop downtown that is definitely worth a visit if you are in the area. I'd go back just for the homemade chocolate gelato. <br><br><b>-Helen<\/b>",
   "campsites": [
-    "Nolan Dispersed Campground"
+    "Pumphouse Wash Dispersed Camping"
   ],
   "photos": [
     {
-      "caption": "My view from the top of Bear Mountain",
-      "pth": "bear_mtn.webp"
+      "caption": "Helen enjoying a slice of pizza from Pizzicletta in Flagstaff.",
+      "pth": "pizza.webp"
     },
     {
-      "caption": "Another view from the summit of Bear Mountain",
-      "pth": "bear_mtn_2.webp"
+      "caption": "Colin enjoying a slice of pizza from Pizzicletta.",
+      "pth": "the_pizza.webp"
     },
     {
-      "caption": "Colin peering over the ledge at the Subway Cave.",
-      "pth": "the_subway.webp"
-    },
-    {
-      "caption": "On our hike to Subway Cave.",
-      "pth": "the_subway_hike.webp"
+      "caption": "Some of the walls at The Pit climbing area.",
+      "pth": "the_pitt.webp"
     }
   ]
 }

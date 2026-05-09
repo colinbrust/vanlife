@@ -1,24 +1,20 @@
 {
-  "location": "Granite Bay, CA",
-  "title": "In Search of a Free Campsite",
-  "date_start": "2026-04-23",
-  "date_end": "2026-04-24",
-  "summary": "Our next planned stop was the town of Auburn. Auburn is home to the famous Western States 100 mile endurance race, so I was excited to go check out the trails and also spectate a different race that would be happening that weekend. We drove to the local trail system and I went for an awesome run while Helen went for a hike down to a lake. Our luck ended there as we spent the next five hours driving around the forest service roads of the area looking for a place to camp for free. Between muddy roads and campgrounds that hadn't opened yet for the season, we struck out completely. We spent a good while looking for any campground that had availability and found one near Folsom Lake. Happy to finally have a place to stay for the night we headed down and arrived at a great camp spot. I made beans and rice bowls for dinner and then we watched more Beef with Abby on the projector in our van. In the morning, Helen and I took Maya down to the lake and she was very excited to fetch for a stick and get a nice swim in. After checking out of camp, Helen had to do some work, so while she was doing that, I went for a nice run around the lake Natoma, which had a great paved path for running. <br><br><b>-Colin<\/b>",
+  "location": "Davis, CA",
+  "title": "Roosters, Beer and Live Music",
+  "date_start": "2026-04-24",
+  "date_end": "2026-04-25",
+  "summary": "Ruhstaller farm was another Harvest Host find right outside of Davis. It is a big farm filled with ducks, sheep, chickens, cats and more while also being a tap house and live music venue. I have never seen anything quite like it, it felt reminiscent to being in another country. We spent the afternoon drinking beer in the sun and watching the general chaos around us as kids played in the water, roosters cock-a-doodle-dooed and the dogs said hi to everyone. The space soon filled up as more and more families and college students rolled in and the live band played. Harvest Host has been very fun because it brings us to places we would otherwise never have heard of and each one is unique. It's also nice to be able to eat and drink and then walk a few hundred yards to your house in the parking lot. <br><br><b>-Helen<\/b>",
   "campsites": [
-    "Beals Point Campground"
+    "Ruhstaller Farm"
   ],
   "photos": [
     {
-      "caption": "One of the forks of the American River",
-      "pth": "am_riv.webp"
+      "caption": "Colin enjoying a beer at the farm",
+      "pth": "colin_at_farm.webp"
     },
     {
-      "caption": "Helen and Maya on Folsom Lake",
-      "pth": "at_lake.webp"
-    },
-    {
-      "caption": "Maya fetching a stick in the American River",
-      "pth": "fetch.webp"
+      "caption": "The path leading into Ruhstaller Farm",
+      "pth": "farm.webp"
     }
   ]
 }

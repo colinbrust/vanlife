@@ -1,56 +1,48 @@
 {
-  "location": "Hanksville, UT",
-  "title": "Family Camping",
-  "date_start": "2026-03-18",
-  "date_end": "2026-03-22",
-  "summary": "After saying goodbye to friends, we headed into Moab to meet up with my family. We were planning to head back to the area Colin and I had scoped and hopefully snag a campsite that looked nice. Luckily, when we arrived, the spot was free, and we settled in for the next few days of hanging out and exploring the San Rafael Swell. The temps were supposed to be in the high 80s so we started by setting up our shade tarp living room. <br><br> We relaxed in the mornings before heading out on a little hike each day. The first day we did a little hike from camp, bushwhacking on the slickrock and making our own little loop. The second day, we did a bigger hike up Wildhorse Canyon, which had some cool slots that luckily had some great shade to rest in. We ended up getting cliffed out once when we tried to cut off trail, but were able to find a route to complete the loop. The third hike we did was up Farnsworth Canyon which had some really deep, curvy slots. On the hike, we again decided to make our own loop and luckily found a pretty straightforward route back to the car through the slickrock. We had three dogs along and despite the heat they had lots of fun playing and hiking together! It was great to spend time with my family playing cards and bocce, reading, cooking, and hanging out in the desert. <br><br><b>-Helen<\/b>",
+  "location": "St. George, UT",
+  "title": "Pickleball and Pool Time with the Pals",
+  "date_start": "2026-03-22",
+  "date_end": "2026-03-28",
+  "summary": "The last stop on the calendar for the month of March was to meet up with my friends from Missoula for our third annual trip to St. George for some biking, climbing and pickleballing. We spent most mornings bouldering at Moe's Valley before sheltering from the afternoon heat at the AirBnB's pool where we were staying. In the evenings, we mountain biked, cooked dinners and spent lots of quality time together. A few highlights for me were: <ol><li>Riding the Barrel and Zen mountain bike trails with our entire group of friends<\/li><li>Hiking/scrambling the Island in the Sky traverse with Helen and a few other friends <\/li><li>Getting VERY into playing pickleball at the courts near the AirBnB<\/li><\/ol> <br><br> <b>-Colin<\/b>",
   "campsites": [
-    "Temple Road Dispersed"
+    "Bloomington AirBnB"
   ],
   "photos": [
     {
-      "caption": "Taking a break on a hike",
-      "pth": "break.webp"
+      "caption": "Maya guarding the boulders  ",
+      "pth": "boulder_protector.webp"
     },
     {
-      "caption": "Finding some shade on a hike",
-      "pth": "finding_shade.webp"
+      "caption": "Inside the Island in the Sky traverse",
+      "pth": "in_the_traverse.webp"
     },
     {
-      "caption": "Colin hiding",
-      "pth": "hideout.webp"
+      "caption": "Another view in the Island in the Sky traverse",
+      "pth": "trees_in_traverse.webp"
     },
     {
-      "caption": "View from one of our hikes",
-      "pth": "hike_view.webp"
+      "caption": "Squeezing out of a chimney slot in the Island in the Sky traverse",
+      "pth": "slot_birth.webp"
     },
     {
-      "caption": "Hiking into a slot canyon",
-      "pth": "into_slot.webp"
+      "caption": "Helen scrambling up the Island in the Sky traverse",
+      "pth": "scrambling.webp"
     },
     {
-      "caption": "Squeezing down a dry waterfall",
-      "pth": "pourover.webp"
+      "caption": "A flower on the Island in the Sky traverse",
+      "pth": "flower.webp"
     },
     {
-      "caption": "Some good dogs on a hike",
-      "pth": "pups.webp"
+      "caption": "Colin during the Island in the Sky traverse",
+      "pth": "colin_pic.webp"
     },
     {
-      "caption": "Taking a lunch break in a shady slot canyon",
-      "pth": "shady_lunch.webp"
+      "caption": "Andrew scoping out a boulder",
+      "pth": "night_sesh.webp"
     },
     {
-      "caption": "One of the many slot canyons we encountered",
-      "pth": "slot3.webp"
-    },
-    {
-      "caption": "View from the top of one of our hikes",
-      "pth": "top_of_wash.webp"
-    },
-    {
-      "caption": "Dogs cooling off in a rare waterhole",
-      "pth": "waterhole.webp"
+      "caption": "Colin climbing in Moe's Valley",
+      "pth": "flailing.webp"
     }
   ]
 }

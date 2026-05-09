@@ -1,14 +1,17 @@
 {
-  "location": "Tucson, AZ",
-  "title": "Visiting Family in Tucson",
-  "date_start": "2025-11-14",
-  "date_end": "2025-11-24",
-  "summary": "We had initially been planning to visit my family in Tucson for Thanksgiving and decided to move up our arrival date when the forecast in Northern Arizona showed nothing but rain and cold. We had a very nice and relaxing time visiting my family in Tucson. My dad helped Helen and I put the finishing touches on our van build. We added a little step that covered the heater duct, a fold out table at the end of our counter, and a windowsill that covered a number of miscellaneous cables. We also updated our propane system so that it supplied propane to both our stove and our water heater, and used a solenoid to control the flow of gas. This ended up being a more involved process than expected and featured many trips to Ace Hardware and a number of expletives. Luckily, we were able to get it working, and now get to press a fancy button before using our stove!  <br><br> <b>-Colin<\/b>",
-  "campsites": {},
+  "location": "Summerhaven, AZ",
+  "title": "Two Nights on Lemmon",
+  "date_start": "2025-11-24",
+  "date_end": "2025-11-26",
+  "summary": "Since 2017, I have had a personal climbing goal to climb at least one 5.12 every year. When I started getting into running a few years ago, I was still climbing enough that this goal was difficult, but obtainable. However, this year I have ran more and climbed less than at any point in the last ten years, meaning I hadn't yet done a 5.12 in 2025. My mini-goal of this outing was to check off the climbing goal. After doing a few warm up climbs and then trying a 5.12, it quickly became very apparent that it was not going to happen. While I felt a little sad in the moment, in the days and week since, it has felt refreshing and that I wasn't able to accomplish it. When we have been climbing since that day, it has just been because it is an activity I love, and not because I'm chasing an arbitrary goal. So, while the climbing objective was a fail for our trip to Mt Lemmon, it was still a great trip. We had our first campfire of van life, ate s'mores, enjoyed two beautiful sunsets, and Maya got to enjoy a nice hike along the Arizona Trail. <br><br> <b>-Colin<\/b>",
+  "campsites": [
+    "Prison Camp Campground",
+    "Molino Basin Campground"
+  ],
   "photos": [
     {
-      "caption": "Maya hanging out on the couch with Colin's parent's dogs, Sasha and Keeley.",
-      "pth": "maya_and_the_gals.webp"
+      "caption": "A view from our camp the first night on Mt Lemmon.",
+      "pth": "lemmon_camp.webp"
     }
   ]
 }

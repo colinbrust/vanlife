@@ -1,28 +1,24 @@
 {
-  "location": "Apple Valley, UT",
-  "title": "Gooseberry Mesa Part 2 (for Colin at least)",
-  "date_start": "2026-03-02",
-  "date_end": "2026-03-04",
-  "summary": "After a grocery resupply and laundry in Hurricane, we headed up to Gooseberry Mesa. The Gooseberry mesa  and nice dispersed camping. We found a nice little spot next to the edge of the mesa with some good trees for a hammock, which have been sparse in our desert camping spots. We spent some time reading before going on a short evening run. <br><br> The next morning we went on a mountain bike ride from camp. It was a little techy for me, I had to get off my bike and walk quite a lot and had two near-crashes, but it was fun and beautiful, and Maya and I survived! That night we did some more hammock reading, I made a sesame noodle salad and we watched one of my few downloaded movies from years ago, Fools Gold. Before we left our spot on Gooseberry Mesa, we decided to take advantage of our private campsite and took an outdoor shower! Other than trying to conserve water and having to hold the shower head for each other, the outdoor shower set up is pretty nice.  <br><br> <b>-Helen<\/b>",
+  "location": "Washington, UT",
+  "title": "Hiking and Relaxing in Red Cliffs",
+  "date_start": "2026-03-04",
+  "date_end": "2026-03-06",
+  "summary": "We heard about the Red Cliffs area outside of St George so we decided to check it out for a couple nights. The campground was very small and did not have any level spots for the van, but it was a pretty area set up against some red rocks. We spent the first evening playing cards and doing a small hiking loop to see some dinosaur tracks and old ruins. The next morning we hiked up the Red Reef trail that ended up at some big pools not far up the trail. After some debate, we decided Maya couldn't make it up the rock scramble, so we cut the hike short and instead returned the next morning without her. <br><br><b>-Helen<\/b>",
   "campsites": [
-    "Gooseberry Mesa Dispersed Camping"
+    "Red Cliffs Campground"
   ],
   "photos": [
     {
-      "caption": "Colin clawing his way out of a deep, deep fissure. ",
-      "pth": "aaaaah.webp"
+      "caption": "Footholds cut into the rock on the Red Reef trail",
+      "pth": "footholds.webp"
     },
     {
-      "caption": "A selfie from our ride around Gooseberry Mesa.",
-      "pth": "mesa_selfie.webp"
+      "caption": "ootholds cut into the rock on the Red Reef trail",
+      "pth": "footholds2.webp"
     },
     {
-      "caption": "The view off the top of Gooseberry Mesa.",
-      "pth": "mesa_view.webp"
-    },
-    {
-      "caption": "Princess Maya sitting in her throne.",
-      "pth": "princess.webp"
+      "caption": "Maya doing some R&R",
+      "pth": "rnr.webp"
     }
   ]
 }

@@ -1,17 +1,36 @@
 {
-  "location": "Las Vegas, NV",
-  "title": "Reunited!",
-  "date_start": "2026-02-26",
-  "date_end": "2026-02-27",
-  "summary": "After an overnight flight, I arrived in Las Vegas utterly exhausted but excited to see Colin and Maya. We headed to a park so Colin could go for a run and I could pass out for a few hours. I took one of the best naps of my life, falling asleep immediately feeling safe and warm in the van. We decided to spend the night at Red Rocks Canyon campground so that we could grocery shop and shower before deciding where to go next.",
+  "location": "Valley of Fire, NV",
+  "title": "Hiking in Valley of Fire",
+  "date_start": "2026-02-27",
+  "date_end": "2026-02-28",
+  "summary": "We wanted to check out the Valley of Fire before leaving the Vegas area so we slowly made our way to a dispersed site right outside of the park. We spent the next day hiking in the park, doing a couple of loops through featured slick rock canyons. One of the perks of the van is that when you're done hiking, all your food is with you so you can make delicious toasted sandwiches in the parking lot! <br><br><b>-Helen<\/b>",
   "campsites": [
-    "Kingman Access Wash",
-    "Red Rocks Campground"
+    "Valley of Fire West Dispersed Camping"
   ],
   "photos": [
     {
-      "caption": "A wild burro was grazing in my camp the morning I left to pick up Helen from the airport.",
-      "pth": "donkey.webp"
+      "caption": "I went for a run while camped outside Valley of Fire that ended up being very pretty!",
+      "pth": "cool_run.webp"
+    },
+    {
+      "caption": "Another picture from the run.",
+      "pth": "cool_run2.webp"
+    },
+    {
+      "caption": "The Fire Wave and White Dome loops hike we did in Valley of Fire.",
+      "pth": "sandy_hike.webp"
+    },
+    {
+      "caption": "The Fire Wave and White Dome loops hike we did in Valley of Fire.",
+      "pth": "slot_hike.webp"
+    },
+    {
+      "caption": "The Fire Wave and White Dome loops hike we did in Valley of Fire.",
+      "pth": "slot_selfie.webp"
+    },
+    {
+      "caption": "A slot canyon from our hike",
+      "pth": "slot_view.webp"
     }
   ]
 }

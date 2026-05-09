@@ -41,7 +41,7 @@ photos <- lapply(image_files, function(filename) {
 metadata <- list(
   location = "",
   title = "",
-  campsites = list(),
+  campsites = I(list()),
   date_start = "",
   date_end = "",
   summary = "",

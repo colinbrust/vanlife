@@ -1,16 +1,36 @@
 {
-  "location": "Dulzura, CA",
-  "title": "Wine Tasting at Dulzura Vineyard & Winery",
-  "date_start": "2026-01-10",
-  "date_end": "2026-01-11",
-  "summary": "We made our way southwest on more twisting, mountain roads. We stopped for a short run/hike, which ended up being a full-on bushwack before continuing on to our next Harvest Host destination, Dulzura Vineyad & Winery. There was a nice lot for us to park on surrounded by guava and key lime trees and set near a small creek. We enjoyed a wine tasting with one of the owners of the winery, where we sampled wine and listened to the history of his life and the property. <br><br> <b>-Helen<\/b>",
+  "location": "Encinitas, CA",
+  "title": "Beach Time!",
+  "date_start": "2026-01-11",
+  "date_end": "2026-01-13",
+  "summary": "Stepping out of the car in the little town of Encinitas, it felt like we were really in California. It was warm enough to walk around in a tank top and you could feel the thick, salty air. We had a couple of hours to kill before our camping check-in we we explored San Elijo Lagoon and Ecological Reserve. We have been very into looking at and identifying birds since we watched the movie Listers, and there were lots of cool birds we had never seen before, including my favorite of the outing, the Bufflehead. <br><br> Campgrounds in California are much more regulated than we are used to. We tried to check in at 1pm only to be told we had to return at 2pm, which we did, only to get in a line of cars all waiting to check in. The sites were all close together but we had a view of the ocean, hot showers and a beach just a minutes walk away so I was pretty happy. After a hot shower, I spent the evening reading on the beach until sunset while Colin went on a run. We spent the next day exploring the town, Cardiff by the Sea and enjoying time on the beach. On our way out of town the following day, we stopped at the Self Realization Fellowship Meditaion Gardens, which contatined beatuiful plants, ocean views and lots of little benches for sitting and pondering. <br><br> <b>-Helen<\/b>",
   "campsites": [
-    "Dulzura Vineyard & Winery - Harvest Host"
+    "San Elijo State Beach Campground"
   ],
   "photos": [
     {
-      "caption": "Our van setup at Dulzura Vineyard & Winery.",
-      "pth": "van_at_dulzura.webp"
+      "caption": "The San Elijo Lagoon, where we did our first ever session of birding.",
+      "pth": "lagoon.webp"
+    },
+    {
+      "caption": "Maya getting sandy.",
+      "pth": "beach_dog.webp"
+    },
+    {
+      "caption": "A lazy afternoon reading on the beach",
+      "pth": "beach_reading.webp"
+    },
+    {
+      "caption": "",
+      "pth": "sunset.webp"
+    },
+    {
+      "caption": "",
+      "pth": "sunset2.webp"
+    },
+    {
+      "caption": "The view from the Self Realization retreat meditation gardens.",
+      "pth": "retreat_view.webp"
     }
   ]
 }

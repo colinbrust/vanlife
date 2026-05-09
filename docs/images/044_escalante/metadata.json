@@ -1,20 +1,52 @@
 {
-  "location": "Kodachrome Basin State Park, UT",
-  "title": "The World's $1 Best Shower",
-  "date_start": "2026-03-09",
-  "date_end": "2026-03-10",
-  "summary": "My goal for the day was to find a shower, and after reading some reviews on iOverlander, we decided to make a stop at Kodachrome State Park which promised spa-like showers for only $1. They were indeed the nicest showers we have come across so far and we both enjoyed long hot showers. We also intended to play some frisbee golf but it was too windy so we bailed and went on a little hike instead. We headed out of the park and found a very pretty open spot to camp for the night. The increasing daylight means we now get to cook dinner in the daylight and it's been fun having a beautiful view right out the door while we cook. <br><br><b>-Helen<\/b>",
+  "location": "Escalante, UT",
+  "title": "Rivers and Ashtrays",
+  "date_start": "2026-03-10",
+  "date_end": "2026-03-12",
+  "summary": "Our next destination was some dispersed camping outside of Escalante. On our way we stopped to do a hike up the Escalante River which was a trail that meandered up the canyon, crossing the river multiple times. We only saw one other person out there, a nomad and his dog who were heading to the car for a resupply before going back out to camp for more nights since there were so many cool canyons to explore. After our hike we stopped at the little grocery store in Escalante and treated ourselves to $0.99 soft serve. <br><br> We headed up to Spencer Flat road, a very cool spot, with lots of gorgeous dispersed camping and canyon views in every direction. We spent two nights there, taking the next day to hike the Cosmic Ashtray, which we heard about through my brother Joe and his girlfriend Caeley, who visited the area last year. The hike was mostly on slickrock, and without the phone telling us where the path was, I don't think we would ever have found it. The Cosmic Ashtray is a gigantic bowl filled with dune-like sand that you can climb down into. It was way bigger and way more impressive than I had imagined. The next day we did one more hike along the Escalante but this time from the other side of the canyon than we were a few days ago. We saw some petroglyphs and a big natural bridge and Maya enjoyed the river crossings. <br><br><b>-Helen<\/b>",
   "campsites": [
-    "Rock Spring Bench Dispersed"
+    "Little Spencer Flat Road Dispersed"
   ],
   "photos": [
     {
-      "caption": "A little hike inside Kodachrome State Park",
-      "pth": "kodachrome.webp"
+      "caption": "Hiking along the Escalante River",
+      "pth": "escalante_riv.webp"
     },
     {
-      "caption": "The view from camp outside Kodachrom Basin State Park",
-      "pth": "kodachrome_camping.webp"
+      "caption": "Cool rocks on the way to the Cosmic Ashtray",
+      "pth": "cool_rox.webp"
+    },
+    {
+      "caption": "Hiking towards the Cosmic Ashtray",
+      "pth": "hike_to_tray.webp"
+    },
+    {
+      "caption": "The view of the Cosmic Ashtray from above",
+      "pth": "tray_from_above.webp"
+    },
+    {
+      "caption": "A picture from inside the Cosmic Ashtray",
+      "pth": "tray_from_bottom.webp"
+    },
+    {
+      "caption": "Colin and Maya looking into the Cosmic Ashtray",
+      "pth": "ashtray_with_people.webp"
+    },
+    {
+      "caption": "Helen climbing out of the Cosmic Ashtray",
+      "pth": "climbing_ashtray.webp"
+    },
+    {
+      "caption": "Some petroglyphs above the Escalante River",
+      "pth": "pgs.webp"
+    },
+    {
+      "caption": "Escalante Arch from below",
+      "pth": "arch1.webp"
+    },
+    {
+      "caption": "Colin looking at Escalante Arch",
+      "pth": "arch2.webp"
     }
   ]
 }

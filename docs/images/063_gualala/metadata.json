@@ -1,28 +1,64 @@
 {
-  "location": "Fort Ross, CA",
-  "title": "Back to the Ocean",
-  "date_start": "2026-04-25",
-  "date_end": "2026-04-26",
-  "summary": "The next day we were headed to the coast but wanted to try at least one winery since we were driving right through California wine country. We were a little surprised to find out how expensive wine tastings are in Napa but we found a nice winery outside of Sonoma, Benziger, with a very nice and not too expensive wine tasting. We haven't done many real wine tastings and I have to say we couldn't really hang. How do people do multiple of these in a day? Colin ended up dumping some of his wine so he could drive us through the winding roads to our spot for the night, another Harvest Host right off of Highway-1. I forgot how incredible this stretch of road is, watching the ocean come in and out of view at every turn. We stopped at Fort Ross store where they had a little concrete pad next to the store that looked out over the ocean. After doing a little walk to a bluff to see the ocean, we hunkered into the van for the night. <br><br><b>-Helen<\/b>",
+  "location": "Gualala, CA",
+  "title": "Seal Pups Spotted",
+  "date_start": "2026-04-26",
+  "date_end": "2026-04-28",
+  "summary": "The day we spent driving up the coast to Gualala was one of my favorites. We started the morning with some coffees from the store and went in search of a beach. We pulled into Black Point Beach and were surprised to find we were the only ones there. Compared to the beaches in Southern California, the beaches here are more frequent and less populated (at least this time of year). The beach was sandy and deserted so Maya got to zoom to her hearts content. After strolling the length of the beach, we walked out to a nearby bluff that was covered in bright pink flowers. I couldn't stop exclaiming and taking pictures. Our next stop just up the road was Tide Pool Beach where we hoped to see some sea creatures. Upon arriving, we were met by a Seal Docent who said the beach was closed but that we could see seal pups just up the way. We spent the next half an hour peering through the binoculars at some freshly born seals and protective mothers flopping about on the rocks. I could've watched them all day. Our last stop before making our way to our campsite was the Gualala Seafood Shack, where we got a cup of clam chowder (just okay) and a big fried prawn sandwich (very good!). <br><br> The campground was set along the Gualala River, about a mile from the ocean, in a big redwood forest. The afternoon we arrived was cloudy, so we spent the afternoon huddled up reading. The next morning was chilly but promised sun so we set out to the beach where I wanted to spend the day reading and searching for whales. Apparently this is a good place and good time of year to see gray whales and babies but so far no luck! It turned out the beach was extremely windy so the outing was short-lived, but we got a nice hot shower and spent another afternoon reading so I can't complain. ",
   "campsites": [
-    "Fort Ross Store"
+    "Gualala Regional Park"
   ],
   "photos": [
     {
-      "caption": "Colin checking out the legs on his wine",
-      "pth": "legs.webp"
+      "caption": "Helen on our morning coffee hike",
+      "pth": "coffee_hike.webp"
     },
     {
-      "caption": "The view of the ocean near our Harvest Host at Fort Ross",
-      "pth": "sea_view.webp"
+      "caption": "Footprints in the sand",
+      "pth": "footprints.webp"
     },
     {
-      "caption": "Maya patiently waiting for me to get her a treat",
-      "pth": "treat.webp"
+      "caption": "Helen on the beach",
+      "pth": "helen_beach.webp"
     },
     {
-      "caption": "The vines at the Benziger winery",
-      "pth": "vines.webp"
+      "caption": "Maya on the beach",
+      "pth": "maya_on_beach2.webp"
+    },
+    {
+      "caption": "A view from Colin's run along the ocean",
+      "pth": "run_view.webp"
+    },
+    {
+      "caption": "A selfie on the beach",
+      "pth": "beach_selfie.webp"
+    },
+    {
+      "caption": "The cool chapel outside Gualala",
+      "pth": "chapel.webp"
+    },
+    {
+      "caption": "Some clam chowder and a prawn sandwich from the Gualala Seafood Shack",
+      "pth": "fish_food.webp"
+    },
+    {
+      "caption": "Bright pink flowers on the bluff",
+      "pth": "flowers.webp"
+    },
+    {
+      "caption": "The campground along the Gualala River",
+      "pth": "gua_camp.webp"
+    },
+    {
+      "caption": "Maya on the beach",
+      "pth": "maya_beach.webp"
+    },
+    {
+      "caption": "Maya on a log, eyeing the water",
+      "pth": "on_log.webp"
+    },
+    {
+      "caption": "Maya pooping in a pretty setting",
+      "pth": "pooping.webp"
     }
   ]
 }

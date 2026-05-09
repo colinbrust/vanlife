@@ -1,16 +1,50 @@
-{
-  "location": "McCammon, ID",
-  "title": "Pit Stop in Idaho",
-  "date_start": "2025-11-01",
-  "date_end": "2025-11-02",
-  "summary": "Maya and I stopped here for the night on the way to Utah. We watched 'The House on Haunted Hill' while we cooked dinner. Helen isn't a big fan of old movies so I made sure to get my fill in while she was gone.  <br><br> <b>-Colin<\/b>",
-  "campsites": [
-    "Goodenough Creek Campground"
-  ],
-  "photos": [
-    {
-      "caption": "Cooking pasta for dinner and watching 'The House on Haunted Hill'.",
-      "pth": "first_night_solo.webp"
-    }
-  ]
-}
+[
+  {
+    "location": "McCammon, ID",
+    "title": "Pit Stop in Idaho",
+    "date_start": "2025-11-01",
+    "date_end": "2025-11-02",
+    "summary": "Maya and I stopped here for the night on the way to Utah. We watched 'The House on Haunted Hill' while we cooked dinner. Helen isn't a big fan of old movies so I made sure to get my fill in while she was gone.  <br><br> <b>-Colin<\/b>",
+    "campsites": [
+      "Goodenough Creek Campground"
+    ],
+    "photos": [
+      {
+        "caption": "Cooking pasta for dinner and watching 'The House on Haunted Hill'.",
+        "pth": "first_night_solo.webp"
+      }
+    ]
+  },
+  {
+    "location": "Apple Valley, UT",
+    "title": "Running and Biking in the Gooseberry Mesa",
+    "date_start": "2025-11-02",
+    "date_end": "2025-11-05",
+    "summary": "Eventually I made it to the Gooseberry Mesa in southern Utah. On the day I arrived I was able to get in a nice quick mountain bike ride before the sun set. I spent 3 days here at a nice camp site with good access to the bike trails. I split my time between working, running, biking, and watching movies once the sun went down. I got my fill of older movies in, watching The Apartment, The Thing, 12 Angry Men, and finishing the Lonesome Dove mini-series. The only downside was that as a novice vanlifer, I chose a camping spot in the shade for most of the day. This meant our battery system didn't recharge and I lost power on the last night of my stay. From Maya's perspective, the downsides were that A) Helen wasn't there (tear emoji) and B) I took her on either a big bike ride or run every day (exercising is hard for a little pup like her).  <br><br> <b>-Colin<\/b>",
+    "campsites": [
+      "Gooseberry Mesa Dispersed Camping"
+    ],
+    "photos": [
+      {
+        "caption": "The camping situation at the Gooseberry Mesa.",
+        "pth": "mesa_camp.webp"
+      },
+      {
+        "caption": "Another view of camp on Gooseberry Mesa.",
+        "pth": "mesa_setup.webp"
+      },
+      {
+        "caption": "Maya soaking up the sun while I worked.",
+        "pth": "maya_soaking.webp"
+      },
+      {
+        "caption": "A beautiful view I got from the the mesa while I was on a run.",
+        "pth": "mesa_view.webp"
+      },
+      {
+        "caption": "Maya has decided that if we take more than 5 minutes to pick up her poop, she must bury it with her snout.",
+        "pth": "maya_snout.webp"
+      }
+    ]
+  }
+]

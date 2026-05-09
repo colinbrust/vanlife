@@ -11,7 +11,7 @@ folders <- list.dirs(images_dir, full.names = FALSE, recursive = FALSE) %>%
   sort()
 
 # Filter out .DS_Store and other non-location folders
-folders <- folders[!grepl("^\\."), ]
+# folders <- folders[!grepl("^\\."), ]
 
 all_locations <- list()
 
@@ -26,15 +26,37 @@ for (folder in folders) {
   # Read metadata
   metadata <- jsonlite::read_json(metadata_file)
   
-  # Update photo paths to include folder name and full path
-  if (!is.null(metadata$photos) && length(metadata$photos) > 0) {
-    metadata$photos <- lapply(metadata$photos, function(photo) {
-      photo$pth <- file.path("images", folder, photo$pth)
-      return(photo)
-    })
+  # Handle both single location object and array of locations
+  if (!is.null(metadata$location)) {
+    # Single location object
+    metadata_list <- list(metadata)
+  } else if (is.list(metadata) && !is.null(names(metadata)) && all(names(metadata) == "")) {
+    # Array of locations (unnamed list)
+    metadata_list <- metadata
+  } else {
+    # Try to treat as array anyway
+    metadata_list <- list(metadata)
   }
   
-  all_locations[[length(all_locations) + 1]] <- metadata
+  # Process each location in the metadata_list
+  for (loc_metadata in metadata_list) {
+    # Ensure campsites is always an array (even if empty)
+    if (is.null(loc_metadata$campsites) || length(loc_metadata$campsites) == 0) {
+      loc_metadata$campsites <- I(list())
+    } else {
+      loc_metadata$campsites <- I(loc_metadata$campsites)
+    }
+    
+    # Update photo paths to include folder name and full path
+    if (!is.null(loc_metadata$photos) && length(loc_metadata$photos) > 0) {
+      loc_metadata$photos <- lapply(loc_metadata$photos, function(photo) {
+        photo$pth <- file.path("images", folder, photo$pth)
+        return(photo)
+      })
+    }
+    
+    all_locations[[length(all_locations) + 1]] <- loc_metadata
+  }
 }
 
 # Write combined locs.json

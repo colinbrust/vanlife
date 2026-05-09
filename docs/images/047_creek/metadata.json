@@ -1,16 +1,20 @@
 {
-  "location": "Hanksville, UT",
-  "title": "Campsite Scouting",
-  "date_start": "2026-03-13",
-  "date_end": "2026-03-14",
-  "summary": "On our way to the Moab area, we stopped for a night along the San Rafael Swell. We had an upcoming camping trip with Helen's family and we were tasked with finding a campsite that would accommodate seven people and three dogs. We spent the afternoon looking for a suitable spot and then walking around the slick rock once we had one picked out.",
+  "location": "Newspaper Rock, UT",
+  "title": "Climbing in Indian Creek",
+  "date_start": "2026-03-14",
+  "date_end": "2026-03-16",
+  "summary": "Some friends from Missoula were planning a climbing trip to Indian Creek while we were planning to be in the area. It had been nine years since my first trip to Indian Creek, so we jumped at the chance to meet them there. Coincidentally, some of my friends from Tucson and some of Helen's friends from Durango were also going to be in the area at the same time. We were luckily able to find a few adjoining campsites and had an awesome few days of climbing, campfires and visiting with all of our friends. Despite not having done much climbing in the last month or so, I had a great time climbing with my friends and got excited to return for another trip in the future.",
   "campsites": [
-    "Temple Road Dispersed"
+    "Hamburger Rock Dispersed, Superbowl Campground"
   ],
   "photos": [
     {
-      "caption": "View of our campsite",
-      "pth": "view_of_camp.webp"
+      "caption": "Petroglyphs at Newspaper Rock on the way to Indian Creek",
+      "pth": "newspaper_glyphs.webp"
+    },
+    {
+      "caption": "Colin leading up Blue Sun",
+      "pth": "splitter.webp"
     }
   ]
 }

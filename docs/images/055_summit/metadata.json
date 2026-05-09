@@ -1,32 +1,16 @@
 {
-  "location": "Tucson, AZ",
-  "title": "Sis Gets Married!",
-  "date_start": "2026-04-01",
-  "date_end": "2026-04-15",
-  "summary": "We arrived in Tucson a few days ahead of schedule due to the lack of available campsites in the Sedona area. This ended up being a good thing, as there were plenty of things to get done around my parent's house to prepare for the rehearsal dinner they were hosting for my sister's wedding. We spent many hours repairing lawn chairs, shoveling gravel and landscaping. Between these tasks, we had some time for doing a deep clean of the van and we were able to make it up to Mt Lemmon to climb with our friends Quinn and Caitlin. Although we were busy the whole time we were visiting, we had an awesome time hanging out with family. Both the rehersal dinner that my parents hosted and the wedding itself were incredible events. It was so fun to reconnect with old family and friends and we are so excited for Ji (sister) and Hunter (brother-in-law) and all the adventures they will have together! <br><br> On the way out of town, we stopped at Walmart to get a few supplies. One of these supplies was a bag of pine shaving pet bedding that we use in our composting toilet. At the store's exit, there was a lady checking receipts who excitedly asked me what type of pet I was using the bedding for. Not wanting to explain that 'You see, I actually bought this to put in my toilet so my van doesn't smell like poop', I answered 'Oh it's just for my cute little guy'. To which she of course had more questions. I blurted out that I was actually in a hurry and had to get going and high tailed it back to the van. With that, our time in Tucson was over and we hit the road for California. <br><br><b>-Colin<\/b>",
+  "location": "Chiriaco Summit, CA",
+  "title": "Who Knew Interstate Camping Could Be So Nice?",
+  "date_start": "2026-04-15",
+  "date_end": "2026-04-16",
+  "summary": "Our next stop after leaving Tucson was the Eastern Sierra, but we didn't want to do the whole ten hour drive in one push. Our van doesn't have cruise control and we have become moderate to severe weenies when it comes to spending long days on the road. We decided to spend the night at Chiriaco Summit. Despite being within eye and earshot of I-10, it was a pretty nice spot to stay for the night, with free camping and plenty of empty spots. We made a salad for dinner and watched the new Netflix series Big Mistakes. On the way out, we got some great coffee at the little shop at the rest area near where we camped. <br><br><b>-Colin<\/b>",
   "campsites": [
     "Ledges Campground"
   ],
   "photos": [
     {
-      "caption": "A tangle of leashes as we walked the dogs around the block.",
-      "pth": "dog_walk.webp"
-    },
-    {
-      "caption": "My parent's dog Keeley sleeping in style.",
-      "pth": "keeley_sleeping.webp"
-    },
-    {
-      "caption": "A lovely trip to the Tucson landfill that I made with my dad.",
-      "pth": "landfill.webp"
-    },
-    {
-      "caption": "The back yard of my parent's house before the wedding rehersal dinner.",
-      "pth": "the_yard.webp"
-    },
-    {
-      "caption": "Helen and I dressed up at my sister's wedding!",
-      "pth": "at_wedding.webp"
+      "caption": "The sunset view from our campsite at Chiriaco Summit.",
+      "pth": "summit.webp"
     }
   ]
 }

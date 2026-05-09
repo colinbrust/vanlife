@@ -1,16 +1,56 @@
 {
-  "location": "Moab, UT",
-  "title": "Biking in Moab",
-  "date_start": "2026-03-16",
-  "date_end": "2026-03-18",
-  "summary": "The drive to Ledges campground felt long and scary in the van, with some tight switchbacks you have to make your way down, but we arrived to find our friends Quinn and Caitlin at a nice campground in the canyon. Margaret and Amanda, who were with us at Indian Creek, ended up meeting up with us again for the night and Joe and Caeley joined us the following day, so it was a super fun to have a big group of all of our people. We did a big group bike ride the next day up some fun chunky trails before returning to camp to read under the shade tarp. It's been really nice to meet up with so many of our different friends and we've been enjoying the nightly bonfires which we don't do that much of on our own! We've had some good stargazing in Utah the past couple of weeks. <br><br><b>-Helen<\/b>",
+  "location": "Hanksville, UT",
+  "title": "Family Camping",
+  "date_start": "2026-03-18",
+  "date_end": "2026-03-22",
+  "summary": "After saying goodbye to friends, we headed into Moab to meet up with my family. We were planning to head back to the area Colin and I had scoped and hopefully snag a campsite that looked nice. Luckily, when we arrived, the spot was free, and we settled in for the next few days of hanging out and exploring the San Rafael Swell. The temps were supposed to be in the high 80s so we started by setting up our shade tarp living room. <br><br> We relaxed in the mornings before heading out on a little hike each day. The first day we did a little hike from camp, bushwhacking on the slickrock and making our own little loop. The second day, we did a bigger hike up Wildhorse Canyon, which had some cool slots that luckily had some great shade to rest in. We ended up getting cliffed out once when we tried to cut off trail, but were able to find a route to complete the loop. The third hike we did was up Farnsworth Canyon which had some really deep, curvy slots. On the hike, we again decided to make our own loop and luckily found a pretty straightforward route back to the car through the slickrock. We had three dogs along and despite the heat they had lots of fun playing and hiking together! It was great to spend time with my family playing cards and bocce, reading, cooking, and hanging out in the desert. <br><br><b>-Helen<\/b>",
   "campsites": [
-    "Ledges Campground"
+    "Temple Road Dispersed"
   ],
   "photos": [
     {
-      "caption": "Avoiding the sun at camp",
-      "pth": "shade.webp"
+      "caption": "Taking a break on a hike",
+      "pth": "break.webp"
+    },
+    {
+      "caption": "Finding some shade on a hike",
+      "pth": "finding_shade.webp"
+    },
+    {
+      "caption": "Colin hiding",
+      "pth": "hideout.webp"
+    },
+    {
+      "caption": "View from one of our hikes",
+      "pth": "hike_view.webp"
+    },
+    {
+      "caption": "Hiking into a slot canyon",
+      "pth": "into_slot.webp"
+    },
+    {
+      "caption": "Squeezing down a dry waterfall",
+      "pth": "pourover.webp"
+    },
+    {
+      "caption": "Some good dogs on a hike",
+      "pth": "pups.webp"
+    },
+    {
+      "caption": "Taking a lunch break in a shady slot canyon",
+      "pth": "shady_lunch.webp"
+    },
+    {
+      "caption": "One of the many slot canyons we encountered",
+      "pth": "slot3.webp"
+    },
+    {
+      "caption": "View from the top of one of our hikes",
+      "pth": "top_of_wash.webp"
+    },
+    {
+      "caption": "Dogs cooling off in a rare waterhole",
+      "pth": "waterhole.webp"
     }
   ]
 }

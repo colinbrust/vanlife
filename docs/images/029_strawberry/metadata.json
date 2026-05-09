@@ -1,36 +1,85 @@
 {
-  "location": "Prescott, AZ",
-  "title": "Settling in at White Spar Campground",
-  "date_start": "2026-01-30",
-  "date_end": "2026-02-04",
-  "summary": "Abby made a pit stop in Prescott on her way to meet up with us and loved it so much that she wanted to head back before making her way back to Missoula. Since we've been living pretty day to day, we had nothing on our agenda and decided to join. We stayed at a very nice little campground about 5 minutes from downtown Prescott. It ended up being such a nice spot that we both extended our reservation two different times! The camp hosts were very friendly even though we made them change out the reservation sign three times. <br><br> On Saturday Abby and I hiked the loop around Watson Lake while Colin ran. It's been nice to have a hiking buddy since Colin and I often split up on hikes so he can do a longer run. Maya and Wynn had lots of fun scrambling over rocks and trying to drink the dirty lake water. We were all starving after the outing, so we headed into town and ate at the Barley Hound (highly recommend!). They had a nice outdoor patio, amazing food, including duck fat fries, beet salad, duck burger, and chili wontons, and they even treated the dogs to a big plate of rice and steak pieces. <br><br> We spent the next few days going on little hikes after camp, playing games, cooking group meals, running van errands like laundry, showers and groceries and sitting around the campfire at night. Having Abby here to hang out with and the added hour of daylight has coaxed our bedtime to be slightly later than our usual 7:30pm. The campground was also attached to a very fun bike park, called Bean Peaks, that Colin and I got to ride one afternoon. The trails were all named after different beans (cool beans, limey beans, jelly beans, etc) and they were very flowy compared to what we are used to in Missoula. <br><br>We finally decided it was time to head out and split ways (we'll miss you, Abby!) and headed off in the direction of Payson after a shower at Planet Fitness and grocery resupply at Trader Joe's. <br><br> <b>-Helen<\/b>",
+  "location": "Strawberry, AZ",
+  "title": "Views from the Mogollon Rim",
+  "date_start": "2026-02-04",
+  "date_end": "2026-02-06",
+  "summary": "After more than a week of the luxury of campgrounds, we went in search of some free camping on the Mogollon Rim. We were a little nervous as we drove down the dirt roads and snow started to appear, but we were rewarded by a beautiful spot overlooking the valley with no one else around. We set up our chair to watch the sunset and then retreated into the van to get out of the cold wind. We set our alarm to get up to watch the sunrise, which is luckily at about 7:30am right now, and enjoyed a quiet morning watching the sun rise over the valley. While very pretty, it was a bit cold to stay, so we packed up and headed out to find a new spot. <br><br> We stopped at the Pine Trailhead, where we went on a nice little trail run together, and then I worked for a little while in the van while Colin went on a longer run. Next up, we decided to check out Tonto Natural Bridge State Park, which we discovered was right down the road from us. Upon entering, we were slightly dismayed to find out it cost $10 a person rather than $10 a car to enter, but we paid the fee and continued to the parking lot. There aren't any big hikes here, just little trails to various lookouts. Not really knowing what to expect or understanding the map they gave us, we set off down a steep trail that immediately opened up to an incredible natural bridge. There were big boulders and pools beneath with featured rock above, and water pouring over the other side, illuminated by the sun. It was honestly one of the coolest things spots I have ever seen, partly because it was so unassuming and we decided it was definitely worth the $20. That night, after a little searching and being selective about our dispersed spot for the night, we ended up at the end of a road in a nice little forest surrounded by cows. <br><br> The next morning, we got up and packed up quickly because we had a big day of hiking ahead of us. After hearing about it from my mom, we wanted to check out Fossil Creek, which is a clear, spring-fed creek at the bottom of a canyon. During the summer months you need a permit to hike but during the colder months there are no restrictions and it was relatively empty. It was a steep hike down, though not as steep as all of the signs made it seem with many warnings about previous rescues and even deaths. After about 3.5 miles, the hike flattens out, and you hike along the creek before getting to a big waterfall with pools. We found a nice spot for a refreshing dip, which we followed with a delicious picnic of empanadas that we had picked up at the Pie Bar in Strawberry. The hike up was not as bad as we were expecting, and we got back to the car at around 2pm with some time to spare before we needed to find a campsite. So, we stopped at THAT brewery in Pine for a post-hike beer on the dog-friendly patio.",
   "campsites": [
-    "White Spar Campground"
+    "Milk Ranch Point Dispersed",
+    "Hardscrabble Road Dispersed"
   ],
   "photos": [
     {
-      "caption": "Watson lake in Prescott.",
-      "pth": "the_lake.webp"
+      "caption": "View of the sunrise on the Mogollon Rim from the kitchen while water boils for coffee.",
+      "pth": "rim_sunrise.webp"
     },
     {
-      "caption": "Our yummy spread of food from The Barley Hound.",
-      "pth": "food.webp"
+      "caption": "Sunrise on the Mogollon Rim.",
+      "pth": "rim_sunrise2.webp"
     },
     {
-      "caption": "The rissoto dinner that Abby cooked for us on our last night in Prescott.",
-      "pth": "rissoto.webp"
+      "caption": "The view from our camp on the Mogollon Rim.",
+      "pth": "the_rim_view.webp"
     },
     {
-      "caption": "Colin excited about the mountain bike trails at Bean Peaks bike park.",
-      "pth": "sick_trails.webp"
+      "caption": "Pancakes for breakfast on the Mogollon Rim.",
+      "pth": "pancake_bfast.webp"
     },
     {
-      "caption": "A selfie after finishing a lap at Bean Peaks.",
-      "pth": "biking_selfie.webp"
+      "caption": "Colin taking in the views.",
+      "pth": "sitting_on_rim.webp"
     },
     {
-      "caption": "A selfie with Abby before we headed separate ways.",
-      "pth": "byebye_selfie.webp"
+      "caption": "View as we descended into the Tonto Natural Bridge.",
+      "pth": "cave_from_overview.webp"
+    },
+    {
+      "caption": "Helen walking into the natural bridge.",
+      "pth": "into_the_cave.webp"
+    },
+    {
+      "caption": "A selfie underneath the Tonto Natural Bridge",
+      "pth": "cave_selfie.webp"
+    },
+    {
+      "caption": "View as we were leaving the Tonto Natural Bridge.",
+      "pth": "cave_from_end.webp"
+    },
+    {
+      "caption": "The view you get as you hike into the Tonto Natural Bridge.",
+      "pth": "the_bridge.webp"
+    },
+    {
+      "caption": "Helen on the path inside the natural bridge.",
+      "pth": "helen_in_tonto.webp"
+    },
+    {
+      "caption": "Last year, Colin bought a large can of mackrel at an Asian grocery store. It sat in our pantry all year. For some reason, Helen allowed Colin to bring it along for vanlife. It sat in the van for 4 months. Seeing that Colin would never use the fish, Helen made a delicious pasta dinner with tomatoes and mackrel.",
+      "pth": "pasta_dinner.webp"
+    },
+    {
+      "caption": "A selfie near the falls at Fossil Creek.",
+      "pth": "fossil_selfie.webp"
+    },
+    {
+      "caption": "Waterfall on Fossil Creek.",
+      "pth": "falls.webp"
+    },
+    {
+      "caption": "The spot we chose to take a dip on Fossil Creek.",
+      "pth": "swimming_hole.webp"
+    },
+    {
+      "caption": "One of the highlights of this stop was our visit to the Pie Bar in Strawberry. They had delicious handmade empanadas. We purchased 5 and brought them for lunch for our hike to Fossil Creek",
+      "pth": "empanada.webp"
+    },
+    {
+      "caption": "Helen and Maya on the 4 mile uphill hike out of Fossil Creek.",
+      "pth": "hiking_out_fossil.webp"
+    },
+    {
+      "caption": "Maya taking a dip and a drink in Fossil Creek.",
+      "pth": "maya_drinking.webp"
     }
   ]
 }
