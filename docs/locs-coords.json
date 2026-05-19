@@ -6,10 +6,10 @@
     "lng": -113.9952670
   },
   {
-    "location": "Goodenough Creek Campground, ID",
+    "location": "McCammon, ID",
     "date_start": "2025-11-01",
-    "lat": 42.6543783,
-    "lng": -112.2813357
+    "lat": 42.6504719,
+    "lng": -112.1930220
   },
   {
     "location": "Apple Valley, UT",
@@ -30,10 +30,10 @@
     "lng": -114.8337574
   },
   {
-    "location": "Burro Creek Campground, AZ",
+    "location": "Nothing, AZ",
     "date_start": "2025-11-13",
-    "lat": 34.5374183,
-    "lng": -113.4503501
+    "lat": 34.4799580,
+    "lng": -113.3360128
   },
   {
     "location": "Tucson, AZ",
@@ -42,10 +42,10 @@
     "lng": -110.9748470
   },
   {
-    "location": "Molino Basin Campground, AZ",
+    "location": "Summerhaven, AZ",
     "date_start": "2025-11-24",
-    "lat": 32.3376000,
-    "lng": -110.6907000
+    "lat": 32.4447583,
+    "lng": -110.7605798
   },
   {
     "location": "Tucson, AZ",
@@ -54,10 +54,10 @@
     "lng": -110.9748470
   },
   {
-    "location": "17975 Peralta Rd, Gold Canyon, AZ",
+    "location": "Apache Junction, AZ",
     "date_start": "2025-12-06",
-    "lat": 33.3400889,
-    "lng": -111.4345949
+    "lat": 33.4150485,
+    "lng": -111.5495770
   },
   {
     "location": "Peoria, AZ",
@@ -84,10 +84,10 @@
     "lng": -107.8766000
   },
   {
-    "location": "Page, AZ",
+    "location": "Kanab, UT",
     "date_start": "2025-12-28",
-    "lat": 36.9148305,
-    "lng": -111.4572940
+    "lat": 37.0481715,
+    "lng": -112.5285237
   },
   {
     "location": "Las Vegas, NV",
@@ -102,10 +102,10 @@
     "lng": -115.5396535
   },
   {
-    "location": "Joshua Tree National Park, CA",
+    "location": "Joshua Tree, California",
     "date_start": "2026-01-04",
-    "lat": 33.8970672,
-    "lng": -115.9511158
+    "lat": 34.1233750,
+    "lng": -116.3128656
   },
   {
     "location": "Borrego Springs, CA",
@@ -144,96 +144,6 @@
     "lng": -116.7189420
   },
   {
-    "location": "San Bernadino, CA",
-    "date_start": "2026-01-17",
-    "lat": 34.106,
-    "lng": -117.295
-  },
-  {
-    "location": "Sawtooth Canyon Campground, CA",
-    "date_start": "2026-01-18",
-    "lat": 34.6671987,
-    "lng": -116.9827642
-  },
-  {
-    "location": "Rancho Jurupa Regional Park, CA",
-    "date_start": "2026-01-21",
-    "lat": 33.9812278,
-    "lng": -117.4129610
-  },
-  {
-    "location": "Leo Carrillo State Park, CA",
-    "date_start": "2026-01-22",
-    "lat": 34.0609826,
-    "lng": -118.9328060
-  },
-  {
-    "location": "Jumbo Rocks Campground, CA",
-    "date_start": "2026-01-22",
-    "lat": 33.9917117,
-    "lng": -116.0641905
-  },
-  {
-    "location": "Hidden Valley Campground, California",
-    "date_start": "2026-01-04",
-    "lat": 34.0176476,
-    "lng": -116.1633002
-  },
-  {
-    "location": "Peralta Regional Park, AZ",
-    "date_start": "2025-12-06",
-    "lat": 33.3661725,
-    "lng": -111.3643289
-  },
-  {
-    "location": "Prescott, AZ",
-    "date_start": "2026-01-30",
-    "lat": 34.5399840,
-    "lng": -112.4688120
-  },
-  {
-    "location": "Whitehouse Trailhead, UT",
-    "date_start": "2025-12-28",
-    "lat": 37.0802601,
-    "lng": -111.8916187
-  },
-  {
-    "location": "McCammon, ID",
-    "date_start": "2025-11-01",
-    "lat": 42.6504719,
-    "lng": -112.1930220
-  },
-  {
-    "location": "Nothing, AZ",
-    "date_start": "2025-11-13",
-    "lat": 34.4799580,
-    "lng": -113.3360128
-  },
-  {
-    "location": "Summerhaven, AZ",
-    "date_start": "2025-11-24",
-    "lat": 32.4447583,
-    "lng": -110.7605798
-  },
-  {
-    "location": "Apache Junction, AZ",
-    "date_start": "2025-12-06",
-    "lat": 33.4150485,
-    "lng": -111.5495770
-  },
-  {
-    "location": "Kanab, UT",
-    "date_start": "2025-12-28",
-    "lat": 37.0481715,
-    "lng": -112.5285237
-  },
-  {
-    "location": "Joshua Tree, California",
-    "date_start": "2026-01-04",
-    "lat": 34.1350358,
-    "lng": -116.3152770
-  },
-  {
     "location": "Barstow, CA",
     "date_start": "2026-01-18",
     "lat": 34.8986215,
@@ -254,8 +164,14 @@
   {
     "location": "Joshua Tree, CA",
     "date_start": "2026-01-22",
-    "lat": 34.1350358,
-    "lng": -116.3152770
+    "lat": 34.1233750,
+    "lng": -116.3128656
+  },
+  {
+    "location": "Prescott, AZ",
+    "date_start": "2026-01-30",
+    "lat": 34.5399840,
+    "lng": -112.4688120
   },
   {
     "location": "Strawberry, AZ",
@@ -276,28 +192,16 @@
     "lng": -111.1342893
   },
   {
-    "location": "22130 Apache Trail, Apache Junction, AZ 85119",
+    "location": "Tortilla Flat, AZ",
     "date_start": "2026-02-13",
-    "lat": 33.3944210,
-    "lng": -111.5460918
-  },
-  {
-    "location": "Scottsdale, AZ",
-    "date_start": "2026-02-16",
-    "lat": 33.4942189,
-    "lng": -111.9260180
+    "lat": 33.5264365,
+    "lng": -111.3898523
   },
   {
     "location": "Tucson, AZ",
     "date_start": "2026-02-18",
     "lat": 32.2228765,
     "lng": -110.9748470
-  },
-  {
-    "location": "Tortilla Flat, AZ",
-    "date_start": "2026-02-13",
-    "lat": 33.5264365,
-    "lng": -111.3898523
   },
   {
     "location": "Las Vegas, NV",
@@ -320,8 +224,8 @@
   {
     "location": "Virgin River Gorge, AZ",
     "date_start": "2026-03-01",
-    "lat": 36.946489416783194,
-    "lng": -113.79972231225726
+    "lat": 0,
+    "lng": 0
   },
   {
     "location": "Apple Valley, UT",
@@ -374,8 +278,8 @@
   {
     "location": "Newspaper Rock, UT",
     "date_start": "2026-03-14",
-    "lat": 37.9883267141451,
-    "lng": -109.51824327569972
+    "lat": 37.1847372,
+    "lng": -113.6267206
   },
   {
     "location": "Moab, UT",
@@ -398,20 +302,14 @@
   {
     "location": "Cliff Dwellers, AZ",
     "date_start": "2026-03-28",
-    "lat": 36.7343521,
-    "lng": -111.7526410
+    "lat": 36.7445161,
+    "lng": -111.7531074
   },
   {
     "location": "Flagstaff, AZ",
     "date_start": "2026-03-29",
     "lat": 35.1987522,
     "lng": -111.6518220
-  },
-  {
-    "location": "Sedona, AZ",
-    "date_start": "2026-03-31",
-    "lat": 34.8688613,
-    "lng": -111.7614394
   },
   {
     "location": "Tucson, AZ",
@@ -444,12 +342,6 @@
     "lng": -119.5479969
   },
   {
-    "location": "Placerville, CA",
-    "date_start": "2026-04-22",
-    "lat": 38.7296252,
-    "lng": -120.7985460
-  },
-  {
     "location": "Granite Bay, CA",
     "date_start": "2026-04-23",
     "lat": 38.7621730,
@@ -474,12 +366,6 @@
     "lng": -123.5298280
   },
   {
-    "location": "null",
-    "date_start": "null",
-    "lat": 40.7881060,
-    "lng": 35.0218961
-  },
-  {
     "location": "Shelter Cove, CA",
     "date_start": "2026-04-28",
     "lat": 40.0380195,
@@ -492,10 +378,10 @@
     "lng": -124.0953536
   },
   {
-    "location": "Cresent City, CA",
+    "location": "Crescent City, CA",
     "date_start": "2026-05-01",
-    "lat": 49.0342713,
-    "lng": -122.8776720
+    "lat": 41.7522404,
+    "lng": -124.1978539
   },
   {
     "location": "Brookings, OR",
@@ -536,19 +422,13 @@
   {
     "location": "Lost Lake, OR",
     "date_start": "2026-05-14",
-    "lat": 45.49571, 
-    "lng": -121.8180
+    "lat": 45.49413, 
+    "lng": -121.8174
   },
   {
     "location": "Vancouver, WA",
     "date_start": "2026-05-15",
     "lat": 45.6306954,
     "lng": -122.6744557
-  },
-  {
-    "location": "Crescent City, CA",
-    "date_start": "2026-05-01",
-    "lat": 41.7522404,
-    "lng": -124.1978539
   }
 ]

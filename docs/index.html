@@ -921,25 +921,26 @@
 
             const routeCoords = locations.map(loc => [loc.lat, loc.lng]);
 
-            // fetch('routes.geojson')
-            //     .then(r => r.json())
-            //     .then(geojson => {
-            //         L.geoJSON(geojson, {
-            //         style: {
-            //             color: '#007bff',
-            //             weight: 2,
-            //             opacity: 0.6
-            //         }
-            //         }).addTo(map);
-            //     });
+            fetch('routes.geojson')
+                .then(r => r.json())
+                .then(geojson => {
+                    L.geoJSON(geojson, {
+                    style: {
+                        color: '#8B4513',
+                        weight: 3,
+                        dashArray: '10, 5',
+                        lineCap: 'round'
+                    }
+                    }).addTo(map);
+                });
 
             // Dashed line to look like rope/string
-            L.polyline(routeCoords, {
-                color: '#8B4513',
-                weight: 3,
-                dashArray: '10, 5',
-                lineCap: 'round'
-            }).addTo(map);
+            // L.polyline(routeCoords, {
+            //     color: '#8B4513',
+            //     weight: 3,
+            //     dashArray: '10, 5',
+            //     lineCap: 'round'
+            // }).addTo(map);
 
             locations.forEach((loc, index) => {
                 let icon;

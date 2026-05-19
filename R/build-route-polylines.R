@@ -64,7 +64,7 @@ query_osrm_route <- function(lat1, lng1, lat2, lng2) {
       req_perform(verbosity = 0)
 
     if (response$status_code == 200) {
-      data <- httr2::response_body_json(response)
+      data <- httr2::resp_body_json(response)
 
       if (data$code == "Ok" && length(data$routes) > 0) {
         route <- data$routes[[1]]
@@ -174,14 +174,14 @@ for (route_key in names(cache)) {
   features[[length(features) + 1]] <- feature
 }
 
-geojson_output <- list(
-  type = "FeatureCollection",
-  features = features
-)
+sf_obj <- sf::st_as_sf(do.call(rbind, lapply(features, function(f) {
+  geom <- sf::st_linestring(matrix(unlist(f$geometry$coordinates), ncol = 2, byrow = TRUE))
+  cbind(as.data.frame(f$properties), geometry = sf::st_sfc(geom, crs = 4326))
+})))
 
 # Write GeoJSON
 cat("Writing GeoJSON to", OUTPUT_FILE, "\n")
-write_json(geojson_output, OUTPUT_FILE, pretty = TRUE)
+sf::write_sf(sf_obj, OUTPUT_FILE)
 
 cat("\n✓ Complete!\n")
 cat("  Cache:", CACHE_FILE, "\n")

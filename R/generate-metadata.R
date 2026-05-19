@@ -24,6 +24,9 @@ image_files <- list.files(
   full.names = FALSE
 )
 
+# Exclude thumbnail files
+image_files <- image_files[!grepl("thumb", image_files, ignore.case = TRUE)]
+
 # Initialize defaults
 date_start <- ""
 date_end <- ""
