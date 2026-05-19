@@ -1,0 +1,18 @@
+{
+  "location": "Coos Bay, OR",
+  "title": "Biking and Beach Drawings",
+  "campsites": ["Eel River Campground"],
+  "date_start": "2026-05-04",
+  "date_end": "2026-05-05",
+  "summary": "We decided that afternoon to go bike at the whiskey run trails outside Coos Bay, Oregon. The trails were some of the most fun flowing mountain bike-specific trails that I've been on. We biked for two hours and had a nice little picnic and Maya was happy that for the first time in her life, she was biking in temperatures less than 70°. After our bike adventure, we met up with Abby at a brewery in Coos Bay to have a beer and some coffee. Kobe was a cute little town and we were happy to have taken a pitstop there. After a beer, we went to Fred Meyer's where I spent far too long figuring out how to download their app and get a coupon for two dollars off some granola bars. Luckily I was successful! Our camp spot for the night was the elk Creek Campground just outside of town where we spent the night with Abby. She made us a yummy chicken and rice Asian soup that we had for dinner before heading to bed a little early. The next morning we hiked up to the top of a sand dune right outside Camp and did our best impressions of the sand shuffle from the movie Dune. After a cup of coffee, we hit the road towards Eugene.",
+  "photos": [
+    {
+      "caption": "A selfie during our bike ride at the whiskey run trails.",
+      "pth": "bike_selfie.webp"
+    },
+    {
+      "caption": "The Oregon sand dunes",
+      "pth": "dune.webp"
+    }
+  ]
+}

@@ -474,9 +474,81 @@
     "lng": -123.5298280
   },
   {
+    "location": "null",
+    "date_start": "null",
+    "lat": 40.7881060,
+    "lng": 35.0218961
+  },
+  {
     "location": "Shelter Cove, CA",
     "date_start": "2026-04-28",
     "lat": 40.0380195,
     "lng": -124.0557453
+  },
+  {
+    "location": "False Klamath, CA",
+    "date_start": "2026-04-30",
+    "lat": 41.5917850,
+    "lng": -124.0953536
+  },
+  {
+    "location": "Cresent City, CA",
+    "date_start": "2026-05-01",
+    "lat": 49.0342713,
+    "lng": -122.8776720
+  },
+  {
+    "location": "Brookings, OR",
+    "date_start": "2026-05-03",
+    "lat": 42.0521298,
+    "lng": -124.2832868
+  },
+  {
+    "location": "Coos Bay, OR",
+    "date_start": "2026-05-04",
+    "lat": 43.3678937,
+    "lng": -124.2174647
+  },
+  {
+    "location": "Eugene, OR",
+    "date_start": "2026-05-05",
+    "lat": 44.0505054,
+    "lng": -123.0950506
+  },
+  {
+    "location": "McKenzie Bridge, OR",
+    "date_start": "2026-05-06",
+    "lat": 44.1748237,
+    "lng": -122.1633143
+  },
+  {
+    "location": "Bend, OR",
+    "date_start": "2026-05-09",
+    "lat": 44.0581728,
+    "lng": -121.3153096
+  },
+  {
+    "location": "Terrebonne, OR",
+    "date_start": "2026-05-11",
+    "lat": 44.3554551,
+    "lng": -121.1786432
+  },
+  {
+    "location": "Lost Lake, OR",
+    "date_start": "2026-05-14",
+    "lat": 45.49571, 
+    "lng": -121.8180
+  },
+  {
+    "location": "Vancouver, WA",
+    "date_start": "2026-05-15",
+    "lat": 45.6306954,
+    "lng": -122.6744557
+  },
+  {
+    "location": "Crescent City, CA",
+    "date_start": "2026-05-01",
+    "lat": 41.7522404,
+    "lng": -124.1978539
   }
 ]

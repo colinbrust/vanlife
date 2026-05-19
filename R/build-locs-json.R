@@ -30,7 +30,7 @@ for (folder in folders) {
   if (!is.null(metadata$location)) {
     # Single location object
     metadata_list <- list(metadata)
-  } else if (is.list(metadata) && !is.null(names(metadata)) && all(names(metadata) == "")) {
+  } else if (is.list(metadata) && is.null(names(metadata))) {
     # Array of locations (unnamed list)
     metadata_list <- metadata
   } else {

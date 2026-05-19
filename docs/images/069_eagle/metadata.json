@@ -1,0 +1,30 @@
+{
+  "location": "Eugene, OR",
+  "title": "Sketchy Shooting Range",
+  "campsites": ["Eagle's Rest Dispersed"],
+  "date_start": "2026-05-05",
+  "date_end": "2026-05-06",
+  "summary": "On arriving in Eugene, we stopped at another planet fitness for some exercising and a much-needed shower. I was excited to see that there was a donut shop next to the Planet Fitness where I got two delicious donuts after we finished our stop there. Afterwards we headed to the Hideaway bakery in town, which was recommended to us by my friend Kenley, who lived in Eugene a few years ago. I had a delicious tempeh Panini and Helen had a brie and jam Panini. They were both very yummy. After our lunch, Helen worked at the bakery while I went for a run up to the top of Spencer Butte. It was a long gradual uphill that reminded me of running up Mount sentinel in Missoula. Our destination for that night was camping on forest service land outside of Eagles rest, climbing area I had been to a few years ago while visiting Kenley. The site we ended up at was not the nicest and turned out to be a shooting range for the locals. Luckily no one was shooting while we were there, but we felt some bad vibes camping there and headed out first thing in the morning to go climb. We spent a good few hours climbing at Eagles rest, which has a very unique type of hold that are sloppy and bumpy. After climbing, we headed to the Dexter disc golf course, another recommendation of Kenley. His recommendation was great and we had a lot of fun playing disc golf and my loved chasing the discs.",
+  "photos": [
+    {
+      "caption": "The trail up to Spencer Butte",
+      "pth": "redwoods_view.webp"
+    },
+    {
+      "caption": "The view of Eugene from the top of Spencer Butte",
+      "pth": "eugene_view.webp"
+    },
+    {
+      "caption": "Although it was a shooting range, the campsite was surrounded by beautiful wildflowers",
+      "pth": "flowers.webp"
+    },
+    {
+      "caption": "Maya taking a swim before we played disc golf",
+      "pth": "swimmin.webp"
+    },
+    {
+      "caption": "A selfie in front of a field of camas flowers.",
+      "pth": "flower_selfie.webp"
+    }
+  ]
+}

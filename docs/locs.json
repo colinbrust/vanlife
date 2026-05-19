@@ -82,55 +82,52 @@
     ]
   },
   {
-    "1": {
-      "location": "McCammon, ID",
-      "title": "Pit Stop in Idaho",
-      "date_start": "2025-11-01",
-      "date_end": "2025-11-02",
-      "summary": "Maya and I stopped here for the night on the way to Utah. We watched 'The House on Haunted Hill' while we cooked dinner. Helen isn't a big fan of old movies so I made sure to get my fill in while she was gone.  <br><br> <b>-Colin<\/b>",
-      "campsites": [
-        "Goodenough Creek Campground"
-      ],
-      "photos": [
-        {
-          "caption": "Cooking pasta for dinner and watching 'The House on Haunted Hill'.",
-          "pth": "first_night_solo.webp"
-        }
-      ]
-    },
-    "2": {
-      "location": "Apple Valley, UT",
-      "title": "Running and Biking in the Gooseberry Mesa",
-      "date_start": "2025-11-02",
-      "date_end": "2025-11-05",
-      "summary": "Eventually I made it to the Gooseberry Mesa in southern Utah. On the day I arrived I was able to get in a nice quick mountain bike ride before the sun set. I spent 3 days here at a nice camp site with good access to the bike trails. I split my time between working, running, biking, and watching movies once the sun went down. I got my fill of older movies in, watching The Apartment, The Thing, 12 Angry Men, and finishing the Lonesome Dove mini-series. The only downside was that as a novice vanlifer, I chose a camping spot in the shade for most of the day. This meant our battery system didn't recharge and I lost power on the last night of my stay. From Maya's perspective, the downsides were that A) Helen wasn't there (tear emoji) and B) I took her on either a big bike ride or run every day (exercising is hard for a little pup like her).  <br><br> <b>-Colin<\/b>",
-      "campsites": [
-        "Gooseberry Mesa Dispersed Camping"
-      ],
-      "photos": [
-        {
-          "caption": "The camping situation at the Gooseberry Mesa.",
-          "pth": "mesa_camp.webp"
-        },
-        {
-          "caption": "Another view of camp on Gooseberry Mesa.",
-          "pth": "mesa_setup.webp"
-        },
-        {
-          "caption": "Maya soaking up the sun while I worked.",
-          "pth": "maya_soaking.webp"
-        },
-        {
-          "caption": "A beautiful view I got from the the mesa while I was on a run.",
-          "pth": "mesa_view.webp"
-        },
-        {
-          "caption": "Maya has decided that if we take more than 5 minutes to pick up her poop, she must bury it with her snout.",
-          "pth": "maya_snout.webp"
-        }
-      ]
-    },
-    "campsites": []
+    "location": "McCammon, ID",
+    "title": "Pit Stop in Idaho",
+    "date_start": "2025-11-01",
+    "date_end": "2025-11-02",
+    "summary": "Maya and I stopped here for the night on the way to Utah. We watched 'The House on Haunted Hill' while we cooked dinner. Helen isn't a big fan of old movies so I made sure to get my fill in while she was gone.  <br><br> <b>-Colin<\/b>",
+    "campsites": [
+      "Goodenough Creek Campground"
+    ],
+    "photos": [
+      {
+        "caption": "Cooking pasta for dinner and watching 'The House on Haunted Hill'.",
+        "pth": "images/001_pre_helen/first_night_solo.webp"
+      }
+    ]
+  },
+  {
+    "location": "Apple Valley, UT",
+    "title": "Running and Biking in the Gooseberry Mesa",
+    "date_start": "2025-11-02",
+    "date_end": "2025-11-05",
+    "summary": "Eventually I made it to the Gooseberry Mesa in southern Utah. On the day I arrived I was able to get in a nice quick mountain bike ride before the sun set. I spent 3 days here at a nice camp site with good access to the bike trails. I split my time between working, running, biking, and watching movies once the sun went down. I got my fill of older movies in, watching The Apartment, The Thing, 12 Angry Men, and finishing the Lonesome Dove mini-series. The only downside was that as a novice vanlifer, I chose a camping spot in the shade for most of the day. This meant our battery system didn't recharge and I lost power on the last night of my stay. From Maya's perspective, the downsides were that A) Helen wasn't there (tear emoji) and B) I took her on either a big bike ride or run every day (exercising is hard for a little pup like her).  <br><br> <b>-Colin<\/b>",
+    "campsites": [
+      "Gooseberry Mesa Dispersed Camping"
+    ],
+    "photos": [
+      {
+        "caption": "The camping situation at the Gooseberry Mesa.",
+        "pth": "images/001_pre_helen/mesa_camp.webp"
+      },
+      {
+        "caption": "Another view of camp on Gooseberry Mesa.",
+        "pth": "images/001_pre_helen/mesa_setup.webp"
+      },
+      {
+        "caption": "Maya soaking up the sun while I worked.",
+        "pth": "images/001_pre_helen/maya_soaking.webp"
+      },
+      {
+        "caption": "A beautiful view I got from the the mesa while I was on a run.",
+        "pth": "images/001_pre_helen/mesa_view.webp"
+      },
+      {
+        "caption": "Maya has decided that if we take more than 5 minutes to pick up her poop, she must bury it with her snout.",
+        "pth": "images/001_pre_helen/maya_snout.webp"
+      }
+    ]
   },
   {
     "location": "Las Vegas, NV",
@@ -2126,14 +2123,328 @@
     "title": "Steep Roads and Ocean Views",
     "date_start": "2026-04-28",
     "date_end": "2026-04-30",
-    "summary": "Our current stop. More to come soon!",
     "campsites": [
-      "Gyppo Ale Mill"
+      "Gyppo Ale Mill Harvest Host"
     ],
+    "summary": "We had heard about the steep road down to shelter Cove, but figured it was mostly over exaggeration. On the drive down, we quickly discovered that that was not the case. The road was extremely windy with a very steep grade for about 10 miles. as we pulled in to our harvest Host for the weekend our brakes were just starting to smell. Luckily we were rewarded with a lovely spot in a grassy field only a few hundred feet from the ocean with great views. on the evening of our arrival, we went on a little jog around the town of shelter Cove, and then ate dinner and got some beers at the brewery that would be our harvest toast. Stay for the next two nights, Gyppo Ale <ill. We had a great batch of fish and chips a fresh and yummy salad and some delicious local beers. The next morning, we went to the local coffee shop to work on the blog and taken the ocean view while we drink our coffee. Then we went on a hike to the black Sand beach wow beautiful, the multiple signs stating the beach is dangerous as well as the uncomfortable walking on course grainy beach pebbles made us turn around after a short time on the beach. That night we ate again at the Ale Mill and played numerous games of cribbage with our friend Abby, who is also with us. We caravan out of shelter Cove the next morning with Abby to make sure we both made it up the extremely steep road that we came in on. Luckily, there were no issues and we were on our way towards Northern California.",
     "photos": [
       {
-        "caption": "The view from Gyppo Ale Mill ",
+        "caption": "Dinner at the Gyppo Ale Mill",
         "pth": "images/064_cove/shelter_cove_dinner.webp"
+      },
+      {
+        "caption": "A nice salad and fish and chips from the Gyppo Ale Mill.",
+        "pth": "images/064_cove/cove_salad.webp"
+      },
+      {
+        "caption": "Sunset over shelter cove.",
+        "pth": "images/064_cove/cove_sunset.webp"
+      },
+      {
+        "caption": "Coffee with an ocean view.",
+        "pth": "images/064_cove/sea_coffee.webp"
+      },
+      {
+        "caption": "Some seals we saw at Shelter Cove.",
+        "pth": "images/064_cove/seals.webp"
+      },
+      {
+        "caption": "A sea arch we stopped at on the way out of town.",
+        "pth": "images/064_cove/sea_arch.webp"
+      }
+    ]
+  },
+  {
+    "location": "False Klamath, CA",
+    "title": "Climbing at the Promontory",
+    "campsites": [
+      "Big Lagoon Campsite"
+    ],
+    "date_start": "2026-04-30",
+    "date_end": "2026-05-01",
+    "summary": "Our first stop upon leaving shelter Cove was to hit the gym and take some showers at the planet fitness in Eureka California. While the gym itself was nice, the setting was not. It was located in the back of the shopping mall in a sketchy part of town that made us feel uncomfortable about leaving our van too too long. So, we opted for a quick shower and then headed further up the road towards Arcadia, California to do some laundry. While the laundry was going, I went for a great little run through the redwoods surrounding Humboldt State university. The trails were very smooth and the setting was beautiful and unlike what I am used to in the mountains and Desert. After our laundry was done, we met back up with Abby and played some disc golf in the redwoods. The course was very fun and it was miraculous that we didn't lose any of our discs as there were dents trees, and bushes every direction (we did, however, spend a very long time looking for discs caught in the bushes). That night we found a camping area a little bit north of town at a place called big Lagoon where we had a foggy evening, cooking dinner and relaxing in the van. the main objective the next day was to climb at the promontory, a Craig right on the Waters edge that is famous for a very hard rock climb. I've wanted to visit for many years so I was excited to finally make it there. despite the high tide, we were able to make it to the Climbing and did a few fun routes with waves bashing, just few feet away from us. However, as we moved towards the main wall at the Craig, we found that the rock quality deteriorated and were greeted with extremely Sandy and not that enjoyable crimes. We called it a day a little early and head into Crescent city to meet up again with Abby.",
+    "photos": [
+      {
+        "caption": "A disc golf tee box on top of a dead redwood!",
+        "pth": "images/065_lagoon/tree_folf.webp"
+      },
+      {
+        "caption": "Coaxing Maya over some rocks.",
+        "pth": "images/065_lagoon/shuttling_maya.webp"
+      },
+      {
+        "caption": "A selfie from the top of a climb at the promontory.",
+        "pth": "images/065_lagoon/tr_selfie.webp"
+      }
+    ]
+  },
+  {
+    "location": "Crescent City, CA",
+    "title": "Camping in the Redwoods",
+    "campsites": [
+      "Jedediah Smith Redwoods State Park"
+    ],
+    "date_start": "2026-05-01",
+    "date_end": "2026-05-02",
+    "summary": "Abby had found a great little spot in Jebediah Smith Redwoods State Park, a gorgeous campground in the heart of the redwood forest. We spent the evening play Wingspan, I made some stif-fry for everyone and we sat around in the fire. In the morning, I took a nice hot shower before Colin and I walked around the campground for our morning coffee walk, which has become a ritual for us. I really loved this campground and wish we had more time to explore. ",
+    "photos": [
+      {
+        "caption": "Slug.",
+        "pth": "images/066_redwoods/slug.webp"
+      },
+      {
+        "caption": "Helen promised her dad that she would hug a redwood tree.",
+        "pth": "images/066_redwoods/redwood_hug.webp"
+      },
+      {
+        "caption": "Abby being excited to play Wingspan.",
+        "pth": "images/066_redwoods/abby_wingspan.webp"
+      },
+      {
+        "caption": "Our nice setup for a game of Wingspan.",
+        "pth": "images/066_redwoods/wingspan.webp"
+      }
+    ]
+  },
+  {
+    "location": "Brookings, OR",
+    "title": "Starfish and Sea Stacks",
+    "campsites": [
+      "Harris Beach State Park"
+    ],
+    "date_start": "2026-05-03",
+    "date_end": "2026-05-05",
+    "summary": "We said goodbye to California and arrived to at Harris Beach State Park, next to Brookings, Oregon. The afternoon was sunny so after checking in we walked down to the beach where I read and people watched, while Colin went on a little run. Abby cooked some delicious shrimp pasta and we ended the day walking up a steep bluff to watch the sunset. <br><br> The next day was rainy and cloudy but Colin and I took a morning walk on the beach while Maya zoomed on the sand. We found some very cool rocks covered in clams and star fish! I have never seen so many starfish in my life and I couldn't stop exclaiming. It rained most of the day, so we set up the projector and had a movie day, complete with popcorn. <br><br> We packed up early the next morning since I had a few spots I wanted to see on our way up the coast. The first was a quick viewpoint of some natural bridges over the ocean. The path down to them was closed so we continued on our way to Bandon where we had heard about some sand circle labyrinths that people create. A few days a month, people spend the early morning using rakes to create patterns in the sand that later get erased as the tide comes in. We made it in time to see them and walked through the labyrinth, much to Maya's confusion.",
+    "photos": [
+      {
+        "caption": "Sunset from the bluff above the beach.",
+        "pth": "images/067_harris/point_sunset.webp"
+      },
+      {
+        "caption": "A selfie from the bluff above the beach.",
+        "pth": "images/067_harris/point_sunset_selfie.webp"
+      },
+      {
+        "caption": "One of the many sea stacks at Harris Beach State Park.",
+        "pth": "images/067_harris/sea_stack.webp"
+      },
+      {
+        "caption": "Starfish party.",
+        "pth": "images/067_harris/starfish.webp"
+      },
+      {
+        "caption": "Mussel party.",
+        "pth": "images/067_harris/mussels_and_stars.webp"
+      },
+      {
+        "caption": "The Bandon sand art from above",
+        "pth": "images/067_harris/sand_from_afar.webp"
+      },
+      {
+        "caption": "The Bandon sand art from up close.",
+        "pth": "images/067_harris/sand_drawing.webp"
+      }
+    ]
+  },
+  {
+    "location": "Coos Bay, OR",
+    "title": "Biking and Beach Drawings",
+    "campsites": [
+      "Eel River Campground"
+    ],
+    "date_start": "2026-05-04",
+    "date_end": "2026-05-05",
+    "summary": "We decided that afternoon to go bike at the whiskey run trails outside Coos Bay, Oregon. The trails were some of the most fun flowing mountain bike-specific trails that I've been on. We biked for two hours and had a nice little picnic and Maya was happy that for the first time in her life, she was biking in temperatures less than 70°. After our bike adventure, we met up with Abby at a brewery in Coos Bay to have a beer and some coffee. Kobe was a cute little town and we were happy to have taken a pitstop there. After a beer, we went to Fred Meyer's where I spent far too long figuring out how to download their app and get a coupon for two dollars off some granola bars. Luckily I was successful! Our camp spot for the night was the elk Creek Campground just outside of town where we spent the night with Abby. She made us a yummy chicken and rice Asian soup that we had for dinner before heading to bed a little early. The next morning we hiked up to the top of a sand dune right outside Camp and did our best impressions of the sand shuffle from the movie Dune. After a cup of coffee, we hit the road towards Eugene.",
+    "photos": [
+      {
+        "caption": "A selfie during our bike ride at the whiskey run trails.",
+        "pth": "images/068_eel/bike_selfie.webp"
+      },
+      {
+        "caption": "The Oregon sand dunes",
+        "pth": "images/068_eel/dune.webp"
+      }
+    ]
+  },
+  {
+    "location": "Eugene, OR",
+    "title": "Sketchy Shooting Range",
+    "campsites": [
+      "Eagle's Rest Dispersed"
+    ],
+    "date_start": "2026-05-05",
+    "date_end": "2026-05-06",
+    "summary": "On arriving in Eugene, we stopped at another planet fitness for some exercising and a much-needed shower. I was excited to see that there was a donut shop next to the Planet Fitness where I got two delicious donuts after we finished our stop there. Afterwards we headed to the Hideaway bakery in town, which was recommended to us by my friend Kenley, who lived in Eugene a few years ago. I had a delicious tempeh Panini and Helen had a brie and jam Panini. They were both very yummy. After our lunch, Helen worked at the bakery while I went for a run up to the top of Spencer Butte. It was a long gradual uphill that reminded me of running up Mount sentinel in Missoula. Our destination for that night was camping on forest service land outside of Eagles rest, climbing area I had been to a few years ago while visiting Kenley. The site we ended up at was not the nicest and turned out to be a shooting range for the locals. Luckily no one was shooting while we were there, but we felt some bad vibes camping there and headed out first thing in the morning to go climb. We spent a good few hours climbing at Eagles rest, which has a very unique type of hold that are sloppy and bumpy. After climbing, we headed to the Dexter disc golf course, another recommendation of Kenley. His recommendation was great and we had a lot of fun playing disc golf and my loved chasing the discs.",
+    "photos": [
+      {
+        "caption": "The trail up to Spencer Butte",
+        "pth": "images/069_eagle/redwoods_view.webp"
+      },
+      {
+        "caption": "The view of Eugene from the top of Spencer Butte",
+        "pth": "images/069_eagle/eugene_view.webp"
+      },
+      {
+        "caption": "Although it was a shooting range, the campsite was surrounded by beautiful wildflowers",
+        "pth": "images/069_eagle/flowers.webp"
+      },
+      {
+        "caption": "Maya taking a swim before we played disc golf",
+        "pth": "images/069_eagle/swimmin.webp"
+      },
+      {
+        "caption": "A selfie in front of a field of camas flowers.",
+        "pth": "images/069_eagle/flower_selfie.webp"
+      }
+    ]
+  },
+  {
+    "location": "McKenzie Bridge, OR",
+    "title": "Cold Shock Therapy",
+    "campsites": [],
+    "date_start": "2026-05-06",
+    "date_end": "2026-05-09",
+    "summary": "We had planned to head to the McKenzie River area next, so we bumped that up a day and decided to try our luck at Paradise Campground for the night. We ended up finding a delightful spot right on the river. The McKenzie River is a cold, stunning, deep blue river that meanders along the road for about 30 miles. We spent the next few days exploring different sections of the river. <br><br> Our first hike was up to something called the Blue Pool. It was one of those rare instances when the water in the pool actually looked bluer in person than in the pictures. It looked so inviting that we decided to take a dip. We quickly learned that the reason for the deep blue color is that it' so cold, no microorganisms or anything can live in it (about 38 degrees, brrr!). After recovering and drying off in the sun, we had a nice walk out, and we were luckily on our way to some hot springs. We spent the night at Belknap Hot Springs, which has RV sites that give you access to their hot springs pools. The pools were not glamorous but I was happy to spend some time reading and warming up in the hot water. We made sure to take advantage of the hot springs and did another soak in the morning before heading out! <br><br> The following day, we mapped out a longer hike/run along the river trail to see a couple of waterfalls (Sahalie and Koosah falls) and run around Clear Lake. The waterfalls were epic, the trail was nice, and I did my longest run ever (9 miles, very slow, with a good amount of walking)! That night, we met back up with Abby at Blue Bay campground, where we played some Wingspan and ate some yummy pasta and tiramisu that Abby had bought. ",
+    "photos": [
+      {
+        "caption": "Maya heading down to the river.",
+        "pth": "images/070_mackenzie/seeking_water.webp"
+      },
+      {
+        "caption": "The blue pool",
+        "pth": "images/070_mackenzie/blue_pool.webp"
+      },
+      {
+        "caption": "Helen taking a cold plunge in the blue pool.",
+        "pth": "images/070_mackenzie/cold_plunge.webp"
+      },
+      {
+        "caption": "Maya snoozing while we watched the movie Bugonia in bed.",
+        "pth": "images/070_mackenzie/bugonia.webp"
+      },
+      {
+        "caption": "A rainbow at some of the falls.",
+        "pth": "images/070_mackenzie/falls_rainbow.webp"
+      },
+      {
+        "caption": "A selfie at the falls.",
+        "pth": "images/070_mackenzie/falls_selfie.webp"
+      },
+      {
+        "caption": "Another view of the falls.",
+        "pth": "images/070_mackenzie/falls.webp"
+      }
+    ]
+  },
+  {
+    "location": "Bend, OR",
+    "title": "Views and Brews",
+    "campsites": [
+      "Tumalo State Park Campground"
+    ],
+    "date_start": "2026-05-09",
+    "date_end": "2026-05-11",
+    "summary": "The next morning we got up early and headed into Sisters, Oregon in search of coffee and breakfast. We found both and walked around the cute little town, window shopping. Our friend Tiffany from Missoula was meeting us in Bend that day so we camped at a brewery to get a little work done and wait for her. We spent the evening walking around Bend, where we got some good thai food and gelato! It was our first time there and we really liked the town, it was reminiscent of Missoula with the river running through it. <br><br> We spent the next morning hiking up Tumalo Mountain, situated right across from Mt. Bachelor. We ran into a little snow at the top, but had views of the Three Sisters Mountains. This whole area of Oregon is pretty wild because everywhere you look, there is a big majestic mountain popping up out of the landscape. As an after-hike treat, we stopped at Deschutes Brewery, where we all got a shandy.",
+    "photos": [
+      {
+        "caption": "The view from the top of Tumalo Mountain",
+        "pth": "images/071_bend/summit_view.webp"
+      },
+      {
+        "caption": "Our shandys at Deschutes Brewery",
+        "pth": "images/071_bend/deschutes.webp"
+      }
+    ]
+  },
+  {
+    "location": "Terrebonne, OR",
+    "title": "Snakes and Sends at Smith",
+    "campsites": [
+      "Skull Hollow Campground"
+    ],
+    "date_start": "2026-05-11",
+    "date_end": "2026-05-14",
+    "summary": "On our way out of Bend, we stopped at their local used gear store in an unsuccessful search for climbing shoes and warm mid layers. Before we could climb at Smith Rock, we found a camp site at Skull Hollow Campground and on the way listened to an interesting podcast about the history of food regulations (would recommend listening! <a href=\"https://thisiscriminal.com/episode-364-the-poison-squad-5-8-2026\">link<\/a>). That afternoon, Helen, Tiffany and I did some climbing in Smith Rock and had a great time. The evenings at Skull Hollow Campground were windy and cold, so we spent the nights watching The Dark Wizard documentary on the projector in our van. Our second day at Smith was very hot. Despite the heat, we climbed in direct sunlight on a route called 5 Gallon Buckets. It is one of the most popular routes at Smith and any other day there would be a line to climb it. Because we were braving the sun, we had it all to ourselves and had a great time climbing it! The afternoon was spent recovering at a more shady wall, where we climbed a few pitches and had a gopher snake slither within a few feet of us. Our final day, I went for a run while Helen did some computer work. I ran from our camp ground to Smith and had some great views, but was almost blown off a few summits by the massive wind gusts. We spent the afternoon getting in the remainder of our fill of climbing. We climbed well into the evening, and Helen made us a late dinner of ravioli before bed.",
+    "photos": [
+      {
+        "caption": "Colin leading up a tricky arete on the first day at Smith.",
+        "pth": "images/072_smith/colin_leading.webp"
+      },
+      {
+        "caption": "Smith as the sun ducks behind the rocks.",
+        "pth": "images/072_smith/smith_shadow.webp"
+      },
+      {
+        "caption": "Tiffany doing one of her first leads at Smith!",
+        "pth": "images/072_smith/tiff_leading.webp"
+      },
+      {
+        "caption": "The girls doing some climbing",
+        "pth": "images/072_smith/climbing.webp"
+      },
+      {
+        "caption": "Colin's view of Smith from his run.",
+        "pth": "images/072_smith/smith_summit.webp"
+      },
+      {
+        "caption": "A gopher snake slithering near the climbing area.",
+        "pth": "images/072_smith/snek.webp"
+      },
+      {
+        "caption": "The view of Smith from the hike in.",
+        "pth": "images/072_smith/smith_view.webp"
+      }
+    ]
+  },
+  {
+    "location": "Lost Lake, OR",
+    "title": "The Opposite of a Glamping Yurt",
+    "campsites": [
+      "Lost Lake Campground"
+    ],
+    "date_start": "2026-05-14",
+    "date_end": "2026-05-15",
+    "summary": "Wanting to see Mt Hood and also knowing the weather was going to be chilly, we decided to book a night in a yurt at Lost Lake Campground and Lodge. Unfortunately for us, the view of Mt Hood at the lake was nonexistent,-existent and the yurt was far from cozy. Nevertheless, we made the most of it and spent the afternoon stoking the fire and all playing games (lots of Splendor and Wingspan rounds) while it dumped rain. We spent a fitful night in the yurt, definitely colder and more uncomfortable than our van, but lucky for us, the next day we were headed to Vancouver, WA, to visit Colin's sister, where we knew we could shower, relax, and do some laundry. ",
+    "photos": [
+      {
+        "caption": "The view of Mt Hood from the Solera Brewery, where we stopped on the way to the yurt.",
+        "pth": "images/073_yurt/hood_view.webp"
+      },
+      {
+        "caption": "The cold and unglamourous yurt we stayed in.",
+        "pth": "images/073_yurt/yurt.webp"
+      }
+    ]
+  },
+  {
+    "location": "Vancouver, WA",
+    "title": "Birthday Sushi Overload",
+    "campsites": [
+      "Sister's House"
+    ],
+    "date_start": "2026-05-15",
+    "date_end": "2026-05-19",
+    "summary": "One of Ji (my sister) and Hunter's (my brother-in-law) wedding gifts was an electric hotpot. For the uninitiated, hotpot is a Korean dish where you have a pot of simmering broth that you dunk vegetables, noodles and meat in to cook. For dinner our first night, we went to the Asian grocery store K-Mart and stocked up on supplies for a dinner of hot pot. We had a lovely dinner, dunking thin slices of beef, fish balls, mushrooms and cabbage into a chili and dashi broth. The following day was rainy and gloomy, so we played some indoor pickleball before braving the rain and visiting the farmer's market for lunch. For dinner, we took Ji and Hunter to a restaurant called Le Pigeon for their wedding gift. Le Pigeon is a French restaurant with a tasting menu and is well renowned for its unique ingredients and flavor combinations. I first heard about Le Pigeon on the Travel Network show Bizarre Foods when I was in high school. I remember thinking it looked so interesting and I have wanted to visit ever since. The dinner did not disappoint. We left feeling very full and satisfied after eating five courses including a rabbit pie and foie gras ice cream. The following day was Ji's birthday, which we celebrated by going for a hike in the Colombia River Gorge and soaking at a hot springs on the way home. For dinner, we went to an all-you-can-eat sushi restaurant with Ji and Hunter's friends. The sushi was delicious, but Helen and I were both battling tummy aches on the drive home from our overindulgence. Our last day in Vancouver was full of chores. My big chore for the day was to de-ice the refrigerator in the van. What I thought would be a quick and easy task quickly became an epic, as what felt like gallons of water came pouring out of the fridge onto the van floor. As an added bonus, I spilled a bottle of fish sauce in the clean up process, which left our van with a lovely stinky feet aroma. For dinner, we made taco bowls and Ji's friends, Liv and Doug, came over to join us.",
+    "photos": [
+      {
+        "caption": "Our hot pot dinner",
+        "pth": "images/074_vancouver/hot_pot.webp"
+      },
+      {
+        "caption": "The dessert at Le Pigeon. A strawberry sorbet with a delicious yuzu confection",
+        "pth": "images/074_vancouver/yuzu.webp"
+      },
+      {
+        "caption": "View from the hike",
+        "pth": "images/074_vancouver/bday_view.webp"
+      },
+      {
+        "caption": "All of us hiking at the Lyle Cherry Orchard.",
+        "pth": "images/074_vancouver/bday_hike.webp"
+      },
+      {
+        "caption": "Just a small fraction of the sushi we ate that night.",
+        "pth": "images/074_vancouver/sushi.webp"
       }
     ]
   }
