@@ -1,0 +1,18 @@
+{
+  "location": "Cody, WY",
+  "title": "World's Best Rodeo (and World's Best Verizon Store)",
+  "campsites": ["BLM Land E of Cody"],
+  "date_start": "2026-06-15",
+  "date_end": "2026-06-16",
+  "summary": "",
+  "photos": [
+    {
+      "caption": "Helen coaxing Maya into the waters of the Shoshone River",
+      "pth": "cody_river.webp"
+    },
+    {
+      "caption": "The Cody Night Rodeo!",
+      "pth": "rodeo.webp"
+    }
+  ]
+}

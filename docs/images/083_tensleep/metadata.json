@@ -1,0 +1,26 @@
+{
+  "location": "Tensleep, WY",
+  "title": "Four Sleeps in Tensleep",
+  "campsites": ["Old Tensleep Road Dispersed"],
+  "date_start": "2026-06-16",
+  "date_end": "2026-06-20",
+  "summary": "",
+  "photos": [
+    {
+      "caption": "Maya basking in the dandelion flowers at our campsite.",
+      "pth": "maya_and_flowers.webp"
+    },
+    {
+      "caption": "A close up of some of the flowers on the approach trail.",
+      "pth": "ts_flowers.webp"
+    },
+    {
+      "caption": "One of the many limestone walls in Tensleep Canyon.",
+      "pth": "rock_from_road.webp"
+    },
+    {
+      "caption": "A swallowtail butterfly that joined us at camp.",
+      "pth": "swallowtail.webp"
+    }
+  ]
+}

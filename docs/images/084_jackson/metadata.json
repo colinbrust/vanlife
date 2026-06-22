@@ -1,0 +1,22 @@
+{
+  "location": "Jackson, WY",
+  "title": "Crowded Campground With Worthy Views",
+  "campsites": ["Red Canyon of Wind River Dispersed", "Toppings Lake Dispersed"],
+  "date_start": "2026-06-21",
+  "date_end": "2026-06-22",
+  "summary": "",
+  "photos": [
+    {
+      "caption": "The view of the Tetons from our dispersed campsite outside Jackson.",
+      "pth": "tetons.webp"
+    },
+    {
+      "caption": "A view of the Snake River from Colin's run.",
+      "pth": "snake_riv.webp"
+    },
+    {
+      "caption": "Colin's chaotic Bananagrams board (which he did not win).",
+      "pth": "bananagram.webp"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "location": "Lewis and Clark Caverns State Park, MT",
+  "title": "Claustrophobia Alert",
+  "campsites": ["Lewis and Clark Caverns Campground", "Trapper Springs Campground"],
+  "date_start": "2026-06-08",
+  "date_end": "2026-06-10",
+  "summary": "",
+  "photos": [
+    {
+      "caption": "A hike we went on during our stay at Lewis and Clark Caverns.",
+      "pth": "cave_hike.webp"
+    },
+    {
+      "caption": "Inside the caverns!",
+      "pth": "cave.webp"
+    },
+    {
+      "caption": "Another view of the caverns.",
+      "pth": "cave2.webp"
+    }
+  ]
+}

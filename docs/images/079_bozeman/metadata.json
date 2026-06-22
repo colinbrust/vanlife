@@ -1,0 +1,18 @@
+{
+  "location": "Bozeman, MT",
+  "title": "Goofin' in the Gallatin",
+  "campsites": ["Stormcastle Road Dispersed"],
+  "date_start": "2026-06-10",
+  "date_end": "2026-06-12",
+  "summary": "",
+  "photos": [
+    {
+      "caption": "Helens (very) belated birthday dinner at Whistle Pig in Bozeman.",
+      "pth": "bzman_dinner.webp"
+    },
+    {
+      "caption": "Our campsite alongside Stormcastle Creek.",
+      "pth": "gallatin_camp.webp"
+    }
+  ]
+}

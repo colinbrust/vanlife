@@ -1,0 +1,30 @@
+{
+  "location": "West Thumb, Wyoming",
+  "title": "Classic Tour of Geysers, Hot Springs and Wildlife",
+  "campsites": ["Bridge Bay Campground"],
+  "date_start": "2026-06-14",
+  "date_end": "2026-06-15",
+  "summary": "",
+  "photos": [
+    {
+      "caption": "One of the many hot springs we encountered in Yellowstone National Park.",
+      "pth": "spring_view.webp"
+    },
+    {
+      "caption": "Some buffalo we came across while driving through the park",
+      "pth": "buff.webp"
+    },
+    {
+      "caption": "A selfie with some more hot springs.",
+      "pth": "springs.webp"
+    },
+    {
+      "caption": "Old Faithful giving us a show.",
+      "pth": "geyser.webp"
+    },
+    {
+      "caption": "Our breakfast view as we were leaving the park.",
+      "pth": "yellow_bfast.webp"
+    }
+  ]
+}

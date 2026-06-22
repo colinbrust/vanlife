@@ -1,0 +1,46 @@
+{
+  "location": "Missoula, MT",
+  "title": "Time with Friends in Missoula",
+  "campsites": [],
+  "date_start": "2026-05-25",
+  "date_end": "2026-06-08",
+  "summary": "",
+  "photos": [
+    {
+      "caption": "Birthday Pie!",
+      "pth": "pie.webp"
+    },
+    {
+      "caption": "Helen and friends at Hungry Horse Reservoir.",
+      "pth": "lake.webp"
+    },
+    {
+      "caption": "View from the summit of Mount Sentinel.",
+      "pth": "summit.webp"
+    },
+    {
+      "caption": "Maya facing off with Dio (Kenley and Ellen's cat).",
+      "pth": "cat_dog.webp"
+    },
+    {
+      "caption": "The election party for Sam Forstag, who was elected as the Democratic Party candidate for one of Montana's congressional seats.",
+      "pth": "vote.webp"
+    },
+    {
+      "caption": "Helen climbing a route in Lolo.",
+      "pth": "helen_climbing.webp"
+    },
+    {
+      "caption": "Some high school grads surfing the wave on the Clark Fork River.",
+      "pth": "surfers.webp"
+    },
+    {
+      "caption": "The snowy run up University Peak during Colin's Double Dip race.",
+      "pth": "uni_summit.webp"
+    },
+    {
+      "caption": "Helen and all her friends posing for a goodbye photo.",
+      "pth": "bye_bye.webp"
+    }
+  ]
+}

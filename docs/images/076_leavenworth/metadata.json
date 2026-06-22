@@ -1,0 +1,38 @@
+{
+  "location": "Leavenworth, WA",
+  "title": "Bouldering and Running in the Enchantments",
+  "campsites": ["Lower Johnny Creek Campground"],
+  "date_start": "2026-05-20",
+  "date_end": "2026-05-25",
+  "summary": "",
+  "photos": [
+    {
+      "caption": "The cute Bavarian town of Leavenworth",
+      "pth": "leavenworth.webp"
+    },
+    {
+      "caption": "Our campsite at Lower Johnny Creek with Colin journaling in the background.",
+      "pth": "journaling.webp"
+    },
+    {
+      "caption": "Colchuck lake from Asgard Pass on the Enchantments Traverse.",
+      "pth": "colchuck_lake.webp"
+    },
+    {
+      "caption": "The view of Prussik Peak from the Enchantments Traverse.",
+      "pth": "prussik.webp"
+    },
+    {
+      "caption": "One of the many lakes passed on the Enchantments Traverse.",
+      "pth": "enchantments_lake.webp"
+    },
+    {
+      "caption": "Some beautiful flowers I came across while running the Enchantments Traverse.",
+      "pth": "flowers.webp"
+    },
+    {
+      "caption": "Icicle Creek, which runs alongside the road we were camped off of.",
+      "pth": "icicle.webp"
+    }
+  ]
+}
