@@ -224,8 +224,8 @@
   {
     "location": "Virgin River Gorge, AZ",
     "date_start": "2026-03-01",
-    "lat": 0,
-    "lng": 0
+    "lat": 36.95081600130202,
+    "lng": -113.79306769897056
   },
   {
     "location": "Apple Valley, UT",
@@ -234,10 +234,10 @@
     "lng": -113.1290178
   },
   {
-    "location": "Washington, UT",
+    "location": "Red Cliffs Campground, UT",
     "date_start": "2026-03-04",
-    "lat": 37.2393471,
-    "lng": -113.5257760
+    "lat": 37.22438760807152,
+    "lng": -113.4051660305519
   },
   {
     "location": "Ivins, UT",
@@ -276,10 +276,10 @@
     "lng": -110.7064010
   },
   {
-    "location": "Newspaper Rock, UT",
+    "location": "Indian Creek, UT",
     "date_start": "2026-03-14",
-    "lat": 37.1847372,
-    "lng": -113.6267206
+    "lat": 38.0247425726898,
+    "lng": -109.53975110785689
   },
   {
     "location": "Moab, UT",
@@ -346,6 +346,12 @@
     "date_start": "2026-04-23",
     "lat": 38.7621730,
     "lng": -121.1850057
+  },
+  {
+    "location": "Placerville, CA",
+    "date_start": "2026-04-21",
+    "lat": 38.7296252,
+    "lng": -120.7985460
   },
   {
     "location": "Davis, CA",
@@ -422,7 +428,7 @@
   {
     "location": "Lost Lake, OR",
     "date_start": "2026-05-14",
-    "lat": 45.49413, 
+    "lat": 45.49413,
     "lng": -121.8174
   },
   {
@@ -430,5 +436,71 @@
     "date_start": "2026-05-15",
     "lat": 45.6306954,
     "lng": -122.6744557
+  },
+  {
+    "location": "Wymer, WA",
+    "date_start": "2026-05-19",
+    "lat": 46.8273401,
+    "lng": -120.4623204
+  },
+  {
+    "location": "Leavenworth, WA",
+    "date_start": "2026-05-20",
+    "lat": 47.5969138,
+    "lng": -120.6610810
+  },
+  {
+    "location": "Missoula, MT",
+    "date_start": "2026-05-25",
+    "lat": 46.8701049,
+    "lng": -113.9952670
+  },
+  {
+    "location": "Lewis and Clark Caverns State Park, MT",
+    "date_start": "2026-06-08",
+    "lat": 45.83844441522879,
+    "lng": -111.86680683917045
+  },
+  {
+    "location": "Bozeman, MT",
+    "date_start": "2026-06-10",
+    "lat": 45.6794293,
+    "lng": -111.0440470
+  },
+  {
+    "location": "Emigrant, MT",
+    "date_start": "2026-06-12",
+    "lat": 45.3685509,
+    "lng": -110.7340401
+  },
+  {
+    "location": "West Thumb, Wyoming",
+    "date_start": "2026-06-14",
+    "lat": 44.4199718,
+    "lng": -110.5726590
+  },
+  {
+    "location": "Cody, WY",
+    "date_start": "2026-06-15",
+    "lat": 44.5263107,
+    "lng": -109.0563920
+  },
+  {
+    "location": "Tensleep, WY",
+    "date_start": "2026-06-16",
+    "lat": 44.1815829,
+    "lng": -107.1977357
+  },
+  {
+    "location": "Jackson, WY",
+    "date_start": "2026-06-21",
+    "lat": 43.4799650,
+    "lng": -110.7618150
+  },
+  {
+    "location": "Alpine, WY",
+    "date_start": "2026-06-22",
+    "lat": 43.1636455,
+    "lng": -111.0178761
   }
 ]

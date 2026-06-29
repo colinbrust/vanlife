@@ -1,9 +1,38 @@
 {
   "location": "Alpine, WY",
-  "title": "Next Stop!",
-  "campsites": ["TBD"],
+  "title": "Family Time on the Greys River",
+  "campsites": ["Grey's River Dispersed"],
   "date_start": "2026-06-22",
-  "date_end": "2026-06-26",
-  "summary": "Our current stop!",
-  "photos": []
+  "date_end": "2026-06-27",
+  "summary": "My mom recently retired, so with her newfound free time, she and my dad came up to camp with us along the Greys River in Wyoming. Before they arrived, Helen and I had a free night in the (small) town of Alpine, where we had a far too expensive but nonetheless tasty dinner at Tygr Market, an asian restaurant. As we drove out to find a camp spot for the night, we drove right past a brewery, where we had a nice sunset beer on the patio. The next morning, we drove down the dirt road that parallels the Greys River and found a great camp spot to spend a few days with my parents. In the few days we spent together, we hiked with all the dogs, played many games of  Settlers of Catan, watched the US World Cup game, and ate lots of tasty food. We also spent one afternoon fly fishing. We pieced together a setup between a rod that my coworker gave me, a reel a friend gave us, and some flies that the very helpful employee at a Jackson fly shop helped us pick out. While we didn't catch anything, we had a good time practicing our casting and I had a fish rise four times, but I failed to set the hook. One of the nicest things about this year without work is how much time we have gotten to spend with family. I don't think I have had more time with family since I was still living at home in high school! <br><br> <b>Some things we have been enjoying lately</b><ul><li>TV Shows: Slow Horses, Hacks, America's Sweethearts</li><li>Books: Yesteryear, The Brothers K, Brandon Sanderson (Hero of Ages and Tress of the Emerald Sea), Theo of Golden </li><li>Eating lots of beans (Colin has become obsessed with beans)</li><li>Sleeping in and waking up to the sound of birds</li></ul>",
+  "photos": [
+    {
+      "caption": "A view from Colin's run",
+      "pth": "view2.webp"
+    },
+    {
+      "caption": "The beautiful ridgeline above the Greys River",
+      "pth": "ridge.webp"
+    },
+    {
+      "caption": "Helen fishing in the Greys River",
+      "pth": "helen_fishing.webp"
+    },
+    {
+      "caption": "Colin to fail at catching a fish",
+      "pth": "colin_failing.webp"
+    },
+    {
+      "caption": "Colin fishing in the Greys River",
+      "pth": "colin_fishing.webp"
+    },
+    {
+      "caption": "Another view from Colin's run",
+      "pth": "view.webp"
+    },
+    {
+      "caption": "One of the many games of Catan we played with my parents",
+      "pth": "catan.webp"
+    }
+  ]
 }
