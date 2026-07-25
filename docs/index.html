@@ -1202,6 +1202,50 @@
         }
 
 
+        const preloadedImageURLs = new Set();
+
+        function orderedImageSequence(urls, startIndex = 0) {
+            const ordered = [];
+            const count = urls.length;
+            for (let offset = 1; offset < count; offset += 1) {
+                ordered.push(urls[(startIndex + offset) % count]);
+            }
+            return ordered;
+        }
+
+        function preloadImagesSequentially(urls, startIndex = 0) {
+            const orderedUrls = orderedImageSequence(urls, startIndex);
+            let i = 0;
+
+            function loadNext() {
+                if (i >= orderedUrls.length) {
+                    return;
+                }
+
+                const url = orderedUrls[i];
+                if (!url || preloadedImageURLs.has(url)) {
+                    i += 1;
+                    loadNext();
+                    return;
+                }
+
+                const pre = new Image();
+                pre.onload = () => {
+                    preloadedImageURLs.add(url);
+                    i += 1;
+                    loadNext();
+                };
+                pre.onerror = () => {
+                    preloadedImageURLs.add(url);
+                    i += 1;
+                    loadNext();
+                };
+                pre.src = url;
+            }
+
+            loadNext();
+        }
+
         function attachPopupCarouselHandlers(carousel, photos) {
             if (!photos || photos.length <= 1) {
                 return;
@@ -1220,21 +1264,28 @@
             function move(d) {
                 idx = (idx + d + photos.length) % photos.length;
                 
-                // Show loading state
+                // Show loading state for the current carousel image
                 img.style.opacity = '0.5';
                 
+                const nextSrc = photos[idx].pth;
                 const tempImg = new Image();
                 tempImg.onload = () => {
-                    img.src = photos[idx].pth;
+                    img.src = nextSrc;
                     img.style.opacity = '1';
                 };
                 tempImg.onerror = () => {
                     img.style.opacity = '1';
                 };
-                tempImg.src = photos[idx].pth;
+                tempImg.src = nextSrc;
                 
                 caption.textContent = photos[idx].caption || '';
+
+                // Start preloading the remaining images after this one
+                preloadImagesSequentially(photos.map(p => p.pth), idx + 1);
             }
+
+            // Preload the rest of the carousel images once the popup opens
+            preloadImagesSequentially(photos.map(p => p.pth), 1);
 
             // Arrow keys (only while popup is open)
             const keyHandler = e => {
@@ -1291,9 +1342,24 @@
             });
 
             function show() {
-                modalImg.src = photos[idx].src;
+                const currentSrc = photos[idx].src;
+                if (preloadedImageURLs.has(currentSrc)) {
+                    modalImg.src = currentSrc;
+                } else {
+                    const tempImg = new Image();
+                    tempImg.onload = () => {
+                        modalImg.src = currentSrc;
+                    };
+                    tempImg.onerror = () => {
+                        modalImg.src = currentSrc;
+                    };
+                    tempImg.src = currentSrc;
+                }
+
                 caption.textContent = photos[idx].caption || '';
                 modal.classList.add('show');
+
+                preloadImagesSequentially(photos.map(p => p.src), idx + 1);
             }
 
             function move(d) {
