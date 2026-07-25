@@ -1,9 +1,18 @@
 {
   "location": "Pinedale, WY",
-  "title": "Beautiful Views of the Winds",
+  "title": "Aquatic Center Luxury",
   "campsites": ["Fremont Lake Campground"],
-  "date_start": "2025-06-27",
-  "date_end": "2025-06-28",
-  "summary": "",
-  "photos": []
+  "date_start": "2026-06-27",
+  "date_end": "2026-06-28",
+  "summary": "We left the Grey's River on Saturday morning, which was probably a good call because it was starting to get overrun with big ATV groups out for the holiday week. In searching for a place to shower on iOverlander, we found out that Pinedale has a very nice aquatic center with a $10 day pass, so we decided to make that our first stop there. We spent a couple of hours working out, hot tubbing, playing in the lazy river, and showering before heading to a brewery for a snack and wifi. We decided to stay the night in Pinedale at a nice little campground on a lake so that we could do a day hike in the Wind River Range the next morning. The weather cooperated, and while it was chilly up in the mountains, we did a gorgeous little hike on the Sacred Rim Trail where we got beautiful views of the mountains. <br><br> <b>-Helen</b>",
+  "photos": [
+    {
+      "caption": "The view from the end of the sacred rim trail.",
+      "pth": "sacred_rim.webp"
+    },
+    {
+      "caption": "A selfie taken from the rim.",
+      "pth": "rim_selfie.webp"
+    }
+  ]
 }

@@ -726,50 +726,15 @@
     ]
   },
   {
-    "location": "Idyllwild, CA",
-    "title": "Burgers and Bat Bites",
-    "date_start": "2026-01-14",
-    "date_end": "2026-01-17",
-    "summary": "After spending a few days along the coast, we decided to head up into the mountains near Idyllwild. On our first night, we found a free dispersed camping spot in Apple Canyon, a few miles to the south of Idyllwild. From camp, I decided head out for a run and Helen joined on her bike. According to the internet, the route we chose was a popular biking trail. The fact that within two miles of leaving the trailhead we were bushwhacking and fighting to follow a faint cattle trail had me thinking otherwise. Regardless of the poor trail conditions, we ended up having a nice outing, and finished the day eating tofu bowls and watching Slow Horses in bed. The next day, we headed into Idyllwild and did some mountain biking. We found a nice trail system called The Hub that had much flowier trails compared to the straight up and straight down trails that we are used to riding in Missoula. For dinner, we decided to use some of our finite dining out budget to eat at the Idyllwild Brewpub, which was a great choice. We both had teryaki burgers that reminded me of a childhood vacation to Hawaii where we ate burgers drenched in teryaki sauce at least three nights of the trip. The next morning, I went for a long run up the highest peak in the region, Mt San Jacinto, while Helen took Maya on a hike. It was a great outing and I was able to make it up the peak, despite the snow and ice on the last few miles of trail. Once we were back into town, we decided to visit the local movie theater to watch The Housemaid. Helen and I had listened to the audiobook of The Housemaid a few months prior and were excited to see the film. We both enjoyed the movie, the quirky local theater, and the large bucket of popcorn (plus refill). <br><br> On our final day in the area, we planned to go climbing at the ominously named Suicide Rock. As we were getting ready to hike to the climbing area, I suddenly felt like I didn't want to go climbing, and almost told Helen we should just bail and go on a hike. However, I pushed the thought out of my head, since I have wanted to climb at Suicide for many years, it being a historically significant climbing area. We made the hike in and decided to warm up on a 5.8 called Hernia. The pitch quickly became a comedy of errors, between a stuck cam and a broken trigger on a second cam. As I approached the crux, I reached into an undercling and fidgeted around in it for a few seconds, when I suddenly realized I was touching something mushy and damp. I pulled my hand out and peeked into the undercling, expecting to find a mossy seep, but instead came eye to eye with a bat. The undercling was both a crucial hold and gear placement, so I decided to downclimb, not wanting to disturb the bat any further. We both had vague ideas that bats could have rabies and that rabies equals almost certain death, but we didn't think too much of the incident at the time. It wasn't until an afternoon of more failed climbing and shelling out $30 for a campsite that could best be described as 'mid' that we looked up what you should do if you're in close contact with a bat. Step 1: Thoroughly wash your hands for 15 minutes (oops). Step 2: Immediately go to the ER (oops). After some phone calls with my mom and her doctor colleagues, we decided it would be a best to drive into San Bernadino and visit the ER. Wounds from bat bites can be extremely small and hard to see. I had a number of small nicks and scrapes on my hands from climbing, so there was no real way to tell if I had indeed been bitten or scratched by the bat. So, we ditched camp and made the hour and a half drive into the city. Upon reaching the ER, I was promptly seen by a physician's assistant, who listened to my story, glanced at my hand, and said 'I think you're fine, plus the rabies shots hurt'. I said that I would rather be safe than sorry, seeing as the consequence of not getting the shots and contracting rabies is almost certainly death. However, this argument held no sway. Me being a person who doesn't like conflict, I reluctantly left the ER without the shots. Feeling dejected, Helen and I got Taco Bell for dinner and spent more of our dwindling monthly budget on a way too expensive hotel room. Luckily, watching the Food Network in hotel rooms is one of my favorite pastimes, so I was able to rest easily that night. <br><br><b>-Colin<\/b>",
+    "location": "San Bernadino, CA",
+    "title": "Rabies Reject ion Redemption",
+    "date_start": "2026-01-17",
+    "date_end": "2026-01-18",
+    "summary": "Sadly, I somehow deleted this entry and cannot find a backup. The gist of it was, we went back to the hospital, and I paid a lot of money to receive a vaccine that I may or may not have needed! <br><br><b>-Colin<\/b>",
     "campsites": [
-      "Apple Canyon Dispersed Camping",
-      "Forest Service Road Near Bike Trails",
-      "Parking Lot Across from Movie Theater"
+      "Expensive Hotel"
     ],
-    "photos": [
-      {
-        "caption": "A delicious tofu bowl that Helen made for dinner our first night in the Idyllwild area",
-        "pth": "images/023_san_bernadino/dinner_first_night.webp"
-      },
-      {
-        "caption": "A natural pool that we hiked to, suggested by a local we met in camp. Colin took a morning cold plunge in the pool.",
-        "pth": "images/023_san_bernadino/cold_plunge.webp"
-      },
-      {
-        "caption": "One of the many massive pine cones in the area",
-        "pth": "images/023_san_bernadino/big_cone.webp"
-      },
-      {
-        "caption": "Woodpecker acorn storage for the winter.",
-        "pth": "images/023_san_bernadino/food_storage.webp"
-      },
-      {
-        "caption": "Maya resting in a unique position after a big day of activities.",
-        "pth": "images/023_san_bernadino/comfy_position.webp"
-      },
-      {
-        "caption": "Dinner at the Idyllwild Brewpub. We enjoyed the food and beer and were happy to have spent our limited eating out budget here!",
-        "pth": "images/023_san_bernadino/brewery_dinner.webp"
-      },
-      {
-        "caption": "Colin on top of Mt San Jacinto.",
-        "pth": "images/023_san_bernadino/summit.webp"
-      },
-      {
-        "caption": "The view from the top of Mt san Jacinto.",
-        "pth": "images/023_san_bernadino/summit_view.webp"
-      }
-    ]
+    "photos": []
   },
   {
     "location": "Barstow, CA",
@@ -1422,7 +1387,7 @@
     ]
   },
   {
-    "location": "Washington, UT",
+    "location": "Red Cliffs Campground, UT",
     "title": "Hiking and Relaxing in Red Cliffs",
     "date_start": "2026-03-04",
     "date_end": "2026-03-06",
@@ -1618,7 +1583,7 @@
     ]
   },
   {
-    "location": "Newspaper Rock, UT",
+    "location": "Indian Creek, UT",
     "title": "Climbing in Indian Creek",
     "date_start": "2026-03-14",
     "date_end": "2026-03-16",
@@ -1802,24 +1767,15 @@
     ]
   },
   {
-    "location": "Flagstaff, AZ",
+    "location": "Sedona, AZ",
     "title": "Boulders and Buds",
-    "date_start": "2026-03-29",
-    "date_end": "2026-03-31",
-    "summary": "We were hoping to spend a few days climbing in the Flagstaff area, so I reached out to my high school friend Steven, who lives in town. He suggested climbing at The Peaks crag, which ended up being an awesome suggestion. The crag was a volcanic rock called dacite, and the texture and style of the climbing was reminiscent of Kootenai Canyon back in Missoula. The next day, we met up with Steven and his girlfriend to do some bouldering at Priest Draw. The rocks at Priest Draw are weathered limestone boulders that form pocketed and dead horizontal roofs. Although the style was rather unique and tiring to climb on, we spent over 6 hours bouldering and chatting. It was a very nice day reconnecting with an old friend. On the way out of town, we took a shower at Steven's house before hitting the road for Sedona.<br><br><b>-Colin<\/b>",
+    "date_start": "2026-03-31",
+    "date_end": "2026-04-01",
+    "summary": "Leaving Flagstaff, we wanted to stop by Sedona since we had bailed earlier in the year due to rainy weather. We did a nice little hike up Fay Canyon, which was relatively flat and filled with people. Though the trailhead was overflowing, we are optimistic we could still find dispersed camping, which we quickly realized was false. Sedona has become very strict about where you can camp for free and has designated big lots, which turn out to all be very full come April. After driving around for a couple of hours trying to find a spot, we bailed on Sedona entirely and tried to find the next closest free camping, which ended up being some BLM land on Beaverhead Flats road. The spot was meh but we were grateful to have arrived and spent the evening cozied in the van during one of our few nights of rain. In the morning, we did a quick mountain bike ride outside of Phoenix, but that ended up kind of being a fail too since most of the trails were blocked by construction fences. After that, we decided to high tail it to Tucson, where we knew family, a hot tub, and a nice bed were waiting for us. <br><br><b>-Helen<\/b>",
     "campsites": [
-      "Priest Draws Dispersed"
+      "Beaverhead Flats Dispersed"
     ],
-    "photos": [
-      {
-        "caption": "Colin pretending to climb on a roof at Priest Draw.",
-        "pth": "images/053_dona/bouldering.webp"
-      },
-      {
-        "caption": "Some post-climb stovetop nachos.",
-        "pth": "images/053_dona/nachos.webp"
-      }
-    ]
+    "photos": []
   },
   {
     "location": "Tucson, AZ",
@@ -2455,7 +2411,7 @@
     ],
     "date_start": "2026-05-19",
     "date_end": "2026-05-20",
-    "summary": "After leaving Vancouver, we stopped in the town of Cascade Locks to hike up Dry Creek Falls. It was a great stop to stretch the legs and see some beautiful falls. After our hike, we made our way to the Yakima River, where our friend Abby had recommended a nice campsite. We found a great spot right along the river and used the leftovers from our hotpot meal in Vancouver to make a tasty soup for dinner.",
+    "summary": "After leaving Vancouver, we stopped in the town of Cascade Locks to hike up Dry Creek Falls. It was a great stop to stretch the legs and see some beautiful falls. After our hike, we made our way to the Yakima River, where our friend Abby had recommended a nice campsite. We found a great spot right along the river and used the leftovers from our hotpot meal in Vancouver to make a tasty soup for dinner. <br><br><b>-Colin<\/b>",
     "photos": [
       {
         "caption": "Dry Creek Falls outside Cascade Locks, OR",
@@ -2471,7 +2427,7 @@
     ],
     "date_start": "2026-05-20",
     "date_end": "2026-05-25",
-    "summary": "After leaving our nice riverside campground, we made our way to Leavenworth for a weekend of bouldering with my friend Kenley. On our way to camp, we stopped in the Bavarian themed downtown to sightsee and eat a famous bratwurst. Afterwards, we had a relaxing afternoon finding a camp spot, journaling and reading. We had an early wake up the next morning so that I could run the Enchantments Traverse, an 18-mile trail that crosses the beautiful Enchantment Mountains. I had a wonderful day out on the trail, enjoying the amazing views of snow covered peaks and alpine lakes. The next morning, Helen left for Missoula and I spent the remainder of the weekend bouldering with Kenley and some of his friends. It was a great weekend of climbing, mountain biking and spending time with old friends.",
+    "summary": "After leaving our nice riverside campground, we made our way to Leavenworth for a weekend of bouldering with my friend Kenley. On our way to camp, we stopped in the Bavarian themed downtown to sightsee and eat a famous bratwurst. Afterwards, we had a relaxing afternoon finding a camp spot, journaling and reading. We had an early wake up the next morning so that I could run the Enchantments Traverse, an 18-mile trail that crosses the beautiful Enchantment Mountains. I had a wonderful day out on the trail, enjoying the amazing views of snow covered peaks and alpine lakes. The next morning, Helen left for Missoula and I spent the remainder of the weekend bouldering with Kenley and some of his friends. It was a great weekend of climbing, mountain biking and spending time with old friends.<br><br><b>-Colin<\/b>",
     "photos": [
       {
         "caption": "The cute Bavarian town of Leavenworth",
@@ -2486,7 +2442,7 @@
         "pth": "images/076_leavenworth/colchuck_lake.webp"
       },
       {
-        "caption": "The vie≈w of Prussik Peak from the Enchantments Traverse.",
+        "caption": "The view of Prussik Peak from the Enchantments Traverse.",
         "pth": "images/076_leavenworth/prussik.webp"
       },
       {
@@ -2509,7 +2465,7 @@
     "campsites": [],
     "date_start": "2026-05-25",
     "date_end": "2026-06-08",
-    "summary": "I left Colin in Leavenworth with some friends and started my first solo road trip in the van to Missoula, where I left the van and carpooled up to Hungry Horse Reservoir. I wanted to surprise my friend for her 30th birthday, and while I am not sure she was actually surprised, it was a fun weekend reuniting with all my Missoula people and celebrating Maddy's birthday, in Jersey shore camping style. <br><br> We had decided to come back to Missoula around this time because our house tenants were moving out. We were hoping to have a couple of weeks to spend in our house, relaxing and getting ready for the next tenants; however, it turned out we only got two nights in our house between two tenants. We still decided to stay for a couple of weeks to catch up with friends and enjoy summer in Missoula. Other than cleaning up the house, we spent the days swimming in the river, climbing in Lolo, visiting our favorite restaurants, hiking our familiar trails and being with friends. Although it was weird to be in Missoula without a home, we spent the nights parked outside of a friend's house, who was nice enough to allow us to use their facilities and hang out in their house. At the end of two weeks, we were sad to say goodbye to everyone but excited to get back on the road!",
+    "summary": "I left Colin in Leavenworth and started my first solo road trip in the van to Missoula. I left the van and carpooled up to Hungry Horse Reservoir with a friend. I wanted to surprise my friend for her 30th birthday, and while I am not sure she was actually surprised, it was a fun weekend reuniting with all my Missoula people and celebrating Maddy's birthday, in Jersey shore camping style. <br><br> We had decided to come back to Missoula around this time because our renters were moving out. We were hoping to have a couple of weeks to spend in our house, relaxing and getting ready for the next tenants; however, it turned out we only got two nights in our house before the new renters moved in. We still decided to stay for a couple of weeks to catch up with friends and enjoy summer in Missoula. Other than cleaning up the house, we spent the days swimming in the river, climbing in Lolo, visiting our favorite restaurants, hiking our familiar trails and being with friends. Although it was weird to be in Missoula without a home, we spent the nights parked outside of a friend's house, who was nice enough to allow us to use their facilities and hang out in their house. At the end of two weeks, we were sad to say goodbye to everyone but excited to get back on the road! <br><br><b>-Helen<\/b>",
     "photos": [
       {
         "caption": "Birthday Pie!",
@@ -2558,7 +2514,7 @@
     ],
     "date_start": "2026-06-08",
     "date_end": "2026-06-10",
-    "summary": "Our first stop after leaving Missoula was Lewis and Clark Caverns. Despite having lived in Missoula for about 11 years, neither Colin nor I had ever been. We arrived at the campground to discover that all of the tours for that day were full but we were able to get a spot for the next day, so we decided to spend the night. We instead went on a nice little hike to the Jefferson river where we were accompanied by many Meadowlark. <br><br> The next morning we spent like we spend many of our mornings, reading outside with coffee in hand, before our tour that afternoon. Our tour guide was named Huckleberry and had the quintessential tour guide voice, starting every story with “now friends” in his Southern drawl. The tour itself was pretty unbelieveable. We spent about 2 hours underground, meandering through tight spaces filled with stalagmites and stalagtities (we learned the difference but I already forgot). I couldn't believe that a) we were even allowed in that cave so with many fragile areas and bats flying around and b) it only cost $15 to do so. Although I spent much of the tour slightly unsettled at being underground, we would highly recommend visiting if you are in the area!",
+    "summary": "Our first stop after leaving Missoula was Lewis and Clark Caverns. Despite having lived in Missoula for about 11 years, neither Colin nor I had ever been. We arrived at the campground to discover that all of the tours for that day were full but we were able to get a spot for the next day, so we decided to spend the night. We instead went on a nice little hike to the Jefferson river where we were accompanied by many Meadowlarks. <br><br> The next morning we spent like we spend many of our mornings, reading outside with coffee in hand, before our tour that afternoon. Our tour guide was named Huckleberry and had the quintessential tour guide voice, starting every story with “now friends” in his Southern drawl. The tour itself was pretty unbelieveable. We spent about 2 hours underground, meandering through tight spaces filled with stalagmites and stalagtities (we learned the difference but I already forgot). I couldn't believe that a) we were even allowed in that cave so with many fragile areas and bats flying around and b) it only cost $15 to do so. Although I spent much of the tour slightly unsettled at being underground, we would highly recommend visiting if you are in the area! <br><br><b>-Helen<\/b>",
     "photos": [
       {
         "caption": "A hike we went on during our stay at Lewis and Clark Caverns.",
@@ -2582,7 +2538,7 @@
     ],
     "date_start": "2026-06-10",
     "date_end": "2026-06-12",
-    "summary": "The first stop when heading into the Gallatin Valley was Bozeman Hotsprings. We hadn't showered since we left Missoula so we decided to stop here to relax and get clean. After our soak, we headed up Stormcastle Road in Gallatin Canyon to find a camp spot. We found a little pull off next to a little creek to post up for the night. The next morning, we did some underwhelming climbing at the crag down the road. We were rather unenthused about the climbing, so we bailed a little early to go on a run on the trails nearby. After the run, we found another camp spot along the road, had an early dinner and got a good nights sleep. Before leaving the canyon, I went on a run up Stormcastle Peak, which had great views of the Gallatin Mountains. On our way through Bozeman, we stopped at Helen's uncle's house as it happened to be her cousin's graduation party that day. We enjoyed a few hours of family time before stocking up groceries at WinCo (our favorite grocery store) and hitting the road.",
+    "summary": "The first stop when heading into the Gallatin Valley was Bozeman Hotsprings. We hadn't showered since we left Missoula so we decided to stop here to relax and get clean. After our soak, we headed up Stormcastle Road in Gallatin Canyon to find a camp spot. We found a little pull off next to a little creek to post up for the night. The next morning, we did some underwhelming climbing at the crag down the road. We were rather unenthused about the climbing, so we bailed a little early to go on a run on the trails nearby. After the run, we found another camp spot along the road, had an early dinner and got a good nights sleep. Before leaving the canyon, I went on a run up Stormcastle Peak, which had great views of the Gallatin Mountains. On our way through Bozeman, we stopped at Helen's uncle's house as it happened to be her cousin's graduation party that day. We enjoyed a few hours of family time before stocking up groceries at WinCo (our favorite grocery store) and hitting the road.<br><br><b>-Colin<\/b>",
     "photos": [
       {
         "caption": "Helens (very) belated birthday dinner at Whistle Pig in Bozeman.",
@@ -2603,7 +2559,7 @@
     ],
     "date_start": "2026-06-12",
     "date_end": "2026-06-14",
-    "summary": "After leaving Bozeman we were aiming to check out a campground on a lake but after a half mile into an 8 mile dirt road we decided to bail because the washboards were rattling everything in our van and it sounded like it was coming apart at the seams. We ended up finding a decent spot at a fishing access site where we spent the afternoon reading, me working on my embroidery and Maya keeping a close eye on all the groundhogs surrounding our van. The next day was supposed to be another cold, rainy day so we headed to check out Yellowstone Hot Springs. We spent a few hours soaking in the hot tub and warm pool. Colin went on a run down the road (I also tried to walk but bailed because it was so windy). We found a new camp that night, a nice little spot right off of the road which happened to have some good bouldering. So although we have no bouldering pads, we walked around with our shoes on trying a couple of easy ones. During this escapade, Colin left his phone on the ground and he happened to land on it when he jumped off the boulder and it broke entirely (so that was unfortunate). ",
+    "summary": "After leaving Bozeman we were aiming to check out a campground on a lake but after a half mile into an 8 mile dirt road we decided to bail because the washboards were rattling everything in our van and it sounded like it was coming apart at the seams. We ended up finding a decent spot at a fishing access site where we spent the afternoon reading, me working on my embroidery and Maya keeping a close eye on all the groundhogs surrounding our van. The next day was supposed to be another cold, rainy day so we headed to check out Yellowstone Hot Springs. We spent a few hours soaking in the hot tub and warm pool. Colin went on a run down the road (I also tried to walk but bailed because it was so windy). We found a new camp that night, a nice little spot right off of the road which happened to have some good bouldering. So although we have no bouldering pads, we walked around with our shoes on trying a couple of easy ones. During this escapade, Colin left his phone on the ground and he happened to land on it when he jumped off the boulder and it broke entirely (so that was unfortunate). <br><br><b>-Helen<\/b>",
     "photos": []
   },
   {
@@ -2614,7 +2570,7 @@
     ],
     "date_start": "2026-06-14",
     "date_end": "2026-06-15",
-    "summary": "I hadn't been to Yellowstone since I was a very small child, so Helen insisted that we make a visit. Our day was a tour of the classic Yellowstone sightseeing stops. Some of the highlights include Mammoth Springs, the Grand Prismatic Spring, and of course an eruption of the Old Faithful geyser. Along the way, we saw tons of wildlife, including bears, a huge herd of bison and some elk grazing on the side of the road. We were lucky to find an available campsite in the packed Bridge Bay campground within the park. We spent the evening reading, journaling and going on a little walk with Maya down to Yellowstone Lake. Before leaving the park, we drove to a beautiful overlook with a view of a bison herd to cook breakfast burritos and brew some coffee.",
+    "summary": "I hadn't been to Yellowstone since I was a very small child, so Helen insisted that we make a visit. Our day was a tour of the classic Yellowstone sightseeing stops. Some of the highlights include Mammoth Springs, the Grand Prismatic Spring, and of course an eruption of the Old Faithful geyser. Along the way, we saw tons of wildlife, including bears, a huge herd of bison and some elk grazing on the side of the road. We were lucky to find an available campsite in the packed Bridge Bay campground within the park. We spent the evening reading, journaling and going on a little walk with Maya down to Yellowstone Lake. Before leaving the park, we drove to a beautiful overlook with a view of a bison herd to cook breakfast burritos and brew some coffee. <br><br><b>-Colin<\/b>",
     "photos": [
       {
         "caption": "One of the many hot springs we encountered in Yellowstone National Park.",
@@ -2646,7 +2602,7 @@
     ],
     "date_start": "2026-06-15",
     "date_end": "2026-06-16",
-    "summary": "After leaving Yellowstone, we headed to Cody to run the life errands. We got groceries, filled up water, I worked for a couple of hours and we luckily got hooked up with a chiller at the Verizon store who was able to finagle a new and basically free phone for Colin. After taking Maya on a little walk outside of town, I spent the afternoon laying in the city park while Colin went on a little run. We had a big cobb salad in the park before heading over to the rodeo. One of my goals while in Wyoming was to go to a rodeo and Cody did not dissapoint. They have a rodeo every single night in the summer, complete with bull riding, bareback bronco riding, roping, kids chasing chows, barrel racing and silly audience participation. Although we have both lived in Montana for a few years and seen some of the ranch life, this was definitely somewhat of a cultural experience, with much more patriotic musings and prayers than we are used to. My favorite part was this 8 year old superstar cowgirl who was incredible to watch and my least favorite part was watching a horse demolish a rider who had to be taken out in an ambulance. Ending at almost 10pm, we drove a little ways out of town to some BLM land. We haven't had many late night arrivals but it's kind of fun to wake up in the morning to a beautiful view that we didn't know was there the night before.",
+    "summary": "After leaving Yellowstone, we headed to Cody to run the life errands. We got groceries, filled up water, I worked for a couple of hours and we luckily got hooked up with a chiller at the Verizon store who was able to finagle a new and basically free phone for Colin. After taking Maya on a little walk outside of town, I spent the afternoon laying in the city park while Colin went on a little run. We had a big cobb salad in the park before heading over to the rodeo. One of my goals while in Wyoming was to go to a rodeo and Cody did not dissapoint. They have a rodeo every single night in the summer, complete with bull riding, bareback bronco riding, roping, kids chasing chows, barrel racing and silly audience participation. Although we have both lived in Montana for a few years and seen some of the ranch life, this was definitely somewhat of a cultural experience, with much more patriotic musings and prayers than we are used to. My favorite part was this 8 year old superstar cowgirl who was incredible to watch and my least favorite part was watching a horse demolish a rider who had to be taken out in an ambulance. Ending at almost 10pm, we drove a little ways out of town to some BLM land. We haven't had many late night arrivals but it's kind of fun to wake up in the morning to a beautiful view that we didn't know was there the night before. <br><br><b>-Helen<\/b>",
     "photos": [
       {
         "caption": "Helen coaxing Maya into the waters of the Shoshone River",
@@ -2666,7 +2622,7 @@
     ],
     "date_start": "2026-06-16",
     "date_end": "2026-06-20",
-    "summary": "I have taken a few climbing trips to Ten Sleep over the last few years and loved it. Helen had never been before so I was excited to share one of my favorite places with her. We found a very nice camp spot in a grassy meadow only a few minutes drive to the climbing. We spent four nights in the canyon, splitting our time between climbing, relaxing, running and cooking. I got in at least 5 or 6 pitches of climbing each day and managed to climb my hardest route in the last two years, which got me very excited! We have also been following the World Cup, and spent a few afternoons watching games.",
+    "summary": "I have taken a few climbing trips to Ten Sleep over the last few years and loved it. Helen had never been before so I was excited to share one of my favorite places with her. We found a very nice camp spot in a grassy meadow only a few minutes drive to the climbing. We spent four nights in the canyon, splitting our time between climbing, relaxing, running and cooking. I got in at least 5 or 6 pitches of climbing each day and managed to climb my hardest route in the last two years, which got me very excited! We have also been following the World Cup, and spent a few afternoons watching games. <br><br><b>-Colin<\/b>",
     "photos": [
       {
         "caption": "Maya basking in the dandelion flowers at our campsite.",
@@ -2695,7 +2651,7 @@
     ],
     "date_start": "2026-06-21",
     "date_end": "2026-06-22",
-    "summary": "Another rainy day in the forecast meant another day trying to find some hot springs. We stopped at Thermopolis Hot Springs, which offers a nice free hot springs pool and a shower. Interestingly, this is because of a 1896 treaty with the Shoshone and Arapaho tribes, which gave Wyoming the hot springs on the condition that they remain free and accessible to the public. We managed to get out of town just in time, as big raindrops and high winds started chasing us. We stopped at a roadside pull off for the night, made some dolled up ramen and binged the show Slow Horses. <br><br> The next morning we got up and out early to try to get to Jackson in time to get some dispersed camping. Luckily, the first road we went up had some available spots and we were able to snag a designated spot with beautiful views of the Tetons. Colin went on a run and I went on a nice walk with Maya and then we spent the afternoon reading in the sun. Colin made delicious quesadillas to end the day. ",
+    "summary": "Another rainy day in the forecast meant another day trying to find some hot springs. We stopped at Thermopolis Hot Springs, which offers a nice free hot springs pool and a shower. Interestingly, this is because of a 1896 treaty with the Shoshone and Arapaho tribes, which gave Wyoming the hot springs on the condition that they remain free and accessible to the public. We managed to get out of town just in time, as big raindrops and high winds started chasing us. We stopped at a roadside pull off for the night, made some dolled up ramen and binged the show Slow Horses. <br><br> The next morning we got up and out early to try to get to Jackson in time to get some dispersed camping. Luckily, the first road we went up had some available spots and we were able to snag a designated spot with beautiful views of the Tetons. Colin went on a run and I went on a nice walk with Maya and then we spent the afternoon reading in the sun. Colin made delicious quesadillas to end the day. <br><br><b>-Helen<\/b>",
     "photos": [
       {
         "caption": "The view of the Tetons from our dispersed campsite outside Jackson.",
@@ -2719,7 +2675,7 @@
     ],
     "date_start": "2026-06-22",
     "date_end": "2026-06-27",
-    "summary": "My mom recently retired, so with her newfound free time, she and my dad came up to camp with us along the Greys River in Wyoming. Before they arrived, Helen and I had a free night in the (small) town of Alpine, where we had a far too expensive but nonetheless tasty dinner at Tygr Market, an asian restaurant. As we drove out to find a camp spot for the night, we drove right past a brewery, where we had a nice sunset beer on the patio. The next morning, we drove down the dirt road that parallels the Greys River and found a great camp spot to spend a few days with my parents. In the few days we spent together, we hiked with all the dogs, played many games of  Settlers of Catan, watched the US World Cup game, and ate lots of tasty food. We also spent one afternoon fly fishing. We pieced together a setup between a rod that my coworker gave me, a reel a friend gave us, and some flies that the very helpful employee at a Jackson fly shop helped us pick out. While we didn't catch anything, we had a good time practicing our casting and I had a fish rise four times, but I failed to set the hook. One of the nicest things about this year without work is how much time we have gotten to spend with family. I don't think I have had more time with family since I was still living at home in high school! <br><br> <b>Some things we have been enjoying lately<\/b><ul><li>TV Shows: Slow Horses, Hacks, America's Sweethearts<\/li><li>Books: Yesteryear, The Brothers K, Brandon Sanderson (Hero of Ages and Tress of the Emerald Sea), Theo of Golden <\/li><li>Eating lots of beans (Colin has become obsessed with beans)<\/li><li>Sleeping in and waking up to the sound of birds<\/li><\/ul>",
+    "summary": "My mom recently retired, so with her newfound free time, she and my dad came up to camp with us along the Greys River in Wyoming. Before they arrived, Helen and I had a free night in the (small) town of Alpine, where we had a far too expensive but nonetheless tasty dinner at Tygr Market, an asian restaurant. As we drove out to find a camp spot for the night, we drove right past a brewery, where we had a nice sunset beer on the patio. The next morning, we drove down the dirt road that parallels the Greys River and found a great camp spot to spend a few days with my parents. In the few days we spent together, we hiked with all the dogs, played many games of  Settlers of Catan, watched the US World Cup game, and ate lots of tasty food. We also spent one afternoon fly fishing. We pieced together a setup between a rod that my coworker gave me, a reel a friend gave us, and some flies that the very helpful employee at a Jackson fly shop helped us pick out. While we didn't catch anything, we had a good time practicing our casting and I had a fish rise four times, but I failed to set the hook. One of the nicest things about this year without work is how much time we have gotten to spend with family. I don't think I have had more time with family since I was still living at home in high school! <br><br><b>-Colin<\/b> <br><br> <b>Some things we have been enjoying lately<\/b><ul><li>TV Shows: Slow Horses, Hacks, America's Sweethearts<\/li><li>Books: Yesteryear, The Brothers K, Brandon Sanderson (Hero of Ages and Tress of the Emerald Sea), Theo of Golden <\/li><li>Eating lots of beans (Colin has become obsessed with beans)<\/li><li>Sleeping in and waking up to the sound of birds<\/li><\/ul>",
     "photos": [
       {
         "caption": "A view from Colin's run",
@@ -2753,24 +2709,247 @@
   },
   {
     "location": "Pinedale, WY",
-    "title": "Beautiful Views of the Winds",
+    "title": "Aquatic Center Luxury",
     "campsites": [
       "Fremont Lake Campground"
     ],
-    "date_start": "2025-06-27",
-    "date_end": "2025-06-28",
-    "summary": "",
-    "photos": []
+    "date_start": "2026-06-27",
+    "date_end": "2026-06-28",
+    "summary": "We left the Grey's River on Saturday morning, which was probably a good call because it was starting to get overrun with big ATV groups out for the holiday week. In searching for a place to shower on iOverlander, we found out that Pinedale has a very nice aquatic center with a $10 day pass, so we decided to make that our first stop there. We spent a couple of hours working out, hot tubbing, playing in the lazy river, and showering before heading to a brewery for a snack and wifi. We decided to stay the night in Pinedale at a nice little campground on a lake so that we could do a day hike in the Wind River Range the next morning. The weather cooperated, and while it was chilly up in the mountains, we did a gorgeous little hike on the Sacred Rim Trail where we got beautiful views of the mountains. <br><br> <b>-Helen<\/b>",
+    "photos": [
+      {
+        "caption": "The view from the end of the sacred rim trail.",
+        "pth": "images/086_pinedale/sacred_rim.webp"
+      },
+      {
+        "caption": "A selfie taken from the rim.",
+        "pth": "images/086_pinedale/rim_selfie.webp"
+      }
+    ]
   },
   {
     "location": "Lander, WY",
-    "title": "Climbing in Lander, WY",
+    "title": "Wind (and Climbing) in the Winds",
     "campsites": [
-      "Lander City Park"
+      "Lander City Park",
+      "Wild Iris Dispersed",
+      "Fyre Lake"
     ],
-    "date_start": "2025-06-28",
-    "date_end": "2025-06-29",
-    "summary": "Coming soon!",
+    "date_start": "2026-06-28",
+    "date_end": "2026-07-08",
+    "summary": "We were planning to meet some friends to climb in Lander, Wyoming, leading up to the Fourth of July. What would normally be an easy hour and a half drive from Pinedale turned into an epic when the highway pass between the two towns was closed to high-profile vehicles due to high winds. We spent a while deliberating whether we should stay put near the (not so) lovely town of Farson until the winds subsided, or make the four-hour drive around the mountains. We opted for the long drive, since it looked like the winds might persist for a few days. For two people living in a van and driving across the country, you might think a four-hour drive doesn't sound too bad, but it turns out we've become driving weenies. We have started to strongly prefer multiple short two-hour drives with fun stops in between. The detour brought us through the town of Rawlins, where we stopped for dinner at a Thai restaurant. The food was tasty, but our server forgot about our table on more than one occasion, and we ended up burning almost two hours of daylight to get our Pad Thai and curry noodles. We pulled into Lander late and decided to camp at the city park, where you are allowed to camp for free in the parking lot for three nights! <br><br> On our first morning, we visited the White Bark Cafe and shared some yummy croissants for breakfast over some coffee. The weather for the first few days of our visit was uncharacteristically cold, cloudy, and windy for July. The cool weather allowed us to climb at Sinks Canyon that first day, which is normally blasted by the sun and unclimbable in the summer. I have been on a few trips to Sinks in the winter and early spring, and that day of climbing in July was the coldest I've ever been there! The next day, we headed up to the Wild Iris, which is the more typical summer climbing destination in Lander. The climbing is on some limestone outcroppings set in beautiful alpine meadows dappled with small patches of forest. We met a big group of friends there, and had fun climbing and enjoying the beautiful setting over the next few days. <br><br>Sadly, my grandma passed away the day that we were heading into Lander, so those first few days were also a flurry of decision-making about when, where, and how to travel to the funeral. We decided that it would make the most sense for me to fly out to Indiana by myself to see my family and attend the funeral. I flew out of the town of Riverton, which is a small town of about 10,000, a half hour outside of Lander. The airport was the smallest I have ever been to, only offering one flight a day to and from Denver. I arrived 45 minutes before my departure, and the security area still wasn't open. Thirty minutes before departure, they opened the security gates and efficiently moved us through. The remainder of my day did not offer the same smoothness and efficiency as the Riverton airport. I had a tight connection at the Denver airport, which forced me to run from the C to the A concourse to arrive at my next flight right as boarding wrapped up. Upon arrival in Chicago, I made a dash for the Blue Line subway, which I planned to take downtown to catch a train to Indiana, where my family lives. Unfortunately, I missed the 9:30pm train and had to wait for the 10:30pm departure. Luckily, my dad and uncle were able to stay awake for my 12:30am arrival at the train station, and they shuttled me to my grandma's house after a very long day of travel. <br><br> While my stay in Indiana was very short, I am so glad that I was able to be there with my family and say goodbye to Grandma. The funeral service was both sad and heartwarming, and it was so special to meet and chat with all the people whose lives my grandma had touched. My aunt gave the eulogy at the service, and it was a perfect speech weaving together stories from family members about how my grandma had brought joy, care and love into all of our lives. In preparation for her speech, she asked the grandchildren if we had any favorite stories of our time spent with grandma. Here are two of my favorite memories: <br><br> <ol> <li> When I was little, my grandparents always got the Sunday newspaper, which of course had comics in it. These were very exciting to me, seeing as my family didn't get the newspaper. Since I liked them so much, my grandma would save all the comics throughout the year and give them to me when I would visit in the summer. Each morning, I would wake up early, and my grandma would be the only other person awake. We would sit on the kitchen table, eating Raisin Bran and reading comics until the rest of the family woke up. <\/li><li>My grandma was a prolific baker and would always be whipping up cookies, strawberry shortcake, or peach cobbler during our visits. Whenever she would bake cookies, I would happily assist, knowing that the reward would be unlimited cookie dough samples. Every time I would reach for some cookie dough, grandma would either pretend not to see, or say in a jokingly exasperated tone “Oh, I guess it's ok if you take a bite.” Even though it surely spoiled my appetite on a number of occasions, she never stopped me from eating cookie dough.<\/li><\/ol><br><br> My return from Indiana was thankfully much smoother than my trip there. I made it back to Riverton without issue, and Helen and I headed straight back to Wild Iris. We spent the next few days camping with friends, climbing, cooking tasty meals, and going on some cool hikes. Here are the highlights: <br><br><ul><li>My friend Nate and I both successfully climbing a route we had been working on a beautiful day.<\/li><li>Hiking up onto a ridge to view fireworks for the fourth with all of our friends. We were pretty far away from town, so they were pretty small, but the setting was so beautiful, and the stars were so bright that it more than made up for the tiny fireworks.<\/li><li>We headed into Lander to camp at the city park and watch some World Cup games. Our whole friend group went to the Lander Bar to watch England vs Mexico. We all drank margaritas in support of Mexico, unfortunately, to no avail.<\/li><li>We went on a four mile hike on a hot day with our friends to a cool natural rock waterslide on the Popo Agie river. Water poured over a slick granite slab, before dropping about eight feet into a deep blue pool. It was very worth the hot hike to go down the slide!<\/li><li>After our friends left, Helen and I went on a beautiful hike up to Leg Lake in the Wind River Range. We had heard reports of bad mosquitoes, but we didn't see too many, and were rewarded with a gorgeous view of an alpine lake surrounded by thousand-foot granite buttresses.<\/li><\/ul> <br><br><b>-Colin<\/b>",
+    "photos": [
+      {
+        "caption": "Pretty view on our drive into Lander",
+        "pth": "images/087_lander/long_roads.webp"
+      },
+      {
+        "caption": "Delicious pastries at the local bakery.",
+        "pth": "images/087_lander/lander_pastries.webp"
+      },
+      {
+        "caption": "The huge trout at the rise of the Popo Agie River.",
+        "pth": "images/087_lander/trout.webp"
+      },
+      {
+        "caption": "Hiking into the climbing at Wild Iris.",
+        "pth": "images/087_lander/iris_approach.webp"
+      },
+      {
+        "caption": "Some of the beautiful wildflowers at Wild Iris.",
+        "pth": "images/087_lander/iris_flowers.webp"
+      },
+      {
+        "caption": "Colin leading up American Beauty, a 5.12b in Wild Iris.",
+        "pth": "images/087_lander/american_beauty.webp"
+      },
+      {
+        "caption": "The crew climbing at Wild Iris.",
+        "pth": "images/087_lander/iris_climbing.webp"
+      },
+      {
+        "caption": "A beautiful sunset from our campsite at Wild Iris.",
+        "pth": "images/087_lander/iris_sunset.webp"
+      },
+      {
+        "caption": "Hiking up the hill to watch 4th of July fireworks from afar.",
+        "pth": "images/087_lander/approaching.webp"
+      },
+      {
+        "caption": "The natural waterslide that we enjoyed going down! (sorry Mom)",
+        "pth": "images/087_lander/waterslide.webp"
+      },
+      {
+        "caption": "The beautiful view at Leg Lake.",
+        "pth": "images/087_lander/leg_lake.webp"
+      },
+      {
+        "caption": "Lunch at Leg Lake.",
+        "pth": "images/087_lander/lake_sandwich.webp"
+      },
+      {
+        "caption": "A selfie at Leg Lake.",
+        "pth": "images/087_lander/winds_selfie.webp"
+      },
+      {
+        "caption": "A selfie at Fyre Lake.",
+        "pth": "images/087_lander/fyre_lake_selfie.webp"
+      }
+    ]
+  },
+  {
+    "location": "Mirror Lake Highway, UT",
+    "title": "Backpacking, Storms and Climbing in the Uinta Mountains",
+    "campsites": [
+      "Christmas Meadows Dispersed",
+      "Amethyst Lake Backpacking",
+      "Mirror Lake Campground",
+      "Cold Spring Road Dispersed",
+      "Lost Creek Dispersed",
+      "Yellow Pine Dispersed"
+    ],
+    "date_start": "2026-07-08",
+    "date_end": "2026-07-18",
+    "summary": "Leaving Lander, we decided to hightail it out of Wyoming and head to the Uinta Mountains in Northern Utah. First, though, we made a pit stop in Rock Springs, WY, not because there is anything to do there, but because it had a Planet Fitness and Walmart. We made it to Mirror Lake Highway, a road that passes through the Unita mountains, just in time to find a dispersed site off the road, make dinner, watch Iron Chef and get to bed. We moved camp the next day, just a couple miles down the road to a more private site among the aspens. We spent most of the day relaxing, reading and packing our gear for the backpacking trip we were doing the next day. <br><br> On our morning drive to the trailhead we spotted multiple moose, chomping on grass in the big meadow near the start of the trail. The trail to our destination, Amethyst Lake, was about 6.5 miles long, meandering (sometimes extremely steeply) up the mountain through forest, grassy meadows, and across many little streams. Maya had the time of her life frolicking and rolling in the marshy meadows. We made it to the lake in the early afternoon, and although it was a little busy with fellow backpackers, we found a nice private spot to set up camp. We spent that afternoon reading and fishing, and caught our very first fish on our new fly fishing setup! The lake was set against some big rock walls, and we heard multiple big rock slides throughout the evening, which was pretty wild. We cooked up our backpacking meals, only to discover one was rancid, but we supplemented with trail mix and cuties. We got into bed just as the sun was setting and watched the rock wall turn orange while reading in the tent, away from the pesky mosquitoes. <br><br> The following day, we set out to try to summit Ostler Peak, the big mountain looming over us at camp. After maybe about a 6th of the way up, and after struggling on loose rock in the direct sun, I decided to call it quits on that endeavor and pivot our adventure to hike to a couple of lakes we could see from our vantage point. We had a nice little picnic lunch at Ostler Lake before heading back to camp for the afternoon. It was a very hot day, so we had a refreshing dip in the lake. We spent the afternoon reading and fishing some more, and Maya spent it huddled in the tent, escaping the flies. After catching a few more trout, we decided to keep one of the bigger ones (still quite small) to try to cook it up. Colin handled the cleaning of the fish (his first time), and we cooked it up with some butter and salt, it was quite delicious! <br><br>The next morning, after very little sleep (we have become quite accustomed to our big comfy van bed), we packed up and made the hot hike down to the car. We drove just a few miles down the same road to a nice little pullout shaded by trees where we unpacked and took a very refreshing shower out the back of the van. We spent the rest of that day relaxing and hiding from the sun. <br><br>Over the next few days, we bopped between different campgrounds in the Uintas, climbing and hiking. It is a beautiful area at about 10,000 ft with lots of little lakes and blooming wildflowers. The monsoons seem to have arrived in earnest in the last week or so, and we experienced a big storm one afternoon, where it hailed for almost two hours, created big thunderclaps and left the road to our dispersed site looking more like a stream. After that bit of excitement, we left the dispersed site in search of a campground with pavement. Our friends Tyson and Maddy met us that night on the way to their family reunion, and we had a fun morning of climbing the next day. After that, my brother Al met up with us for a couple of nights of camping a little farther down the road towards Salt Lake. We spent two nights all together hanging out, playing Splendor, going on a big day hike, and watching Sheep Detectives. The next morning we rolled through Salt Lake to see his place, shower, do a desperately needed load of laundry and stock up on goodies at Trader Joes. <br><br> <b>-Helen<\/b>",
+    "photos": [
+      {
+        "caption": "Pancakes and sausage for breakfast.",
+        "pth": "images/088_uintas/bfast_pancakes.webp"
+      },
+      {
+        "caption": "Maya would rather sit in the hot van than the cool shade outside.",
+        "pth": "images/088_uintas/hot_dog.webp"
+      },
+      {
+        "caption": "Moose in the meadow.",
+        "pth": "images/088_uintas/moose.webp"
+      },
+      {
+        "caption": "Maya on our backpacking trip.",
+        "pth": "images/088_uintas/maya_backpacking.webp"
+      },
+      {
+        "caption": "A pretty stream we came across on our backpacking trip.",
+        "pth": "images/088_uintas/backpacking_stream.webp"
+      },
+      {
+        "caption": "Helen with a fish from Amethyst Lake.",
+        "pth": "images/088_uintas/helen_fish.webp"
+      },
+      {
+        "caption": "Colin patenting a photo style where you make the fish look as small as possible.",
+        "pth": "images/088_uintas/colin_fish.webp"
+      },
+      {
+        "caption": "Maya hiding from bugs under the tent vestibule.",
+        "pth": "images/088_uintas/maya_hiding.webp"
+      },
+      {
+        "caption": "Our camp at Amethyst Lake.",
+        "pth": "images/088_uintas/camp_setup.webp"
+      },
+      {
+        "caption": "Maya swimming in the Uintas.",
+        "pth": "images/088_uintas/swimmin_dog.webp"
+      },
+      {
+        "caption": "Fish for our appetizer.",
+        "pth": "images/088_uintas/fish.webp"
+      },
+      {
+        "caption": "Lounging and reading on our backpacking trip.",
+        "pth": "images/088_uintas/backpack_lounging.webp"
+      },
+      {
+        "caption": "A selfie from our backpacking trip.",
+        "pth": "images/088_uintas/backpacking_selfie.webp"
+      },
+      {
+        "caption": "Colin lowering off a steep climb in the Uintas.",
+        "pth": "images/088_uintas/steep.webp"
+      },
+      {
+        "caption": "Maya frolicking in a meadow near our campsite.",
+        "pth": "images/088_uintas/maya_in_uintas.webp"
+      },
+      {
+        "caption": "Beautiful wildflowers in the Uintas.",
+        "pth": "images/088_uintas/flowers.webp"
+      },
+      {
+        "caption": "Our stuff getting very wet during a big storm.",
+        "pth": "images/088_uintas/storming.webp"
+      },
+      {
+        "caption": "Maddy belaying while we were out climbing.",
+        "pth": "images/088_uintas/maddy_belaying.webp"
+      },
+      {
+        "caption": "One of the many lakes in the Uintas.",
+        "pth": "images/088_uintas/uintas_lake.webp"
+      },
+      {
+        "caption": "Colin, Al and Maya on top of Castle Peak.",
+        "pth": "images/088_uintas/castle_pk_view.webp"
+      },
+      {
+        "caption": "A selfie on top of Castle Peak.",
+        "pth": "images/088_uintas/castle_peak.webp"
+      }
+    ]
+  },
+  {
+    "location": "Freedom, UT",
+    "title": "Crimping Cobbles in Maple Canyon",
+    "campsites": [
+      "Pole Canyon Dispersed",
+      "Maple Canyon Campground"
+    ],
+    "date_start": "2026-07-18",
+    "date_end": "2026-07-22",
+    "summary": "We headed south out of Salt Lake City and found a dispersed campsite outside the town of Nephi. After finding a spot, I went for a run down a cow-infested forest service road. For dinner, we had some delicious Trader Joe's orange chicken and finished watching Iron Chef on Netflix, which we have been enjoying these last few weeks. Our destination in this part of Utah was Maple Canyon, a climbing area known for its conglomerate rock walls (basically vertical cobblestone streets). We pulled into our campsite, leveled our van to the best of our ability in a rather un-level spot, and immediately headed out to do some climbing. The next three days were some combination of the following in various orders: relax and read our books, go climbing (during which I would attempt, and never quite succeed, to send the route that I picked as a project for the week), cook a tasty dinner, spend more time reading, watch a movie or tv show. I also went on one extremely hot and extremely steep run while we were there, which was worth it for the great views at the top!<br><br> <b>-Colin<\/b>",
+    "photos": [
+      {
+        "caption": "Maya snoozing while we climbed.",
+        "pth": "images/089_maple/sleeping_at_maple.webp"
+      },
+      {
+        "caption": "Scenic view from the top of Maple Canyon.",
+        "pth": "images/089_maple/maple_view.webp"
+      }
+    ]
+  },
+  {
+    "location": "Moab, UT",
+    "title": "A Hot Night in Moab",
+    "campsites": [
+      "Goose Island Campground"
+    ],
+    "date_start": "2026-07-22",
+    "date_end": "2026-07-23",
+    "summary": "Despite a forecasted high of 90, we decided to spend one night in Moab en route to Durango to break up the drive. After picking out a campsite along the Colorado river, we headed into town to find dinner. We chose a restaurant called the Spoke on Center because they had a dog-friendly patio. We ate some tasty cheeseburgers and then stoped for some ice cream before heading back to camp. The night was quite hot, made hotter by the fact that we had to close the windows during a torrential downpour. After a sweaty nights sleep, we got delicious donuts for breakfast at a place called Doughbird. Before leaving town, we went for a brief, but scenic hike up Mill Creek, where Maya splashed around in water to her heart's content.<br><br> <b>-Colin<\/b>",
+    "photos": [
+      {
+        "caption": "View of the Colorado River from our campsite at Goose Island Campground.",
+        "pth": "images/090_moab/colorado.webp"
+      },
+      {
+        "caption": "The hike up towards the falls at Mill Creek.",
+        "pth": "images/090_moab/mill_ck_approach.webp"
+      },
+      {
+        "caption": "The falls at Mill Creek.",
+        "pth": "images/090_moab/mill_falls.webp"
+      }
+    ]
+  },
+  {
+    "location": "Durango, CO",
+    "title": "Dilly Dallying in Durango",
+    "campsites": [],
+    "date_start": "2026-07-23",
+    "date_end": "2026-08-01",
+    "summary": "We have plans in Durango for the next few weekends, so will be adventuring around here for the next month or so!",
     "photos": []
   }
 ]

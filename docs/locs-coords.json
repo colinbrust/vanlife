@@ -144,6 +144,12 @@
     "lng": -116.7189420
   },
   {
+    "location": "San Bernadino, CA",
+    "date_start": "2026-01-17",
+    "lat": 34.134309,
+    "lng": -117.278063
+  },
+  {
     "location": "Barstow, CA",
     "date_start": "2026-01-18",
     "lat": 34.8986215,
@@ -310,6 +316,12 @@
     "date_start": "2026-03-29",
     "lat": 35.1987522,
     "lng": -111.6518220
+  },
+  {
+    "location": "Sedona, AZ",
+    "date_start": "2026-03-31",
+    "lat": 34.8688613,
+    "lng": -111.7614394
   },
   {
     "location": "Tucson, AZ",
@@ -502,5 +514,41 @@
     "date_start": "2026-06-22",
     "lat": 43.1636455,
     "lng": -111.0178761
+  },
+  {
+    "location": "Pinedale, WY",
+    "date_start": "2026-06-27",
+    "lat": 42.8671325,
+    "lng": -109.8609808
+  },
+  {
+    "location": "Lander, WY",
+    "date_start": "2026-06-28",
+    "lat": 42.8330755,
+    "lng": -108.7307020
+  },
+  {
+    "location": "Mirror Lake Highway, UT",
+    "date_start": "2026-07-08",
+    "lat": 40.704183,
+    "lng": -110.894095
+  },
+  {
+    "location": "Freedom, UT",
+    "date_start": "2026-07-18",
+    "lat": 39.5424605,
+    "lng": -111.6493644
+  },
+  {
+    "location": "Moab, UT",
+    "date_start": "2026-07-22",
+    "lat": 38.5738096,
+    "lng": -109.5462140
+  },
+  {
+    "location": "Durango, CO",
+    "date_start": "2026-07-23",
+    "lat": 37.2769484,
+    "lng": -107.8766000
   }
 ]

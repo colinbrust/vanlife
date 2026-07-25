@@ -1,0 +1,22 @@
+{
+  "location": "Moab, UT",
+  "title": "A Hot Night in Moab",
+  "campsites": ["Goose Island Campground"],
+  "date_start": "2026-07-22",
+  "date_end": "2026-07-23",
+  "summary": "Despite a forecasted high of 90, we decided to spend one night in Moab en route to Durango to break up the drive. After picking out a campsite along the Colorado river, we headed into town to find dinner. We chose a restaurant called the Spoke on Center because they had a dog-friendly patio. We ate some tasty cheeseburgers and then stoped for some ice cream before heading back to camp. The night was quite hot, made hotter by the fact that we had to close the windows during a torrential downpour. After a sweaty nights sleep, we got delicious donuts for breakfast at a place called Doughbird. Before leaving town, we went for a brief, but scenic hike up Mill Creek, where Maya splashed around in water to her heart's content.<br><br> <b>-Colin</b>",
+  "photos": [
+    {
+      "caption": "View of the Colorado River from our campsite at Goose Island Campground.",
+      "pth": "colorado.webp"
+    },
+    {
+      "caption": "The hike up towards the falls at Mill Creek.",
+      "pth": "mill_ck_approach.webp"
+    },
+    {
+      "caption": "The falls at Mill Creek.",
+      "pth": "mill_falls.webp"
+    }
+  ]
+}

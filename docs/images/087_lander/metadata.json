@@ -1,9 +1,66 @@
 {
   "location": "Lander, WY",
-  "title": "Climbing in Lander, WY",
-  "campsites": ["Lander City Park"],
-  "date_start": "2025-06-28",
-  "date_end": "2025-06-29",
-  "summary": "Coming soon!",
-  "photos": []
+  "title": "Wind (and Climbing) in the Winds",
+  "campsites": ["Lander City Park", "Wild Iris Dispersed", "Fyre Lake"],
+  "date_start": "2026-06-28",
+  "date_end": "2026-07-08",
+  "summary": "We were planning to meet some friends to climb in Lander, Wyoming, leading up to the Fourth of July. What would normally be an easy hour and a half drive from Pinedale turned into an epic when the highway pass between the two towns was closed to high-profile vehicles due to high winds. We spent a while deliberating whether we should stay put near the (not so) lovely town of Farson until the winds subsided, or make the four-hour drive around the mountains. We opted for the long drive, since it looked like the winds might persist for a few days. For two people living in a van and driving across the country, you might think a four-hour drive doesn't sound too bad, but it turns out we've become driving weenies. We have started to strongly prefer multiple short two-hour drives with fun stops in between. The detour brought us through the town of Rawlins, where we stopped for dinner at a Thai restaurant. The food was tasty, but our server forgot about our table on more than one occasion, and we ended up burning almost two hours of daylight to get our Pad Thai and curry noodles. We pulled into Lander late and decided to camp at the city park, where you are allowed to camp for free in the parking lot for three nights! <br><br> On our first morning, we visited the White Bark Cafe and shared some yummy croissants for breakfast over some coffee. The weather for the first few days of our visit was uncharacteristically cold, cloudy, and windy for July. The cool weather allowed us to climb at Sinks Canyon that first day, which is normally blasted by the sun and unclimbable in the summer. I have been on a few trips to Sinks in the winter and early spring, and that day of climbing in July was the coldest I've ever been there! The next day, we headed up to the Wild Iris, which is the more typical summer climbing destination in Lander. The climbing is on some limestone outcroppings set in beautiful alpine meadows dappled with small patches of forest. We met a big group of friends there, and had fun climbing and enjoying the beautiful setting over the next few days. <br><br>Sadly, my grandma passed away the day that we were heading into Lander, so those first few days were also a flurry of decision-making about when, where, and how to travel to the funeral. We decided that it would make the most sense for me to fly out to Indiana by myself to see my family and attend the funeral. I flew out of the town of Riverton, which is a small town of about 10,000, a half hour outside of Lander. The airport was the smallest I have ever been to, only offering one flight a day to and from Denver. I arrived 45 minutes before my departure, and the security area still wasn't open. Thirty minutes before departure, they opened the security gates and efficiently moved us through. The remainder of my day did not offer the same smoothness and efficiency as the Riverton airport. I had a tight connection at the Denver airport, which forced me to run from the C to the A concourse to arrive at my next flight right as boarding wrapped up. Upon arrival in Chicago, I made a dash for the Blue Line subway, which I planned to take downtown to catch a train to Indiana, where my family lives. Unfortunately, I missed the 9:30pm train and had to wait for the 10:30pm departure. Luckily, my dad and uncle were able to stay awake for my 12:30am arrival at the train station, and they shuttled me to my grandma's house after a very long day of travel. <br><br> While my stay in Indiana was very short, I am so glad that I was able to be there with my family and say goodbye to Grandma. The funeral service was both sad and heartwarming, and it was so special to meet and chat with all the people whose lives my grandma had touched. My aunt gave the eulogy at the service, and it was a perfect speech weaving together stories from family members about how my grandma had brought joy, care and love into all of our lives. In preparation for her speech, she asked the grandchildren if we had any favorite stories of our time spent with grandma. Here are two of my favorite memories: <br><br> <ol> <li> When I was little, my grandparents always got the Sunday newspaper, which of course had comics in it. These were very exciting to me, seeing as my family didn't get the newspaper. Since I liked them so much, my grandma would save all the comics throughout the year and give them to me when I would visit in the summer. Each morning, I would wake up early, and my grandma would be the only other person awake. We would sit on the kitchen table, eating Raisin Bran and reading comics until the rest of the family woke up. </li><li>My grandma was a prolific baker and would always be whipping up cookies, strawberry shortcake, or peach cobbler during our visits. Whenever she would bake cookies, I would happily assist, knowing that the reward would be unlimited cookie dough samples. Every time I would reach for some cookie dough, grandma would either pretend not to see, or say in a jokingly exasperated tone “Oh, I guess it's ok if you take a bite.” Even though it surely spoiled my appetite on a number of occasions, she never stopped me from eating cookie dough.</li></ol><br><br> My return from Indiana was thankfully much smoother than my trip there. I made it back to Riverton without issue, and Helen and I headed straight back to Wild Iris. We spent the next few days camping with friends, climbing, cooking tasty meals, and going on some cool hikes. Here are the highlights: <br><br><ul><li>My friend Nate and I both successfully climbing a route we had been working on a beautiful day.</li><li>Hiking up onto a ridge to view fireworks for the fourth with all of our friends. We were pretty far away from town, so they were pretty small, but the setting was so beautiful, and the stars were so bright that it more than made up for the tiny fireworks.</li><li>We headed into Lander to camp at the city park and watch some World Cup games. Our whole friend group went to the Lander Bar to watch England vs Mexico. We all drank margaritas in support of Mexico, unfortunately, to no avail.</li><li>We went on a four mile hike on a hot day with our friends to a cool natural rock waterslide on the Popo Agie river. Water poured over a slick granite slab, before dropping about eight feet into a deep blue pool. It was very worth the hot hike to go down the slide!</li><li>After our friends left, Helen and I went on a beautiful hike up to Leg Lake in the Wind River Range. We had heard reports of bad mosquitoes, but we didn't see too many, and were rewarded with a gorgeous view of an alpine lake surrounded by thousand-foot granite buttresses.</li></ul> <br><br><b>-Colin</b>",
+  "photos": [
+    {
+      "caption": "Pretty view on our drive into Lander",
+      "pth": "long_roads.webp"
+    },
+    {
+      "caption": "Delicious pastries at the local bakery.",
+      "pth": "lander_pastries.webp"
+    },
+    {
+      "caption": "The huge trout at the rise of the Popo Agie River.",
+      "pth": "trout.webp"
+    },
+    {
+      "caption": "Hiking into the climbing at Wild Iris.",
+      "pth": "iris_approach.webp"
+    },
+    {
+      "caption": "Some of the beautiful wildflowers at Wild Iris.",
+      "pth": "iris_flowers.webp"
+    },
+    {
+      "caption": "Colin leading up American Beauty, a 5.12b in Wild Iris.",
+      "pth": "american_beauty.webp"
+    },
+    {
+      "caption": "The crew climbing at Wild Iris.",
+      "pth": "iris_climbing.webp"
+    },
+    {
+      "caption": "A beautiful sunset from our campsite at Wild Iris.",
+      "pth": "iris_sunset.webp"
+    },
+    {
+      "caption": "Hiking up the hill to watch 4th of July fireworks from afar.",
+      "pth": "approaching.webp"
+    },
+    {
+      "caption": "The natural waterslide that we enjoyed going down! (sorry Mom)",
+      "pth": "waterslide.webp"
+    },
+    {
+      "caption": "The beautiful view at Leg Lake.",
+      "pth": "leg_lake.webp"
+    },
+    {
+      "caption": "Lunch at Leg Lake.",
+      "pth": "lake_sandwich.webp"
+    },
+    {
+      "caption": "A selfie at Leg Lake.",
+      "pth": "winds_selfie.webp"
+    },
+    {
+      "caption": "A selfie at Fyre Lake.",
+      "pth": "fyre_lake_selfie.webp"
+    }
+  ]
 }
