@@ -44,9 +44,32 @@ if (file.exists(CACHE_FILE)) {
   cat("No existing cache found, starting fresh\n")
 }
 
-# Function to create a route key from two point indices
-make_route_key <- function(from_idx, to_idx) {
-  paste0(from_idx - 1, "_", to_idx - 1)  # 0-indexed in the key
+# Function to create a route key from two point coordinates
+make_route_key <- function(lat1, lng1, lat2, lng2) {
+  paste0(
+    sprintf("%.6f", lat1), "_",
+    sprintf("%.6f", lng1), "_",
+    sprintf("%.6f", lat2), "_",
+    sprintf("%.6f", lng2)
+  )
+}
+
+# Migrate legacy index-based cache entries to the new coordinate-based format
+legacy_cache <- cache
+cache <- list()
+for (i in 1:(nrow(locs_df) - 1)) {
+  from_loc <- locs_df[i, ]
+  to_loc <- locs_df[i + 1, ]
+
+  coord_key <- make_route_key(from_loc$lat, from_loc$lng,
+                               to_loc$lat, to_loc$lng)
+  legacy_key <- paste0(i - 1, "_", i)
+
+  if (!is.null(legacy_cache[[coord_key]])) {
+    cache[[coord_key]] <- legacy_cache[[coord_key]]
+  } else if (!is.null(legacy_cache[[legacy_key]])) {
+    cache[[coord_key]] <- legacy_cache[[legacy_key]]
+  }
 }
 
 # Function to query OSRM for a route
@@ -93,7 +116,11 @@ routes_to_query <- list()
 for (i in 1:(nrow(locs_df) - 1)) {
   from_idx <- i
   to_idx <- i + 1
-  route_key <- make_route_key(from_idx, to_idx)
+
+  from_loc <- locs_df[from_idx, ]
+  to_loc <- locs_df[to_idx, ]
+  route_key <- make_route_key(from_loc$lat, from_loc$lng,
+                               to_loc$lat, to_loc$lng)
 
   if (is.null(cache[[route_key]])) {
     routes_to_query[[route_key]] <- list(from_idx = from_idx, to_idx = to_idx)
