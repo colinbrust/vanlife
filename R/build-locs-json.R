@@ -46,6 +46,8 @@ for (folder in folders) {
     } else {
       loc_metadata$campsites <- I(loc_metadata$campsites)
     }
+
+    loc_metadata$flight <- isTRUE(loc_metadata$flight)
     
     # Update photo paths to include folder name and full path
     if (!is.null(loc_metadata$photos) && length(loc_metadata$photos) > 0) {

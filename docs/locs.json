@@ -79,7 +79,8 @@
         "caption": "The final build! The storage that Helen's dad helped build.",
         "pth": "images/000_missoula/storage.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "McCammon, ID",
@@ -95,7 +96,8 @@
         "caption": "Cooking pasta for dinner and watching 'The House on Haunted Hill'.",
         "pth": "images/001_pre_helen/first_night_solo.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Apple Valley, UT",
@@ -127,7 +129,8 @@
         "caption": "Maya has decided that if we take more than 5 minutes to pick up her poop, she must bury it with her snout.",
         "pth": "images/001_pre_helen/maya_snout.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Las Vegas, NV",
@@ -160,7 +163,8 @@
         "caption": "View from the top of Calico Tanks",
         "pth": "images/002_vegas_area/calico_tanks.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Boulder City, NV",
@@ -201,7 +205,8 @@
         "caption": "The beach we visited after failing to soak in the hot springs. A nice consolation prize!",
         "pth": "images/003_boulder_city/the_riv.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Nothing, AZ",
@@ -217,7 +222,8 @@
         "caption": "Before we took off in the morning, we went on a morning walk with our coffee down to the creek. Calling it a creek is a little generous, it was more of a chain of pools of standing water. But a pretty view nonetheless.",
         "pth": "images/004_burro_ck/burro_ck.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Tucson, AZ",
@@ -231,7 +237,8 @@
         "caption": "Maya hanging out on the couch with Colin's parent's dogs, Sasha and Keeley.",
         "pth": "images/005_tucson/maya_and_the_gals.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Summerhaven, AZ",
@@ -248,7 +255,8 @@
         "caption": "A view from our camp the first night on Mt Lemmon.",
         "pth": "images/006_lemmon/lemmon_camp.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Tucson, AZ",
@@ -262,7 +270,8 @@
         "caption": "The Thanksgiving dinner spread.",
         "pth": "images/007_tucson/thanksgiving.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Apache Junction, AZ",
@@ -282,7 +291,8 @@
         "caption": "A nice view of the mountains visible from camp around sunset.",
         "pth": "images/008_peralta/peralta.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Peoria, AZ",
@@ -300,7 +310,8 @@
         "caption": "A selfie with the grandparents before hitting the road for Sedona.",
         "pth": "images/009_peoria/selfie.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Sedona, AZ",
@@ -328,7 +339,8 @@
         "caption": "On our hike to Subway Cave.",
         "pth": "images/010_sedona/the_subway_hike.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Flagstaff, AZ",
@@ -352,7 +364,8 @@
         "caption": "Some of the walls at The Pit climbing area.",
         "pth": "images/011_flagstaff/the_pitt.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Durango, CO",
@@ -386,7 +399,8 @@
         "caption": "Maya getting to know Helen's parent's new dog, Sunny.",
         "pth": "images/012_durango/xmas_dogs.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Kanab, UT",
@@ -448,7 +462,8 @@
         "caption": "Maya getting in her beauty sleep after a big day of activities.",
         "pth": "images/013_whitehouse/maya_snoozing.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Las Vegas, NV",
@@ -480,7 +495,8 @@
         "caption": "Colin stopping to get some roadside elote as a post run snack.",
         "pth": "images/014_vegas/post_run_snack.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Mojave National Preserve",
@@ -504,7 +520,8 @@
         "caption": "Our camping spot at Granite Pass",
         "pth": "images/015_mojave/granite_pass.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Joshua Tree, California",
@@ -557,7 +574,8 @@
         "caption": "Colin playing ball with Maya at the dispersed camping outside Joshua Tree.",
         "pth": "images/016_jtree/bad_camp.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Borrego Springs, CA",
@@ -585,7 +603,8 @@
         "caption": "A picture taken on one of Colin's runs on the trail between Borrego Springs and camp.",
         "pth": "images/017_borrego/view_from_trail.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Julian, CA",
@@ -605,7 +624,8 @@
         "caption": "It was a very windy and cold day for a hike, so we were bundled up.",
         "pth": "images/018_julian/windy_hike.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Dulzura, CA",
@@ -621,7 +641,8 @@
         "caption": "Our van setup at Dulzura Vineyard & Winery.",
         "pth": "images/019_dulzura/van_at_dulzura.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Encinitas, CA",
@@ -657,7 +678,8 @@
         "caption": "The view from the Self Realization retreat meditation gardens.",
         "pth": "images/020_encinitas/retreat_view.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Rainbow, CA",
@@ -677,7 +699,8 @@
         "caption": "Our haul of goodies that we bought from the orchard, including lemons, avocados, passionfruit and macadamia nuts.",
         "pth": "images/021_orchard/orchard_haul.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Idyllwild, CA",
@@ -723,7 +746,8 @@
         "caption": "The view from the top of Mt san Jacinto.",
         "pth": "images/022_idyllwild/summit_view.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "San Bernadino, CA",
@@ -734,7 +758,8 @@
     "campsites": [
       "Expensive Hotel"
     ],
-    "photos": []
+    "photos": [],
+    "flight": false
   },
   {
     "location": "Barstow, CA",
@@ -758,7 +783,8 @@
         "caption": "The rocks at New Jack City.",
         "pth": "images/024_new_jack/rocks.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Riverside, CA",
@@ -778,7 +804,8 @@
         "caption": "Helen's morning coffee at the lake.",
         "pth": "images/025_jurupa/jurupa_lake.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Malibu, CA",
@@ -842,7 +869,8 @@
         "caption": "View from camp at Leo Carrillo State Park.",
         "pth": "images/026_leo_carrillo/camp_in_carrillo.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Joshua Tree, CA",
@@ -914,7 +942,8 @@
         "caption": "View of sunset light at Jumbo Rocks Campground.",
         "pth": "images/027_jtree/sunset.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Prescott, AZ",
@@ -950,7 +979,8 @@
         "caption": "A selfie with Abby before we headed separate ways.",
         "pth": "images/028_prescott/byebye_selfie.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Strawberry, AZ",
@@ -1035,7 +1065,8 @@
         "caption": "Maya taking a dip and a drink in Fossil Creek.",
         "pth": "images/029_strawberry/maya_drinking.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Payson, AZ",
@@ -1072,7 +1103,8 @@
         "caption": "Helen taking a selfie with Maya.",
         "pth": "images/030_payson/maya_selfie.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Roosevelt, AZ",
@@ -1125,7 +1157,8 @@
         "caption": "View from the trails around Cholla Campground.",
         "pth": "images/031_roosevelt/cholla_view.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Tortilla Flat, AZ",
@@ -1165,7 +1198,8 @@
         "caption": "Maya underneath the Fish Creek Bridge.",
         "pth": "images/032_apache/maya_under_bridge.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Tortilla Flat, AZ",
@@ -1205,7 +1239,8 @@
         "caption": "Maya underneath the Fish Creek Bridge.",
         "pth": "images/033_scottsdale/maya_under_bridge.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Tucson, AZ",
@@ -1263,7 +1298,8 @@
         "caption": "Maya will normally only snuggle like this on Helen. I was pleased that she wanted to join me for my morning coffee while Helen was gone.",
         "pth": "images/034_tucson_and_guatemala/morning_coffee.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Las Vegas, NV",
@@ -1280,7 +1316,8 @@
         "caption": "A wild burro was grazing in my camp the morning I left to pick up Helen from the airport.",
         "pth": "images/035_las_vegas/donkey.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Valley of Fire, NV",
@@ -1316,7 +1353,8 @@
         "caption": "A slot canyon from our hike",
         "pth": "images/036_valley_of_fire/slot_view.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Littlefield, AZ",
@@ -1332,7 +1370,8 @@
         "caption": "Our camp spot for the night.",
         "pth": "images/037_littlefield/camp_view.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Virgin River Gorge, AZ",
@@ -1356,7 +1395,8 @@
         "caption": "A selfie during our sunset hike.",
         "pth": "images/038_virgin_river_gorge/vrg_selfie.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Apple Valley, UT",
@@ -1384,7 +1424,8 @@
         "caption": "Princess Maya sitting in her throne.",
         "pth": "images/039_gbm/princess.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Red Cliffs Campground, UT",
@@ -1408,7 +1449,8 @@
         "caption": "Maya doing some R&R",
         "pth": "images/040_red_cliff/rnr.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Ivins, UT",
@@ -1432,7 +1474,8 @@
         "caption": "Colin after finishing the Red Mountain 50k.",
         "pth": "images/041_ivins/race_finish.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Panguitch, UT",
@@ -1472,7 +1515,8 @@
         "caption": "Maya and Helen hunkering down in the cold temps.",
         "pth": "images/042_panguitch/stay_warm.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Kodachrome Basin State Park, UT",
@@ -1492,7 +1536,8 @@
         "caption": "The view from camp outside Kodachrom Basin State Park",
         "pth": "images/043_kodachrome_basin/kodachrome_camping.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Escalante, UT",
@@ -1544,7 +1589,8 @@
         "caption": "Colin looking at Escalante Arch",
         "pth": "images/044_escalante/arch2.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Torrey, UT",
@@ -1564,7 +1610,8 @@
         "caption": "Sunset from camp",
         "pth": "images/045_torrey/sunset.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Hanksville, UT",
@@ -1580,7 +1627,8 @@
         "caption": "View of our campsite",
         "pth": "images/046_swell/view_of_camp.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Indian Creek, UT",
@@ -1600,7 +1648,8 @@
         "caption": "Colin leading up Blue Sun",
         "pth": "images/047_creek/splitter.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Moab, UT",
@@ -1616,7 +1665,8 @@
         "caption": "Avoiding the sun at camp",
         "pth": "images/048_moab/shade.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Hanksville, UT",
@@ -1672,7 +1722,8 @@
         "caption": "Dogs cooling off in a rare waterhole",
         "pth": "images/049_fam_camp/waterhole.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "St. George, UT",
@@ -1720,7 +1771,8 @@
         "caption": "Colin climbing in Moe's Valley",
         "pth": "images/050_st_george/flailing.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Cliff Dwellers, AZ",
@@ -1744,7 +1796,8 @@
         "caption": "Our van on the rim of the canyon.",
         "pth": "images/051_rim/van_on_rim_again.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Flagstaff, AZ",
@@ -1764,7 +1817,8 @@
         "caption": "Some post-climb stovetop nachos.",
         "pth": "images/052_flag/nachos.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Sedona, AZ",
@@ -1775,7 +1829,8 @@
     "campsites": [
       "Beaverhead Flats Dispersed"
     ],
-    "photos": []
+    "photos": [],
+    "flight": false
   },
   {
     "location": "Tucson, AZ",
@@ -1807,7 +1862,8 @@
         "caption": "Helen and I dressed up at my sister's wedding!",
         "pth": "images/054_tucson/at_wedding.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Chiriaco Summit, CA",
@@ -1823,7 +1879,8 @@
         "caption": "The sunset view from our campsite at Chiriaco Summit.",
         "pth": "images/055_summit/summit.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Lone Pine, CA",
@@ -1871,7 +1928,8 @@
         "caption": "Watching the movie Eden on Abby's projector in the van",
         "pth": "images/056_hills/projector.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Bishop, CA",
@@ -1904,7 +1962,8 @@
         "caption": "Our camp at Pine Creek",
         "pth": "images/057_bishop/pine_ck2.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Topaz Lake, NV",
@@ -1920,7 +1979,8 @@
         "caption": "Our view when we finally got to camp at Topaz Lake after a long day of driving in the snow.",
         "pth": "images/058_topaz/camp_finally.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Placerville, CA",
@@ -1931,7 +1991,8 @@
     "campsites": [
       "Solid Ground Brewery"
     ],
-    "photos": []
+    "photos": [],
+    "flight": false
   },
   {
     "location": "Granite Bay, CA",
@@ -1955,7 +2016,8 @@
         "caption": "Maya fetching a stick in the American River",
         "pth": "images/060_beal_pt/fetch.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Davis, CA",
@@ -1975,7 +2037,8 @@
         "caption": "The path leading into Ruhstaller Farm",
         "pth": "images/061_farm/farm.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Fort Ross, CA",
@@ -2003,7 +2066,8 @@
         "caption": "The vines at the Benziger winery",
         "pth": "images/062_ross/vines.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Gualala, CA",
@@ -2067,7 +2131,8 @@
         "caption": "Maya pooping in a pretty setting",
         "pth": "images/063_gualala/pooping.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Shelter Cove, CA",
@@ -2099,7 +2164,8 @@
         "caption": "Some seals we saw at Shelter Cove.",
         "pth": "images/064_cove/seals.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "False Klamath, CA",
@@ -2123,7 +2189,8 @@
         "caption": "A selfie from the top of a climb at the promontory.",
         "pth": "images/065_lagoon/tr_selfie.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Crescent City, CA",
@@ -2151,7 +2218,8 @@
         "caption": "Our nice setup for a game of Wingspan.",
         "pth": "images/066_redwoods/wingspan.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Brookings, OR",
@@ -2195,7 +2263,8 @@
         "caption": "A sea arch we stopped at on the way out of town.",
         "pth": "images/067_harris/sea_arch.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Coos Bay, OR",
@@ -2215,7 +2284,8 @@
         "caption": "The Oregon sand dunes",
         "pth": "images/068_eel/dune.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Eugene, OR",
@@ -2247,7 +2317,8 @@
         "caption": "A selfie in front of a field of camas flowers.",
         "pth": "images/069_eagle/flower_selfie.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "McKenzie Bridge, OR",
@@ -2289,7 +2360,8 @@
         "caption": "Another view of the falls.",
         "pth": "images/070_mackenzie/falls.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Bend, OR",
@@ -2309,7 +2381,8 @@
         "caption": "Our shandys at Deschutes Brewery",
         "pth": "images/071_bend/deschutes.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Terrebonne, OR",
@@ -2349,7 +2422,8 @@
         "caption": "The view of Smith from the hike in.",
         "pth": "images/072_smith/smith_view.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Lost Lake, OR",
@@ -2369,7 +2443,8 @@
         "caption": "The cold and unglamourous yurt we stayed in.",
         "pth": "images/073_yurt/yurt.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Vancouver, WA",
@@ -2401,7 +2476,8 @@
         "caption": "Just a small fraction of the sushi we ate that night.",
         "pth": "images/074_vancouver/sushi.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Wymer, WA",
@@ -2417,7 +2493,8 @@
         "caption": "Dry Creek Falls outside Cascade Locks, OR",
         "pth": "images/075_wymer/falls.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Leavenworth, WA",
@@ -2457,7 +2534,8 @@
         "caption": "Icicle Creek, which runs alongside the road we were camped off of.",
         "pth": "images/076_leavenworth/icicle.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Missoula, MT",
@@ -2503,7 +2581,8 @@
         "caption": "Helen and all her friends posing for a goodbye photo.",
         "pth": "images/077_missoula/bye_bye.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Lewis and Clark Caverns State Park, MT",
@@ -2528,7 +2607,8 @@
         "caption": "Another view of the caverns.",
         "pth": "images/078_caverns/cave2.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Bozeman, MT",
@@ -2548,7 +2628,8 @@
         "caption": "Our campsite alongside Stormcastle Creek.",
         "pth": "images/079_bozeman/gallatin_camp.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Emigrant, MT",
@@ -2560,7 +2641,8 @@
     "date_start": "2026-06-12",
     "date_end": "2026-06-14",
     "summary": "After leaving Bozeman we were aiming to check out a campground on a lake but after a half mile into an 8 mile dirt road we decided to bail because the washboards were rattling everything in our van and it sounded like it was coming apart at the seams. We ended up finding a decent spot at a fishing access site where we spent the afternoon reading, me working on my embroidery and Maya keeping a close eye on all the groundhogs surrounding our van. The next day was supposed to be another cold, rainy day so we headed to check out Yellowstone Hot Springs. We spent a few hours soaking in the hot tub and warm pool. Colin went on a run down the road (I also tried to walk but bailed because it was so windy). We found a new camp that night, a nice little spot right off of the road which happened to have some good bouldering. So although we have no bouldering pads, we walked around with our shoes on trying a couple of easy ones. During this escapade, Colin left his phone on the ground and he happened to land on it when he jumped off the boulder and it broke entirely (so that was unfortunate). <br><br><b>-Helen<\/b>",
-    "photos": []
+    "photos": [],
+    "flight": false
   },
   {
     "location": "West Thumb, Wyoming",
@@ -2592,7 +2674,8 @@
         "caption": "Our breakfast view as we were leaving the park.",
         "pth": "images/081_yellowstone/yellow_bfast.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Cody, WY",
@@ -2612,7 +2695,8 @@
         "caption": "The Cody Night Rodeo!",
         "pth": "images/082_cody/rodeo.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Tensleep, WY",
@@ -2640,7 +2724,8 @@
         "caption": "A swallowtail butterfly that joined us at camp.",
         "pth": "images/083_tensleep/swallowtail.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Jackson, WY",
@@ -2665,7 +2750,8 @@
         "caption": "Colin's chaotic Bananagrams board (which he did not win).",
         "pth": "images/084_jackson/bananagram.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Alpine, WY",
@@ -2705,7 +2791,8 @@
         "caption": "One of the many games of Catan we played with my parents",
         "pth": "images/085_alpine/catan.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Pinedale, WY",
@@ -2725,7 +2812,8 @@
         "caption": "A selfie taken from the rim.",
         "pth": "images/086_pinedale/rim_selfie.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Lander, WY",
@@ -2795,7 +2883,8 @@
         "caption": "A selfie at Fyre Lake.",
         "pth": "images/087_lander/fyre_lake_selfie.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Mirror Lake Highway, UT",
@@ -2896,7 +2985,8 @@
         "caption": "A selfie on top of Castle Peak.",
         "pth": "images/088_uintas/castle_peak.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Freedom, UT",
@@ -2917,7 +3007,8 @@
         "caption": "Scenic view from the top of Maple Canyon.",
         "pth": "images/089_maple/maple_view.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Moab, UT",
@@ -2941,15 +3032,219 @@
         "caption": "The falls at Mill Creek.",
         "pth": "images/090_moab/mill_falls.webp"
       }
-    ]
+    ],
+    "flight": false
   },
   {
     "location": "Durango, CO",
     "title": "Dilly Dallying in Durango",
-    "campsites": [],
+    "campsites": [
+      "La Plata City Campground",
+      "Matterhorn Campground",
+      "Aspen Campground",
+      "South Mineral Creek Dispersed",
+      "Lime Creek Dispersed"
+    ],
     "date_start": "2026-07-23",
-    "date_end": "2026-08-01",
-    "summary": "We have plans in Durango for the next few weekends, so will be adventuring around here for the next month or so!",
-    "photos": []
+    "date_end": "2026-09-11",
+    "summary": "We originally planned to spend two weekends in Durango to attend a friend's wedding and to join in the annual birthday hike for Helen's dad. However, once arriving in town, the remaining weekends in August quickly filled with plans to run, camp and visit with friends. We decided to stay in the Durango area for much of August and early September, adventuring around the San Juan mountains during the weeks between our weekend plans. Here are some of the many many highlights from our time in Durango. <ul><li>The day after we arrived in Durango, I went on a big run with Caeley, Helen's brother's girlfriend. We started at Vallecito Lake, ran up Columbine Pass into the Chicago Basin, then traversed the Animas River to the Purgatory Ski Area. It was a 30ish mile day with lots of elevation gain and stunning views of the San Juan mountains. It was my longest run in quite a while, but I didn't feel too bad, and it motivated me to do some more exploring in the San Juans.<\/li> <li>Our first weekend in town was spent on Mac's (father-in-law) birthday hike. A big group of 10 to 15 of us hiked a 13 mile loop in the mountains outside Pagosa Springs. It was a great outing with lots of fun conversation, a swim in a lake and some frisbee playing. Afterwards, everyone regrouped at Helen's parents for a fun party with tasty food. <\/li><li> The next weekend was Araaa (Helen's childhood friend) and Adri's wedding. It was a lovely ceremony followed by a night of fun dancing and delicious food. It was our first time meeting Adri, because he and Araaa live in Spain! It was great to spend some time with them and get to know them better in the weeks preceeding their wedding.<\/li><li>The next big item on the agenda was Caeley's 100 mile foot race, where I offered to pace her for a 25-mile stretch. Helen, Joe (brother-in-law) and I drove up along the Dolores River to meet Caeley at the trailhead around the 50 mile mark of the race. Shortly after we started running together, the sun went down and we spent the next six or so hours running in the dark before handing her off to her brother around 2am to pace the remainder of the race. The next morning, I looked up pictures of the trail we had run, and was bummed to see that if the sun were out, we would have had magnificent views in all directions. I'll have to go back in the daylight! We drove back to the finish line and all cheered as Caeley finished the race!<\/li><li>One of the weekends we camped with Helen's childhood friend Shannon, her husband Ty, and their two little kids, Rylan and Grayson. We love spending time with the kids, and we had a great weekend together. We went on a little hike, threw rocks in the river, played with toy tractors and excavators (which I often mixed up, only to get corrected by Grayson), and ate far too many s'mores. <\/li><li> After our camping trip, I drove down to Albuquerque to visit my friends Aidan and Rosie (although Rosie was sadly out of town 😿). During my visit, Aidan and I spent lots of time biking and running on the trails near his house. Each night we watched a movie and made a tasty dinner, including a homemade pizza, like we used to do when we lived together during college. I had been meaning to visit for a while, so it was great to finally make it down there and spend time with an old friend.<\/li><li>To celebrate our one year wedding anniversary, Helen and I went on a five day trip around southwest Colorado. We started with a night camping in the La Plata mountains with Helen's brothers and mom. It ended up being a rainy day, so we posted up under a tarp and spent our time playing cards, eating zucchini bread and attempting to start a campfire. The next day, we drove up towards Telluride, where we camped for three nights. We went on a few very beautiful hikes in the area, explored the town of Telluride, and bought way-too-expensive hamburgers at a place in town. The campground we stayed at was tucked in the aspens, and we decided we would have to come back in a few months to see the fall colors. We looped back towards Durango through Ouray, where we spent the day soaking in some lovely hot springs, before finding a campsite near Silverton. The next day, we explored the cute town of Silverton, then went on a pleasant hike up Lime Creek. We ended the trip with a sushi dinner in Durango and a soak in Durango Hot Springs.<\/li><\/ul>",
+    "flight": false,
+    "photos": [
+      {
+        "caption": "A picture from the top of Columbine Pass on my run with Caeley",
+        "pth": "images/091_durango/columbine_pass.webp"
+      },
+      {
+        "caption": "Me and Helen's family dog Sunny coming down Engineer Peak",
+        "pth": "images/091_durango/engineer.webp"
+      },
+      {
+        "caption": "The dogs on their way up Engineer Peak",
+        "pth": "images/091_durango/dogs_on_peak.webp"
+      },
+      {
+        "caption": "The group on the birthday hike",
+        "pth": "images/091_durango/bday_hike.webp"
+      },
+      {
+        "caption": "Some climbing during a mid-week trip to Lemon Reservoir",
+        "pth": "images/091_durango/lemon_climbing.webp"
+      },
+      {
+        "caption": "Helen and I at the wedding",
+        "pth": "images/091_durango/wedding_pic.webp"
+      },
+      {
+        "caption": "One of Helen's friends did a photo shoot with us for fun!",
+        "pth": "images/091_durango/photo_shoot.webp"
+      },
+      {
+        "caption": "Caeley running in her trademark tutu",
+        "pth": "images/091_durango/tutu.webp"
+      },
+      {
+        "caption": "Colin in a borrowed tutu that was mandatory for crewing the race",
+        "pth": "images/091_durango/colin_tutu.webp"
+      },
+      {
+        "caption": "Helen and some friends on a hike we did in the La Platas",
+        "pth": "images/091_durango/girls_on_hike.webp"
+      },
+      {
+        "caption": "A view of Parrot Peak during a run in the La Platas",
+        "pth": "images/091_durango/la_plata_hike.webp"
+      },
+      {
+        "caption": "Helen and her friend Shannon on our camping trip",
+        "pth": "images/091_durango/helen_shannon.webp"
+      },
+      {
+        "caption": "Colin with the kids on our camping trip",
+        "pth": "images/091_durango/camping_with_kids.webp"
+      },
+      {
+        "caption": "Helen's grandpa enjoying an evening golf cart ride",
+        "pth": "images/091_durango/grandpa_golfcart.webp"
+      },
+      {
+        "caption": "The view on our hike up to Diorite Peak in the La Platas",
+        "pth": "images/091_durango/diorite_view.webp"
+      },
+      {
+        "caption": "The cold and soggy descent from Diorite Peak, where we got caught in a storm",
+        "pth": "images/091_durango/cold_and_wet.webp"
+      },
+      {
+        "caption": "Sad dog broke a nail and needed assistance",
+        "pth": "images/091_durango/backpack_dog.webp"
+      },
+      {
+        "caption": "Colin napping with Maya",
+        "pth": "images/091_durango/dog_nap.webp"
+      },
+      {
+        "caption": "Helen on one of our hikes in Telluride",
+        "pth": "images/091_durango/helen_in_telluride.webp"
+      },
+      {
+        "caption": "Maya soaking in the sunset near our campsite in Telluride",
+        "pth": "images/091_durango/sunset_dog.webp"
+      },
+      {
+        "caption": "An anniversary charcuterie board that we made.",
+        "pth": "images/091_durango/charcuterie.webp"
+      },
+      {
+        "caption": "My last big adventure before Italy was a big run in the mountains with great views",
+        "pth": "images/091_durango/sj_run_pic.webp"
+      }
+    ]
+  },
+  {
+    "location": "Milan, Italy",
+    "title": "Honeymooning in Italy",
+    "campsites": [],
+    "date_start": "2026-09-11",
+    "date_end": "2026-09-28",
+    "summary": "When we told people we were headed to Italy for our delayed honeymoon, most people said we'd already had a year of honeymooning, but we say take all the honeymoons you can! So whether it was for our first honeymoon or third, we boarded a plane for two and a half weeks of exploring and eating in Northern Italy. Our trip began and ended in Milan, where we mostly recovered from jet lag but also got out to see the Duomo and eat the famous Milanese cutlet and risotto. From there, we took a train to Cinque Terre, a series of small towns along the Western coast. We stayed in the little town of Manorola, which you'd probably recognize from a puzzle or postcard, filled with colorful houses perched on the rocky cliffs. The towns are all very close, so we spent one day hiking between them, swimming in the ocean, and eating fresh fish. <br><br> Our second stay was a few nights in Florence. While we didn't book tickets to many of the famous museums, there was still plenty to see while meandering through the city and to be honest, we were most excited about trying the food. Food highlights include homemade cacio e pepe, the best tiramisu of my life, a mortadella and stracciatella sandwich bigger than my head, burrata and tomatoes, affogato, an interesting tasting-menu, a fig tart, and a Florentine steak and potatoes. Another favorite part was a cooking class we took, learning to make tagliatelle pasta, ravioli and tiramisu. It was the best pasta we had on the trip, in part because of the amazing tomato sauce and in part because of the unlimited wine we got beforehand. On our last day in Florence, we decided to book a trip out of the city to see the Tuscan countryside and try some Chianti wine, which we quite enjoyed. <br><br>From Florence, we took another train to Venice, where we met Colin's sister Ji and her husband Hunter for the night before we all headed to hike in the Dolomites with the whole family. We spent four days hiking through some of the most incredible landscapes I have been to, and I've been to some pretty cool mountains. Each day was about 10 miles with at least 2,500 ft of elevation gain, but each night we were rewarded with a hot shower, nice beds, and good food and drink at the various rifugios we stayed in. We had a great time hiking, playing cards, and eating all together. <br><br> For the last leg of our trip, we headed up to Lake Como, where we had a relaxing couple of nights in our hotel right on the water. We enjoyed the exceptional breakfast spreads on the balcony overlooking the water, a day of reading on the beach and taking dips in the lakes, walks through the little villages between Tremezzo and Lenno, a tasting menu dinner, and the best gelato of the trip! It was the perfect way to end our weeks of travel, and I think we were both about ready to head home as our last day approached. The trip home was long but went about as smoothly as it could have, and we got lots of Maya kisses when we walked in the door. Now we're just recovering from jet lag and getting ready to hit the road again after a couple of months of being out of the vanlife routine.<br><br><b>-Helen<\/b>",
+    "flight": true,
+    "photos": [
+      {
+        "caption": "A sunset selfie in Cinque Terre",
+        "pth": "images/092_italy/sunset_selfie.webp"
+      },
+      {
+        "caption": "The view from our hike in Cinque Terre",
+        "pth": "images/092_italy/5_terre_hike.webp"
+      },
+      {
+        "caption": "One of the many great views from our hike in Cinque Terre",
+        "pth": "images/092_italy/5_terre_view.webp"
+      },
+      {
+        "caption": "A selfie from our time in Manorola",
+        "pth": "images/092_italy/manorola_selfie.webp"
+      },
+      {
+        "caption": "Helen enjoying a breakfast in Cinque Terre",
+        "pth": "images/092_italy/helen_bfast.webp"
+      },
+      {
+        "caption": "One of the many statues we encountered in Florence",
+        "pth": "images/092_italy/statue.webp"
+      },
+      {
+        "caption": "Looking good in our cooking class",
+        "pth": "images/092_italy/cooking_class.webp"
+      },
+      {
+        "caption": "A selfie from our wine tour in Tuscany",
+        "pth": "images/092_italy/wine_selfie.webp"
+      },
+      {
+        "caption": "The view of sunset from the Piazzale Michelangelo in Florence",
+        "pth": "images/092_italy/florence_view.webp"
+      },
+      {
+        "caption": "Helen munching on a mortadella and stracciatella sandwich",
+        "pth": "images/092_italy/helen_sandwich.webp"
+      },
+      {
+        "caption": "The delicious affogatos we had in Florence",
+        "pth": "images/092_italy/affogatos.webp"
+      },
+      {
+        "caption": "A cool historic theater that was renovated into a bookstore in Florence",
+        "pth": "images/092_italy/theater.webp"
+      },
+      {
+        "caption": "Playing cards and enjoying an Aperol Spritz in Florence",
+        "pth": "images/092_italy/cards_n_cocktails.webp"
+      },
+      {
+        "caption": "Colin inspecting the legs on his wine",
+        "pth": "images/092_italy/wine_legs.webp"
+      },
+      {
+        "caption": "A nice picture of us in Venice",
+        "pth": "images/092_italy/venice_pic.webp"
+      },
+      {
+        "caption": "Both of us enjoying our hike in the Dolomites",
+        "pth": "images/092_italy/dolomites_pic.webp"
+      },
+      {
+        "caption": "A selfie with my sister and brother-in-law during our hike",
+        "pth": "images/092_italy/dolomites_selfie.webp"
+      },
+      {
+        "caption": "The whole family during our hike in the Dolomites",
+        "pth": "images/092_italy/fam_dolomites.webp"
+      },
+      {
+        "caption": "One of the many great views from our time in the Dolomites",
+        "pth": "images/092_italy/dolomites_view.webp"
+      },
+      {
+        "caption": "A very large rockfall gully we had to cross during our hike",
+        "pth": "images/092_italy/talus_hike.webp"
+      },
+      {
+        "caption": "Breakfast with a view on Lake Como",
+        "pth": "images/092_italy/bfast_view.webp"
+      },
+      {
+        "caption": "A selfie from our time at Lake Como",
+        "pth": "images/092_italy/como_selfie.webp"
+      },
+      {
+        "caption": "Reading by the lake at Lake Como",
+        "pth": "images/092_italy/beach_read.webp"
+      },
+      {
+        "caption": "Enjoying gelato at Lake Como",
+        "pth": "images/092_italy/como_gelato.webp"
+      }
+    ]
   }
 ]

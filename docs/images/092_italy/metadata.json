@@ -1,0 +1,107 @@
+{
+  "location": "Milan, Italy",
+  "title": "Honeymooning in Italy",
+  "campsites": [],
+  "date_start": "2026-09-11",
+  "date_end": "2026-09-28",
+  "summary": "When we told people we were headed to Italy for our delayed honeymoon, most people said we'd already had a year of honeymooning, but we say take all the honeymoons you can! So whether it was for our first honeymoon or third, we boarded a plane for two and a half weeks of exploring and eating in Northern Italy. Our trip began and ended in Milan, where we mostly recovered from jet lag but also got out to see the Duomo and eat the famous Milanese cutlet and risotto. From there, we took a train to Cinque Terre, a series of small towns along the Western coast. We stayed in the little town of Manorola, which you'd probably recognize from a puzzle or postcard, filled with colorful houses perched on the rocky cliffs. The towns are all very close, so we spent one day hiking between them, swimming in the ocean, and eating fresh fish. <br><br> Our second stay was a few nights in Florence. While we didn't book tickets to many of the famous museums, there was still plenty to see while meandering through the city and to be honest, we were most excited about trying the food. Food highlights include homemade cacio e pepe, the best tiramisu of my life, a mortadella and stracciatella sandwich bigger than my head, burrata and tomatoes, affogato, an interesting tasting-menu, a fig tart, and a Florentine steak and potatoes. Another favorite part was a cooking class we took, learning to make tagliatelle pasta, ravioli and tiramisu. It was the best pasta we had on the trip, in part because of the amazing tomato sauce and in part because of the unlimited wine we got beforehand. On our last day in Florence, we decided to book a trip out of the city to see the Tuscan countryside and try some Chianti wine, which we quite enjoyed. <br><br>From Florence, we took another train to Venice, where we met Colin's sister Ji and her husband Hunter for the night before we all headed to hike in the Dolomites with the whole family. We spent four days hiking through some of the most incredible landscapes I have been to, and I've been to some pretty cool mountains. Each day was about 10 miles with at least 2,500 ft of elevation gain, but each night we were rewarded with a hot shower, nice beds, and good food and drink at the various rifugios we stayed in. We had a great time hiking, playing cards, and eating all together. <br><br> For the last leg of our trip, we headed up to Lake Como, where we had a relaxing couple of nights in our hotel right on the water. We enjoyed the exceptional breakfast spreads on the balcony overlooking the water, a day of reading on the beach and taking dips in the lakes, walks through the little villages between Tremezzo and Lenno, a tasting menu dinner, and the best gelato of the trip! It was the perfect way to end our weeks of travel, and I think we were both about ready to head home as our last day approached. The trip home was long but went about as smoothly as it could have, and we got lots of Maya kisses when we walked in the door. Now we're just recovering from jet lag and getting ready to hit the road again after a couple of months of being out of the vanlife routine.<br><br><b>-Helen</b>",
+  "flight": true,
+  "photos": [
+    {
+      "caption": "A sunset selfie in Cinque Terre",
+      "pth": "sunset_selfie.webp"
+    },
+    {
+      "caption": "The view from our hike in Cinque Terre",
+      "pth": "5_terre_hike.webp"
+    },
+    {
+      "caption": "One of the many great views from our hike in Cinque Terre",
+      "pth": "5_terre_view.webp"
+    },
+    {
+      "caption": "A selfie from our time in Manorola",
+      "pth": "manorola_selfie.webp"
+    },
+    {
+      "caption": "Helen enjoying a breakfast in Cinque Terre",
+      "pth": "helen_bfast.webp"
+    },
+    {
+      "caption": "One of the many statues we encountered in Florence",
+      "pth": "statue.webp"
+    },
+    {
+      "caption": "Looking good in our cooking class",
+      "pth": "cooking_class.webp"
+    },
+    {
+      "caption": "A selfie from our wine tour in Tuscany",
+      "pth": "wine_selfie.webp"
+    },
+    {
+      "caption": "The view of sunset from the Piazzale Michelangelo in Florence",
+      "pth": "florence_view.webp"
+    },
+    {
+      "caption": "Helen munching on a mortadella and stracciatella sandwich",
+      "pth": "helen_sandwich.webp"
+    },
+    {
+      "caption": "The delicious affogatos we had in Florence",
+      "pth": "affogatos.webp"
+    },
+    {
+      "caption": "A cool historic theater that was renovated into a bookstore in Florence",
+      "pth": "theater.webp"
+    },
+    {
+      "caption": "Playing cards and enjoying an Aperol Spritz in Florence",
+      "pth": "cards_n_cocktails.webp"
+    },
+    {
+      "caption": "Colin inspecting the legs on his wine",
+      "pth": "wine_legs.webp"
+    },
+    {
+      "caption": "A nice picture of us in Venice",
+      "pth": "venice_pic.webp"
+    },
+    {
+      "caption": "Both of us enjoying our hike in the Dolomites",
+      "pth": "dolomites_pic.webp"
+    },
+    {
+      "caption": "A selfie with my sister and brother-in-law during our hike",
+      "pth": "dolomites_selfie.webp"
+    },
+    {
+      "caption": "The whole family during our hike in the Dolomites",
+      "pth": "fam_dolomites.webp"
+    },
+    {
+      "caption": "One of the many great views from our time in the Dolomites",
+      "pth": "dolomites_view.webp"
+    },
+    {
+      "caption": "A very large rockfall gully we had to cross during our hike",
+      "pth": "talus_hike.webp"
+    },
+    {
+      "caption": "Breakfast with a view on Lake Como",
+      "pth": "bfast_view.webp"
+    },
+    {
+      "caption": "A selfie from our time at Lake Como",
+      "pth": "como_selfie.webp"
+    },
+    {
+      "caption": "Reading by the lake at Lake Como",
+      "pth": "beach_read.webp"
+    },
+    {
+      "caption": "Enjoying gelato at Lake Como",
+      "pth": "como_gelato.webp"
+    }
+  ]
+}

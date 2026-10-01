@@ -57,6 +57,7 @@ for (folder_name in names(locations_by_folder)) {
       date_start = location$date_start,
       date_end = location$date_end,
       summary = location$summary,
+      flight = isTRUE(location$flight),
       campsites = if (is.null(location$campsites) || length(location$campsites) == 0) {
         I(list())
       } else {

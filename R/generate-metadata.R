@@ -93,6 +93,7 @@ metadata <- list(
   date_start = date_start,
   date_end = date_end,
   summary = "",
+  flight = FALSE,
   photos = photos
 )
 

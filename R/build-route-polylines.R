@@ -19,20 +19,47 @@ CACHE_FILE <- "docs/routes-cache.json"
 OUTPUT_FILE <- "docs/routes.geojson"
 OSRM_URL <- "http://router.project-osrm.org/route/v1/driving"
 
-# Read current locations
-cat("Reading locations from", LOCS_FILE, "\n")
-locs <- read_json(LOCS_FILE)
+# Read current locations and merge in flight metadata from locs.json
+cat("Reading locations from docs/locs.json and", LOCS_FILE, "\n")
+locs <- read_json("docs/locs.json")
+coord_locs <- read_json(LOCS_FILE)
 
-# Convert to data frame for easier manipulation
-locs_df <- data.frame(
-  idx = seq_along(locs),
-  location = sapply(locs, function(x) x$location),
-  lat = sapply(locs, function(x) x$lat),
-  lng = sapply(locs, function(x) x$lng),
-  date = sapply(locs, function(x) x$date_start)
+make_loc_key <- function(loc) {
+  location <- if (is.null(loc$location)) "" else as.character(loc$location)
+  date_start <- if (is.null(loc$date_start)) "" else as.character(loc$date_start)
+  paste0(location, "|||", date_start)
+}
+
+coord_lookup <- setNames(
+  lapply(coord_locs, function(x) list(lat = x$lat, lng = x$lng)),
+  vapply(coord_locs, make_loc_key, character(1))
 )
 
-cat("Found", nrow(locs_df), "locations\n")
+route_locs <- Filter(function(x) !isTRUE(x$flight), locs)
+route_locs_df <- lapply(seq_along(route_locs), function(i) {
+  loc <- route_locs[[i]]
+  key <- make_loc_key(loc)
+  coord <- coord_lookup[[key]]
+
+  if (is.null(coord)) {
+    stop(paste("Missing coordinates for route location:", loc$location, "on", loc$date_start))
+  }
+
+  list(
+    idx = i,
+    location = loc$location,
+    lat = coord$lat,
+    lng = coord$lng,
+    date = loc$date_start,
+    flight = FALSE
+  )
+})
+
+locs_df <- as.data.frame(do.call(rbind, route_locs_df), stringsAsFactors = FALSE)
+locs_df$lat <- as.numeric(locs_df$lat)
+locs_df$lng <- as.numeric(locs_df$lng)
+
+cat("Found", nrow(locs_df), "non-flight locations for route generation\n")
 
 # Load existing cache
 cache <- list()
@@ -181,30 +208,41 @@ write_json(cache_output, CACHE_FILE, pretty = TRUE)
 # Build GeoJSON FeatureCollection from all cached routes
 cat("Building GeoJSON output...\n")
 
-features <- list()
-for (route_key in names(cache)) {
+route_rows <- lapply(names(cache), function(route_key) {
   route <- cache[[route_key]]
 
-  feature <- list(
-    type = "Feature",
-    properties = list(
-      from = route$from_location,
-      to = route$to_location,
-      from_date = route$from_date,
-      to_date = route$to_date,
-      distance_m = route$distance,
-      duration_s = route$duration
-    ),
-    geometry = route$geometry
+  coords <- route$geometry$coordinates
+  if (is.null(coords) || length(coords) == 0) {
+    return(NULL)
+  }
+
+  coord_matrix <- matrix(unlist(coords), ncol = 2, byrow = TRUE)
+  geom <- sf::st_linestring(coord_matrix)
+
+  props <- list(
+    from = if (is.null(route$from_location)) NA else paste(unlist(route$from_location), collapse = ", "),
+    to = if (is.null(route$to_location)) NA else paste(unlist(route$to_location), collapse = ", "),
+    from_date = if (is.null(route$from_date)) NA else paste(unlist(route$from_date), collapse = ", "),
+    to_date = if (is.null(route$to_date)) NA else paste(unlist(route$to_date), collapse = ", "),
+    distance_m = if (is.null(route$distance)) NA else as.numeric(route$distance),
+    duration_s = if (is.null(route$duration)) NA else as.numeric(route$duration)
   )
 
-  features[[length(features) + 1]] <- feature
+  list(props = props, geom = geom)
+})
+
+route_rows <- Filter(Negate(is.null), route_rows)
+
+if (length(route_rows) == 0) {
+  stop("No valid cached routes found to convert to GeoJSON")
 }
 
-sf_obj <- sf::st_as_sf(do.call(rbind, lapply(features, function(f) {
-  geom <- sf::st_linestring(matrix(unlist(f$geometry$coordinates), ncol = 2, byrow = TRUE))
-  cbind(as.data.frame(f$properties), geometry = sf::st_sfc(geom, crs = 4326))
-})))
+props_df <- do.call(rbind, lapply(route_rows, function(row) {
+  as.data.frame(row$props, stringsAsFactors = FALSE)
+}))
+
+geometry_list <- lapply(route_rows, function(row) row$geom)
+sf_obj <- sf::st_sf(props_df, geometry = sf::st_sfc(geometry_list, crs = 4326))
 
 # Write GeoJSON
 cat("Writing GeoJSON to", OUTPUT_FILE, "\n")
